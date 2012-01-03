@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAO3///ts\u003d",
+        "filename": "get-prebuilts",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2012-01-03T08:56:52Z",
+      "side": 1,
+      "message": "typo here",
+      "revId": "a18b3df8368e76511992f30455e70b037cb4fde0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
