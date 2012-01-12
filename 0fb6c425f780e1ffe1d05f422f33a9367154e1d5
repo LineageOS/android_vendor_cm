@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAPH///cM\u003d",
+        "filename": "config/common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2012-01-12T19:43:46Z",
+      "side": 1,
+      "message": "hmm, a slash is missing before bootanimation... we use directories without trailing slashes generally",
+      "revId": "0fb6c425f780e1ffe1d05f422f33a9367154e1d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
