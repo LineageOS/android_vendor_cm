@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAPH///U4\u003d",
+        "filename": "config/common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 372
+      },
+      "writtenOn": "2012-01-13T11:48:18Z",
+      "side": 1,
+      "message": "Don\u0027t hardcode this.    \n\nifndef TARGET_PROVIDES_BOOTANIMATION\n   vendor/cm/prebuilt/common/bootanimation.zip:system/media/bootanimation.zip\nendif\n\n\nTargets can add a bootanimiation if they want.",
+      "revId": "ce1ca6afa897b4dcd32ff139e97bd20716055684",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
