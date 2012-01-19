@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAPX///dw\u003d",
+        "filename": "vendorsetup.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2012-01-19T02:27:27Z",
+      "side": 1,
+      "message": "Suggest to move this up to keep alphabetical sorting.\n\nWhile you\u0027re at it, it might make sense to move the p4* down as well for the same reason.",
+      "revId": "163e0b6bc3dcd2b4afdc50ad9957d7ef95d102dd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
