@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQX//7nE\u003d",
+        "filename": "config/common_mini_phone.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 2873
+      },
+      "writtenOn": "2012-03-07T23:43:00Z",
+      "side": 1,
+      "message": "if this is mini, should u really be bringing in all audio?",
+      "revId": "0b09f22459fd9a59619befbaaca7c3ed3e471247",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
