@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAQX//7LE\u003d",
+        "filename": "prebuilt/common/bin/50-cm.sh",
+        "patchSetId": 5
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 80
+      },
+      "writtenOn": "2012-03-09T12:52:49Z",
+      "side": 1,
+      "message": "What happens if we read a file name with a space in it?  Shouldn\u0027t we wrap the args in quotations to ensure what we mean?",
+      "revId": "e7baf1f98130271b1ca56c968fd7cc361ba9d01d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//7K0\u003d",
+        "filename": "prebuilt/common/bin/50-cm.sh",
+        "patchSetId": 5
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 80
+      },
+      "writtenOn": "2012-03-09T12:52:49Z",
+      "side": 1,
+      "message": "Same here with the wrapping each arg in quotes",
+      "revId": "e7baf1f98130271b1ca56c968fd7cc361ba9d01d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//7Kw\u003d",
+        "filename": "prebuilt/common/bin/backuptool.functions",
+        "patchSetId": 5
+      },
+      "lineNbr": 29,
+      "author": {
+        "id": 80
+      },
+      "writtenOn": "2012-03-09T12:52:49Z",
+      "side": 1,
+      "message": "Again, same with quote wrapping.  These are coming from external source so we don\u0027t know what they contain.",
+      "revId": "e7baf1f98130271b1ca56c968fd7cc361ba9d01d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAQX//7Kk\u003d",
+        "filename": "prebuilt/common/bin/backuptool.functions",
+        "patchSetId": 5
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 80
+      },
+      "writtenOn": "2012-03-09T12:52:49Z",
+      "side": 1,
+      "message": "Again here with the arg :)",
+      "revId": "e7baf1f98130271b1ca56c968fd7cc361ba9d01d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
