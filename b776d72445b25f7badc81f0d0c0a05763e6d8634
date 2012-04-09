@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAASH///ko\u003d",
+        "filename": "CHANGELOG.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 3137
+      },
+      "writtenOn": "2012-04-09T19:24:50Z",
+      "side": 1,
+      "message": ".....",
+      "revId": "b776d72445b25f7badc81f0d0c0a05763e6d8634",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
