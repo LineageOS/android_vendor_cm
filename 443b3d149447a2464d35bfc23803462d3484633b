@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAASH///BI\u003d",
+        "filename": "prebuilt/common/bin/backuptool.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1778
+      },
+      "writtenOn": "2012-04-11T22:42:23Z",
+      "side": 1,
+      "message": "how about:\nif [ ! -d \"$S/lost+found\" ]; then",
+      "revId": "443b3d149447a2464d35bfc23803462d3484633b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAASH///BE\u003d",
+        "filename": "prebuilt/common/bin/backuptool.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1778
+      },
+      "writtenOn": "2012-04-11T22:42:23Z",
+      "side": 1,
+      "message": "how about: if [ -d \"$S/lost+found\" ]; then",
+      "revId": "443b3d149447a2464d35bfc23803462d3484633b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
