@@ -91,6 +91,24 @@
     },
     {
       "key": {
+        "uuid": "AAAASX///8w\u003d",
+        "filename": "prebuilt/common/bin/backuptool.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1778
+      },
+      "writtenOn": "2012-04-12T02:21:18Z",
+      "side": 1,
+      "message": "There is no \u0027system/build.prop\u0027 if it was just formatted -- which is what this patch is trying to address. You have no \u0027lost+found\u0027 directory under /system?\nI thought it was created anytime you created ext2-based filesystem -- unless it\u0027s getting removed later somehow, or there is option to not create it? What device is this that does not have a /system/lost+found ?",
+      "parentUuid": "AAAASX///+M\u003d",
+      "revId": "443b3d149447a2464d35bfc23803462d3484633b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAASH///BE\u003d",
         "filename": "prebuilt/common/bin/backuptool.sh",
         "patchSetId": 2
