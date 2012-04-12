@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "AAAASX///9o\u003d",
+        "filename": "prebuilt/common/bin/backuptool.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 2873
+      },
+      "writtenOn": "2012-04-12T01:19:58Z",
+      "side": 1,
+      "message": "maybe a way to make some sort of marker on /system that will be there either when formatted or not? otherwise using a command like mount or some other to test to see if its mounted is the only possible way",
+      "parentUuid": "AAAASX///+M\u003d",
+      "revId": "443b3d149447a2464d35bfc23803462d3484633b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAASH///BE\u003d",
         "filename": "prebuilt/common/bin/backuptool.sh",
         "patchSetId": 2
