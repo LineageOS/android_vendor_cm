@@ -34,6 +34,24 @@
       "revId": "253904c5d351434da0911541266c58601d7bd90a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAS3///G4\u003d",
+        "filename": "config/common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 10
+      },
+      "writtenOn": "2012-05-10T19:29:43Z",
+      "side": 1,
+      "message": "Agreed, but it needs a bit more logic for jenkins.\nUSER in that case would always be \"jenkins\", and it needs to be the username of whoever triggers said EXPERIMENTAL build.",
+      "parentUuid": "AAAAS3///Pw\u003d",
+      "revId": "253904c5d351434da0911541266c58601d7bd90a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
