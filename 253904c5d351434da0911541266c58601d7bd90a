@@ -52,6 +52,24 @@
       "revId": "253904c5d351434da0911541266c58601d7bd90a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAS3//+uI\u003d",
+        "filename": "config/common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2012-05-12T19:51:06Z",
+      "side": 1,
+      "message": "Maybe pass the username of the user toggling the jenkins build as an additonal arg.",
+      "parentUuid": "AAAAS3///G4\u003d",
+      "revId": "253904c5d351434da0911541266c58601d7bd90a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
