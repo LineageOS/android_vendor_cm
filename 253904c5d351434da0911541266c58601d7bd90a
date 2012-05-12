@@ -70,6 +70,24 @@
       "revId": "253904c5d351434da0911541266c58601d7bd90a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAS3//+rk\u003d",
+        "filename": "config/common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 2451
+      },
+      "writtenOn": "2012-05-12T23:43:15Z",
+      "side": 1,
+      "message": "IMHO, if you want your name or any arbitrary string in the filename, use EXTRAVERSION.  There is no reason to hard-code USER in here, especially when in many cases makes no sense to have USER.",
+      "parentUuid": "AAAAS3//+uI\u003d",
+      "revId": "253904c5d351434da0911541266c58601d7bd90a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
