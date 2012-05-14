@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAS3//+O4\u003d",
+        "filename": "CHANGELOG.mkdn",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 10
+      },
+      "writtenOn": "2012-05-14T15:20:28Z",
+      "side": 1,
+      "message": "Alphabetical order. \"N\" comes before \"S\" :)",
+      "revId": "0d8ee780cb85eededb1eb767846e1d52225af8fe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
