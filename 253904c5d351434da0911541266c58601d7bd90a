@@ -88,6 +88,23 @@
       "revId": "253904c5d351434da0911541266c58601d7bd90a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAS3//9d8\u003d",
+        "filename": "config/common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 2873
+      },
+      "writtenOn": "2012-05-18T11:09:09Z",
+      "side": 1,
+      "message": "i would really rather not have the date command using utc instead of local..",
+      "revId": "253904c5d351434da0911541266c58601d7bd90a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
