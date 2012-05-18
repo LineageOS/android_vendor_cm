@@ -105,6 +105,24 @@
       "revId": "253904c5d351434da0911541266c58601d7bd90a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAS3//9do\u003d",
+        "filename": "config/common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 2451
+      },
+      "writtenOn": "2012-05-18T11:15:20Z",
+      "side": 1,
+      "message": "Could you please explain why you don\u0027t like it?\n\nIn my opinion, a fixed timezone improves consistency.  It doesn\u0027t matter if it is UTC or Steve\u0027s timezone, any consistent timezone would be superior to the local timezone.\n\nUltimately this is a matter of opinion, the result of which doesn\u0027t matter too much.  Whatever the CM leadership decides is fine by me.",
+      "parentUuid": "AAAAS3//9d8\u003d",
+      "revId": "253904c5d351434da0911541266c58601d7bd90a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
