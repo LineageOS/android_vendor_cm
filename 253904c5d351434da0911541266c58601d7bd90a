@@ -123,6 +123,24 @@
       "revId": "253904c5d351434da0911541266c58601d7bd90a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAS3//9dg\u003d",
+        "filename": "config/common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 2873
+      },
+      "writtenOn": "2012-05-18T11:20:02Z",
+      "side": 1,
+      "message": "i agree that it is a matter of opinion, and if CM does decide to go with it i will support it.. \n\nthe reason i dont like it is because when i normally build this will result the last one to have a later date then the other two.. otherwise before when i saw it i liked it for consistency (as u said)",
+      "parentUuid": "AAAAS3//9do\u003d",
+      "revId": "253904c5d351434da0911541266c58601d7bd90a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
