@@ -91,6 +91,24 @@
     },
     {
       "key": {
+        "uuid": "AAAATH//+0A\u003d",
+        "filename": "config/common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1299
+      },
+      "writtenOn": "2012-05-25T12:26:58Z",
+      "side": 1,
+      "message": "i agree with Warren, my $USER wouldn\u0027t make sense in the filename and is different to what i put in EXTRAVERSION. if you want your username then use backticks in EXTRAVERSION. there\u0027s also a slight security issue with outputting your username.",
+      "parentUuid": "AAAAS3//+rk\u003d",
+      "revId": "253904c5d351434da0911541266c58601d7bd90a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAS3//9d8\u003d",
         "filename": "config/common.mk",
         "patchSetId": 3
