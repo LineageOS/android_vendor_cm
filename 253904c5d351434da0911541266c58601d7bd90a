@@ -145,6 +145,24 @@
     },
     {
       "key": {
+        "uuid": "AAAATH//+SU\u003d",
+        "filename": "config/common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 2451
+      },
+      "writtenOn": "2012-05-27T12:15:33Z",
+      "side": 1,
+      "message": "Date in filename is very useful.  There is no other easy way to determine how old your build is.  If you want more descriptive names or your username, stuff arbitrary strings into CM_EXTRAVERSION.",
+      "parentUuid": "AAAATH//+UY\u003d",
+      "revId": "253904c5d351434da0911541266c58601d7bd90a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAS3//9d8\u003d",
         "filename": "config/common.mk",
         "patchSetId": 3
