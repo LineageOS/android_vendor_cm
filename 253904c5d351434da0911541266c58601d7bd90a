@@ -127,6 +127,24 @@
     },
     {
       "key": {
+        "uuid": "AAAATH//+UM\u003d",
+        "filename": "config/common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 130,
+      "author": {
+        "id": 1299
+      },
+      "writtenOn": "2012-05-27T08:38:09Z",
+      "side": 1,
+      "message": "@rafael because you absolutely don\u0027t want to overwrite old versions, thats why we have the date, and using $USER is a bad idea.",
+      "parentUuid": "AAAATH//+UY\u003d",
+      "revId": "253904c5d351434da0911541266c58601d7bd90a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAS3//9d8\u003d",
         "filename": "config/common.mk",
         "patchSetId": 3
