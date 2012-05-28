@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAATH///+Y\u003d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 3424
+      },
+      "writtenOn": "2012-05-28T15:41:57Z",
+      "side": 1,
+      "message": "Will update Wiki after merge",
+      "revId": "576059b1298456ece5e1aba5c2aa3059e0e07c83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
