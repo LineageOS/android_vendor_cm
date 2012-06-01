@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAATn////Q\u003d",
+        "filename": "config/common.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 139,
+      "author": {
+        "id": 2873
+      },
+      "writtenOn": "2012-06-01T01:24:13Z",
+      "side": 1,
+      "message": "if we do the comments below we should change CM_BUILDTYPE to CM_UNOFFICIAL",
+      "revId": "c8ea70e030d4af5fe3b16d3c5b14323882146ca7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAATn////U\u003d",
+        "filename": "config/common.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 144,
+      "author": {
+        "id": 2873
+      },
+      "writtenOn": "2012-06-01T01:24:13Z",
+      "side": 1,
+      "message": "if we do the comments above and below change this to endif",
+      "revId": "c8ea70e030d4af5fe3b16d3c5b14323882146ca7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAATn////M\u003d",
+        "filename": "config/common.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 149,
+      "author": {
+        "id": 2873
+      },
+      "writtenOn": "2012-06-01T01:24:13Z",
+      "side": 1,
+      "message": "if we do the comments above, remove the endif here and above the second CM_VERSION write:\n\nifdef CM_UNOFFICIAL\nCM_VERSION :\u003d $(PRODUCT_VERSION_MAJOR)-$(shell date +%Y%m%d)-$(CM_UNOFFICIAL)-$(CM_BUILD)$(CM_\nEXTRAVERSION)\nendif\n\n(the comment system makes all on one line \u003d[ )\n\nall of this is to remove the utc for unofficial builds, which is not necessary",
+      "revId": "c8ea70e030d4af5fe3b16d3c5b14323882146ca7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
