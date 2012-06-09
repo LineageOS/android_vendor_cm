@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAT3//9fg\u003d",
+        "filename": "prebuilt/common/etc/init.d/10storage",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 1039
+      },
+      "writtenOn": "2012-06-09T00:41:10Z",
+      "side": 1,
+      "message": "busybox doesnt require  \"rootfs\" / is enough\n\n \"rootfs /\" is for toolbox",
+      "revId": "e37aa74a144ac1ab54713de1bd76396796dee12e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
