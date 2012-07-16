@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAU3///7E\u003d",
+        "filename": "tools/squisher",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 2874
+      },
+      "writtenOn": "2012-07-16T16:01:52Z",
+      "side": 1,
+      "message": "# Move all apks to the same directory.\n# This allows processing of framework-res.apk in parallel with other apks.\n?",
+      "revId": "573a0728d5fa5a75d32424194b0c693ea8e6cae2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAU3///7I\u003d",
+        "filename": "tools/squisher",
+        "patchSetId": 1
+      },
+      "lineNbr": 65,
+      "author": {
+        "id": 2874
+      },
+      "writtenOn": "2012-07-16T16:01:52Z",
+      "side": 1,
+      "message": "optimization",
+      "revId": "573a0728d5fa5a75d32424194b0c693ea8e6cae2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
