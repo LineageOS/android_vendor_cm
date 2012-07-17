@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "AAAAU3///yg\u003d",
+        "filename": "tools/squisher",
+        "patchSetId": 1
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2012-07-17T03:56:02Z",
+      "side": 1,
+      "message": "Actually, the squisher script calls first \"opticharger framework-res.apk\" and then \"\tfind ./ -name \\*.apk | xargs opticharger\" for the rest of the apks. In this situation the framework-res.apk is optimized first (separately) and then the rest of apks use the parallel option of xargs with as many processors as the machine have. The opticharger script is invoked in the same directory of the apk, as a result, first is a \"cd repack.d/ota/system/framework\" and then a \"cd repack.d/ota/system/app\" for the find | xargs\n\nThe change proposes move all apks to optimize to same directory and then  use find | xargs for parallel processing of all apks. As result of this change, framework-res.apk (the most expensive of all) is optimized at the same time that others apks (using all the processors of the machine), minimizing the times of the optimization process.",
+      "parentUuid": "AAAAU3///7E\u003d",
+      "revId": "573a0728d5fa5a75d32424194b0c693ea8e6cae2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "AAAAU3///7I\u003d",
         "filename": "tools/squisher",
         "patchSetId": 1
