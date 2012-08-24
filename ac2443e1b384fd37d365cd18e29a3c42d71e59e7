@@ -33,6 +33,41 @@
       "revId": "ac2443e1b384fd37d365cd18e29a3c42d71e59e7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWn///BM\u003d",
+        "filename": "CHANGELOG.mkdn",
+        "patchSetId": 5
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-08-24T21:30:55Z",
+      "side": 1,
+      "message": "7\" means 7 inches. It\u0027s only a highlighting isue. Same as on line 128+",
+      "parentUuid": "AAAAWn///Ck\u003d",
+      "revId": "ac2443e1b384fd37d365cd18e29a3c42d71e59e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWn///BQ\u003d",
+        "filename": "CHANGELOG.mkdn",
+        "patchSetId": 5
+      },
+      "lineNbr": 219,
+      "author": {
+        "id": 4297
+      },
+      "writtenOn": "2012-08-24T21:30:55Z",
+      "side": 1,
+      "message": "Whitespace error",
+      "revId": "ac2443e1b384fd37d365cd18e29a3c42d71e59e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
