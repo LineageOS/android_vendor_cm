@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAWn///Co\u003d",
+        "filename": "CHANGELOG.mkdn",
+        "patchSetId": 5
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 2049
+      },
+      "writtenOn": "2012-08-24T20:04:32Z",
+      "side": 1,
+      "message": "Trailing Space",
+      "revId": "ac2443e1b384fd37d365cd18e29a3c42d71e59e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAWn///Ck\u003d",
+        "filename": "CHANGELOG.mkdn",
+        "patchSetId": 5
+      },
+      "lineNbr": 31,
+      "author": {
+        "id": 2049
+      },
+      "writtenOn": "2012-08-24T20:04:32Z",
+      "side": 1,
+      "message": "Are the quotes supposed to be there?",
+      "revId": "ac2443e1b384fd37d365cd18e29a3c42d71e59e7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
