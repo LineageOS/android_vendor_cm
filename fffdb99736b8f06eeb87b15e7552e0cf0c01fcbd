@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAaH///Rk\u003d",
+        "filename": "prebuilt/common/etc/apns-conf-cdma.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 2260
+      },
+      "writtenOn": "2012-10-18T20:31:30Z",
+      "side": 1,
+      "message": "The only difference between these two apns, and the two immediately below, is the carrier name itself, which I don\u0027t think is significant.",
+      "revId": "fffdb99736b8f06eeb87b15e7552e0cf0c01fcbd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
