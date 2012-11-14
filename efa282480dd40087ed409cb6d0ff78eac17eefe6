@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAa3//8eA\u003d",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 8
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2012-11-14T18:23:27Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "efa282480dd40087ed409cb6d0ff78eac17eefe6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
