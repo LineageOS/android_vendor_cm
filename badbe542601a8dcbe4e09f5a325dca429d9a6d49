@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAbH//+Ig\u003d",
+        "filename": "prebuilt/common/etc/apns-conf-cdma.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 883
+      },
+      "writtenOn": "2012-12-17T19:30:24Z",
+      "side": 1,
+      "message": "copy and pasta fail",
+      "revId": "badbe542601a8dcbe4e09f5a325dca429d9a6d49",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAbH//+Ic\u003d",
+        "filename": "prebuilt/common/etc/apns-conf-cdma.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 883
+      },
+      "writtenOn": "2012-12-17T19:30:24Z",
+      "side": 1,
+      "message": "\u003capn carrier\u003d\"LTE INTERNET\" mcc\u003d\"310\" mnc\u003d\"090\" apn\u003d\"4g.mycricket.com\" user\u003d\"\" password\u003d\"\" type\u003d\"default,dun,mms\" authtype\u003d\"0\" mmsc\u003d\"http://mms.mycricket.com/servlets/mms\" protocol\u003d\"IP\" roaming_protocol\u003d\"IP\" bearer\u003d\"14\"/\u003e\nto prevent data dropout issues",
+      "revId": "badbe542601a8dcbe4e09f5a325dca429d9a6d49",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
