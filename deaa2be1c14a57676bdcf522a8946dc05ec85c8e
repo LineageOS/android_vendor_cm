@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAbH//9/A\u003d",
+        "filename": "prebuilt/common/etc/apns-conf-cdma.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 883
+      },
+      "writtenOn": "2012-12-18T11:09:50Z",
+      "side": 1,
+      "message": "fixitfixit",
+      "revId": "deaa2be1c14a57676bdcf522a8946dc05ec85c8e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
