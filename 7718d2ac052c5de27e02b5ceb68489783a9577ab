@@ -16,6 +16,24 @@
       "revId": "7718d2ac052c5de27e02b5ceb68489783a9577ab",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcH//+6w\u003d",
+        "filename": "config/common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 106,
+      "author": {
+        "id": 1301
+      },
+      "writtenOn": "2013-01-05T05:40:40Z",
+      "side": 1,
+      "message": "also it is missing in mako nightly ...",
+      "parentUuid": "AAAAcH///Cc\u003d",
+      "revId": "7718d2ac052c5de27e02b5ceb68489783a9577ab",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
