@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcn//8/c\u003d",
+        "filename": "README.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 30,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2013-01-15T14:02:06Z",
+      "side": 1,
+      "message": "whitespace.",
+      "revId": "36cbb0b04fec1407eee80b57fcde51ecf905331a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "AAAAcn//8/Y\u003d",
+        "filename": "README.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2013-01-15T14:02:06Z",
+      "side": 1,
+      "message": "s/in/at/ ?",
+      "revId": "36cbb0b04fec1407eee80b57fcde51ecf905331a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
