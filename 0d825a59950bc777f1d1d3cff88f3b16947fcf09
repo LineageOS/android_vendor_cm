@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAcn//9FE\u003d",
+        "filename": "CHANGELOG.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2013-01-15T04:52:49Z",
+      "side": 1,
+      "message": "Curse you extra space!",
+      "revId": "0d825a59950bc777f1d1d3cff88f3b16947fcf09",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
