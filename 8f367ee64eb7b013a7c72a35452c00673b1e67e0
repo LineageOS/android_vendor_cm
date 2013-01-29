@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAc3//9Ks\u003d",
+        "filename": "prebuilt/common/etc/apns-conf-cdma.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 883
+      },
+      "writtenOn": "2013-01-29T12:53:13Z",
+      "side": 1,
+      "message": "type\u003d\"default,...,... \" protocol\u003d\"IPV4V6\" roaming_protocol\u003d\"IPV4V6\"/\u003e to \ntype\u003d\"default,...,... \" protocol\u003d\"IP\" roaming_protocol\u003d\"IP\"/\u003e t",
+      "revId": "8f367ee64eb7b013a7c72a35452c00673b1e67e0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
