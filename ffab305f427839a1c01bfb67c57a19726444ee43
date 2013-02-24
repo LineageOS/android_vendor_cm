@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "AAAAdX//7YI\u003d",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 3589
+      },
+      "writtenOn": "2013-02-24T10:22:33Z",
+      "side": 1,
+      "message": "Pretty sure it\u0027s kaik541. :-P",
+      "revId": "ffab305f427839a1c01bfb67c57a19726444ee43",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
