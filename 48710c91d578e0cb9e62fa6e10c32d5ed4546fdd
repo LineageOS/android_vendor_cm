@@ -16,6 +16,24 @@
       "revId": "48710c91d578e0cb9e62fa6e10c32d5ed4546fdd",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "iBqI8iE",
+        "filename": "prebuilt/common/etc/init.local.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2013-05-28T18:12:39Z",
+      "side": 1,
+      "message": "That\u0027s what the other directory has, https://github.com/CyanogenMod/android_system_core/blob/cm-10.1/rootdir/init.rc#L228\n\nI guess the shell user having r/w is enough.",
+      "parentUuid": "iJrOQoI",
+      "revId": "48710c91d578e0cb9e62fa6e10c32d5ed4546fdd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
