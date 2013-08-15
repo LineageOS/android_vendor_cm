@@ -16,6 +16,24 @@
       "revId": "012ddd3ee5115a20049c04574ab13fe98184fb4b",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dae975fb_d3d01fcc",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-08-15T06:56:42Z",
+      "side": 1,
+      "message": "I did exactly what you said in another patch for this file, but I think I didn\u0027t want to put more time into it so it wasn\u0027t merged. But I\u0027ll change it.",
+      "parentUuid": "dae975fb_137907fd",
+      "revId": "012ddd3ee5115a20049c04574ab13fe98184fb4b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
