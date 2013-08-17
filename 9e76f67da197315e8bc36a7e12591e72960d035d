@@ -229,6 +229,24 @@
       "revId": "9e76f67da197315e8bc36a7e12591e72960d035d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baee8101_f0a0c0a7",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 5
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-08-17T19:45:24Z",
+      "side": 1,
+      "message": "Active are: Kim, Jacob, Christoph, Markus and Danny",
+      "parentUuid": "baee8101_b0b3580a",
+      "revId": "9e76f67da197315e8bc36a7e12591e72960d035d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
