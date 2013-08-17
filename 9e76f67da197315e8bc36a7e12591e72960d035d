@@ -55,6 +55,41 @@
     },
     {
       "key": {
+        "uuid": "baee8101_50e42c0c",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-08-17T19:41:55Z",
+      "side": 1,
+      "message": "Haha ok, I\u0027ll fix that ;)",
+      "parentUuid": "baee8101_7020504a",
+      "revId": "9e76f67da197315e8bc36a7e12591e72960d035d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baee8101_30f1a8ce",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 5
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-08-17T19:41:55Z",
+      "side": 1,
+      "message": "CyanogenMod 10.2",
+      "revId": "9e76f67da197315e8bc36a7e12591e72960d035d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dae975fb_458fbc23",
         "filename": "CONTRIBUTORS.mkdn",
         "patchSetId": 5
@@ -66,6 +101,24 @@
       "writtenOn": "2013-08-17T09:35:53Z",
       "side": 1,
       "message": "Please add Engle Mars as a Simplified Chinese translator.",
+      "revId": "9e76f67da197315e8bc36a7e12591e72960d035d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baee8101_10eea4ec",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 5
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-08-17T19:41:55Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "dae975fb_458fbc23",
       "revId": "9e76f67da197315e8bc36a7e12591e72960d035d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -136,6 +189,42 @@
       "writtenOn": "2013-08-17T19:21:51Z",
       "side": 1,
       "message": "I have no problem with leaving them in the list but I can remember that they were active since CM 9 times or so :D",
+      "parentUuid": "dae975fb_82f23a99",
+      "revId": "9e76f67da197315e8bc36a7e12591e72960d035d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baee8101_90b854e7",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 5
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-08-17T19:41:55Z",
+      "side": 1,
+      "message": "were or weren\u0027t active?",
+      "parentUuid": "baee8101_501d4c0e",
+      "revId": "9e76f67da197315e8bc36a7e12591e72960d035d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baee8101_b0b3580a",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 5
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-08-17T19:41:55Z",
+      "side": 1,
+      "message": "Since every branch has its own CONTRIBUTORS.mkdn file (or CHANGELOG.mkdn in older branches), I\u0027d prefer to have only active translators for cm-10.2 here",
       "parentUuid": "dae975fb_82f23a99",
       "revId": "9e76f67da197315e8bc36a7e12591e72960d035d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
