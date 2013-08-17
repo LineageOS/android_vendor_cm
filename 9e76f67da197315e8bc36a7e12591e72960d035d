@@ -247,6 +247,24 @@
       "revId": "9e76f67da197315e8bc36a7e12591e72960d035d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baee8101_f087a010",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 5
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-08-17T19:56:44Z",
+      "side": 1,
+      "message": "Thanks, I\u0027ll fix that",
+      "parentUuid": "baee8101_f0a0c0a7",
+      "revId": "9e76f67da197315e8bc36a7e12591e72960d035d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
