@@ -37,6 +37,24 @@
     },
     {
       "key": {
+        "uuid": "baee8101_7020504a",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-08-17T19:21:51Z",
+      "side": 1,
+      "message": "My commit referred to line 4 :)",
+      "parentUuid": "dae975fb_62c1962e",
+      "revId": "9e76f67da197315e8bc36a7e12591e72960d035d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dae975fb_458fbc23",
         "filename": "CONTRIBUTORS.mkdn",
         "patchSetId": 5
@@ -101,6 +119,24 @@
       "side": 1,
       "message": "I think it doesn\u0027t matter if they are inactive for now, if actually they had contributed on German translation, IMHO",
       "parentUuid": "dae975fb_42dd7213",
+      "revId": "9e76f67da197315e8bc36a7e12591e72960d035d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baee8101_501d4c0e",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 5
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-08-17T19:21:51Z",
+      "side": 1,
+      "message": "I have no problem with leaving them in the list but I can remember that they were active since CM 9 times or so :D",
+      "parentUuid": "dae975fb_82f23a99",
       "revId": "9e76f67da197315e8bc36a7e12591e72960d035d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
