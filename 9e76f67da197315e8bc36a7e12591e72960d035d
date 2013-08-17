@@ -37,6 +37,23 @@
     },
     {
       "key": {
+        "uuid": "dae975fb_458fbc23",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 5
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 3589
+      },
+      "writtenOn": "2013-08-17T09:35:53Z",
+      "side": 1,
+      "message": "Please add Engle Mars as a Simplified Chinese translator.",
+      "revId": "9e76f67da197315e8bc36a7e12591e72960d035d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dae975fb_a4db0fed",
         "filename": "CONTRIBUTORS.mkdn",
         "patchSetId": 5
