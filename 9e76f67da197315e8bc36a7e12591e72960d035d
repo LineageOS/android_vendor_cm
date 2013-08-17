@@ -265,6 +265,24 @@
       "revId": "9e76f67da197315e8bc36a7e12591e72960d035d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baee8101_101d84bd",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 5
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2013-08-17T21:24:42Z",
+      "side": 1,
+      "message": "sorry, I didn\u0027t know that.makes sense",
+      "parentUuid": "baee8101_b0b3580a",
+      "revId": "9e76f67da197315e8bc36a7e12591e72960d035d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
