@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "dae975fb_62c1962e",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 5
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-08-17T04:09:44Z",
+      "side": 1,
+      "message": "Well, it has been \u0027CyanogenMod\u0027 in all branches...",
+      "parentUuid": "dae975fb_e4d0f7cb",
+      "revId": "9e76f67da197315e8bc36a7e12591e72960d035d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "dae975fb_a4db0fed",
         "filename": "CONTRIBUTORS.mkdn",
         "patchSetId": 5
@@ -30,6 +48,24 @@
       "writtenOn": "2013-08-16T03:49:24Z",
       "side": 1,
       "message": "Are Patrick Schaaf and Matthias Buechner still active German translators?",
+      "revId": "9e76f67da197315e8bc36a7e12591e72960d035d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "dae975fb_42dd7213",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 5
+      },
+      "lineNbr": 90,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-08-17T04:09:44Z",
+      "side": 1,
+      "message": "I think you are more informed on that matter. Should I remove them?",
+      "parentUuid": "dae975fb_a4db0fed",
       "revId": "9e76f67da197315e8bc36a7e12591e72960d035d",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
