@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baee8101_41efb5b0",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 7
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-08-22T21:51:28Z",
+      "side": 1,
+      "message": "[[ * __Catalan:__ Arnau Llovet Vidal",
+      "revId": "c62bedb202b0972bbdbdbbf5a5d2e612a47e06ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baee8101_01308d55",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 7
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-08-22T21:51:28Z",
+      "side": 1,
+      "message": "Bj[o umlaut]rn Lund[e accent aigu]n (Bjorn Lunden)",
+      "revId": "c62bedb202b0972bbdbdbbf5a5d2e612a47e06ff",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
