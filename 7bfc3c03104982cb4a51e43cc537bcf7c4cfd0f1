@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baee8101_c1e16500",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 6
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-08-22T20:57:45Z",
+      "side": 1,
+      "message": "Emerson Pinter",
+      "revId": "7bfc3c03104982cb4a51e43cc537bcf7c4cfd0f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baee8101_e1dc6948",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 6
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-08-22T20:57:45Z",
+      "side": 1,
+      "message": "Ted Lundwall, Esa Laukkanen",
+      "revId": "7bfc3c03104982cb4a51e43cc537bcf7c4cfd0f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
