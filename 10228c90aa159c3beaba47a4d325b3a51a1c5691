@@ -16,6 +16,24 @@
       "revId": "10228c90aa159c3beaba47a4d325b3a51a1c5691",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baee8101_217951fd",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 8
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 2597
+      },
+      "writtenOn": "2013-08-22T22:16:39Z",
+      "side": 1,
+      "message": "As Chinese (Traditional). For the rest it\u0027s okay.",
+      "parentUuid": "baee8101_a1266114",
+      "revId": "10228c90aa159c3beaba47a4d325b3a51a1c5691",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
