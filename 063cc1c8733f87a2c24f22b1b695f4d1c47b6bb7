@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baee8101_0bee6e22",
+        "filename": "CHANGELOG.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1576
+      },
+      "writtenOn": "2013-08-22T08:57:30Z",
+      "side": 1,
+      "message": "We should add the new features as well:\n- Universal Blacklist\n- Focal\n- Voice Plus?\n- etc",
+      "revId": "063cc1c8733f87a2c24f22b1b695f4d1c47b6bb7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
