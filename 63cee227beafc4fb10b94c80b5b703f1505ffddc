@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9af37de9_f2c68615",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 10
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 4808
+      },
+      "writtenOn": "2013-08-28T05:04:39Z",
+      "side": 1,
+      "message": "Maybe you could add Matthias Bosc ?",
+      "revId": "63cee227beafc4fb10b94c80b5b703f1505ffddc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
