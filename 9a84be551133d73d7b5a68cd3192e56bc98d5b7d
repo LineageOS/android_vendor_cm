@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a50d1a3_779cc769",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 1357,
+      "author": {
+        "id": 10
+      },
+      "writtenOn": "2013-10-21T12:31:22Z",
+      "side": 1,
+      "message": "Move these in between mnc 01 and 07 to keep the mcc/mnc pairs in numerical order",
+      "revId": "9a84be551133d73d7b5a68cd3192e56bc98d5b7d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
