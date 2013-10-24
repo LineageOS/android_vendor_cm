@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a4dcd0f_5be78312",
+        "filename": "prebuilt/common/etc/init.local.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 4048
+      },
+      "writtenOn": "2013-10-24T13:30:32Z",
+      "side": 1,
+      "message": "Should be chmod not chown",
+      "revId": "461e4ecb37e3d6205972d9c4e6d157e7bbeceecc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
