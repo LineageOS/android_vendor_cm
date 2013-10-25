@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a4dcd0f_018d0e31",
+        "filename": "sepolicy/surfaceflinger.te",
+        "patchSetId": 5
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 6763
+      },
+      "writtenOn": "2013-10-25T13:24:12Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "33608a350d595df87f4a787af2eb80ca33509b99",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
