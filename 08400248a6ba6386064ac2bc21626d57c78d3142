@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a4dcd0f_0a876362",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 2911,
+      "author": {
+        "id": 431
+      },
+      "writtenOn": "2013-10-26T13:07:46Z",
+      "side": 1,
+      "message": "Duplicated APNs",
+      "revId": "08400248a6ba6386064ac2bc21626d57c78d3142",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_aa7bcf7a",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 2913,
+      "author": {
+        "id": 431
+      },
+      "writtenOn": "2013-10-26T13:07:46Z",
+      "side": 1,
+      "message": "Same here",
+      "revId": "08400248a6ba6386064ac2bc21626d57c78d3142",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
