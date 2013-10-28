@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a4dcd0f_e4026b6f",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 563,
+      "author": {
+        "id": 883
+      },
+      "writtenOn": "2013-10-28T19:14:21Z",
+      "side": 0,
+      "message": "delete",
+      "revId": "7a46cf78170979f6a85a23cc1c3506ce801c8696",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a4dcd0f_84f8477e",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 7
+      },
+      "lineNbr": 564,
+      "author": {
+        "id": 883
+      },
+      "writtenOn": "2013-10-28T19:14:21Z",
+      "side": 0,
+      "message": "delete",
+      "revId": "7a46cf78170979f6a85a23cc1c3506ce801c8696",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
