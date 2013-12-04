@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa80f949_2d2b6684",
+        "filename": "prebuilt/common/etc/spn-conf.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 406,
+      "author": {
+        "id": 4045
+      },
+      "writtenOn": "2013-12-04T14:16:45Z",
+      "side": 1,
+      "message": "20801 is also \"Orange France\" (the brand \"France Telecom\" does not exist anymore)",
+      "revId": "43f52d167c84f7fc7103937edcc0c249ea0e32ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa80f949_cd1f3a5a",
+        "filename": "prebuilt/common/etc/spn-conf.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 408,
+      "author": {
+        "id": 4045
+      },
+      "writtenOn": "2013-12-04T14:16:45Z",
+      "side": 1,
+      "message": "Free Mobile also uses 20816",
+      "revId": "43f52d167c84f7fc7103937edcc0c249ea0e32ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
