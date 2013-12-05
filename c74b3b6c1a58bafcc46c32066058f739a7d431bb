@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa80f949_2d4fe693",
+        "filename": "prebuilt/common/etc/spn-conf.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 406,
+      "author": {
+        "id": 4045
+      },
+      "writtenOn": "2013-12-05T13:04:17Z",
+      "side": 1,
+      "message": "20814 is not assigned to Free Mobile, so we can remove it.",
+      "revId": "c74b3b6c1a58bafcc46c32066058f739a7d431bb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
