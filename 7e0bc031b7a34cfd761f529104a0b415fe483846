@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa80f949_6d740efd",
+        "filename": "prebuilt/common/etc/spn-conf.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 1194,
+      "author": {
+        "id": 4449
+      },
+      "writtenOn": "2013-12-05T11:22:46Z",
+      "side": 1,
+      "message": "T-Mobile",
+      "revId": "7e0bc031b7a34cfd761f529104a0b415fe483846",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
