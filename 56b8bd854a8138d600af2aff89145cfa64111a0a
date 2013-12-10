@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da85f559_f72a187e",
+        "filename": "CHANGELOG.mkdn",
+        "patchSetId": 5
+      },
+      "lineNbr": 227,
+      "author": {
+        "id": 2881
+      },
+      "writtenOn": "2013-12-10T03:58:41Z",
+      "side": 1,
+      "message": "extra comma and whitespace",
+      "revId": "56b8bd854a8138d600af2aff89145cfa64111a0a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
