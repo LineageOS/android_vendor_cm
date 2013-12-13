@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a740942_91c95eaf",
+        "filename": "overlay/common/frameworks/base/packages/Keyguard/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2013-12-13T22:27:22Z",
+      "side": 1,
+      "message": "Please add a copyright :)",
+      "revId": "733103f0d3faa68c0c7b0a4c4250015e7179f82b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
