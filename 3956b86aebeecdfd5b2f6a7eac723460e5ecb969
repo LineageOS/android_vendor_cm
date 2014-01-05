@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_8eb5bf7f",
+        "filename": "tools/squisher",
+        "patchSetId": 1
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2014-01-05T20:37:21Z",
+      "side": 1,
+      "message": "There\u0027s /system/priv-app too now.",
+      "revId": "3956b86aebeecdfd5b2f6a7eac723460e5ecb969",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_aebafb6c",
+        "filename": "tools/squisher",
+        "patchSetId": 1
+      },
+      "lineNbr": 72,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2014-01-05T20:37:21Z",
+      "side": 1,
+      "message": "Could be removed from here and put somewhere else if still needed.",
+      "revId": "3956b86aebeecdfd5b2f6a7eac723460e5ecb969",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a5ae5dd_4eb0278c",
+        "filename": "tools/squisher",
+        "patchSetId": 1
+      },
+      "lineNbr": 85,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2014-01-05T20:37:21Z",
+      "side": 1,
+      "message": "No need to do it here, as it is done at https://github.com/CyanogenMod/android_build/blob/cm-11.0/core/tasks/kernel.mk#L115",
+      "revId": "3956b86aebeecdfd5b2f6a7eac723460e5ecb969",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
