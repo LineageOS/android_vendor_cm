@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_6db6373f",
+        "filename": "tools/opticharger",
+        "patchSetId": 5
+      },
+      "lineNbr": 92,
+      "author": {
+        "id": 10
+      },
+      "writtenOn": "2014-01-16T13:04:51Z",
+      "side": 1,
+      "message": "You can\u0027t assume these paths. dirname $DEFAULT_SYSTEM_DEV_CERTIFICATE must be used if defined.",
+      "revId": "48ba41380682284c4408292e0081f8070c3dedaf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
