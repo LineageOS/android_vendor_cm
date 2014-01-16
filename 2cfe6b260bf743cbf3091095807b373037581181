@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5a5ae5dd_e202366f",
+        "filename": "config/telephony.mk",
+        "patchSetId": 9
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 4654
+      },
+      "writtenOn": "2014-01-16T02:35:40Z",
+      "side": 1,
+      "message": "shame on you invisiblek ;)",
+      "revId": "2cfe6b260bf743cbf3091095807b373037581181",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
