@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bae84128_20922a58",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 1133,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2014-02-23T04:50:11Z",
+      "side": 0,
+      "message": "I named that APN as \"mopera ff\" back in CM7 just because need to be distinguished from others",
+      "revId": "757118e57a440de9f6d842b8f980ebebbfbca865",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
