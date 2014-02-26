@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bae84128_5572867d",
+        "filename": "overlay/common/frameworks/base/core/res/res/xml-mcc440-mnc50/eri.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1579
+      },
+      "writtenOn": "2014-02-26T05:45:14Z",
+      "side": 1,
+      "message": "I still can see \"\\r\" at the end of line but no?",
+      "revId": "96afc296b830df0c02ad2f992084932958821c6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
