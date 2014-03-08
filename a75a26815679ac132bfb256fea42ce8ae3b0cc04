@@ -16,6 +16,24 @@
       "revId": "a75a26815679ac132bfb256fea42ce8ae3b0cc04",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bae84128_86ce9c81",
+        "filename": "overlay/common/frameworks/base/core/res/res/xml-mcc310-mnc003/eri.xml",
+        "patchSetId": 11
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2014-03-08T14:14:43Z",
+      "side": 1,
+      "message": "not just dlx. fireball and m7vzw use IconIndex\u003d\"1\" here too",
+      "parentUuid": "bae84128_46b494f1",
+      "revId": "a75a26815679ac132bfb256fea42ce8ae3b0cc04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
