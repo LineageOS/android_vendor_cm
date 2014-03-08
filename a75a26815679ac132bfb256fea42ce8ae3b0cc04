@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bae84128_46b494f1",
+        "filename": "overlay/common/frameworks/base/core/res/res/xml-mcc310-mnc003/eri.xml",
+        "patchSetId": 11
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 8640
+      },
+      "writtenOn": "2014-03-08T14:12:23Z",
+      "side": 1,
+      "message": "I think this change is what broke toro. All my moto vzw services don\u0027t set this. It\u0027s dlx specific I think.",
+      "revId": "a75a26815679ac132bfb256fea42ce8ae3b0cc04",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
