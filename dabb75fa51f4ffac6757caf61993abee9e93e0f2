@@ -16,6 +16,24 @@
       "revId": "dabb75fa51f4ffac6757caf61993abee9e93e0f2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bae84128_51a6fac1",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 299,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2014-03-25T10:39:41Z",
+      "side": 1,
+      "message": "I found it weird too, but this is copied exactly from the google play edition sgs4\u0027s apns-conf. Also, according to google translate, internet in english \u003d\u003d internett in norwegian. So I\u0027d say shipit\n\nhttp://translate.google.com/#en/no/internet",
+      "parentUuid": "bae84128_36f24cd3",
+      "revId": "dabb75fa51f4ffac6757caf61993abee9e93e0f2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
