@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3afc51ec_255b5456",
+        "filename": "config/themes_common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 9444
+      },
+      "writtenOn": "2014-05-05T11:38:08Z",
+      "side": 0,
+      "message": "Sorry my fault for not being specific. The permission for tmobile can stay since we still support tmobile themes with the new engine.",
+      "revId": "3c66bbb861ae3f7fc005390d5cb139186b87d8fc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
