@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da0c15f0_a830e39f",
+        "filename": "config/common_full_phone.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2014-05-11T23:24:02Z",
+      "side": 1,
+      "message": "Kill the tabs with fire",
+      "revId": "98758b48c593c20ed3a8ec37e3e8667bd0bcae95",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
