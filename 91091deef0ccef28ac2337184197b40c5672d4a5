@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da0c15f0_47a5ac02",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1613,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2014-05-20T07:51:37Z",
+      "side": 1,
+      "message": "Format for fields is out of regular order.",
+      "revId": "91091deef0ccef28ac2337184197b40c5672d4a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da0c15f0_27aa38d5",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1614,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2014-05-20T07:51:37Z",
+      "side": 1,
+      "message": "Why are mcc 710 items being listed after mcc 748 items above?",
+      "revId": "91091deef0ccef28ac2337184197b40c5672d4a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da0c15f0_87afc4e2",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1623,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2014-05-20T07:51:37Z",
+      "side": 1,
+      "message": "More out of order APNs (order by mcc/mnc pair)",
+      "revId": "91091deef0ccef28ac2337184197b40c5672d4a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
