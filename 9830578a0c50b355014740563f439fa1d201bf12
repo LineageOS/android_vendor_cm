@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da0c15f0_4a68fbf5",
+        "filename": "CHANGELOG.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 7164
+      },
+      "writtenOn": "2014-06-07T17:10:50Z",
+      "side": 1,
+      "message": "GALAXY Note 8.0 LTE is n5120. Not nv5120.",
+      "revId": "9830578a0c50b355014740563f439fa1d201bf12",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
