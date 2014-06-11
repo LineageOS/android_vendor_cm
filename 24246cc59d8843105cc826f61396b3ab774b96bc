@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba0121b8_582c7dab",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1137,
+      "author": {
+        "id": 1100
+      },
+      "writtenOn": "2014-06-11T13:04:32Z",
+      "side": 1,
+      "message": "mnc should be 2-digit, not 3\n\nAlso mmsc is missing for hutch3g (http://www.hutch.lk/faq/)",
+      "revId": "24246cc59d8843105cc826f61396b3ab774b96bc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
