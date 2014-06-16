@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba0121b8_5fdd7c6f",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 10021
+      },
+      "writtenOn": "2014-06-16T21:57:48Z",
+      "side": 1,
+      "message": "Airtel Sri Lanka also added.",
+      "revId": "ee17a7d7ce2fd4189071dda5180a2feeb138d92c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_fff730f3",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1136,
+      "author": {
+        "id": 10021
+      },
+      "writtenOn": "2014-06-16T21:57:48Z",
+      "side": 1,
+      "message": "\u003capn carrier\u003d\"Airtel\" mcc\u003d\"413\" mnc\u003d\"05\" apn\u003d\"i\" type\u003d\"default,supl\" /\u003e",
+      "revId": "ee17a7d7ce2fd4189071dda5180a2feeb138d92c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
