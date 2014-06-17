@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba0121b8_c27d33e9",
+        "filename": "config/common_full.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 9528
+      },
+      "writtenOn": "2014-06-17T14:05:49Z",
+      "side": 1,
+      "message": "AHHHHHHHHHHHHHHHHHHHHHHHHHHHH tabs!?! what is this?! get it out of my sight",
+      "revId": "70271860a3a3b2188cf9789fd50e9be934eb03a8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
