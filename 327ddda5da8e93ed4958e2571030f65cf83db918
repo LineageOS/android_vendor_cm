@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba0121b8_99ee05eb",
+        "filename": "overlay/common/frameworks/base/packages/SystemUI/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2014-06-24T18:39:45Z",
+      "side": 1,
+      "message": "Please shift this in as on the comment above",
+      "revId": "327ddda5da8e93ed4958e2571030f65cf83db918",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_59e46d0c",
+        "filename": "overlay/common/frameworks/base/packages/SystemUI/res/values/config.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2014-06-24T18:39:45Z",
+      "side": 1,
+      "message": "There is one line to much at the end of the file.",
+      "revId": "327ddda5da8e93ed4958e2571030f65cf83db918",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
