@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba0121b8_b90309b8",
+        "filename": "overlay/common/frameworks/base/packages/SystemUI/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2014-06-24T18:13:24Z",
+      "side": 1,
+      "message": "When you are at it, please us the correct copyright header :)\n\n\u003c!--\n     Copyright (C) 2014 The CyanogenMod Project\n\n     Licensed under the Apache License, Version 2.0 (the \"License\");\n     you may not use this file except in compliance with the License.\n     You may obtain a copy of the License at\n\n          http://www.apache.org/licenses/LICENSE-2.0\n\n     Unless required by applicable law or agreed to in writing, software\n     distributed under the License is distributed on an \"AS IS\" BASIS,\n     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n     See the License for the specific language governing permissions and\n     limitations under the License.\n--\u003e",
+      "revId": "5f88719a7d47695a723a7c728d128bb0926be288",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_9900c5ac",
+        "filename": "overlay/common/frameworks/base/packages/SystemUI/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2014-06-24T18:13:24Z",
+      "side": 1,
+      "message": "Please also wrap this to 100 chars :)\n\n\u003c!-- Control whether status bar should distinguish HSPA data icon\n     from UMTS data icon on devices --\u003e",
+      "revId": "5f88719a7d47695a723a7c728d128bb0926be288",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
