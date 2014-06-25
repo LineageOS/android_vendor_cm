@@ -1,0 +1,208 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba0121b8_99a7254f",
+        "filename": "tools/extract-files.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 1391
+      },
+      "writtenOn": "2014-06-25T04:13:07Z",
+      "side": 1,
+      "message": "Returns error \"bash: [: !\u003d: unary operator expected\". Check for zero length instead.\n\nif [ ! -z $COMMON_DEVICE ]; then",
+      "revId": "479f90dad54114c897ae9cf32f5ce0b22ef879fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_d967dd23",
+        "filename": "tools/setup-makefiles.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 100,
+      "author": {
+        "id": 1391
+      },
+      "writtenOn": "2014-06-25T04:13:07Z",
+      "side": 1,
+      "message": "Returns error \"bash: [: !\u003d: unary operator expected\". Check for zero length instead.\n\nif [ ! -z $COMMON_DEVICE ]; then",
+      "revId": "479f90dad54114c897ae9cf32f5ce0b22ef879fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_396d3905",
+        "filename": "tools/setup-makefiles.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 509,
+      "author": {
+        "id": 1391
+      },
+      "writtenOn": "2014-06-25T04:13:07Z",
+      "side": 1,
+      "message": "Same as above.",
+      "revId": "479f90dad54114c897ae9cf32f5ce0b22ef879fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_1972f5e5",
+        "filename": "tools/setup-makefiles.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 542,
+      "author": {
+        "id": 1391
+      },
+      "writtenOn": "2014-06-25T04:13:07Z",
+      "side": 1,
+      "message": "if [ ! -z $BOARD_VENDOR ]; then",
+      "revId": "479f90dad54114c897ae9cf32f5ce0b22ef879fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_7977b1d4",
+        "filename": "tools/setup-makefiles.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 569,
+      "author": {
+        "id": 1391
+      },
+      "writtenOn": "2014-06-25T04:13:07Z",
+      "side": 1,
+      "message": "Same as above.",
+      "revId": "479f90dad54114c897ae9cf32f5ce0b22ef879fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_59746dce",
+        "filename": "tools/setup-makefiles.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 602,
+      "author": {
+        "id": 1391
+      },
+      "writtenOn": "2014-06-25T04:13:07Z",
+      "side": 1,
+      "message": "Same as above.",
+      "revId": "479f90dad54114c897ae9cf32f5ce0b22ef879fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_b9814992",
+        "filename": "tools/setup-makefiles.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 629,
+      "author": {
+        "id": 1391
+      },
+      "writtenOn": "2014-06-25T04:13:07Z",
+      "side": 1,
+      "message": "Same as above.",
+      "revId": "479f90dad54114c897ae9cf32f5ce0b22ef879fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_997e05ad",
+        "filename": "tools/setup-makefiles.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 663,
+      "author": {
+        "id": 1391
+      },
+      "writtenOn": "2014-06-25T04:13:07Z",
+      "side": 1,
+      "message": "Same as above.",
+      "revId": "479f90dad54114c897ae9cf32f5ce0b22ef879fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_f9490190",
+        "filename": "tools/setup-makefiles.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 692,
+      "author": {
+        "id": 1391
+      },
+      "writtenOn": "2014-06-25T04:13:07Z",
+      "side": 1,
+      "message": "Same as above.",
+      "revId": "479f90dad54114c897ae9cf32f5ce0b22ef879fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_d94ebd95",
+        "filename": "tools/setup-makefiles.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 726,
+      "author": {
+        "id": 1391
+      },
+      "writtenOn": "2014-06-25T04:13:07Z",
+      "side": 1,
+      "message": "Same as above.",
+      "revId": "479f90dad54114c897ae9cf32f5ce0b22ef879fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_39441973",
+        "filename": "tools/setup-makefiles.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 755,
+      "author": {
+        "id": 1391
+      },
+      "writtenOn": "2014-06-25T04:13:07Z",
+      "side": 1,
+      "message": "Same as above.",
+      "revId": "479f90dad54114c897ae9cf32f5ce0b22ef879fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba0121b8_1949558c",
+        "filename": "tools/setup-makefiles.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 788,
+      "author": {
+        "id": 1391
+      },
+      "writtenOn": "2014-06-25T04:13:07Z",
+      "side": 1,
+      "message": "Same as above.",
+      "revId": "479f90dad54114c897ae9cf32f5ce0b22ef879fa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
