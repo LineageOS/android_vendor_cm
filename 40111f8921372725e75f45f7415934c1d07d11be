@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a061dce_52fe086c",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2014-07-24T23:43:53Z",
+      "side": 1,
+      "message": "* __OnePlus One:__ cyanogen, intervigil, inwotep, tdm (Cyngn Inc.)",
+      "revId": "40111f8921372725e75f45f7415934c1d07d11be",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a061dce_32039475",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2014-07-24T23:43:53Z",
+      "side": 1,
+      "message": "* __Oppo Find 5:__ nebkat",
+      "revId": "40111f8921372725e75f45f7415934c1d07d11be",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a061dce_92f8a07e",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2014-07-24T23:43:53Z",
+      "side": 1,
+      "message": "* __Oppo Find 7:__ tdm, inwotep",
+      "revId": "40111f8921372725e75f45f7415934c1d07d11be",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a061dce_f208fc93",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 96,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2014-07-24T23:43:53Z",
+      "side": 1,
+      "message": "Please remove the space before the comma.",
+      "revId": "40111f8921372725e75f45f7415934c1d07d11be",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
