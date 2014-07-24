@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a061dce_b2efa4af",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 2
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 4884
+      },
+      "writtenOn": "2014-07-24T23:49:14Z",
+      "side": 1,
+      "message": "* __Oppo Find 5:__ nebkat",
+      "revId": "a5b14880877cd0ff2f29dfbc82493dcc4f5ab965",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
