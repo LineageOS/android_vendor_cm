@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a061dce_f61d82be",
+        "filename": "config/common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 343,
+      "author": {
+        "id": 2134
+      },
+      "writtenOn": "2014-08-02T18:57:10Z",
+      "side": 1,
+      "message": "Duplicated here",
+      "revId": "34ee56fe6fda8fcb2572947a4d2e6bf77e0b8899",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
