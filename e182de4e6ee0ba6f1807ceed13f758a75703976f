@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_9606e11e",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 1640,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2014-08-22T12:18:24Z",
+      "side": 1,
+      "message": "fixme",
+      "revId": "e182de4e6ee0ba6f1807ceed13f758a75703976f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
