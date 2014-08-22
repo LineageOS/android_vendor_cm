@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_71418f39",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 1631,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2014-08-22T13:03:46Z",
+      "side": 1,
+      "message": "Missing T in carrier",
+      "revId": "821feeb17efc1ba8c8e71eda188b9577bbf5dd3b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
