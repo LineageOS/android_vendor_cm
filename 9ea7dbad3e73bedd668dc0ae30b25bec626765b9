@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_11cf7bb1",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 1629,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2014-08-22T17:24:47Z",
+      "side": 1,
+      "message": "is that supposed to be vox.mss or vox.mms?",
+      "revId": "9ea7dbad3e73bedd668dc0ae30b25bec626765b9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
