@@ -16,6 +16,24 @@
       "revId": "671b1cea88af92670a5fdb73fce60ecc58dec44e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_edc01be3",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 292,
+      "author": {
+        "id": 1100
+      },
+      "writtenOn": "2014-08-27T10:09:12Z",
+      "side": 1,
+      "message": "There is no documentation to support setting supl for this APN, however there are multiple Swedish users offering working configs with only \"default,mms\"",
+      "parentUuid": "7a1b2928_8dca474e",
+      "revId": "671b1cea88af92670a5fdb73fce60ecc58dec44e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
