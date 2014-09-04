@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_89bb4972",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 205,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2014-09-04T12:41:19Z",
+      "side": 1,
+      "message": "authtype\u003d\"1\"",
+      "revId": "f42885b1dd120cce9ad823e346e36ef21508d3ae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_e9b0fd8d",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1363,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2014-09-04T12:41:19Z",
+      "side": 1,
+      "message": "Is this correctly identified as the MMS apn then?",
+      "revId": "f42885b1dd120cce9ad823e346e36ef21508d3ae",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
