@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_f2f57383",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 427,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2014-09-16T19:05:12Z",
+      "side": 1,
+      "message": "Drop the leading 0\u0027s on mmsproxy",
+      "revId": "9446a5a41bb9dd3047396f264b871a62fc79d1f6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
