@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_cd040dc2",
+        "filename": "get-prebuilts",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2014-09-26T07:39:44Z",
+      "side": 1,
+      "message": "This should be \"Terminal Emulator for Android\" now",
+      "revId": "90e7b7cd6a805ac7dcd5a4702aacd16380a85227",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
