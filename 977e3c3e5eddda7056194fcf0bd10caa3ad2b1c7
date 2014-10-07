@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_553b58d1",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2014-10-07T17:21:21Z",
+      "side": 0,
+      "message": "Though it may be a duplicate in all but carrier, I don\u0027t think these should be consolidated.",
+      "revId": "977e3c3e5eddda7056194fcf0bd10caa3ad2b1c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
