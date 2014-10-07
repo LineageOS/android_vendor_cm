@@ -16,6 +16,24 @@
       "revId": "14bee5c92558ddb00954b434436be700374a4018",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_35c05c7c",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 10698
+      },
+      "writtenOn": "2014-10-07T19:40:21Z",
+      "side": 1,
+      "message": "You are right - I blindly moved the apn without checking for existing errors. Now it\u0027s fixed. Thanks!",
+      "parentUuid": "7a1b2928_753014e9",
+      "revId": "14bee5c92558ddb00954b434436be700374a4018",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
