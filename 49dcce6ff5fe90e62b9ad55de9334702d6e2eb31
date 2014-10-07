@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a1b2928_f571c4a9",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 525,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2014-10-07T17:31:11Z",
+      "side": 0,
+      "message": "is vas.vodafone.pt not a seperate APN?",
+      "revId": "49dcce6ff5fe90e62b9ad55de9334702d6e2eb31",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
