@@ -34,6 +34,24 @@
       "revId": "977e3c3e5eddda7056194fcf0bd10caa3ad2b1c7",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a1b2928_816dae9a",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 157,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2014-10-11T10:41:12Z",
+      "side": 0,
+      "message": "Because I assume these translates to Carrier monthly plans - in which case consolidating makes it less useful for an end user.",
+      "parentUuid": "7a1b2928_55deb86d",
+      "revId": "977e3c3e5eddda7056194fcf0bd10caa3ad2b1c7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
