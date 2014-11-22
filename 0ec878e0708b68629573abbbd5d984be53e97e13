@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dab17558_709089ed",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 865,
+      "author": {
+        "id": 10984
+      },
+      "writtenOn": "2014-11-22T11:41:08Z",
+      "side": 1,
+      "message": "AirteL -\u003e Airtel",
+      "revId": "0ec878e0708b68629573abbbd5d984be53e97e13",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
