@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bab6814e_24ad2a32",
+        "filename": "sepolicy/sysinit.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 2975
+      },
+      "writtenOn": "2014-11-24T19:44:10Z",
+      "side": 1,
+      "message": "recommend rw_file_perms (defined in external/sepolicy/global_macros) instead of listing out individual permissions. More robust that way.",
+      "revId": "86ce3e74b4a1141bf428a3f71770973687d9a867",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_84aa1618",
+        "filename": "sepolicy/sysinit.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 2975
+      },
+      "writtenOn": "2014-11-24T19:44:10Z",
+      "side": 1,
+      "message": "rx_file_perms",
+      "revId": "86ce3e74b4a1141bf428a3f71770973687d9a867",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_64a73250",
+        "filename": "sepolicy/sysinit.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 2975
+      },
+      "writtenOn": "2014-11-24T19:44:10Z",
+      "side": 1,
+      "message": "rx_file_perms",
+      "revId": "86ce3e74b4a1141bf428a3f71770973687d9a867",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
