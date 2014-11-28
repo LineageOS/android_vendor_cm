@@ -16,6 +16,24 @@
       "revId": "08d7a69058818162de69140b50f761ee842ee04f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_a28d807d",
+        "filename": "sepolicy/netd.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1381
+      },
+      "writtenOn": "2014-11-28T22:30:26Z",
+      "side": 1,
+      "message": "IMO, that\u0027s not necessarily the case and I\u0027m seeing it done both ways in external/sepolicy.\n\nUsing the macro will also grant wpa_socket:sock_file write, which is a duplicate of what both netd and hostapd already have (create_file_perms).\n\nsystem_wpa_socket:sock_file create_file_perms is also needed and is not granted by the macro",
+      "parentUuid": "bab6814e_e2866864",
+      "revId": "08d7a69058818162de69140b50f761ee842ee04f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
