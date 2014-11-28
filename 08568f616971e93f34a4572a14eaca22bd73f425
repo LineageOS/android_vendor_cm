@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bab6814e_c1e1a5d2",
+        "filename": "sepolicy/su.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 6351
+      },
+      "writtenOn": "2014-11-28T05:56:50Z",
+      "side": 1,
+      "message": "Should this be a single quote?  I get the following warning when I build:\n\nvendor/cm/sepolicy/su.te:46:WARNING \u0027unrecognized character\u0027 at token \u0027\u0027\u0027 on line 16397:",
+      "revId": "08568f616971e93f34a4572a14eaca22bd73f425",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
