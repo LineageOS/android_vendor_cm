@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bab6814e_e2866864",
+        "filename": "sepolicy/netd.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 8640
+      },
+      "writtenOn": "2014-11-28T22:21:46Z",
+      "side": 1,
+      "message": "allow netd wpa_socket:dir create_dir_perms;\nallow netd wpa_socket:sock_file create_file_perms;\nunix_socket_send(netd, wpa, hostapd)\nunix_socket_send(hostapd, wpa, netd)\n\n\nUsing the macros is the better way to do it.",
+      "revId": "08d7a69058818162de69140b50f761ee842ee04f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
