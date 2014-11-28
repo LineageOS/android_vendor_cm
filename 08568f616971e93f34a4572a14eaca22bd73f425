@@ -16,6 +16,41 @@
       "revId": "08568f616971e93f34a4572a14eaca22bd73f425",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_21feb16b",
+        "filename": "sepolicy/su.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2014-11-28T06:31:34Z",
+      "side": 1,
+      "message": "This is due to line 55",
+      "parentUuid": "bab6814e_c1e1a5d2",
+      "revId": "08568f616971e93f34a4572a14eaca22bd73f425",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_0103ad74",
+        "filename": "sepolicy/su.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2014-11-28T06:31:34Z",
+      "side": 1,
+      "message": "Removing the quote here removes the warning.",
+      "revId": "08568f616971e93f34a4572a14eaca22bd73f425",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
