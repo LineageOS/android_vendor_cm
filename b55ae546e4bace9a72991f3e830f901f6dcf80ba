@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bab6814e_084aad83",
+        "filename": "sepolicy/recovery.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2014-11-29T19:45:25Z",
+      "side": 1,
+      "message": "This may be way too permissive, but I couldn\u0027t think of a better way.",
+      "revId": "b55ae546e4bace9a72991f3e830f901f6dcf80ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
