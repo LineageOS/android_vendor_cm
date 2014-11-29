@@ -34,6 +34,24 @@
       "revId": "08d7a69058818162de69140b50f761ee842ee04f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_225d10ea",
+        "filename": "sepolicy/netd.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 8640
+      },
+      "writtenOn": "2014-11-29T00:42:34Z",
+      "side": 1,
+      "message": "I didn\u0027t look at the original close enough to see the duplicate. Also, my device never tried to access system_wpa_socket so I didn\u0027t need that. Looks fine.",
+      "parentUuid": "bab6814e_a28d807d",
+      "revId": "08d7a69058818162de69140b50f761ee842ee04f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
