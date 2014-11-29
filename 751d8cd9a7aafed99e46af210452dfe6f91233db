@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bab6814e_c85545c7",
+        "filename": "sepolicy/file.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 8640
+      },
+      "writtenOn": "2014-11-29T11:14:18Z",
+      "side": 1,
+      "message": "By convention shouldn\u0027t this be in property.te?",
+      "revId": "751d8cd9a7aafed99e46af210452dfe6f91233db",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
