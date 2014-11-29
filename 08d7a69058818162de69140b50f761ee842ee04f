@@ -106,6 +106,24 @@
       "revId": "08d7a69058818162de69140b50f761ee842ee04f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_c858a559",
+        "filename": "sepolicy/netd.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 8640
+      },
+      "writtenOn": "2014-11-29T19:58:39Z",
+      "side": 1,
+      "message": "I will say that Google\u0027s Senior Android Security Engineer commented here http://review.cyanogenmod.org/#/c/78805/6/sepolicy/atvc_core.te and stated that it should be a single file for the domain it is used .",
+      "parentUuid": "bab6814e_2214f0f3",
+      "revId": "08d7a69058818162de69140b50f761ee842ee04f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
