@@ -16,6 +16,24 @@
       "revId": "b55ae546e4bace9a72991f3e830f901f6dcf80ba",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_310c3894",
+        "filename": "sepolicy/recovery.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 10
+      },
+      "writtenOn": "2014-12-01T06:27:42Z",
+      "side": 1,
+      "message": "Hrm. yeah, we can write rules that only apply while in recovery, but not file labels. \n\nBut while you\u0027re at it, please put the entire contents of this file inside a \nrecovery_only(`\n\u0027); check",
+      "parentUuid": "bab6814e_084aad83",
+      "revId": "b55ae546e4bace9a72991f3e830f901f6dcf80ba",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
