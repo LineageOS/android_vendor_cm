@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bab6814e_e94be857",
+        "filename": "sepolicy/recovery.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 8640
+      },
+      "writtenOn": "2014-12-02T14:31:51Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be in file.te?\n\nAlso by convention *_data_file is for files that live on the data partition.",
+      "revId": "2057d84ec46b6bf902e44b75064ccd87744c2078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_c948a45e",
+        "filename": "sepolicy/recovery.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 8640
+      },
+      "writtenOn": "2014-12-02T14:31:51Z",
+      "side": 1,
+      "message": "Shouldn\u0027t this be in property.te?",
+      "revId": "2057d84ec46b6bf902e44b75064ccd87744c2078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_09790c94",
+        "filename": "sepolicy/recovery.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 26,
+      "author": {
+        "id": 8640
+      },
+      "writtenOn": "2014-12-02T14:31:51Z",
+      "side": 1,
+      "message": "Using default_prop isn\u0027t recommended. In a future version of Android, this will be a compile time error (https://android-review.googlesource.com/105260).\n\nInstead, you should create a label for the property.",
+      "revId": "2057d84ec46b6bf902e44b75064ccd87744c2078",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
