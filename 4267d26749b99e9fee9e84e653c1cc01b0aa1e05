@@ -16,6 +16,24 @@
       "revId": "4267d26749b99e9fee9e84e653c1cc01b0aa1e05",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_7f6a061c",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 578,
+      "author": {
+        "id": 20
+      },
+      "writtenOn": "2014-12-03T13:07:47Z",
+      "side": 1,
+      "message": "http://www.telenor.bg/en/customer-service/phone is all the user provided and the only information I can find",
+      "parentUuid": "bab6814e_3f887ee7",
+      "revId": "4267d26749b99e9fee9e84e653c1cc01b0aa1e05",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
