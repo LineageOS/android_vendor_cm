@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bab6814e_2f796994",
+        "filename": "sepolicy/recovery.te",
+        "patchSetId": 7
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2014-12-06T09:26:49Z",
+      "side": 1,
+      "message": "This shouldn\u0027t be needed, due to\nhttps://github.com/CyanogenMod/android_external_sepolicy/blob/cm-12.0/adbd.te#L59",
+      "revId": "1e76cdf69a4182752b198b78821c28036f37e94d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bab6814e_8f6e95c7",
+        "filename": "sepolicy/recovery.te",
+        "patchSetId": 7
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2014-12-06T09:26:49Z",
+      "side": 1,
+      "message": "This should be create_file_perms as recovery creates /adb_keys by copying /data/misc/adb/adb_keys",
+      "revId": "1e76cdf69a4182752b198b78821c28036f37e94d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
