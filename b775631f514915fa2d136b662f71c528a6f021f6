@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_da2512af",
+        "filename": "sepolicy/system.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 10
+      },
+      "writtenOn": "2014-12-17T12:34:48Z",
+      "side": 1,
+      "message": "create_file_perms includes rw_file_perms. Same thing for dir",
+      "revId": "b775631f514915fa2d136b662f71c528a6f021f6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
