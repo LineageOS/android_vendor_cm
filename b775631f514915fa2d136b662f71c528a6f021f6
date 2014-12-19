@@ -16,6 +16,24 @@
       "revId": "b775631f514915fa2d136b662f71c528a6f021f6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7aa08908_d6e166d2",
+        "filename": "sepolicy/system.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 9444
+      },
+      "writtenOn": "2014-12-19T18:38:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7aa08908_da2512af",
+      "revId": "b775631f514915fa2d136b662f71c528a6f021f6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
