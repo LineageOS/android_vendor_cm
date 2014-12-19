@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_b6dbfa1a",
+        "filename": "sepolicy/system.te",
+        "patchSetId": 5
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 9444
+      },
+      "writtenOn": "2014-12-19T18:40:51Z",
+      "side": 1,
+      "message": "ack. This may actually need to be create_file_perms.",
+      "revId": "de5ec147cebbbee5480a680cc969eb8efef30130",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
