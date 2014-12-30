@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_522bad30",
+        "filename": "sepolicy/vold.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2014-12-30T18:07:40Z",
+      "side": 1,
+      "message": "This is already set",
+      "revId": "b0fd82f83a92b3234e96891dafa03d61232e5aec",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
