@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_e765abe1",
+        "filename": "sepolicy/system_app.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 6817
+      },
+      "writtenOn": "2015-01-05T12:39:54Z",
+      "side": 1,
+      "message": "this was merged http://review.cyanogenmod.org/#/c/83557/",
+      "revId": "577cc49d807e9742fd41f1dc141c80397a498a0c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
