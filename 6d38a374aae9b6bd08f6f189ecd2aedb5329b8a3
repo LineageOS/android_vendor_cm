@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_f1dba5eb",
+        "filename": "sepolicy/file.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 10
+      },
+      "writtenOn": "2015-01-07T07:53:26Z",
+      "side": 1,
+      "message": "s/fs_type/file_type\n\nOther than that, LGTM",
+      "revId": "6d38a374aae9b6bd08f6f189ecd2aedb5329b8a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
