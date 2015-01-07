@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7aa08908_c9d35d5e",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 3
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2015-01-07T20:46:45Z",
+      "side": 1,
+      "message": "remove nardholio from here if he\u0027s going to remain active",
+      "revId": "46677262732a69a711e05049d5777a2b98cd1f14",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
