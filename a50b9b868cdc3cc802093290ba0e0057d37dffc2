@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fad55976_942fe9a0",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 173,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2015-01-24T15:05:31Z",
+      "side": 1,
+      "message": "I don\u0027t believe typer \u0027internet\u0027 does anything here. Leave it as \"default, supl\" for both.",
+      "revId": "a50b9b868cdc3cc802093290ba0e0057d37dffc2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
