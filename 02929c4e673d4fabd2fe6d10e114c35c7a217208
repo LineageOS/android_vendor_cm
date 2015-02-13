@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bacf61ea_7a3ccc2f",
+        "filename": "sepolicy/sysinit.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 6315
+      },
+      "writtenOn": "2015-02-13T22:21:43Z",
+      "side": 1,
+      "message": "Specify the file here.",
+      "revId": "02929c4e673d4fabd2fe6d10e114c35c7a217208",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bacf61ea_da4978d2",
+        "filename": "sepolicy/sysinit.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 6315
+      },
+      "writtenOn": "2015-02-13T22:21:43Z",
+      "side": 1,
+      "message": "Specify the file here.",
+      "revId": "02929c4e673d4fabd2fe6d10e114c35c7a217208",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
