@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bacf61ea_7a796c2f",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 112,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-02-13T19:06:10Z",
+      "side": 1,
+      "message": "T3 is seagull, tianchi is T2 Ultra",
+      "revId": "485d4c32eecbd8579e35a7ea3618663017604c3a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bacf61ea_da76983d",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 121,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-02-13T19:06:10Z",
+      "side": 1,
+      "message": "windy \u003d WiFi, Z3 Tablet Compact LTE \u003d just scorpion",
+      "revId": "485d4c32eecbd8579e35a7ea3618663017604c3a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
