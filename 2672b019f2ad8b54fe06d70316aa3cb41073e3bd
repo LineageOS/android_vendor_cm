@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "bacf61ea_9577d1d3",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 4
+      },
+      "lineNbr": 107,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2015-02-14T11:03:05Z",
+      "side": 1,
+      "message": "Why keep the ( )?",
+      "revId": "2672b019f2ad8b54fe06d70316aa3cb41073e3bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "bacf61ea_7574ddce",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 4
+      },
+      "lineNbr": 133,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2015-02-14T11:03:05Z",
+      "side": 1,
+      "message": "Make this match above \"FreeXperia team\"",
+      "revId": "2672b019f2ad8b54fe06d70316aa3cb41073e3bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "bacf61ea_5a5aa884",
         "filename": "CONTRIBUTORS.mkdn",
         "patchSetId": 4
