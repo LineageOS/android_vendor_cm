@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad45d7e_3041ee3a",
+        "filename": "sepolicy/install_recovery.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 444
+      },
+      "writtenOn": "2015-02-28T14:34:44Z",
+      "side": 1,
+      "message": "Add this too:\n\nallow install_recovery mmc_block_device:blk_file r_file_perms;",
+      "revId": "cb7562affc89982b473351d8c93270e5e41a2b8e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
