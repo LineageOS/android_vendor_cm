@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad45d7e_6169da8b",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 187,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2015-03-03T00:16:45Z",
+      "side": 1,
+      "message": "Move above Vodafone IT MMS. Also drop type \u0027a-gps\u0027",
+      "revId": "270760e8800ba3525a834a3298be3fc3f0586777",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
