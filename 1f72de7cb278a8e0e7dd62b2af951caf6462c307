@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9ad45d7e_bcf12bd0",
+        "filename": "build/core/definitions.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 5503
+      },
+      "writtenOn": "2015-03-07T06:02:17Z",
+      "side": 1,
+      "message": "I specifically want it to be somewhere other than OUT_DIR.  It is very useful if the cache survivies a \"make clobber\".  This is the same way that ccache works -- it stores cache files outside $(OUT_DIR) (in ~/.cccache by default).\n\nThat said, you are free to set it wherever you like.  For example, I always override my CCACHE_DIR to be $(TOP)/.cache/ccache/$(devicename).  This way, \"rm -rf .cache\" clobbers all of my cache files.  You could override both to be under $(OUT_DIR) or wherever you choose.",
+      "parentUuid": "9ad45d7e_3c589bfa",
+      "revId": "1f72de7cb278a8e0e7dd62b2af951caf6462c307",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ad45d7e_1c5dd7e9",
         "filename": "tools/shlib-cache-check",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2015-03-07T03:35:34Z",
       "side": 1,
       "message": "#!/usr/bin/env python\n\nWould be a better choice.",
+      "revId": "1f72de7cb278a8e0e7dd62b2af951caf6462c307",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad45d7e_9ceee7ea",
+        "filename": "tools/shlib-cache-check",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 5503
+      },
+      "writtenOn": "2015-03-07T06:02:17Z",
+      "side": 1,
+      "message": "Good call, thanks.",
+      "parentUuid": "9ad45d7e_1c5dd7e9",
       "revId": "1f72de7cb278a8e0e7dd62b2af951caf6462c307",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
