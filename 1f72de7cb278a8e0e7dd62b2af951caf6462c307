@@ -1,0 +1,55 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad45d7e_3c589bfa",
+        "filename": "build/core/definitions.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-03-07T03:35:34Z",
+      "side": 1,
+      "message": "Could the default rather be under $(OUT_DIR) ?\nThat way a make clean would remove the cache too, which I assume would be good behaviour, as it\u0027s *cleaning* everything.",
+      "revId": "1f72de7cb278a8e0e7dd62b2af951caf6462c307",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad45d7e_1c5dd7e9",
+        "filename": "tools/shlib-cache-check",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-03-07T03:35:34Z",
+      "side": 1,
+      "message": "#!/usr/bin/env python\n\nWould be a better choice.",
+      "revId": "1f72de7cb278a8e0e7dd62b2af951caf6462c307",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9ad45d7e_7c72137e",
+        "filename": "tools/shlib-cache-enter",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-03-07T03:35:34Z",
+      "side": 1,
+      "message": "Same as previous file.\n#!/usr/bin/env python",
+      "revId": "1f72de7cb278a8e0e7dd62b2af951caf6462c307",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
