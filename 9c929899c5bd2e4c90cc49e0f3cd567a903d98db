@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad45d7e_626d4904",
+        "filename": "sepolicy/recovery.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-03-10T11:29:34Z",
+      "side": 1,
+      "message": "Can squish into the previous line by doing \"allow recovery system_data_file:file { create write };\" or \"allow recovery system_data_file:file create_file_perms;\"",
+      "revId": "9c929899c5bd2e4c90cc49e0f3cd567a903d98db",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
