@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5ac665da_ee3ad3e6",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1439,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2015-03-17T08:58:19Z",
+      "side": 1,
+      "message": "Red \u003d whitespace. Also, please move this up between SKT LTE and KT-HSDPA (follow mcc/mnc ordering).",
+      "revId": "22b87ff66e5ee6123e37d8b0e6e193e2e88f1432",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
