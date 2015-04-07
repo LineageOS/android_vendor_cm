@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "3ac371cc_6a909396",
+        "filename": "config/common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 279,
+      "author": {
+        "id": 8964
+      },
+      "writtenOn": "2015-04-07T07:46:17Z",
+      "side": 0,
+      "message": "No, if ccache enabled a build takes less than 1 hour, about 15-30 min.",
+      "parentUuid": "3ac371cc_2777f4d5",
+      "revId": "779bc74e40aaa6d31fa1207451d50b667feff3a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3ac371cc_077478cd",
         "filename": "config/common.mk",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2015-04-07T06:03:13Z",
       "side": 0,
       "message": "If it should be added if there is no minor version, should it also be added if there is a minor version.",
+      "revId": "779bc74e40aaa6d31fa1207451d50b667feff3a3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3ac371cc_aae8cb17",
+        "filename": "config/common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 281,
+      "author": {
+        "id": 8964
+      },
+      "writtenOn": "2015-04-07T07:46:17Z",
+      "side": 0,
+      "message": "sure, can be added if this commit is interesting to get merged",
+      "parentUuid": "3ac371cc_077478cd",
       "revId": "779bc74e40aaa6d31fa1207451d50b667feff3a3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
