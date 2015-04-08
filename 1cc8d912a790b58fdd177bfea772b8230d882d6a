@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3ac371cc_782069f8",
+        "filename": "prebuilt/common/bootanimation/halfres/generate-half-res-anims.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 8964
+      },
+      "writtenOn": "2015-04-08T05:50:08Z",
+      "side": 1,
+      "message": "for j in */*.[png][PNG]; do",
+      "revId": "1cc8d912a790b58fdd177bfea772b8230d882d6a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
