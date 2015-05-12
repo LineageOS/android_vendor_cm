@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a89bdaa_dce89c19",
+        "filename": "config/common.mk",
+        "patchSetId": 5
+      },
+      "lineNbr": 159,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-05-12T06:17:38Z",
+      "side": 1,
+      "message": "Why not just squish down the patches that operate on the package listing?",
+      "revId": "2cd34cbe7467df038370ce94004adec39a00d4c4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
