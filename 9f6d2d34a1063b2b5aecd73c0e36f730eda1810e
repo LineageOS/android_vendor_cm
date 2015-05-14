@@ -53,6 +53,23 @@
     },
     {
       "key": {
+        "uuid": "9a89bdaa_74416439",
+        "filename": "prebuilt/common/etc/init.local.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2015-05-14T05:08:13Z",
+      "side": 1,
+      "message": "Any reason to not use the \"ctl.stop\" and \"ctl.start\" pseudo-properties to start and stop the service?",
+      "revId": "9f6d2d34a1063b2b5aecd73c0e36f730eda1810e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a89bdaa_adc1e430",
         "filename": "sepolicy/dnscryptproxy.te",
         "patchSetId": 4
