@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9a89bdaa_3518a41d",
+        "filename": "prebuilt/common/etc/init.local.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2015-05-23T18:29:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a89bdaa_cddc681b",
+      "revId": "9f6d2d34a1063b2b5aecd73c0e36f730eda1810e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a89bdaa_ede12cd2",
         "filename": "prebuilt/common/etc/init.local.rc",
         "patchSetId": 4
@@ -30,6 +48,24 @@
       "writtenOn": "2015-05-13T10:31:43Z",
       "side": 1,
       "message": "s/propery/property",
+      "revId": "9f6d2d34a1063b2b5aecd73c0e36f730eda1810e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a89bdaa_b52bd42f",
+        "filename": "prebuilt/common/etc/init.local.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2015-05-23T18:29:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a89bdaa_ede12cd2",
       "revId": "9f6d2d34a1063b2b5aecd73c0e36f730eda1810e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
@@ -71,6 +107,24 @@
     },
     {
       "key": {
+        "uuid": "9a89bdaa_d520584c",
+        "filename": "prebuilt/common/etc/init.local.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2015-05-23T18:29:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a89bdaa_74d164fb",
+      "revId": "9f6d2d34a1063b2b5aecd73c0e36f730eda1810e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a89bdaa_74416439",
         "filename": "prebuilt/common/etc/init.local.rc",
         "patchSetId": 4
@@ -106,6 +160,24 @@
     },
     {
       "key": {
+        "uuid": "9a89bdaa_f51d5c10",
+        "filename": "prebuilt/common/etc/init.local.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 126,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2015-05-23T18:29:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a89bdaa_94cee858",
+      "revId": "9f6d2d34a1063b2b5aecd73c0e36f730eda1810e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9a89bdaa_adc1e430",
         "filename": "sepolicy/dnscryptproxy.te",
         "patchSetId": 4
@@ -117,6 +189,24 @@
       "writtenOn": "2015-05-13T10:31:43Z",
       "side": 1,
       "message": "You can do \u0027allow init self:tcp_socket rw_socket_perms;\u0027 instead. You can also use \u0027... { create ioctl ... };\u0027 to replace the multi-line policy you currently have.",
+      "revId": "9f6d2d34a1063b2b5aecd73c0e36f730eda1810e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a89bdaa_9526d066",
+        "filename": "sepolicy/dnscryptproxy.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2015-05-23T18:29:33Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "9a89bdaa_adc1e430",
       "revId": "9f6d2d34a1063b2b5aecd73c0e36f730eda1810e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
