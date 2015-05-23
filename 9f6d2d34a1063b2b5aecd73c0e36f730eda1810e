@@ -210,6 +210,24 @@
       "revId": "9f6d2d34a1063b2b5aecd73c0e36f730eda1810e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a89bdaa_95ddf044",
+        "filename": "sepolicy/dnscryptproxy.te",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 10631
+      },
+      "writtenOn": "2015-05-23T18:33:02Z",
+      "side": 1,
+      "message": "I changed this according to your suggestions, now I am getting this \"W/dnscrypt-proxy( 6958): type\u003d1701 audit(0.0:386): auid\u003d4294967295 uid\u003d1001 gid\u003d1001 ses\u003d4294967295 subj\u003du:r:init:s0 reason\u003d\"memory violation\" sig\u003d11\"",
+      "parentUuid": "9a89bdaa_9526d066",
+      "revId": "9f6d2d34a1063b2b5aecd73c0e36f730eda1810e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
