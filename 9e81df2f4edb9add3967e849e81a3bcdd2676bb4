@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da36d5c6_cf6c510b",
+        "filename": "build/core/maven_artifact.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 11859
+      },
+      "writtenOn": "2015-06-19T04:41:05Z",
+      "side": 1,
+      "message": "If this is in OSS do we want this to be the Maven repo? Is there some way to override this value instead?",
+      "revId": "9e81df2f4edb9add3967e849e81a3bcdd2676bb4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
