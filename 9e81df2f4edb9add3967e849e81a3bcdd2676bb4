@@ -16,6 +16,24 @@
       "revId": "9e81df2f4edb9add3967e849e81a3bcdd2676bb4",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da36d5c6_924c4278",
+        "filename": "build/core/maven_artifact.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 10291
+      },
+      "writtenOn": "2015-06-19T11:34:22Z",
+      "side": 1,
+      "message": "hmmmm, good question. the presumption is that OSS projects will set the LOCAL_MAVEN_REPO value in their makefile, but defaulting it to an internal one probably isn\u0027t the best. i\u0027ll leave it as no default and require it to be set specifically.",
+      "parentUuid": "da36d5c6_cf6c510b",
+      "revId": "9e81df2f4edb9add3967e849e81a3bcdd2676bb4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
