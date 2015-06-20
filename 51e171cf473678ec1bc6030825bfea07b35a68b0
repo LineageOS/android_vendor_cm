@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "ba2be162_0b202149",
+        "filename": "build/core/clear_vars.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 10291
+      },
+      "writtenOn": "2015-06-20T08:27:41Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ba2be162_8b0411c7",
+      "revId": "51e171cf473678ec1bc6030825bfea07b35a68b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ba2be162_eb5cadef",
         "filename": "build/core/config.mk",
         "patchSetId": 3
@@ -30,6 +48,24 @@
       "writtenOn": "2015-06-20T08:14:23Z",
       "side": 1,
       "message": "Looks like a trailing space was added here?",
+      "revId": "51e171cf473678ec1bc6030825bfea07b35a68b0",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ba2be162_eb2aed2b",
+        "filename": "build/core/config.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 10291
+      },
+      "writtenOn": "2015-06-20T08:27:41Z",
+      "side": 1,
+      "message": "it\u0027s seeing the newline; previously there was no newline at the end of the file",
+      "parentUuid": "ba2be162_eb5cadef",
       "revId": "51e171cf473678ec1bc6030825bfea07b35a68b0",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
