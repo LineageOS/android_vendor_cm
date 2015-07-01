@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "9ff52f3f_e834e2e0",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 15
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2015-07-01T13:54:51Z",
+      "side": 1,
+      "message": "Typo ?",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 1
+      },
+      "revId": "015d4fdf9dc07b31cb31b2d8001d308e52baad84",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9ff52f3f_480d0e36",
         "filename": "prebuilt/common/etc/apns-conf.xml",
         "patchSetId": 15
