@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf091321_5821529f",
+        "filename": "build/core/definitions.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-07-30T21:20:21Z",
+      "side": 1,
+      "message": "Had to do this because TARGET_DEVICE isn\u0027t set as early as this might be used.\n\nSee I064e02cff12ae849da7ef7a2dedfbc4ec3e1b28d (internal)",
+      "range": {
+        "startLine": 20,
+        "startChar": 42,
+        "endLine": 20,
+        "endChar": 50
+      },
+      "revId": "45c5b7e6b3109695185e8a174ad123b6c4519998",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
