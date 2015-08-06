@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9f0e0f27_0c24c3c5",
+        "filename": "build/core/maven_artifact_publish.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-06T23:24:58Z",
+      "side": 1,
+      "message": "ok",
+      "parentUuid": "9f0e0f27_ac55d71f",
+      "revId": "2de567ed97154e9f2d0ef8b1e2f6796f92169cbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "9f0e0f27_8c30d309",
         "filename": "build/core/maven_artifact_publish.mk",
         "patchSetId": 6
@@ -30,6 +48,24 @@
       "writtenOn": "2015-08-06T23:23:50Z",
       "side": 1,
       "message": "what\u0027s this do?",
+      "revId": "2de567ed97154e9f2d0ef8b1e2f6796f92169cbf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9f0e0f27_2c3f87d7",
+        "filename": "build/core/maven_artifact_publish.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 61,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-08-06T23:24:58Z",
+      "side": 1,
+      "message": "relic from testing and logging out, will nuke.",
+      "parentUuid": "9f0e0f27_8c30d309",
       "revId": "2de567ed97154e9f2d0ef8b1e2f6796f92169cbf",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
