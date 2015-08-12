@@ -22,6 +22,30 @@
       "revId": "d9dad591794ea59977a0e2b52a2d973d409b5d24",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7f231b9d_6a88bf70",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 2
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 3962
+      },
+      "writtenOn": "2015-08-12T02:30:43Z",
+      "side": 1,
+      "message": "Want me to add those 3 to all the G3 models? I didn\u0027t touch the G3 since I\u0027ve literally only had one commit for that, but if you want them I\u0027ll do it.",
+      "parentUuid": "7f231b9d_1f4aaf7f",
+      "range": {
+        "startLine": 45,
+        "startChar": 4,
+        "endLine": 45,
+        "endChar": 9
+      },
+      "revId": "d9dad591794ea59977a0e2b52a2d973d409b5d24",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
