@@ -22,6 +22,40 @@
       "revId": "45c5b7e6b3109695185e8a174ad123b6c4519998",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f201791_75d2e836",
+        "filename": "build/core/definitions.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-08-17T21:05:54Z",
+      "side": 1,
+      "message": "Need to update this.",
+      "revId": "45c5b7e6b3109695185e8a174ad123b6c4519998",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f201791_55d7ec24",
+        "filename": "build/core/definitions.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2015-08-17T21:05:54Z",
+      "side": 1,
+      "message": "And this.",
+      "revId": "45c5b7e6b3109695185e8a174ad123b6c4519998",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
