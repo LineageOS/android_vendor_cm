@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f201791_4a9e1f08",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 2
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2015-08-20T03:10:06Z",
+      "side": 1,
+      "message": "HTC One Dual Sim (M8dug):",
+      "range": {
+        "startLine": 32,
+        "startChar": 4,
+        "endLine": 32,
+        "endChar": 25
+      },
+      "revId": "59a453a6d2434c6d7c62e024d647ba516664b84c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
