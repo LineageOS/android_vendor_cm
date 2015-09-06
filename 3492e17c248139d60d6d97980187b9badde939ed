@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_1c6d0098",
+        "filename": "prebuilt/common/etc/init.d/00banner",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 3134
+      },
+      "writtenOn": "2015-09-06T04:46:20Z",
+      "side": 1,
+      "message": "You must scape \"`\" characters with \"\\`\"",
+      "range": {
+        "startLine": 9,
+        "startChar": 25,
+        "endLine": 9,
+        "endChar": 26
+      },
+      "revId": "3492e17c248139d60d6d97980187b9badde939ed",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
