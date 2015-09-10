@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3f1d235d_87f6548f",
+        "filename": "prebuilt/common/etc/init.local.rc",
+        "patchSetId": 12
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 5681
+      },
+      "writtenOn": "2015-09-10T05:42:27Z",
+      "side": 1,
+      "message": "whitespace",
+      "revId": "7e0bf3da851d6bd6244a909464b17b6238c2a8f8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
