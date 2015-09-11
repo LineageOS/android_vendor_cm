@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f1a1f67_19d52bba",
+        "filename": "sepolicy/service_contexts",
+        "patchSetId": 3
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-09-11T06:58:58Z",
+      "side": 1,
+      "message": "Keep it consistent please, no underscores :p",
+      "revId": "1e58a79d8c0aa9c97644d1c93a75d6d93f04bb47",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
