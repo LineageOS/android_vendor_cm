@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f1a1f67_bc2aa08d",
+        "filename": "overlay/common/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 4
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-09-14T22:15:44Z",
+      "side": 1,
+      "message": "Can you add comment here for consistency",
+      "revId": "1054fba6412eb163757328274b5ef84f356ca34b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
