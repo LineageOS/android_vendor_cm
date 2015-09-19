@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff346bd7_e19e3053",
+        "filename": "prebuilt/common/etc/init.local.rc",
+        "patchSetId": 20
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 10151
+      },
+      "writtenOn": "2015-09-19T07:43:03Z",
+      "side": 1,
+      "message": "add xattr will cause mount failed, eventhough tmpfs xattr has been supported in kernel side.",
+      "range": {
+        "startLine": 11,
+        "startChar": 49,
+        "endLine": 11,
+        "endChar": 54
+      },
+      "revId": "28dbc8b311f341e702c39b6a5ee0cc048a0280fb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
