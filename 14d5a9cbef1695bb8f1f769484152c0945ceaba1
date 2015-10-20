@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f2577a7_8113eab8",
+        "filename": "overlay/common/frameworks/base/packages/SettingsProvider/res/values/defaults.xml",
+        "patchSetId": 18
+      },
+      "lineNbr": 20,
+      "author": {
+        "id": 7202
+      },
+      "writtenOn": "2015-10-20T17:32:01Z",
+      "side": 1,
+      "message": "That should be pushed as a separate change IMHO.\nWorks fine.",
+      "range": {
+        "startLine": 20,
+        "startChar": 40,
+        "endLine": 20,
+        "endChar": 75
+      },
+      "revId": "14d5a9cbef1695bb8f1f769484152c0945ceaba1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
