@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f2f7f8d_20baf0dd",
+        "filename": "config/telephony.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2015-11-04T03:05:29Z",
+      "side": 0,
+      "message": "SoundRecorder will still be needed afaik",
+      "revId": "ce4c12cc3562b478d51199e736065124f9466390",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
