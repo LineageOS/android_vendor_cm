@@ -16,6 +16,24 @@
       "revId": "83bbbd98b1ad3cecac091c35b0182c923e4df016",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1f2f7f8d_3ee31136",
+        "filename": "config/common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2015-11-10T04:19:37Z",
+      "side": 1,
+      "message": "The goal was to match current behavior for OSS builds.  I can switch it around to explicitely force device maintainers to set it to true...",
+      "parentUuid": "1f2f7f8d_9eae85e5",
+      "revId": "83bbbd98b1ad3cecac091c35b0182c923e4df016",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
