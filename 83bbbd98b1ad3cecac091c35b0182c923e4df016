@@ -70,6 +70,24 @@
       "revId": "83bbbd98b1ad3cecac091c35b0182c923e4df016",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1f2f7f8d_fe0909dd",
+        "filename": "config/common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2015-11-10T04:44:24Z",
+      "side": 1,
+      "message": "Yes, we are currently shipping it and need a way to disable it.\n\nI would be annoyed if I set TARGET_DISABLE_FS_EXFAT :\u003d false... I can switch it if we\u0027re okay with that.",
+      "parentUuid": "1f2f7f8d_9e4a0525",
+      "revId": "83bbbd98b1ad3cecac091c35b0182c923e4df016",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
