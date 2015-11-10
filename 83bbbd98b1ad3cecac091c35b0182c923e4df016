@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f2f7f8d_9eae85e5",
+        "filename": "config/common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-11-10T04:08:14Z",
+      "side": 1,
+      "message": "Can\u0027t say I\u0027m a fan of having a flag that you need to set to \u0027false\u0027 specifically. I think we\u0027ve been trying to go away from that.",
+      "revId": "83bbbd98b1ad3cecac091c35b0182c923e4df016",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
