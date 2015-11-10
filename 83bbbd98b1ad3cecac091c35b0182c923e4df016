@@ -52,6 +52,24 @@
       "revId": "83bbbd98b1ad3cecac091c35b0182c923e4df016",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1f2f7f8d_9e4a0525",
+        "filename": "config/common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-11-10T04:26:20Z",
+      "side": 1,
+      "message": "Why not something like\n\nifeq ($(TARGET_DISABLE_FS_EXFAT),)\n\nPRODUCT_PACKAGES +\u003d ...\n\nendif",
+      "parentUuid": "1f2f7f8d_de408d0a",
+      "revId": "83bbbd98b1ad3cecac091c35b0182c923e4df016",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
