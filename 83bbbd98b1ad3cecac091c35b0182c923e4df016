@@ -88,6 +88,24 @@
       "revId": "83bbbd98b1ad3cecac091c35b0182c923e4df016",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1f2f7f8d_7e919952",
+        "filename": "config/common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-11-10T05:02:34Z",
+      "side": 1,
+      "message": "Hm, that would be kind of weird. Ideally you shouldn\u0027t be setting a flag to false though, it should just be removed.",
+      "parentUuid": "1f2f7f8d_fe0909dd",
+      "revId": "83bbbd98b1ad3cecac091c35b0182c923e4df016",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
