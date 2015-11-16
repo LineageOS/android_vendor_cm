@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1f2f7f8d_3e841a5e",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2015-11-16T09:51:30Z",
+      "side": 1,
+      "message": "yes, but make sure we keep the wipe battery stats script\n\n\u003dP",
+      "revId": "fd555e1f6f4698e8f5dd14f95e0c805a6b3465ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
