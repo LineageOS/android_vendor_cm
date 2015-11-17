@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff5d4b2f_b3340ae0",
+        "filename": "sepolicy/domain.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2015-11-17T10:22:21Z",
+      "side": 1,
+      "message": "ws",
+      "range": {
+        "startLine": 1,
+        "startChar": 49,
+        "endLine": 1,
+        "endChar": 50
+      },
+      "revId": "ddf855f2f24c468553a25bdbecf1671bb8011797",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
