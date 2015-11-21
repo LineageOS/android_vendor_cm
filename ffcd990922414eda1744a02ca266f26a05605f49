@@ -16,6 +16,24 @@
       "revId": "ffcd990922414eda1744a02ca266f26a05605f49",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f4e5783_c81d8f10",
+        "filename": "sepolicy/su.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 523
+      },
+      "writtenOn": "2015-11-21T02:54:22Z",
+      "side": 0,
+      "message": "i\u0027ve removed a duplicate newline.",
+      "parentUuid": "5f4e5783_a86c939c",
+      "revId": "ffcd990922414eda1744a02ca266f26a05605f49",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
