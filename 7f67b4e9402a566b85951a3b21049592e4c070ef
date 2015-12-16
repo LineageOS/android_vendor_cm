@@ -39,6 +39,30 @@
       "revId": "7f67b4e9402a566b85951a3b21049592e4c070ef",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff6b8bd7_e0ce5682",
+        "filename": "sepolicy/shell.te",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-12-16T01:52:20Z",
+      "side": 0,
+      "message": "Missed that, thanks.",
+      "parentUuid": "ff6b8bd7_e0e5f60b",
+      "range": {
+        "startLine": 1,
+        "startChar": 12,
+        "endLine": 1,
+        "endChar": 23
+      },
+      "revId": "7f67b4e9402a566b85951a3b21049592e4c070ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
