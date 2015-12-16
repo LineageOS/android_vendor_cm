@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff6b8bd7_60d24637",
+        "filename": "sepolicy/property_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-12-16T01:40:33Z",
+      "side": 1,
+      "message": "Could rename this if someone feels they have a better name.",
+      "revId": "79ef4c98875c3209edf1873dbd6c7f0e63b9f504",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

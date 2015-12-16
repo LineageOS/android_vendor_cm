@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff6b8bd7_c01792ed",
+        "filename": "prebuilt/common/etc/init.local.rc",
+        "patchSetId": 1
+      },
+      "lineNbr": 174,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-12-16T01:40:33Z",
+      "side": 0,
+      "message": "Whoops, I should get rid of this change.",
+      "revId": "7f67b4e9402a566b85951a3b21049592e4c070ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
