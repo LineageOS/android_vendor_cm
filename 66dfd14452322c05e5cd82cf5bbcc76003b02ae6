@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff6b8bd7_00e34a07",
+        "filename": "prebuilt/common/etc/init.local.rc",
+        "patchSetId": 2
+      },
+      "lineNbr": 142,
+      "author": {
+        "id": 68
+      },
+      "writtenOn": "2015-12-16T01:45:55Z",
+      "side": 1,
+      "message": "We could replace both by\non property:adb.network.port\u003d*\n   setprop service.adb.tcp.port ${adb.network.port}",
+      "revId": "66dfd14452322c05e5cd82cf5bbcc76003b02ae6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
