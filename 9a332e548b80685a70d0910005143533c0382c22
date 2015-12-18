@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "bf659307_3ef791f8",
+        "filename": "sepolicy/file_contexts",
+        "patchSetId": 2
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2015-12-18T06:40:18Z",
+      "side": 1,
+      "message": "Why not shove these up by the f2fs ones instead?",
+      "revId": "9a332e548b80685a70d0910005143533c0382c22",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
