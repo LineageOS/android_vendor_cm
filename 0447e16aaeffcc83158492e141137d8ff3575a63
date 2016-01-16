@@ -16,6 +16,24 @@
       "revId": "0447e16aaeffcc83158492e141137d8ff3575a63",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_80741a9b",
+        "filename": "build/core/maven_artifact.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 13760
+      },
+      "writtenOn": "2016-01-16T06:59:00Z",
+      "side": 1,
+      "message": "See my non-inline comments (change request comments)",
+      "parentUuid": "1fcbff3d_6056ce09",
+      "revId": "0447e16aaeffcc83158492e141137d8ff3575a63",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
