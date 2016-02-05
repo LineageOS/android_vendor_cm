@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fcbff3d_8057ff02",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 1537,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2016-02-05T03:18:17Z",
+      "side": 0,
+      "message": "pretty sure this is a duplicate of line 1522, but have no way to test",
+      "revId": "144291005ddf8654a298467d22b71f83fdf3cffc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1fcbff3d_603c53bf",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 1539,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2016-02-05T03:18:17Z",
+      "side": 0,
+      "message": "this is a duplicate of line 1538",
+      "revId": "144291005ddf8654a298467d22b71f83fdf3cffc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
