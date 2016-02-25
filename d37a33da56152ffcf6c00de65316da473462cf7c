@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_5797af91",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2016-02-25T04:34:37Z",
+      "side": 1,
+      "message": "group this under line 78?",
+      "revId": "d37a33da56152ffcf6c00de65316da473462cf7c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
