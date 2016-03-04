@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "ffb9cba7_aa38f2d2",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 9528
+      },
+      "writtenOn": "2016-03-04T06:56:51Z",
+      "side": 1,
+      "message": "Added a few more details, let me know if you think there are any more details I should include in the commit msg.",
+      "parentUuid": "ffb9cba7_0a281e84",
+      "revId": "0809823afeb12fa82d2a82175598f474a74bbf26",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "ffb9cba7_4f07081e",
         "filename": "ambientsdk/Android.mk",
         "patchSetId": 2
@@ -48,6 +66,24 @@
       "side": 1,
       "message": "Yup I do think so",
       "parentUuid": "ffb9cba7_4f07081e",
+      "revId": "0809823afeb12fa82d2a82175598f474a74bbf26",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_4a35b6d9",
+        "filename": "ambientsdk/Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 9528
+      },
+      "writtenOn": "2016-03-04T06:56:51Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "ffb9cba7_0affbe01",
       "revId": "0809823afeb12fa82d2a82175598f474a74bbf26",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
