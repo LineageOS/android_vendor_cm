@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ffb9cba7_4f07081e",
+        "filename": "ambientsdk/Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 9813
+      },
+      "writtenOn": "2016-03-04T06:36:10Z",
+      "side": 1,
+      "message": "probably needs copyright text",
+      "revId": "0809823afeb12fa82d2a82175598f474a74bbf26",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
