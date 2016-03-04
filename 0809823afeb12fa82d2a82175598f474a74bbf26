@@ -87,6 +87,24 @@
       "revId": "0809823afeb12fa82d2a82175598f474a74bbf26",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ffb9cba7_aa66b2ec",
+        "filename": "ambientsdk/Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 14699
+      },
+      "writtenOn": "2016-03-04T07:03:49Z",
+      "side": 1,
+      "message": "I spoke to Frank M about this last night.  I think that what you want, here, is this:\n\n/*\u003d\u003d\u003d\u003d*\u003d\u003d\u003d\u003d*\u003d\u003d\u003d\u003d*\u003d\u003d\u003d\u003d*\u003d\u003d\u003d\u003d*\u003d\u003d\u003d\u003d*\u003d\u003d\u003d\u003d*\u003d\u003d\u003d\u003d*\u003d\u003d\u003d\u003d*\u003d\u003d\u003d\u003d*\u003d\u003d\u003d\u003d*\n *  Copyright (c) 2016 Cyanogen Inc.\n *     All Rights Reserved.\n *     Cyanogen Confidential and Proprietary.\n *\n *  Not a Contribution, Apache license notifications and\n *  license are retained for attribution purposes only.\n \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d*/",
+      "parentUuid": "ffb9cba7_4a35b6d9",
+      "revId": "0809823afeb12fa82d2a82175598f474a74bbf26",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
