@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_9750eb34",
+        "filename": "config/common.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 14421
+      },
+      "writtenOn": "2016-03-21T20:35:20Z",
+      "side": 1,
+      "message": "Done",
+      "range": {
+        "startLine": 158,
+        "startChar": 4,
+        "endLine": 158,
+        "endChar": 19
+      },
+      "revId": "42d1e2b6214fd518059ed0e4a646c5b5ce8a5ed9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
