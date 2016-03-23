@@ -1,0 +1,84 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_a39fe2b2",
+        "filename": "prebuilt/common/bin/wget",
+        "patchSetId": 1
+      },
+      "lineNbr": 16,
+      "author": {
+        "id": 14090
+      },
+      "writtenOn": "2016-03-23T19:48:55Z",
+      "side": 1,
+      "message": "consider using \u0027strict\u0027 mode\n\n  set -o errexit\n  set -o nounset",
+      "revId": "32a192e3f690e8181102b6760d2bb1da4efc58b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_8375069b",
+        "filename": "prebuilt/common/bin/wget",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 14090
+      },
+      "writtenOn": "2016-03-23T19:48:55Z",
+      "side": 1,
+      "message": "Isn\u0027t this script wrapping curl?",
+      "revId": "32a192e3f690e8181102b6760d2bb1da4efc58b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_437dce6c",
+        "filename": "prebuilt/common/bin/wget",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 14090
+      },
+      "writtenOn": "2016-03-23T19:48:55Z",
+      "side": 1,
+      "message": "Probably should exit and print \"not implemented\" for all these \u0027XXX\u0027 cases. At the very least, throw a warning.",
+      "range": {
+        "startLine": 83,
+        "startChar": 3,
+        "endLine": 83,
+        "endChar": 8
+      },
+      "revId": "32a192e3f690e8181102b6760d2bb1da4efc58b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_63824a52",
+        "filename": "prebuilt/common/bin/wget",
+        "patchSetId": 1
+      },
+      "lineNbr": 474,
+      "author": {
+        "id": 14090
+      },
+      "writtenOn": "2016-03-23T19:48:55Z",
+      "side": 1,
+      "message": "This pattern could be simplified to:\n\n    curlopts+\u003d\"${opt_ip+ -$opt_ip}\"\n\nEverything after the \u0027+\u0027 is expanded only if the var before the \u0027+\u0027 is set.",
+      "range": {
+        "startLine": 472,
+        "startChar": 0,
+        "endLine": 474,
+        "endChar": 2
+      },
+      "revId": "32a192e3f690e8181102b6760d2bb1da4efc58b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
