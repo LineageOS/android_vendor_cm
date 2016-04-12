@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_57cc7ebb",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 286,
+      "author": {
+        "id": 10984
+      },
+      "writtenOn": "2016-04-12T09:19:59Z",
+      "side": 1,
+      "message": "we already have an \"Movistar MMS\" APN (see 288), but the additions of supl type and authtype 1 are welcome.",
+      "revId": "8e09ba3cb39dfcf4b7b3a1e7a94df94c08bfd6c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_b7d5b245",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 287,
+      "author": {
+        "id": 10984
+      },
+      "writtenOn": "2016-04-12T09:19:59Z",
+      "side": 1,
+      "message": "The name is \"Conexión Compartida\" (keep the accent on \u0027ó\u0027, but capitalize the second word).",
+      "range": {
+        "startLine": 287,
+        "startChar": 0,
+        "endLine": 287,
+        "endChar": 135
+      },
+      "revId": "8e09ba3cb39dfcf4b7b3a1e7a94df94c08bfd6c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_77cf3ab0",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 288,
+      "author": {
+        "id": 10984
+      },
+      "writtenOn": "2016-04-12T09:19:59Z",
+      "side": 1,
+      "message": "could use an authtype\u003d\"1\"",
+      "revId": "8e09ba3cb39dfcf4b7b3a1e7a94df94c08bfd6c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
