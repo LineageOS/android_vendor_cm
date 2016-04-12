@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7faddb67_77709add",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 3383,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2016-04-12T16:13:15Z",
+      "side": 1,
+      "message": "For the love of my sanity, please move type to be the last field shown in this list (eg, match the majority of the others and the ones you are replacing)",
+      "range": {
+        "startLine": 3383,
+        "startChar": 137,
+        "endLine": 3383,
+        "endChar": 147
+      },
+      "revId": "4f21ebc80823d840981faaf0ca9a8d815d75dcf1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
