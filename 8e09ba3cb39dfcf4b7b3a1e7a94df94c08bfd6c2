@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_22cc1e69",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 286,
+      "author": {
+        "id": 6753
+      },
+      "writtenOn": "2016-04-12T21:08:28Z",
+      "side": 1,
+      "message": "I believe the idea here was to remove the split APNs I just missed removing the dedicated MMS apn",
+      "parentUuid": "7faddb67_57cc7ebb",
+      "revId": "8e09ba3cb39dfcf4b7b3a1e7a94df94c08bfd6c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_b7d5b245",
         "filename": "prebuilt/common/etc/apns-conf.xml",
         "patchSetId": 1
@@ -42,6 +60,30 @@
     },
     {
       "key": {
+        "uuid": "7faddb67_42c7da46",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 287,
+      "author": {
+        "id": 6753
+      },
+      "writtenOn": "2016-04-12T21:08:28Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7faddb67_b7d5b245",
+      "range": {
+        "startLine": 287,
+        "startChar": 0,
+        "endLine": 287,
+        "endChar": 135
+      },
+      "revId": "8e09ba3cb39dfcf4b7b3a1e7a94df94c08bfd6c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7faddb67_77cf3ab0",
         "filename": "prebuilt/common/etc/apns-conf.xml",
         "patchSetId": 1
@@ -53,6 +95,24 @@
       "writtenOn": "2016-04-12T09:19:59Z",
       "side": 1,
       "message": "could use an authtype\u003d\"1\"",
+      "revId": "8e09ba3cb39dfcf4b7b3a1e7a94df94c08bfd6c2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7faddb67_e2c5a63d",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 288,
+      "author": {
+        "id": 6753
+      },
+      "writtenOn": "2016-04-12T21:08:28Z",
+      "side": 1,
+      "message": "see above",
+      "parentUuid": "7faddb67_77cf3ab0",
       "revId": "8e09ba3cb39dfcf4b7b3a1e7a94df94c08bfd6c2",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
