@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_abe26d2e",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1433,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2016-04-15T17:30:31Z",
+      "side": 1,
+      "message": "IA \u003d\u003d initial activation - do we need this change or is this just to match the AOSP files?",
+      "range": {
+        "startLine": 1433,
+        "startChar": 155,
+        "endLine": 1433,
+        "endChar": 164
+      },
+      "revId": "50cc0d4f536bb9db4d3d8f12eef7fcd54f7b3e4b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
