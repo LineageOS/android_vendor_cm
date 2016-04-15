@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_6bd6b552",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 286,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2016-04-15T17:31:16Z",
+      "side": 1,
+      "message": "Preserve formatting please (empty space). Same for line below",
+      "range": {
+        "startLine": 286,
+        "startChar": 246,
+        "endLine": 286,
+        "endChar": 248
+      },
+      "revId": "5b6b9dbb0c60c1c2b8d28e037b0512fd3a2f67bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
