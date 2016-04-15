@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_0bf2a107",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 2949,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2016-04-15T17:28:32Z",
+      "side": 1,
+      "message": "Why remove the empty space?",
+      "range": {
+        "startLine": 2949,
+        "startChar": 91,
+        "endLine": 2949,
+        "endChar": 93
+      },
+      "revId": "a5bd42c4bea944ed05e644161610a27163b44ab2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5faad753_ebd86580",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 2950,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2016-04-15T17:28:32Z",
+      "side": 1,
+      "message": "Internet vs GPRS name change is fine, but this re-ordering is unneeded.",
+      "range": {
+        "startLine": 2950,
+        "startChar": 67,
+        "endLine": 2950,
+        "endChar": 89
+      },
+      "revId": "a5bd42c4bea944ed05e644161610a27163b44ab2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
