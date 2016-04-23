@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_67a9f8dd",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 2924,
+      "author": {
+        "id": 1690
+      },
+      "writtenOn": "2016-04-23T08:19:14Z",
+      "side": 1,
+      "message": "These lines are redundant and can be removed if desired but I have no way to test Viva.",
+      "range": {
+        "startLine": 2923,
+        "startChar": 0,
+        "endLine": 2924,
+        "endChar": 154
+      },
+      "revId": "153a358b828d7ff651d93291a35712634be47114",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
