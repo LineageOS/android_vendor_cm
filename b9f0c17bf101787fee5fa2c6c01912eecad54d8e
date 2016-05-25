@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_744b842a",
+        "filename": "config/common.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-05-25T07:01:03Z",
+      "side": 1,
+      "message": "Shouldn\u0027t it be ifeq ? Hence if both vars are empty (which are, I tested on my server with Huashan env), means we want the backuptool \u0026 need the empty strings to be equal.",
+      "revId": "b9f0c17bf101787fee5fa2c6c01912eecad54d8e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
