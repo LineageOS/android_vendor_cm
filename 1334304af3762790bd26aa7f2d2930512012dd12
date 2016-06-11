@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_763363f7",
+        "filename": "PicoTtsCM/Android.mk",
+        "patchSetId": 10
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 2195
+      },
+      "writtenOn": "2016-06-11T04:20:59Z",
+      "side": 1,
+      "message": "src_files :\u003d \\",
+      "revId": "1334304af3762790bd26aa7f2d2930512012dd12",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
