@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5faad753_e9faf640",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 2
+      },
+      "lineNbr": 147,
+      "author": {
+        "id": 8392
+      },
+      "writtenOn": "2016-06-24T09:53:44Z",
+      "side": 1,
+      "message": "Would prefer to have my name there, as I did the development. RaymanFX did the initial upload for me as I don\u0027t have the rights, yet.",
+      "range": {
+        "startLine": 147,
+        "startChar": 44,
+        "endLine": 147,
+        "endChar": 52
+      },
+      "revId": "a8984b3aae39e9e4017be88afdcec870f9eac7ad",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
