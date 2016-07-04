@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_f0112555",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 287,
+      "author": {
+        "id": 10984
+      },
+      "writtenOn": "2016-07-04T09:37:34Z",
+      "side": 1,
+      "message": "Are these credentials validated?\nThe info I have is user\u003d\"movistar\" password\u003d\"movistar\" (ie, same credentials but in lower case).",
+      "range": {
+        "startLine": 287,
+        "startChar": 80,
+        "endLine": 287,
+        "endChar": 88
+      },
+      "revId": "4830dff2030752d376bb9def42789358082175d3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
