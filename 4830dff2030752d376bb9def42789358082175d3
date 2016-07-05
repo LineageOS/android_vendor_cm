@@ -22,6 +22,30 @@
       "revId": "4830dff2030752d376bb9def42789358082175d3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_d003c90e",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 6
+      },
+      "lineNbr": 287,
+      "author": {
+        "id": 6753
+      },
+      "writtenOn": "2016-07-05T00:59:26Z",
+      "side": 1,
+      "message": "I can\u0027t verify myself and my user who reported issues disapeared. I can on trust the google, https://android.googlesource.com/device/lge/bullhead/+/android-6.0.1_r46/apns-full-conf.xml#1953",
+      "parentUuid": "3fa7e38b_f0112555",
+      "range": {
+        "startLine": 287,
+        "startChar": 80,
+        "endLine": 287,
+        "endChar": 88
+      },
+      "revId": "4830dff2030752d376bb9def42789358082175d3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
