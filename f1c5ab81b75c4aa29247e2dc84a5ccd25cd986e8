@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_07ed9bee",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 1108,
+      "author": {
+        "id": 15493
+      },
+      "writtenOn": "2016-07-11T19:34:48Z",
+      "side": 0,
+      "message": "Can you please provide the reason for removing 04 and 09 MNC corresponding to 262 MCC. I guess they are still assigned to Vodafone only.",
+      "revId": "f1c5ab81b75c4aa29247e2dc84a5ccd25cd986e8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
