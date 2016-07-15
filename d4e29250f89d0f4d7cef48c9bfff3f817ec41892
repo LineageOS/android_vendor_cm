@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_52d025f8",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 10
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-07-15T20:05:05Z",
+      "side": 1,
+      "message": "I think we can safely remove this check tho",
+      "range": {
+        "startLine": 57,
+        "startChar": 6,
+        "endLine": 57,
+        "endChar": 51
+      },
+      "revId": "d4e29250f89d0f4d7cef48c9bfff3f817ec41892",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
