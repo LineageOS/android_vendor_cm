@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_afa9f6df",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 240,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-07-15T15:48:42Z",
+      "side": 1,
+      "message": "Can be replaced with\nYEAR\u003d`date +\"%Y` and $YEAR",
+      "range": {
+        "startLine": 240,
+        "startChar": 16,
+        "endLine": 240,
+        "endChar": 20
+      },
+      "revId": "62277c9be16d543f074d4284f8c88e357cc94fc1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
