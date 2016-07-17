@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_c81308b8",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 19
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-17T09:42:50Z",
+      "side": 1,
+      "message": "Arg 3 is not the output directory.",
+      "range": {
+        "startLine": 27,
+        "startChar": 6,
+        "endLine": 27,
+        "endChar": 22
+      },
+      "revId": "1d35a0c1ac27bf239df791c59f3546c8532cf9cb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_082120fc",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 19
+      },
+      "lineNbr": 406,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-17T09:42:50Z",
+      "side": 1,
+      "message": "This should not be here. Even on common, we want to write footer.",
+      "range": {
+        "startLine": 406,
+        "startChar": 0,
+        "endLine": 406,
+        "endChar": 30
+      },
+      "revId": "1d35a0c1ac27bf239df791c59f3546c8532cf9cb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
