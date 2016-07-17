@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_c8dc681a",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 15
+      },
+      "lineNbr": 432,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-07-17T08:49:10Z",
+      "side": 1,
+      "message": "We may want to add some kind of arguments like I did in my device http://review.cyanogenmod.org/#/c/152995/2/extract-files.sh",
+      "range": {
+        "startLine": 428,
+        "startChar": 0,
+        "endLine": 432,
+        "endChar": 6
+      },
+      "revId": "545d5ff5a2c6114ec35c3e40bf4475088484b82e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
