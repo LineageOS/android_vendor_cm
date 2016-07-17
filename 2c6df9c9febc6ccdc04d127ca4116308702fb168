@@ -22,6 +22,30 @@
       "revId": "2c6df9c9febc6ccdc04d127ca4116308702fb168",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_037b418c",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 24
+      },
+      "lineNbr": 363,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-07-17T12:16:48Z",
+      "side": 1,
+      "message": "I know, I will try to workaround this one aswell",
+      "parentUuid": "3fa7e38b_4347f94c",
+      "range": {
+        "startLine": 363,
+        "startChar": 0,
+        "endLine": 363,
+        "endChar": 69
+      },
+      "revId": "2c6df9c9febc6ccdc04d127ca4116308702fb168",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
