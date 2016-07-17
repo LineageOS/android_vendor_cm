@@ -22,6 +22,30 @@
       "revId": "58ae4b8ca36b3e64e220719943a3a7ce8899dcb5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_03890174",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 25
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-07-17T12:56:22Z",
+      "side": 1,
+      "message": "We should match common android makefile layout",
+      "parentUuid": "3fa7e38b_83abb1d4",
+      "range": {
+        "startLine": 165,
+        "startChar": 6,
+        "endLine": 213,
+        "endChar": 39
+      },
+      "revId": "58ae4b8ca36b3e64e220719943a3a7ce8899dcb5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
