@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_7eae4a2f",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 34
+      },
+      "lineNbr": 533,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-07-18T09:42:39Z",
+      "side": 1,
+      "message": "Probably we should add x86/x64",
+      "range": {
+        "startLine": 529,
+        "startChar": 0,
+        "endLine": 533,
+        "endChar": 6
+      },
+      "revId": "750075f3bca33380888a6779df148a4cc4bf2f66",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_1eab961d",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 34
+      },
+      "lineNbr": 546,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-07-18T09:42:39Z",
+      "side": 1,
+      "message": "You need to export BAKSMALIJAR and SMALIJAR to point the corresponding .jar path",
+      "range": {
+        "startLine": 546,
+        "startChar": 16,
+        "endLine": 546,
+        "endChar": 27
+      },
+      "revId": "750075f3bca33380888a6779df148a4cc4bf2f66",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
