@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_5e0d8e3c",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 36
+      },
+      "lineNbr": 434,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-07-18T10:51:55Z",
+      "side": 1,
+      "message": "You may want to check if $1 exist",
+      "range": {
+        "startLine": 434,
+        "startChar": 17,
+        "endLine": 434,
+        "endChar": 19
+      },
+      "revId": "c1435c1d5c33020e4cd30d8e8596fea8c8def287",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
