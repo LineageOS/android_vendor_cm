@@ -45,6 +45,30 @@
       "revId": "750075f3bca33380888a6779df148a4cc4bf2f66",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_de62de16",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 34
+      },
+      "lineNbr": 546,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-07-18T09:44:44Z",
+      "side": 1,
+      "message": "Maybe ship them here in vendor/cm?",
+      "parentUuid": "3fa7e38b_1eab961d",
+      "range": {
+        "startLine": 546,
+        "startChar": 16,
+        "endLine": 546,
+        "endChar": 27
+      },
+      "revId": "750075f3bca33380888a6779df148a4cc4bf2f66",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
