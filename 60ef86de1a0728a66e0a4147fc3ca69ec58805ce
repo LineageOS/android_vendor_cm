@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_01756f95",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 293,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-21T11:46:27Z",
+      "side": 1,
+      "message": "Didn\u0027t you forget to remove this?",
+      "range": {
+        "startLine": 293,
+        "startChar": 4,
+        "endLine": 293,
+        "endChar": 29
+      },
+      "revId": "60ef86de1a0728a66e0a4147fc3ca69ec58805ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
