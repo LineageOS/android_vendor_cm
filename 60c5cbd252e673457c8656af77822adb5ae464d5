@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "3fa7e38b_570245b6",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 554,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-22T10:14:40Z",
+      "side": 1,
+      "message": "I don\u0027t see the point. Why wouldn\u0027t the user want to deodex the apk|jar?",
+      "parentUuid": "3fa7e38b_f7d01153",
+      "range": {
+        "startLine": 554,
+        "startChar": 9,
+        "endLine": 554,
+        "endChar": 16
+      },
+      "revId": "60c5cbd252e673457c8656af77822adb5ae464d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3fa7e38b_17d28d5d",
         "filename": "build/tools/extract_utils.sh",
         "patchSetId": 11
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "3fa7e38b_77ff41aa",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 576,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-22T10:14:40Z",
+      "side": 1,
+      "message": "Are you sure of that? On all *fully* deodexed roms I have looked at, I could\u0027t find any boot.oat.",
+      "parentUuid": "3fa7e38b_17d28d5d",
+      "range": {
+        "startLine": 572,
+        "startChar": 0,
+        "endLine": 576,
+        "endChar": 14
+      },
+      "revId": "60c5cbd252e673457c8656af77822adb5ae464d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3fa7e38b_d7cb95a2",
         "filename": "build/tools/extract_utils.sh",
         "patchSetId": 11
@@ -59,6 +107,30 @@
       "writtenOn": "2016-07-22T07:26:30Z",
       "side": 1,
       "message": "Did anyone test this code?\nI cp\u0027d it without any test ...",
+      "range": {
+        "startLine": 728,
+        "startChar": 0,
+        "endLine": 734,
+        "endChar": 14
+      },
+      "revId": "60c5cbd252e673457c8656af77822adb5ae464d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_172e0d43",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 734,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-22T10:14:40Z",
+      "side": 1,
+      "message": "I think the code is okay and is used to fix stock .xml files such as /system/etc/data/qmi_config.xml where the XML header is not at the beginning of the file.\n\n(although, it doesn\u0027t have anything to do with oat2dex)",
+      "parentUuid": "3fa7e38b_d7cb95a2",
       "range": {
         "startLine": 728,
         "startChar": 0,
