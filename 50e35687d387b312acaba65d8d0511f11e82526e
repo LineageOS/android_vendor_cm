@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "3fa7e38b_d7e635e9",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 14
+      },
+      "lineNbr": 612,
+      "author": {
+        "id": 4567
+      },
+      "writtenOn": "2016-07-22T13:01:54Z",
+      "side": 1,
+      "message": "i was thinking the same thing",
+      "parentUuid": "3fa7e38b_77c2e135",
+      "range": {
+        "startLine": 612,
+        "startChar": 16,
+        "endLine": 612,
+        "endChar": 24
+      },
+      "revId": "50e35687d387b312acaba65d8d0511f11e82526e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3fa7e38b_57c5653b",
         "filename": "build/tools/extract_utils.sh",
         "patchSetId": 14
@@ -42,6 +66,23 @@
         "endLine": 621,
         "endChar": 24
       },
+      "revId": "50e35687d387b312acaba65d8d0511f11e82526e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_f7eb31ad",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 14
+      },
+      "lineNbr": 625,
+      "author": {
+        "id": 4567
+      },
+      "writtenOn": "2016-07-22T13:01:54Z",
+      "side": 1,
+      "message": "earlier?",
       "revId": "50e35687d387b312acaba65d8d0511f11e82526e",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
