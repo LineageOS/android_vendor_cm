@@ -70,6 +70,30 @@
       "revId": "af933abb69f12c9459f157010224f2eeb9701a5c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_5721e5fa",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 17
+      },
+      "lineNbr": 605,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-22T13:22:19Z",
+      "side": 1,
+      "message": "No, the script will exit if $BAKSMALI or $SMALI are not set. Which, in case the ROM is fully deodexed won\u0027t be a problem as no one will care.",
+      "parentUuid": "3fa7e38b_f71251b1",
+      "range": {
+        "startLine": 602,
+        "startChar": 0,
+        "endLine": 605,
+        "endChar": 6
+      },
+      "revId": "af933abb69f12c9459f157010224f2eeb9701a5c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
