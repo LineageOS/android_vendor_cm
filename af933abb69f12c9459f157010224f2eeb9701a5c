@@ -94,6 +94,30 @@
       "revId": "af933abb69f12c9459f157010224f2eeb9701a5c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_d782b5c8",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 17
+      },
+      "lineNbr": 605,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-07-22T13:24:22Z",
+      "side": 1,
+      "message": "Damn, I just noticed it\u0027s \"exit 1\", return 1? I don\u0027t see the point to exit if we fail dex2oat",
+      "parentUuid": "3fa7e38b_5721e5fa",
+      "range": {
+        "startLine": 602,
+        "startChar": 0,
+        "endLine": 605,
+        "endChar": 6
+      },
+      "revId": "af933abb69f12c9459f157010224f2eeb9701a5c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
