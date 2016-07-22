@@ -164,6 +164,30 @@
       "revId": "60c5cbd252e673457c8656af77822adb5ae464d5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_57f005ca",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 734,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-22T11:16:52Z",
+      "side": 1,
+      "message": "Actually, this is breaking some .xml files which don\u0027t need any fix. See this:\n\n\u003e diff --git a/gemini/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml b/gemini/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml\n\u003e index 503e42b..2a06cf5 100644\n\u003e --- a/gemini/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml\n\u003e +++ b/gemini/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml\n\u003e @@ -1,3 +1,4 @@\n\u003e +\n\u003e  \u003cU+FEFF\u003e\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003e  \u003c!--Copyright (c) 2014-2015 Qualcomm Technologies, Inc.  All Rights Reserved. Qualcomm Technologies Proprietary and Confidential.--\u003e\n\u003e  \u003cNsrmPolicy\u003e\n\nMy opinion is that this code should be put on a separate patch and thoroughly tested.",
+      "parentUuid": "3fa7e38b_7718a11c",
+      "range": {
+        "startLine": 728,
+        "startChar": 0,
+        "endLine": 734,
+        "endChar": 14
+      },
+      "revId": "60c5cbd252e673457c8656af77822adb5ae464d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
