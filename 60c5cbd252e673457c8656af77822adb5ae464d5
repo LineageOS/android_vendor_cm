@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_f7d01153",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 554,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-07-22T07:26:30Z",
+      "side": 1,
+      "message": "I think we should execute oat2dex only if BAKSMALIJAR, SMALIJAR ( like you already check ) and a global variable set by user ( OAT2DEX\u003d0 disable oat2dex, default to 1 )",
+      "range": {
+        "startLine": 554,
+        "startChar": 9,
+        "endLine": 554,
+        "endChar": 16
+      },
+      "revId": "60c5cbd252e673457c8656af77822adb5ae464d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_17d28d5d",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 576,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-07-22T07:26:30Z",
+      "side": 1,
+      "message": "Even deodexed roms there is the boot.oat, so this check is useless, you need to found another way",
+      "range": {
+        "startLine": 572,
+        "startChar": 0,
+        "endLine": 576,
+        "endChar": 14
+      },
+      "revId": "60c5cbd252e673457c8656af77822adb5ae464d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_d7cb95a2",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 11
+      },
+      "lineNbr": 734,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-07-22T07:26:30Z",
+      "side": 1,
+      "message": "Did anyone test this code?\nI cp\u0027d it without any test ...",
+      "range": {
+        "startLine": 728,
+        "startChar": 0,
+        "endLine": 734,
+        "endChar": 14
+      },
+      "revId": "60c5cbd252e673457c8656af77822adb5ae464d5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
