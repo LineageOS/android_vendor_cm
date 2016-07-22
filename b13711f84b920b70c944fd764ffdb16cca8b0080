@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_57ac858b",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 13
+      },
+      "lineNbr": 569,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-07-22T12:56:05Z",
+      "side": 1,
+      "message": "export is unneeded",
+      "range": {
+        "startLine": 569,
+        "startChar": 16,
+        "endLine": 569,
+        "endChar": 22
+      },
+      "revId": "b13711f84b920b70c944fd764ffdb16cca8b0080",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_77a98179",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 13
+      },
+      "lineNbr": 572,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-07-22T12:56:05Z",
+      "side": 1,
+      "message": "ARCHES+\u003d\"arm\"",
+      "range": {
+        "startLine": 572,
+        "startChar": 23,
+        "endLine": 572,
+        "endChar": 29
+      },
+      "revId": "b13711f84b920b70c944fd764ffdb16cca8b0080",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_17b84dc6",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 13
+      },
+      "lineNbr": 596,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-07-22T12:56:05Z",
+      "side": 1,
+      "message": "Same here, can be replaced with local",
+      "range": {
+        "startLine": 596,
+        "startChar": 4,
+        "endLine": 596,
+        "endChar": 10
+      },
+      "revId": "b13711f84b920b70c944fd764ffdb16cca8b0080",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
