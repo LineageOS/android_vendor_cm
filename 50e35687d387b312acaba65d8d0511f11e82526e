@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_77c2e135",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 14
+      },
+      "lineNbr": 612,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-07-22T13:01:09Z",
+      "side": 1,
+      "message": "continue?",
+      "range": {
+        "startLine": 612,
+        "startChar": 16,
+        "endLine": 612,
+        "endChar": 24
+      },
+      "revId": "50e35687d387b312acaba65d8d0511f11e82526e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_57c5653b",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 14
+      },
+      "lineNbr": 621,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-07-22T13:01:09Z",
+      "side": 1,
+      "message": "Same here",
+      "range": {
+        "startLine": 621,
+        "startChar": 16,
+        "endLine": 621,
+        "endChar": 24
+      },
+      "revId": "50e35687d387b312acaba65d8d0511f11e82526e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
