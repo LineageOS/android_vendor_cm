@@ -118,6 +118,53 @@
       "revId": "af933abb69f12c9459f157010224f2eeb9701a5c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_d75b9584",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 17
+      },
+      "lineNbr": 605,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-22T13:28:56Z",
+      "side": 1,
+      "message": "By exiting we are telling the user that something wrong happened. If we simply return, the extraction will continue and user may not even notice that dex2oat didn\u0027t run successfully.",
+      "parentUuid": "3fa7e38b_d782b5c8",
+      "range": {
+        "startLine": 602,
+        "startChar": 0,
+        "endLine": 605,
+        "endChar": 6
+      },
+      "revId": "af933abb69f12c9459f157010224f2eeb9701a5c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_f7601135",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 17
+      },
+      "lineNbr": 632,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-22T13:28:56Z",
+      "side": 1,
+      "message": "Try running this without $BAKSMALIJAR or $SMALIJAR being set, and instead of exiting above, return.",
+      "range": {
+        "startLine": 631,
+        "startChar": 8,
+        "endLine": 632,
+        "endChar": 71
+      },
+      "revId": "af933abb69f12c9459f157010224f2eeb9701a5c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
