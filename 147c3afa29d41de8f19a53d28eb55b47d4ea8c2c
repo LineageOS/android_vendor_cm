@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_774c21c7",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 21
+      },
+      "lineNbr": 579,
+      "author": {
+        "id": 4567
+      },
+      "writtenOn": "2016-07-22T13:34:24Z",
+      "side": 1,
+      "message": "this check aint right.... prints unexpanded globs if files missing",
+      "revId": "147c3afa29d41de8f19a53d28eb55b47d4ea8c2c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
