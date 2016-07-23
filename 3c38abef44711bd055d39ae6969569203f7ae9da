@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_15e92519",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 747,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-07-23T07:28:38Z",
+      "side": 1,
+      "message": "I don\u0027t see why you should check if the header exists, every xml has it",
+      "range": {
+        "startLine": 747,
+        "startChar": 16,
+        "endLine": 747,
+        "endChar": 47
+      },
+      "revId": "3c38abef44711bd055d39ae6969569203f7ae9da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
