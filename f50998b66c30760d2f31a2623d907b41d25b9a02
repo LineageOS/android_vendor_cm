@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_758e5979",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 25
+      },
+      "lineNbr": 623,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-23T07:30:28Z",
+      "side": 1,
+      "message": "Move it out of the for loop.",
+      "range": {
+        "startLine": 620,
+        "startChar": 8,
+        "endLine": 623,
+        "endChar": 10
+      },
+      "revId": "f50998b66c30760d2f31a2623d907b41d25b9a02",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
