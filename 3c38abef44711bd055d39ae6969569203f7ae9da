@@ -22,6 +22,30 @@
       "revId": "3c38abef44711bd055d39ae6969569203f7ae9da",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_55e6bd46",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 747,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-23T07:33:34Z",
+      "side": 1,
+      "message": "Test the previous patch set on a xml that has the header on the beginning of the file and you\u0027ll see why this is here. If the header is at the beginning of the file, this skips touching the xml.\n\n\nAlso, my comments before on this patch tells why this is needed.",
+      "parentUuid": "3fa7e38b_15e92519",
+      "range": {
+        "startLine": 747,
+        "startChar": 16,
+        "endLine": 747,
+        "endChar": 47
+      },
+      "revId": "3c38abef44711bd055d39ae6969569203f7ae9da",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
