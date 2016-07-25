@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_eff8354a",
+        "filename": "config/common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 132,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2016-07-25T13:52:38Z",
+      "side": 1,
+      "message": "We should clean up the \u0027custom cm packages\u0027 list and move items here as they are required (do this in a separate patch)",
+      "range": {
+        "startLine": 132,
+        "startChar": 0,
+        "endLine": 132,
+        "endChar": 22
+      },
+      "revId": "7343369d77c45218c660e22630204d9a8915c275",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
