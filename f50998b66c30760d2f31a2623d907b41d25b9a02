@@ -2,6 +2,29 @@
   "comments": [
     {
       "key": {
+        "uuid": "3fa7e38b_725f4872",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 25
+      },
+      "lineNbr": 581,
+      "author": {
+        "id": 4567
+      },
+      "writtenOn": "2016-07-25T18:45:30Z",
+      "side": 1,
+      "message": "typo... should be \"$x\", not $X",
+      "range": {
+        "startLine": 581,
+        "startChar": 22,
+        "endLine": 581,
+        "endChar": 23
+      },
+      "revId": "f50998b66c30760d2f31a2623d907b41d25b9a02",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3fa7e38b_758e5979",
         "filename": "build/tools/extract_utils.sh",
         "patchSetId": 25
