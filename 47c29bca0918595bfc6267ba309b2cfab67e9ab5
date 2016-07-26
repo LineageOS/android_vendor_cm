@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_b5660a29",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 76,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-26T11:13:33Z",
+      "side": 1,
+      "message": "I would prefer using VENDOR_STATE and reinitialize the helper before calling extract_firmware, but if we\u0027re going to use RADIO_VENDOR_STATE instead, then it needs to be properly set.",
+      "range": {
+        "startLine": 73,
+        "startChar": 8,
+        "endLine": 76,
+        "endChar": 28
+      },
+      "revId": "47c29bca0918595bfc6267ba309b2cfab67e9ab5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_1577ded6",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 638,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-26T11:13:33Z",
+      "side": 1,
+      "message": "Not sure if shouldn\u0027t we also add here the same double checks done on extract function.\n\n\u003e  if [ ! -e \"$1\" ]; then\n\u003e      echo \"$1 does not exist!\"\n\u003e      exit 1\n\u003e  fi\n\u003e \n\u003e  if [ -z \"$OUTDIR\" ]; then\n\u003e      echo \"Output dir not set!\"\n\u003e      exit 1\n\u003e  fi",
+      "range": {
+        "startLine": 638,
+        "startChar": 0,
+        "endLine": 638,
+        "endChar": 4
+      },
+      "revId": "47c29bca0918595bfc6267ba309b2cfab67e9ab5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
