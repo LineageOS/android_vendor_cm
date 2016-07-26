@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_c0798693",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 27
+      },
+      "lineNbr": 555,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-26T13:04:06Z",
+      "side": 1,
+      "message": "Although this was not failing (if a local SRC is not set, it assumes the value passed by extract function), but it is more clear this way.\n\nYou can further decide if we want not to set it and leave the rest.",
+      "range": {
+        "startLine": 555,
+        "startChar": 4,
+        "endLine": 555,
+        "endChar": 18
+      },
+      "revId": "d14f8ecd6e6f6909e00d9324d02960ff15283378",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
