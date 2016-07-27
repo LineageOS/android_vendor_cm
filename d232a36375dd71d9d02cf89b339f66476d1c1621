@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_6628ea33",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 485,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-27T12:15:58Z",
+      "side": 1,
+      "message": "Actually, we want to check if a *file* exists, so this must be changed to -f according to:\n\n\"Bash File Testing\n\n-b filename - Block special file\n-c filename - Special character file\n-d directoryname - Check for directory Existence\n-e filename - Check for file existence, regardless of type (node, directory, socket, etc.)\n-f filename - Check for regular file existence not a directory\n-G filename - Check if file exists and is owned by effective group ID\n-G filename set-group-id - True if file exists and is set-group-id\n-k filename - Sticky bit\n-L filename - Symbolic link\n-O filename - True if file exists and is owned by the effective user id\n-r filename - Check if file is a readable\n-S filename - Check if file is socket\n-s filename - Check if file is nonzero size\n-u filename - Check if file set-user-id bit is set\n-w filename - Check if file is writable\"\n-x filename - Check if file is executable",
+      "range": {
+        "startLine": 485,
+        "startChar": 13,
+        "endLine": 485,
+        "endChar": 15
+      },
+      "revId": "d232a36375dd71d9d02cf89b339f66476d1c1621",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
