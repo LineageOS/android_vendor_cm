@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_8612c608",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 532,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-27T11:07:43Z",
+      "side": 1,
+      "message": "Why not just write the following to Android.mk?\n\n\u003e ifeq (\\$(LOCAL_PATH)/radio, \\$(wildcard \\$(LOCAL_PATH)/radio))\n\u003e    \n\u003e RADIO_FILES :\u003d \\$(shell cd \\$(LOCAL_PATH)/radio ; ls)\n\u003e \\$(foreach f, \\$(RADIO_FILES), \\\\\n\u003e     \\$(call add-radio-file,radio/\\$(f)))\n\u003e  \\$(call add-radio-file,../../../device/$VENDOR/$DEVICE/radio/filesmap)\n\u003e    \n\u003e endif\n\nWould simply avoid parsing the file again.",
+      "range": {
+        "startLine": 511,
+        "startChar": 3,
+        "endLine": 532,
+        "endChar": 12
+      },
+      "revId": "7f491caf2e084db8b3b42e0790f8673dfee9f1a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
