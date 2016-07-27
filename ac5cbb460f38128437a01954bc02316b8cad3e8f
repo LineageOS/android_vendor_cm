@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_0173204f",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 33
+      },
+      "lineNbr": 535,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-27T22:37:06Z",
+      "side": 1,
+      "message": "What do you mean with this?",
+      "range": {
+        "startLine": 535,
+        "startChar": 37,
+        "endLine": 535,
+        "endChar": 39
+      },
+      "revId": "ac5cbb460f38128437a01954bc02316b8cad3e8f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_21d17cfc",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 33
+      },
+      "lineNbr": 582,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-27T22:37:06Z",
+      "side": 1,
+      "message": "I know you removed lots of lines with this, but you could make it more legible. Make it a function instead (something like _get_file) and kill both _adb_silent_pull and _directory_silent_pull.",
+      "range": {
+        "startLine": 582,
+        "startChar": 10,
+        "endLine": 582,
+        "endChar": 17
+      },
+      "revId": "ac5cbb460f38128437a01954bc02316b8cad3e8f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
