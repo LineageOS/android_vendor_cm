@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "3fa7e38b_c698be1c",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 31
+      },
+      "lineNbr": 598,
+      "author": {
+        "id": 4567
+      },
+      "writtenOn": "2016-07-27T15:07:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3fa7e38b_e6da9a15",
+      "range": {
+        "startLine": 598,
+        "startChar": 4,
+        "endLine": 598,
+        "endChar": 15
+      },
+      "revId": "f512427e66c01f57a9903aad9ac99e0fa3998d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3fa7e38b_c6099e95",
         "filename": "build/tools/extract_utils.sh",
         "patchSetId": 31
@@ -36,6 +60,30 @@
       "writtenOn": "2016-07-27T13:50:32Z",
       "side": 1,
       "message": "Couldn\u0027t you just add \"/\" after, instead of redefining SRC above?",
+      "range": {
+        "startLine": 601,
+        "startChar": 18,
+        "endLine": 601,
+        "endChar": 24
+      },
+      "revId": "f512427e66c01f57a9903aad9ac99e0fa3998d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_a69582e6",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 31
+      },
+      "lineNbr": 601,
+      "author": {
+        "id": 4567
+      },
+      "writtenOn": "2016-07-27T15:07:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3fa7e38b_c6099e95",
       "range": {
         "startLine": 601,
         "startChar": 18,
@@ -71,6 +119,30 @@
     },
     {
       "key": {
+        "uuid": "3fa7e38b_669f8a03",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 31
+      },
+      "lineNbr": 602,
+      "author": {
+        "id": 4567
+      },
+      "writtenOn": "2016-07-27T15:07:23Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3fa7e38b_6600ea68",
+      "range": {
+        "startLine": 602,
+        "startChar": 18,
+        "endLine": 602,
+        "endChar": 24
+      },
+      "revId": "f512427e66c01f57a9903aad9ac99e0fa3998d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3fa7e38b_46ccce60",
         "filename": "build/tools/extract_utils.sh",
         "patchSetId": 31
@@ -82,6 +154,30 @@
       "writtenOn": "2016-07-27T13:50:32Z",
       "side": 1,
       "message": "Missing [ ], for better understanding.",
+      "range": {
+        "startLine": 624,
+        "startChar": 11,
+        "endLine": 625,
+        "endChar": 40
+      },
+      "revId": "f512427e66c01f57a9903aad9ac99e0fa3998d6e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_e6fdba3a",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 31
+      },
+      "lineNbr": 625,
+      "author": {
+        "id": 4567
+      },
+      "writtenOn": "2016-07-27T15:07:23Z",
+      "side": 1,
+      "message": "Adding [] and restoring syntactical correctness would make this less legible",
+      "parentUuid": "3fa7e38b_46ccce60",
       "range": {
         "startLine": 624,
         "startChar": 11,
