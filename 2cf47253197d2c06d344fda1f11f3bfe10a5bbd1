@@ -22,6 +22,30 @@
       "revId": "2cf47253197d2c06d344fda1f11f3bfe10a5bbd1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_e69e1a62",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 543,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-27T13:00:11Z",
+      "side": 1,
+      "message": "So how should it be? What do you suggest?",
+      "parentUuid": "3fa7e38b_a6a102ac",
+      "range": {
+        "startLine": 543,
+        "startChar": 18,
+        "endLine": 543,
+        "endChar": 23
+      },
+      "revId": "2cf47253197d2c06d344fda1f11f3bfe10a5bbd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
