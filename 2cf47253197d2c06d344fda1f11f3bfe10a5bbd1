@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_a6a102ac",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 543,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-07-27T12:47:38Z",
+      "side": 1,
+      "message": "shell won\u0027t work in N, use wildcard",
+      "range": {
+        "startLine": 543,
+        "startChar": 18,
+        "endLine": 543,
+        "endChar": 23
+      },
+      "revId": "2cf47253197d2c06d344fda1f11f3bfe10a5bbd1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
