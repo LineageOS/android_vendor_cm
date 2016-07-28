@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_932523ae",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 35
+      },
+      "lineNbr": 567,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-28T05:59:00Z",
+      "side": 1,
+      "message": "Merge them in one _get_file function:\n\n\u003e function _get_file() {\n\u003e     if [ \"$3\" \u003d \"adb\" ]; then\n\u003e         local target\u003d\"$2\"\n\u003e         [ -d \"$2\" ] \u0026\u0026 target\u003d\"$2/`basename $1`\"\n\u003e    \n\u003e         # echo OAT path\n\u003e         echo \"$target\" \u003e $TMPDIR/oatloc\n\u003e     \n\u003e         # try to pull\n\u003e         adb pull \"$1\" \"$2\" 1\u003e\u00262 2\u003e/dev/null \u0026\u0026 return 0\n\u003e    \n\u003e         return 1\n\u003e     else\n\u003e         [ ! -f \"$1\" ] \u0026\u0026 return 1 # fail if input file is missing\n\u003e    \n\u003e         # echo OAT path\n\u003e         echo \"$1\" \u003e \"$TMPDIR\"/oatloc\n\u003e   \n\u003e         # try to copy\n\u003e         cp \"$1\" \"$2\" 2\u003e/dev/null \u0026\u0026 return 0\n\u003e   \n\u003e         return 1\n\u003e     fi\n\u003e };",
+      "range": {
+        "startLine": 533,
+        "startChar": 0,
+        "endLine": 567,
+        "endChar": 2
+      },
+      "revId": "3284b08e752e64567aec64978862f41e2dbda20b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_7322e7a6",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 35
+      },
+      "lineNbr": 594,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-28T05:59:00Z",
+      "side": 1,
+      "message": "So, my idea was to change to:\n\n\u003e    local PATH\u003d\"$SRC\"\n\u003e    if [ \"$SRC\" \u003d \"adb\" ]; then\n\u003e        PATH\u003d\"\"\n\u003e    fi\n\u003e    local D_FILE\u003d\"${PATH}/$1\"\n\u003e    local O_FILE\u003d\"${PATH}/$2\"\n\u003e     \n\u003e    local ARCHES\u003d\n\u003e    local BOOTOATS\u003d\n\u003e    local OAT\u003d\n\u003e     \n\u003e    # Extract applicable boot.oats (if file exists) to the temp folder\n\u003e    if [ ! -f \"$TMPDIR/boot.oat\" ] \u0026\u0026 [ ! -f \"$TMPDIR/boot64.oat\" ]; then\n\u003e        _get_file \"${PATH}/system/framework/arm64/boot.oat\" \"$TMPDIR/boot64.oat\" \"$SRC\"\n\u003e        _get_file \"${PATH}/system/framework/arm/boot.oat\" \"$TMPDIR/boot.oat\" \"$SRC\"",
+      "range": {
+        "startLine": 580,
+        "startChar": 0,
+        "endLine": 594,
+        "endChar": 74
+      },
+      "revId": "3284b08e752e64567aec64978862f41e2dbda20b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_333c6fc7",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 35
+      },
+      "lineNbr": 617,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-28T05:59:00Z",
+      "side": 1,
+      "message": "And this part into:\n\n\u003e if ! _get_file \"$D_OAT\" \"$TMPDIR\" \"$SRC\" \u0026\u0026 ! _get_file \"$O_OAT\" \"$TMPDIR\" \"$SRC\"; then",
+      "range": {
+        "startLine": 616,
+        "startChar": 8,
+        "endLine": 617,
+        "endChar": 46
+      },
+      "revId": "3284b08e752e64567aec64978862f41e2dbda20b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
