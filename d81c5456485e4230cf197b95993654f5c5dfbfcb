@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_73dd0741",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 495,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-28T12:49:12Z",
+      "side": 1,
+      "message": "Actually, this check is not needed at all. Whenever parse_file_list() is called, we always check first if file exists.",
+      "range": {
+        "startLine": 495,
+        "startChar": 4,
+        "endLine": 495,
+        "endChar": 29
+      },
+      "revId": "d81c5456485e4230cf197b95993654f5c5dfbfcb",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
