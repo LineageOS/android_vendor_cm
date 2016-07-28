@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "3fa7e38b_c166682a",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 33
+      },
+      "lineNbr": 535,
+      "author": {
+        "id": 4567
+      },
+      "writtenOn": "2016-07-28T00:15:23Z",
+      "side": 1,
+      "message": "This is a vestige from a local version that aimed to concisely use stdout to pass back the mangled OAT name, but it wasn\u0027t very concise.",
+      "parentUuid": "3fa7e38b_0173204f",
+      "range": {
+        "startLine": 535,
+        "startChar": 37,
+        "endLine": 535,
+        "endChar": 39
+      },
+      "revId": "ac5cbb460f38128437a01954bc02316b8cad3e8f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3fa7e38b_21d17cfc",
         "filename": "build/tools/extract_utils.sh",
         "patchSetId": 33
@@ -36,6 +60,30 @@
       "writtenOn": "2016-07-27T22:37:06Z",
       "side": 1,
       "message": "I know you removed lots of lines with this, but you could make it more legible. Make it a function instead (something like _get_file) and kill both _adb_silent_pull and _directory_silent_pull.",
+      "range": {
+        "startLine": 582,
+        "startChar": 10,
+        "endLine": 582,
+        "endChar": 17
+      },
+      "revId": "ac5cbb460f38128437a01954bc02316b8cad3e8f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_a1632c1a",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 33
+      },
+      "lineNbr": 582,
+      "author": {
+        "id": 4567
+      },
+      "writtenOn": "2016-07-28T00:15:23Z",
+      "side": 1,
+      "message": "But that would require additional differentiation of the adb and non-adb cases... if you are sufficiently opposed to the \"functional\"-ish style of PS31+, PS30 still exists.",
+      "parentUuid": "3fa7e38b_21d17cfc",
       "range": {
         "startLine": 582,
         "startChar": 10,
