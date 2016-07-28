@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_53656be0",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 36
+      },
+      "lineNbr": 552,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-28T07:09:52Z",
+      "side": 1,
+      "message": "I was thinking we should only copy boot.oats to $TMPDIR. We are unnecessarily copying .odex files and at the same time its original location in $TMPDIR/oatloc.",
+      "range": {
+        "startLine": 552,
+        "startChar": 8,
+        "endLine": 552,
+        "endChar": 20
+      },
+      "revId": "ed86b9e27d05646bf8c35d43321a9eb8bcf483f8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
