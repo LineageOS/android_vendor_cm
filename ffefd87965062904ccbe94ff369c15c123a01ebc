@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_d6794993",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 618,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-28T19:42:39Z",
+      "side": 1,
+      "message": "Did you notice that adb v1.0.36 is now overriding this output?",
+      "range": {
+        "startLine": 618,
+        "startChar": 12,
+        "endLine": 618,
+        "endChar": 42
+      },
+      "revId": "ffefd87965062904ccbe94ff369c15c123a01ebc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
