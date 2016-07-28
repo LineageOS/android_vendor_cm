@@ -22,6 +22,29 @@
       "revId": "ffefd87965062904ccbe94ff369c15c123a01ebc",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_96a8b1db",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 645,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-28T20:04:07Z",
+      "side": 1,
+      "message": "This is not providing the expected behavior. $TYPE is being set with the filename.",
+      "range": {
+        "startLine": 645,
+        "startChar": 8,
+        "endLine": 645,
+        "endChar": 32
+      },
+      "revId": "ffefd87965062904ccbe94ff369c15c123a01ebc",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
