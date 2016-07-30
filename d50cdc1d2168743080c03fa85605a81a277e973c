@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_2c609001",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 8
+      },
+      "lineNbr": 773,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-30T08:47:52Z",
+      "side": 1,
+      "message": "Hmmm... we haven\u0027t been using one line \"if then fi\".\n\nBesides, you could simplify it:\n\n\u003e elif [[ \"$DEST\" \u003d~ .xml$ \u0026\u0026 -n \"$FIX_XMLS\" ]]; then\n\u003e     fix_xml \"$DEST\"\n\u003e fi",
+      "range": {
+        "startLine": 773,
+        "startChar": 16,
+        "endLine": 773,
+        "endChar": 63
+      },
+      "revId": "d50cdc1d2168743080c03fa85605a81a277e973c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
