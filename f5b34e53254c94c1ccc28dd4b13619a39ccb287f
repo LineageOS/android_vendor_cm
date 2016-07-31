@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_c24c23a0",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 44
+      },
+      "lineNbr": 584,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-31T21:24:24Z",
+      "side": 1,
+      "message": "Correct me if I am wrong, but if these are local, every time oat2dex is called, we will enter here. We should use export, like I had before.",
+      "range": {
+        "startLine": 583,
+        "startChar": 0,
+        "endLine": 584,
+        "endChar": 71
+      },
+      "revId": "f5b34e53254c94c1ccc28dd4b13619a39ccb287f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_82462b7c",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 44
+      },
+      "lineNbr": 618,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-07-31T21:24:24Z",
+      "side": 1,
+      "message": "A simple \"grep classes.dex $D_FILE\" does the job.",
+      "range": {
+        "startLine": 618,
+        "startChar": 16,
+        "endLine": 618,
+        "endChar": 48
+      },
+      "revId": "f5b34e53254c94c1ccc28dd4b13619a39ccb287f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
