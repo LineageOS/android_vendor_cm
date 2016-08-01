@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_f82eaea3",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 58
+      },
+      "lineNbr": 605,
+      "author": {
+        "id": 4567
+      },
+      "writtenOn": "2016-08-01T21:10:36Z",
+      "side": 1,
+      "message": "This will return \"fully deodexed\" after a single failure to get a single arch\u0027s file. 32-bit arm will never be deodexed as this is implemented.",
+      "range": {
+        "startLine": 605,
+        "startChar": 8,
+        "endLine": 605,
+        "endChar": 22
+      },
+      "revId": "e27f83f833d942ec5b747737f3f4ac768fd983ef",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
