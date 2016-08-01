@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_f8ac6e8d",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 53
+      },
+      "lineNbr": 604,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-08-01T14:35:47Z",
+      "side": 1,
+      "message": "We can get rid of the for loop:\n\nif get_file \"system/framework/arm64/boot.oat\" \"$TMPDIR/boot_arm64.oat\" \"$SRC\" \u0026\u0026\n   get_file \"system/framework/arm/boot.oat\" \"$TMPDIR/boot_arm.oat\" \"$SRC\"; then\n    # system is fully deodexed, return\n    FULLY_DEODEXED\u003d1\n    return 0\nfi",
+      "range": {
+        "startLine": 595,
+        "startChar": 0,
+        "endLine": 604,
+        "endChar": 12
+      },
+      "revId": "d1d7c367a186ae2c6baa61bc7681582a5eac8d45",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
