@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_e75fea3e",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 60
+      },
+      "lineNbr": 557,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-08-02T21:29:04Z",
+      "side": 1,
+      "message": "Verbose output is broken:\n\n\u003e   - /system/app/CIRModule/CIRModule.apk .. 746 KB/s (61580 bytes in 0.080s)\n\u003e remote object \u0027system/framework/arm64/boot.oat\u0027 does not exist\n\u003e 6402 KB/s (57881068 bytes in 8.828s)\n\u003e remote object \u0027system/framework/x86_64/boot.oat\u0027 does not exist\n\u003e remote object \u0027system/framework/x86/boot.oat\u0027 does not exist\n\u003e 752 KB/s (86508 bytes in 0.112s)\n\u003e    (updated /system/app/CIRModule/CIRModule.apk from odex files)",
+      "range": {
+        "startLine": 556,
+        "startChar": 8,
+        "endLine": 557,
+        "endChar": 42
+      },
+      "revId": "b06ad7e3e66ab09f70210fa8229ee61afc5a9396",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
