@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_d294ea46",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 61
+      },
+      "lineNbr": 589,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-08-03T08:38:17Z",
+      "side": 1,
+      "message": "Luca, this logic has to be moved further bellow, otherwise we are not making use of FULLY_DEODEXED checks on main extract function. On a fully deodexed system this will always be true.",
+      "range": {
+        "startLine": 587,
+        "startChar": 0,
+        "endLine": 589,
+        "endChar": 6
+      },
+      "revId": "1c48958c91d7aeffe0d908682fcd8978010cc4e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_929e7261",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 61
+      },
+      "lineNbr": 604,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2016-08-03T08:38:17Z",
+      "side": 1,
+      "message": "Logic above must be put here.",
+      "range": {
+        "startLine": 604,
+        "startChar": 0,
+        "endLine": 604,
+        "endChar": 0
+      },
+      "revId": "1c48958c91d7aeffe0d908682fcd8978010cc4e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
