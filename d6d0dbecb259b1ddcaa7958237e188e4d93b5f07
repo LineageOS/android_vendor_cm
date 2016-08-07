@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_7ebcdcdb",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-08-07T13:13:49Z",
+      "side": 1,
+      "message": "This seems to me like you want the logic to drop the \u00270\u0027 maintenance version somewhere else.  Is that what you intend?",
+      "range": {
+        "startLine": 9,
+        "startChar": 1,
+        "endLine": 10,
+        "endChar": 62
+      },
+      "revId": "d6d0dbecb259b1ddcaa7958237e188e4d93b5f07",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
