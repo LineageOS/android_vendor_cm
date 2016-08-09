@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_10459017",
+        "filename": "charger/Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 13274
+      },
+      "writtenOn": "2016-08-09T12:40:14Z",
+      "side": 1,
+      "message": "This doesn\u0027t work if a device has a non-standard PRODUCT_AAPT_PREF_CONFIG",
+      "revId": "bd41601c69787f6d7724d991d632a8087e6a44db",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
