@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3fa7e38b_f6354c47",
+        "filename": "config/BoardConfigCM.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1063
+      },
+      "writtenOn": "2016-08-10T07:21:53Z",
+      "side": 1,
+      "message": "Won\u0027t this unconditionally include the library loading cm_battery_scale, no matter what WITH_CM_CHARGER is set to?",
+      "revId": "8a5f346e466995fd2abfed7e46022bc474139487",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
