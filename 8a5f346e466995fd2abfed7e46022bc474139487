@@ -2,6 +2,40 @@
   "comments": [
     {
       "key": {
+        "uuid": "3fa7e38b_161268b2",
+        "filename": "charger/Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-08-10T07:45:53Z",
+      "side": 1,
+      "message": "Is there any way we could make use of the BOARD_HEALTHD_CUSTOM_CHARGER_RES flag instead? This would get rid of the need for the cm_charger_res_images module. I guess setting it in BoardConfigCM.mk would be possible, but PRODUCT_AAPT_PREF_CONFIG is yet to be set then.",
+      "revId": "8a5f346e466995fd2abfed7e46022bc474139487",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_362c4401",
+        "filename": "charger/Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-08-10T07:45:53Z",
+      "side": 1,
+      "message": "Would LOCAL_OVERRIDES_PACKAGES cause problems with building both charger_res_images and cm_charger_res_images?",
+      "revId": "8a5f346e466995fd2abfed7e46022bc474139487",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "3fa7e38b_f6354c47",
         "filename": "config/BoardConfigCM.mk",
         "patchSetId": 4
@@ -13,6 +47,57 @@
       "writtenOn": "2016-08-10T07:21:53Z",
       "side": 1,
       "message": "Won\u0027t this unconditionally include the library loading cm_battery_scale, no matter what WITH_CM_CHARGER is set to?",
+      "revId": "8a5f346e466995fd2abfed7e46022bc474139487",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_5618e0d1",
+        "filename": "config/BoardConfigCM.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-08-10T07:45:53Z",
+      "side": 1,
+      "message": "Maybe we could add a check for:\n\nifneq ($(DISABLE_CM_CHARGER),true)",
+      "revId": "8a5f346e466995fd2abfed7e46022bc474139487",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_3615249d",
+        "filename": "config/common.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 190,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-08-10T07:45:53Z",
+      "side": 1,
+      "message": "Maybe we could replace these with a check for:\n\nifneq ($(DISABLE_CM_CHARGER),true)",
+      "revId": "8a5f346e466995fd2abfed7e46022bc474139487",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "3fa7e38b_f60eac8b",
+        "filename": "config/common.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 195,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-08-10T07:45:53Z",
+      "side": 1,
+      "message": "This line seems useless",
       "revId": "8a5f346e466995fd2abfed7e46022bc474139487",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
