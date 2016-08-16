@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_8c7d46e9",
+        "filename": "config/common.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 349,
+      "author": {
+        "id": 10094
+      },
+      "writtenOn": "2016-08-16T15:20:25Z",
+      "side": 1,
+      "message": "Did you intend to leave this?  It causes the ro.cm.display.version to not match.",
+      "range": {
+        "startLine": 349,
+        "startChar": 4,
+        "endLine": 349,
+        "endChar": 43
+      },
+      "revId": "fc77e20c9185e0c2d3fd3e980f9c1b22b3ffce35",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
