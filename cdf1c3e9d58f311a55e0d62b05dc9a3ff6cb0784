@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_a576153e",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 15672
+      },
+      "writtenOn": "2016-08-17T16:56:09Z",
+      "side": 1,
+      "message": "Shouldn\u0027t the username and password be \"hollandsnieuwe\" here? See https://www.hollandsnieuwe.nl/klantenservice (Dutch) \"gebruiken \u0026 instellingen\" \u003e \"internet\" \u003e \"hoe moet ik instellen\" \u003e \"hoe stel ik internet in op mijn mobiel?\"",
+      "range": {
+        "startLine": 71,
+        "startChar": 100,
+        "endLine": 71,
+        "endChar": 119
+      },
+      "revId": "cdf1c3e9d58f311a55e0d62b05dc9a3ff6cb0784",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
