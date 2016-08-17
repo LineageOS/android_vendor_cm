@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_a56cd59c",
+        "filename": "charger/Android.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-08-17T14:26:31Z",
+      "side": 1,
+      "message": "You should probably check for BOARD_USES_QC_TIME_SERVICES here",
+      "range": {
+        "startLine": 19,
+        "startChar": 8,
+        "endLine": 19,
+        "endChar": 34
+      },
+      "revId": "664c7a88bcea92fdb34b7b5b5128f2a7d73e8a30",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
