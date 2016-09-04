@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_6718ef1c",
+        "filename": "config/common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 137,
+      "author": {
+        "id": 7202
+      },
+      "writtenOn": "2016-09-04T16:00:34Z",
+      "side": 1,
+      "message": "Build error still: http://hastebin.com/diyuhatelu.pl",
+      "range": {
+        "startLine": 137,
+        "startChar": 0,
+        "endLine": 137,
+        "endChar": 20
+      },
+      "revId": "4992d385e7673200b7a40d52c665c73949a67031",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
