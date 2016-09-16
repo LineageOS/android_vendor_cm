@@ -13,6 +13,7 @@ allow themeservice_app notification_service:service_manager find;
 allow themeservice_app system_app_data_file:dir search;
 allow themeservice_app user_service:service_manager find;
 allow themeservice_app wallpaper_service:service_manager find;
+allow themeservice_app audio_service:service_manager find;
 
 # Allow full access to themeservice_app_data_file
 allow themeservice_app themeservice_app_data_file:dir create_dir_perms;
