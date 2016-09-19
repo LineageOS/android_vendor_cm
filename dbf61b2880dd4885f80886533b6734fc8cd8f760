@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1fa4df85_8413765c",
+        "filename": "config/common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 177,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-09-19T10:02:54Z",
+      "side": 1,
+      "message": "I know this list isn\u0027t actually ordered alphabetically, but...c comes before o",
+      "revId": "dbf61b2880dd4885f80886533b6734fc8cd8f760",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
