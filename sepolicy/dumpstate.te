@@ -1,0 +1,2 @@
+# Permit output of IPSec transform state.
+allow dumpstate self:netlink_xfrm_socket { create_socket_perms nlmsg_read };
