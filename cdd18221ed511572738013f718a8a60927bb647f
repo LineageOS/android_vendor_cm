@@ -16,6 +16,24 @@
       "revId": "cdd18221ed511572738013f718a8a60927bb647f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff2e2bb8_e2cf1b55",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 3962
+      },
+      "writtenOn": "2016-10-03T20:23:57Z",
+      "side": 1,
+      "message": "Other than me being dumb? No reason at all. Derp...",
+      "parentUuid": "ff2e2bb8_6ca024a7",
+      "revId": "cdd18221ed511572738013f718a8a60927bb647f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
