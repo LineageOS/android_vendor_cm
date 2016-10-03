@@ -129,15 +129,12 @@ PRODUCT_PACKAGES += \
     CMFileManager \
     CMSettingsProvider \
     CMUpdater \
-    CMWallpapers \
     CyanogenSetupWizard \
     Eleven \
     ExactCalculator \
-    LiveLockScreenService \
     LockClock \
     Screencast \
     SoundRecorder \
-    Trebuchet \
     WallpaperPicker \
     WeatherProvider
 
