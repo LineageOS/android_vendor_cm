@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_6ca024a7",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 82,
+      "author": {
+        "id": 32
+      },
+      "writtenOn": "2016-10-03T10:58:16Z",
+      "side": 1,
+      "message": "Any good reason this needs to be exported? It\u0027s just being used to build a string below..",
+      "revId": "cdd18221ed511572738013f718a8a60927bb647f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
