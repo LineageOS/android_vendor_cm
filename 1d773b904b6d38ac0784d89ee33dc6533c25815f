@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_b0bc3a6a",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 657,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2016-10-05T15:29:39Z",
+      "side": 1,
+      "message": "Oh, I see this breaks extract via adb.\n\nnevermind then.  we\u0027ll have to work out something different.",
+      "revId": "1d773b904b6d38ac0784d89ee33dc6533c25815f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
