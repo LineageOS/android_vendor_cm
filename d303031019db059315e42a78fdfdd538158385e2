@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_4b56d42b",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 267,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2016-10-11T21:49:09Z",
+      "side": 1,
+      "message": "The above looks to have broken the path when specifying a cert.\n\nie with input:\n-priv-app/HotwordEnrollment/HotwordEnrollment.apk:PRESIGNED\n\nthis gerrit results in this Android.mk diff:\n-LOCAL_SRC_FILES :\u003d proprietary/priv-app/HotwordEnrollment/HotwordEnrollment.apk\n+LOCAL_SRC_FILES :\u003d proprietary/HotwordEnrollment/HotwordEnrollment.apk\n\n(yet the file is physically still in vendor at proprietary/priv-app/HotwordEnrollment/HotwordEnrollment.apk)",
+      "revId": "d303031019db059315e42a78fdfdd538158385e2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
