@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_9bdc9575",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 3315,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2016-10-23T14:45:19Z",
+      "side": 1,
+      "message": "This is totally broken\nYou should use \"\" instead of ””\nAlso I\u0027d rather wait for +1 from the commiter before merging for APNs",
+      "range": {
+        "startLine": 3315,
+        "startChar": 7,
+        "endLine": 3315,
+        "endChar": 14
+      },
+      "revId": "a3a9a1379daf128c01a4fcec6b0a7736d1d0f3e9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
