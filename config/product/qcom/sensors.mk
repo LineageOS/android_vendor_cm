@@ -1,0 +1,3 @@
+# Sensors
+PRODUCT_PACKAGES += \
+    sensors.$(TARGET_BOARD_PLATFORM)
