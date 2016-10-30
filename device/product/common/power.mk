@@ -1,0 +1,3 @@
+# Lights
+PRODUCT_PACKAGES += \
+    power.$(TARGET_BOARD_PLATFORM)
