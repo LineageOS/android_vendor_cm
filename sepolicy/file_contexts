@@ -1,3 +1,7 @@
+# audit
+/system/bin/auditd             u:object_r:auditd_exec:s0
+/data/misc/audit(/.*)?         u:object_r:auditd_data_file:s0
+
 /cache/dalvik-cache(/.*)? u:object_r:dalvikcache_data_file:s0
 
 # Themes

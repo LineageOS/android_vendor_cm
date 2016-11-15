@@ -1,3 +1,6 @@
+# Audit Misc
+type auditd_data_file, file_type, data_file_type;
+
 # Support asec containers getting mounted
 allow file_type rootfs:filesystem associate;
 
