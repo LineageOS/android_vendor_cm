@@ -1,3 +1,6 @@
+# Audit Misc
+type auditd_data_file, file_type, data_file_type;
+
 # Support asec containers getting mounted
 allow file_type rootfs:filesystem associate;
 
@@ -16,3 +19,4 @@ type livedisplay_sysfs, sysfs_type, file_type;
 # Filesystems
 type exfat, sdcard_type, fs_type, mlstrustedobject;
 type ntfs, sdcard_type, fs_type, mlstrustedobject;
+
