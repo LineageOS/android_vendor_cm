@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ff2e2bb8_f910f8aa",
+        "filename": "config/BoardConfigCM.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 8,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-11-18T01:55:04Z",
+      "side": 1,
+      "message": "ro.device.cache_dir\u003d/data/cache",
+      "revId": "09f66a91fb181bd506e4e0918c785e8dfe948f67",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ff2e2bb8_d915349e",
+        "filename": "prebuilt/common/etc/init.local.rc",
+        "patchSetId": 4
+      },
+      "lineNbr": 210,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-11-18T01:55:04Z",
+      "side": 1,
+      "message": "Remove all this and do \"export DOWNLOAD_CACHE ${ro.device.cache_dir} in rootdir/init.rc",
+      "revId": "09f66a91fb181bd506e4e0918c785e8dfe948f67",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
