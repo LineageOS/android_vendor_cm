@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_489f02b4",
+        "filename": "bootanimation/generate-bootanimation.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2016-11-27T03:36:50Z",
+      "side": 1,
+      "message": "this isn\u0027t bash syntax!",
+      "revId": "4b089ada1f19a41123af98463c71c05a16d1d105",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
