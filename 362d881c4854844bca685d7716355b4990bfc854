@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_282e06a5",
+        "filename": "build/tasks/bootanimation.mk",
+        "patchSetId": 13
+      },
+      "lineNbr": 36,
+      "author": {
+        "id": 14088
+      },
+      "writtenOn": "2016-11-27T14:04:33Z",
+      "side": 1,
+      "message": "tabs",
+      "range": {
+        "startLine": 36,
+        "startChar": 0,
+        "endLine": 36,
+        "endChar": 1
+      },
+      "revId": "362d881c4854844bca685d7716355b4990bfc854",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
