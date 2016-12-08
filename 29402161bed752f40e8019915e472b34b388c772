@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5f681702_865f2140",
+        "filename": "build/core/qcom_target.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2016-12-08T12:53:00Z",
+      "side": 1,
+      "message": "Can\u0027t you simply use:\n\n$(call set-device-specific-path,CAMERA,camera,hardware/qcom/camera)\n\n$(call set-device-specific-path,DATASERVICES,dataservices,$(TARGET_DEVICE_DIR)/dataservices)\n\n?",
+      "revId": "29402161bed752f40e8019915e472b34b388c772",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
