@@ -16,6 +16,24 @@
       "revId": "29402161bed752f40e8019915e472b34b388c772",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_c659195b",
+        "filename": "build/core/qcom_target.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 113,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-12-08T12:54:22Z",
+      "side": 1,
+      "message": "That\u0027s what he did in his original patch.",
+      "parentUuid": "5f681702_865f2140",
+      "revId": "29402161bed752f40e8019915e472b34b388c772",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
