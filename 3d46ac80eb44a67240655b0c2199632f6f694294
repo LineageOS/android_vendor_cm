@@ -33,6 +33,24 @@
       "revId": "3d46ac80eb44a67240655b0c2199632f6f694294",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5f681702_df7d5ce8",
+        "filename": "overlay/common/packages/apps/Settings/res/values/config.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 8461
+      },
+      "writtenOn": "2016-12-09T12:27:51Z",
+      "side": 1,
+      "message": "•_•)\n( •_•)\u003e??-?\n(??_?)",
+      "parentUuid": "5f681702_3f0e108d",
+      "revId": "3d46ac80eb44a67240655b0c2199632f6f694294",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
