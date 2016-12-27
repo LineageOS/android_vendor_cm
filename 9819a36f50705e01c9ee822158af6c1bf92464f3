@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a014df3_7bff7f02",
+        "filename": "build/envsetup.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-27T04:18:07Z",
+      "side": 1,
+      "message": "Not sure if we want it to be lineageos instead.",
+      "revId": "9819a36f50705e01c9ee822158af6c1bf92464f3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
