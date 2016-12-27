@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a045101_7c2659bc",
+        "filename": "CHANGELOG.mkdn",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-27T04:02:01Z",
+      "side": 1,
+      "message": "LineageOS instead of Lineage? Same for the other instances of \u0027Lineage\u0027 in other files",
+      "revId": "77661d081117a4e0548c54c723434c05aff9f19d",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
