@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "9a0e1d27_d70f7c2d",
+        "filename": "gello/Android.mk",
+        "patchSetId": 6
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 13589
+      },
+      "writtenOn": "2016-12-27T22:12:38Z",
+      "side": 1,
+      "message": "Note: Breaks maven usage, until maven.lineageos.org is ready.",
+      "revId": "2a31bbaac1f2aa74db0b84fece811870ce202f7c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fa0f191f_7ac77913",
         "filename": "prebuilt/common/etc/init.d/00banner",
         "patchSetId": 6
