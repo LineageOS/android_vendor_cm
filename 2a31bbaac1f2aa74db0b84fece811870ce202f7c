@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa0f191f_7ac77913",
+        "filename": "prebuilt/common/etc/init.d/00banner",
+        "patchSetId": 6
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2016-12-27T13:07:03Z",
+      "side": 1,
+      "message": "we goin with bubble letters now?",
+      "revId": "2a31bbaac1f2aa74db0b84fece811870ce202f7c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
