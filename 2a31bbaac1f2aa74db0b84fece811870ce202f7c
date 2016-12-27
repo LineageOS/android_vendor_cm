@@ -16,6 +16,24 @@
       "revId": "2a31bbaac1f2aa74db0b84fece811870ce202f7c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa0f191f_5af39573",
+        "filename": "prebuilt/common/etc/init.d/00banner",
+        "patchSetId": 6
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-27T13:15:23Z",
+      "side": 1,
+      "message": "This seemed pretty neutral and good to me",
+      "parentUuid": "fa0f191f_7ac77913",
+      "revId": "2a31bbaac1f2aa74db0b84fece811870ce202f7c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
