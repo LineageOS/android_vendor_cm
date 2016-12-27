@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa0f191f_7aff7902",
+        "filename": "gello/Android.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2016-12-27T05:17:51Z",
+      "side": 1,
+      "message": "We don\u0027t have this yet, do we? Will new builds complete or die?",
+      "range": {
+        "startLine": 44,
+        "startChar": 28,
+        "endLine": 44,
+        "endChar": 47
+      },
+      "revId": "fab917b6fbebc2ae0cf4c767ac2e0a0fb45dfc18",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
