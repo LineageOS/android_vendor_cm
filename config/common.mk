@@ -258,7 +258,13 @@ PRODUCT_BOOT_JARS += \
 ifneq ($(TARGET_BUILD_VARIANT),user)
 PRODUCT_PACKAGES += \
     procmem \
-    procrank \
+    procrank
+endif
+
+# Conditionally build in su
+WITH_SU ?= false
+ifeq ($(WITH_SU),true)
+PRODUCT_PACKAGES += \
     su
 endif
 
