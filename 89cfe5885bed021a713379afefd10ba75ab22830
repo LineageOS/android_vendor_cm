@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a0e1d27_1781744a",
+        "filename": "build/envsetup.sh",
+        "patchSetId": 9
+      },
+      "lineNbr": 246,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-28T00:20:44Z",
+      "side": 1,
+      "message": "We should hold this change until we actually decide on an abbreviation.",
+      "revId": "89cfe5885bed021a713379afefd10ba75ab22830",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
