@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a23299d_9c1c8dc3",
+        "filename": "gello/Android.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-29T04:17:26Z",
+      "side": 1,
+      "message": "I think we should name the APK in the GitHub repo \"gello.apk\" instead of \"gello-$(RELEASE_NUMBER).apk\"",
+      "revId": "8898a1105be1a994d3515492eb38e64f0711f585",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
