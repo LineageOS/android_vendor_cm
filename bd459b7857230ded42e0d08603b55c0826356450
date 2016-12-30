@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "3a1d315d_7712eab5",
+        "filename": "config/common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 252,
+      "author": {
+        "id": 5681
+      },
+      "writtenOn": "2016-12-30T17:50:34Z",
+      "side": 1,
+      "message": "too much l",
+      "revId": "bd459b7857230ded42e0d08603b55c0826356450",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
