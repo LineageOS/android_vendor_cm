@@ -16,6 +16,24 @@
       "revId": "95b20e8a6e170b709aecbb37212c4b714d468815",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5a202591_7ee2c0d6",
+        "filename": "build/core/http_prebuilt.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-30T01:01:53Z",
+      "side": 1,
+      "message": "I\u0027m just mirroring the change made in cm-14.1 ¯\\_(?)_/¯\n\nhttps://review.lineageos.org/#/c/154070/3/build/core/http_prebuilt.mk@35",
+      "parentUuid": "5a202591_dec31437",
+      "revId": "95b20e8a6e170b709aecbb37212c4b714d468815",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
