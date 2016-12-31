@@ -42,6 +42,24 @@
     },
     {
       "key": {
+        "uuid": "3a1d315d_3add7943",
+        "filename": "config/common.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 265,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2016-12-31T01:26:52Z",
+      "side": 1,
+      "message": "True that. I guess this line can be removed.",
+      "parentUuid": "3a1d315d_9affedaa",
+      "revId": "8782cd213685da427028b9f09a2ec17fe90eaca2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "7a23299d_1614dcf3",
         "filename": "config/common.mk",
         "patchSetId": 4
