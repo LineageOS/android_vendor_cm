@@ -255,6 +255,9 @@ function write_packages() {
             if [ "$EXTRA" != "none" ]; then
                 printf 'LOCAL_MULTILIB := %s\n' "$EXTRA"
             fi
+            if [ "$VENDOR_PKG" = "true" ]; then
+                printf 'LOCAL_MODULE_PATH := $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)\n'
+            fi
         elif [ "$CLASS" = "APPS" ]; then
             if [ -z "$ARGS" ]; then
                 if [ "$EXTRA" = "priv-app" ]; then
