@@ -1,0 +1,61 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a1a2d67_76954ee3",
+        "filename": "build/core/http_prebuilt.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-01-01T21:56:36Z",
+      "side": 1,
+      "message": "are the parameters here correct? it seems off to me",
+      "revId": "415cccbdbc0788e95355f0b21700edae6e84b507",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_569a5215",
+        "filename": "build/core/http_prebuilt.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-01-01T21:56:36Z",
+      "side": 1,
+      "message": "no maven here...",
+      "range": {
+        "startLine": 81,
+        "startChar": 74,
+        "endLine": 81,
+        "endChar": 79
+      },
+      "revId": "415cccbdbc0788e95355f0b21700edae6e84b507",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_369fd605",
+        "filename": "build/core/http_prebuilt.mk",
+        "patchSetId": 4
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-01-01T21:56:36Z",
+      "side": 1,
+      "message": "are fetchprebuilts and nukeprebuilds necessary?",
+      "revId": "415cccbdbc0788e95355f0b21700edae6e84b507",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
