@@ -22,6 +22,30 @@
       "revId": "a68c57f5c25b77e2df7937a7d4d34b50b7db82a5",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a1a2d67_7931bf0a",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 447,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-01-02T05:40:15Z",
+      "side": 1,
+      "message": "IMO we should do the following things:\n1) Write \"Copyright (C) 2016 The CyanogenMod Project\"\n3) If $YEAR \u003d\u003d 2017, append \"(C) $YEAR The LineageOS Project\"\n4) If $YEAR !\u003d 2017, append \"(C) 2017-$YEAR The LineageOS Project\"",
+      "parentUuid": "1a1a2d67_1911abac",
+      "range": {
+        "startLine": 447,
+        "startChar": 0,
+        "endLine": 447,
+        "endChar": 45
+      },
+      "revId": "a68c57f5c25b77e2df7937a7d4d34b50b7db82a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
