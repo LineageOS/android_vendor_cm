@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a1a2d67_1911abac",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 447,
+      "author": {
+        "id": 10258
+      },
+      "writtenOn": "2017-01-02T04:50:04Z",
+      "side": 1,
+      "message": "CyanogenMod died in 2016\nIMO it\u0027s better to remove this line",
+      "range": {
+        "startLine": 447,
+        "startChar": 0,
+        "endLine": 447,
+        "endChar": 45
+      },
+      "revId": "a68c57f5c25b77e2df7937a7d4d34b50b7db82a5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
