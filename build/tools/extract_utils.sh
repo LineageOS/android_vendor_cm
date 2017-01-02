@@ -770,7 +770,7 @@ function extract() {
     local SRC="$2"
     local OUTPUT_ROOT="$CM_ROOT"/"$OUTDIR"/proprietary
     local OUTPUT_TMP="$TMPDIR"/"$OUTDIR"/proprietary
-    #adb reboot to recovery
+    #adb reboot recovery 
     #if [ "$SRC" = "adb" ]; then
     #    init_adb_connection
     #fi
