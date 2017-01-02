@@ -192,6 +192,7 @@ PRODUCT_PACKAGES += \
 endif
 
 # Openssh
+ifneq ($(DISABLE_SSH),true)
 PRODUCT_PACKAGES += \
     scp \
     sftp \
@@ -200,6 +201,7 @@ PRODUCT_PACKAGES += \
     sshd_config \
     ssh-keygen \
     start-ssh
+endif
 
 # rsync
 PRODUCT_PACKAGES += \
