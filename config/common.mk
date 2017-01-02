@@ -146,6 +146,7 @@ PRODUCT_PACKAGES += \
     Exchange2
 
 # Extra tools in CM
+ifneq ($(DISABLE_EXTRA_TOOLS),true)
 PRODUCT_PACKAGES += \
     7z \
     bash \
@@ -171,7 +172,7 @@ PRODUCT_PACKAGES += \
     vim \
     wget \
     zip
-
+endif
 # Custom off-mode charger
 ifneq ($(WITH_CM_CHARGER),false)
 PRODUCT_PACKAGES += \
@@ -192,6 +193,7 @@ PRODUCT_PACKAGES += \
 endif
 
 # Openssh
+ifneq ($(DISABLE_SSH),true)
 PRODUCT_PACKAGES += \
     scp \
     sftp \
@@ -200,10 +202,13 @@ PRODUCT_PACKAGES += \
     sshd_config \
     ssh-keygen \
     start-ssh
+endif
 
 # rsync
+ifneq ($(DISABLE_RSYNC),true)
 PRODUCT_PACKAGES += \
     rsync
+endif
 
 # Stagefright FFMPEG plugin
 PRODUCT_PACKAGES += \
