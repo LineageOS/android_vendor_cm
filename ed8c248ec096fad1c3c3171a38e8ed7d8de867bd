@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa3479d7_d2ab04d5",
+        "filename": "build/envsetup.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 67,
+      "author": {
+        "id": 5531
+      },
+      "writtenOn": "2017-01-02T08:04:56Z",
+      "side": 1,
+      "message": "I purposely check for !lineage_ first, otherwise check_product will spew erroneous errors about a missing device when it checks for cm_ on a device which has properly transitioned to lineage_.",
+      "revId": "ed8c248ec096fad1c3c3171a38e8ed7d8de867bd",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
