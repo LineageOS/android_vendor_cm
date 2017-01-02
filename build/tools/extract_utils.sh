@@ -770,10 +770,10 @@ function extract() {
     local SRC="$2"
     local OUTPUT_ROOT="$CM_ROOT"/"$OUTDIR"/proprietary
     local OUTPUT_TMP="$TMPDIR"/"$OUTDIR"/proprietary
-
-    if [ "$SRC" = "adb" ]; then
-        init_adb_connection
-    fi
+    #adb reboot to recovery
+    #if [ "$SRC" = "adb" ]; then
+    #    init_adb_connection
+    #fi
 
     if [ "$VENDOR_STATE" -eq "0" ]; then
         echo "Cleaning output directory ($OUTPUT_ROOT).."
