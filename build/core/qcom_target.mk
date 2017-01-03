@@ -94,6 +94,9 @@ $(call ril-set-path-variant,ril)
 $(call wlan-set-path-variant,wlan-caf)
 $(call bt-vendor-set-path-variant,bt-caf)
 
+# This will check for SDCLANG support and enable if existing
+include device/qcom/common/sdclang/sdclang.mk
+
 else
 
 $(call project-set-path,qcom-audio,hardware/qcom/audio/default)
