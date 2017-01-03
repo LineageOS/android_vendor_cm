@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa3479d7_86dd3a17",
+        "filename": "device/product/common/nfc.mk",
+        "patchSetId": 45
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 6334
+      },
+      "writtenOn": "2017-01-03T19:57:05Z",
+      "side": 1,
+      "message": "should we add frameworks/native/data/etc/com.android.nfc_extras.xml here as well?",
+      "revId": "26434ce3b76b150157b92f8b92afd4e4a7b93972",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
