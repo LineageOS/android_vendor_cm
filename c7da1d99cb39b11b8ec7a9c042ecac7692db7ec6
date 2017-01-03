@@ -45,6 +45,30 @@
       "revId": "c7da1d99cb39b11b8ec7a9c042ecac7692db7ec6",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa3479d7_c1332cf5",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 454,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2017-01-03T23:31:34Z",
+      "side": 1,
+      "message": "Yeah, I was wondering about how this would look for new devices too.\n\nMaybe just put the current year only copyright lineageos and call it a day.  We are technically generating the files anew anyway.",
+      "parentUuid": "fa3479d7_3bf34b0c",
+      "range": {
+        "startLine": 450,
+        "startChar": 4,
+        "endLine": 454,
+        "endChar": 6
+      },
+      "revId": "c7da1d99cb39b11b8ec7a9c042ecac7692db7ec6",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
