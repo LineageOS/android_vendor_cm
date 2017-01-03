@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa3479d7_269e8e57",
+        "filename": "build/core/qcom_target.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-01-03T19:48:10Z",
+      "side": 1,
+      "message": "Non-qcom devices may want to use it ( don\u0027t ask me why )",
+      "range": {
+        "startLine": 98,
+        "startChar": 0,
+        "endLine": 98,
+        "endChar": 45
+      },
+      "revId": "133b89592761ae15e941843eacba48fb1780332b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
