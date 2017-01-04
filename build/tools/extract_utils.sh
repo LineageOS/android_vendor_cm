@@ -880,6 +880,10 @@ function extract() {
                 fi
             elif [[ "$DEST" =~ .xml$ ]]; then
                 fix_xml "$DEST"
+            elif [[ "$(file -bN --mime-type $DEST)" == "application/x-sharedlib" ]]; then
+                if [ "$(type -t fix_elf)" == "function" ]; then
+                    fix_elf "$DEST"
+                fi
             fi
         fi
 
