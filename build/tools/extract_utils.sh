@@ -865,12 +865,18 @@ function extract() {
 
         if [ "$?" == "0" ]; then
             # Deodex apk|jar if that's the case
-            if [[ "$FULLY_DEODEXED" -ne "1" && "$DEST" =~ .(apk|jar)$ ]]; then
-                oat2dex "$DEST" "$FILE" "$SRC"
-                if [ -f "$TMPDIR/classes.dex" ]; then
-                    zip -gjq "$DEST" "$TMPDIR/classes.dex"
-                    rm "$TMPDIR/classes.dex"
-                    printf '    (updated %s from odex files)\n' "/$FILE"
+            if [[ "$DEST" =~ .(apk|jar)$ ]]; then
+                if [[ "$FULLY_DEODEXED" -ne "1" ]]; then
+                    oat2dex "$DEST" "$FILE" "$SRC"
+                    if [ -f "$TMPDIR/classes.dex" ]; then
+                        zip -gjq "$DEST" "$TMPDIR/classes.dex"
+                        rm "$TMPDIR/classes.dex"
+                        printf '    (updated %s from odex files)\n' "/$FILE"
+                    fi
+                fi
+
+                if [ "$(type -t fix_java)" == "function" ]; then
+                    fix_java "$DEST"
                 fi
             elif [[ "$DEST" =~ .xml$ ]]; then
                 fix_xml "$DEST"
