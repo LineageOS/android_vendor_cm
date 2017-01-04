@@ -150,6 +150,8 @@ function target_args() {
 function prefix_match() {
     local PREFIX="$1"
     for FILE in "${PRODUCT_PACKAGES_LIST[@]}"; do
+        FILE=$(target_file "${FILE}")
+
         if [[ "$FILE" =~ ^"$PREFIX" ]]; then
             printf '%s\n' "${FILE#$PREFIX}"
         fi
