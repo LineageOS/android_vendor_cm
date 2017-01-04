@@ -217,6 +217,7 @@ function write_packages() {
     local EXTENSION=
     local PKGNAME=
     local SRC=
+    local DEPSRCFILE=
 
     for P in "${FILELIST[@]}"; do
         FILE=$(target_file "$P")
@@ -235,6 +236,7 @@ function write_packages() {
             SRC+="/vendor"
         fi
 
+        DEPSRCFILE=
         printf 'include $(CLEAR_VARS)\n'
         printf 'LOCAL_MODULE := %s\n' "$PKGNAME"
         printf 'LOCAL_MODULE_OWNER := %s\n' "$VENDOR"
@@ -249,10 +251,13 @@ function write_packages() {
                 #    echo "LOCAL_MODULE_PATH_64 := \$(TARGET_OUT_SHARED_LIBRARIES)"
                 #    echo "LOCAL_MODULE_PATH_32 := \$(2ND_TARGET_OUT_SHARED_LIBRARIES)"
                 #fi
+                DEPSRCFILE="$SRC"/lib/"$FILE"
             elif [ "$EXTRA" = "64" ]; then
                 printf 'LOCAL_SRC_FILES := %s/lib64/%s\n' "$SRC" "$FILE"
+                DEPSRCFILE="$SRC"/lib64/"$FILE"
             else
                 printf 'LOCAL_SRC_FILES := %s/lib/%s\n' "$SRC" "$FILE"
+                DEPSRCFILE="$SRC"/lib/"$FILE"
             fi
             if [ "$EXTRA" != "none" ]; then
                 printf 'LOCAL_MULTILIB := %s\n' "$EXTRA"
@@ -292,7 +297,15 @@ function write_packages() {
                 SRC="$SRC/bin"
             fi
             printf 'LOCAL_SRC_FILES := %s/%s\n' "$SRC" "$FILE"
+            DEPSRCFILE="$SRC"/"$FILE"
             unset EXTENSION
+
+            MACHINE=$(readelf -h "$CM_ROOT"/"$OUTDIR"/"$DEPSRCFILE" | grep "Machine:" | xargs | cut -d' ' -f2)
+            if [ "$MACHINE" = "ARM" ]; then
+                printf 'LOCAL_MULTILIB := 32\n'
+            elif [ "$MACHINE" = "AArch64" ]; then
+                printf 'LOCAL_MULTILIB := 64\n'
+            fi
         else
             printf 'LOCAL_SRC_FILES := %s/%s\n' "$SRC" "$FILE"
         fi
@@ -314,6 +327,13 @@ function write_packages() {
         fi
         if [ "$VENDOR_PKG" = "true" ]; then
             printf 'LOCAL_PROPRIETARY_MODULE := true\n'
+        fi
+        if [ ! -z "$DEPSRCFILE" ]; then
+            printf 'LOCAL_SHARED_LIBRARIES :='
+            while read -r dep ; do
+                printf ' %s' "${dep%.*}"
+            done < <(readelf -d "$CM_ROOT"/"$OUTDIR"/"$DEPSRCFILE" | grep NEEDED | awk '{print $5}' | sed 's/^.//' | sed 's/.$//')
+            printf '\n'
         fi
         printf 'include $(BUILD_PREBUILT)\n\n'
     done
