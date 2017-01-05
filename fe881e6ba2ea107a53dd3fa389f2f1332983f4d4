@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa3479d7_7ee2d6d6",
+        "filename": "build/core/qcom_target.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 64,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2017-01-05T19:52:33Z",
+      "side": 1,
+      "message": "Discussed in slack, but it would be good to put these in a separate list variable (eg. MSM_B_FAMILY :\u003d msm8610 msm8226 msm8974) and filter against the list variable and assign MSM_VIDC_TARGET_LIST to it as well. The family listings could be used for other filters/variables as well.",
+      "range": {
+        "startLine": 64,
+        "startChar": 24,
+        "endLine": 64,
+        "endChar": 47
+      },
+      "revId": "fe881e6ba2ea107a53dd3fa389f2f1332983f4d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
