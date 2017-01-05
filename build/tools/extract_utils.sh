@@ -691,7 +691,8 @@ function oat2dex() {
             java -jar "$BAKSMALIJAR" deodex -o "$TMPDIR/dexout" -b "$BOOTOAT" -d "$TMPDIR" "$TMPDIR/$(basename "$OAT")"
         elif [[ "$CM_TARGET" =~ .jar$ ]]; then
             # try to extract classes.dex from boot.oat for framework jars
-            java -jar "$BAKSMALIJAR" deodex -o "$TMPDIR/dexout" -b "$BOOTOAT" -d "$TMPDIR" -e "/$OEM_TARGET" "$BOOTOAT"
+            local DEX="$(basename "$OEM_TARGET" ."${OEM_TARGET##*.}").dex"
+            java -jar "$BAKSMALIJAR" deodex -o "$TMPDIR/dexout" -b "$BOOTOAT" -d "$TMPDIR" "boot.oat:$(basename "$DEX")"
         else
             continue
         fi
