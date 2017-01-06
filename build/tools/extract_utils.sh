@@ -442,8 +442,16 @@ function write_header() {
 
     [ "$COMMON" -eq 1 ] && local DEVICE="$DEVICE_COMMON"
 
-    cat << EOF > $1
-# Copyright (C) $YEAR The CyanogenMod Project
+    local EXISTING_COPYRIGHTS=`cat $1 | grep '^#.\+(C).\+$' | grep -v LineageOS` > /dev/null
+    if [ -z "$EXISTING_COPYRIGHTS" ]; then
+        COPYRIGHTS="# Copyright (C) $YEAR The LineageOS Project"
+    else
+        COPYRIGHTS="#           (C) $YEAR The LineageOS Project"
+        COPYRIGHTS=`printf "$EXISTING_COPYRIGHTS\n$COPYRIGHTS"`
+    fi
+    echo "$COPYRIGHTS" > $1
+
+    cat << EOF >> $1
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
