@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa3479d7_343fca27",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 457,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-01-07T19:21:53Z",
+      "side": 1,
+      "message": "Isn\u0027t this covered by the code right below?",
+      "range": {
+        "startLine": 456,
+        "startChar": 8,
+        "endLine": 457,
+        "endChar": 71
+      },
+      "revId": "e8c55ef667b09e5ef41e77f3f2b81b7374492226",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa3479d7_543a4e37",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 461,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-01-07T19:21:53Z",
+      "side": 1,
+      "message": "Isn\u0027t this covered by the code right below?",
+      "range": {
+        "startLine": 460,
+        "startChar": 8,
+        "endLine": 461,
+        "endChar": 77
+      },
+      "revId": "e8c55ef667b09e5ef41e77f3f2b81b7374492226",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
