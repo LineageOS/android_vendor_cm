@@ -14,6 +14,8 @@ Additional LineageOS functions:
 - cafremote:       Add git remote for matching CodeAurora repository.
 - mka:             Builds using SCHED_BATCH on all processors.
 - mkap:            Builds the module(s) using mka and pushes them to the device.
+- mkal:            Builds the module(s) using up to a defined percentage of CPU.
+                   The percentage must be passed as first argument.
 - cmka:            Cleans and builds using mka.
 - repodiff:        Diff 2 different branches or tags within the same repo
 - repolastsync:    Prints date and time of last repo sync.
@@ -691,6 +693,57 @@ function mka() {
     else
         echo "Couldn't locate the top of the tree.  Try setting TOP."
     fi
+}
+
+function mkal() {
+    if [ `uname -s` != Linux ]; then
+        echo "Linux only"
+        return
+    fi
+
+    if ! command -v cgexec >/dev/null; then
+        echo "Error: 'cgexec' not found"
+        return
+    elif ! command -v cgcreate > /dev/null; then
+        echo "Error: 'cgcreate' not found"
+        return
+    elif ! command -v sudo >/dev/null; then
+        echo "Error: 'sudo' not found"
+        return
+    fi
+
+    local SHARE=`printf '%d' $1 2>/dev/null`;
+    if [ $SHARE -le 0 ] || [ $SHARE -gt 100 ]; then
+        echo "Error: the given CPU resource percentage is not valid"
+        return
+    fi
+    shift
+
+    local NUM_CPUS=$(cat /proc/cpuinfo | grep "^processor" | wc -l)
+    SHARE=$(($NUM_CPUS*$SHARE))
+
+    local GROUPNAME=cpushare_limited-$USER
+    local CGROUP=cpu:$GROUPNAME
+    if [ ! -d /sys/fs/cgroup/cpu/$GROUPNAME/ ]; then
+        sudo cgcreate -t $USER:$USER -a $USER:$USER -g $CGROUP
+        if [ $? -ne 0 ]; then
+            echo "Could not create cgroup, is CONFIG_CGROUP_SCHED enabled?"
+            return
+        fi
+    fi
+
+    if [ ! -f /sys/fs/cgroup/cpu/$GROUPNAME/cpu.cfs_quota_us ]; then
+        echo "CFS tunables not found, is CONFIG_CFS_BANDWIDTH enabled?"
+        return
+    fi
+
+    local CFS_PERIOD_US=500000
+    local CFS_QUOTA_US=$(($CFS_PERIOD_US*$SHARE/100))
+    echo $CFS_QUOTA_US > /sys/fs/cgroup/cpu/$GROUPNAME/cpu.cfs_quota_us
+    echo $CFS_PERIOD_US > /sys/fs/cgroup/cpu/$GROUPNAME/cpu.cfs_period_us
+
+    local T=$(gettop)
+    cgexec -g $CGROUP make -C $T -j$NUM_CPUS "$@"
 }
 
 function cmka() {
