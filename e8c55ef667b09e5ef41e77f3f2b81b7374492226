@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "fa3479d7_353fc427",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 442,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-01-08T09:01:30Z",
+      "side": 1,
+      "message": "There\u0027s no need to remove the file, or you could omit the if and use rm -f.",
+      "revId": "e8c55ef667b09e5ef41e77f3f2b81b7374492226",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "fa3479d7_343fca27",
         "filename": "build/tools/extract_utils.sh",
         "patchSetId": 2
