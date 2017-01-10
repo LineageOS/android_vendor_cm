@@ -1,4 +1,4 @@
-LineageOS
+CyanogenMod
 ===============
 
 Visit http://github.com/LineageOS for full source and git access.
