@@ -1,0 +1,1 @@
+allow platform_app cm_status_bar_service:service_manager find;
