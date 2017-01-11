@@ -130,6 +130,9 @@ ifneq ($(TARGET_DISABLE_CMSDK), true)
 include vendor/cm/config/cmsdk_common.mk
 endif
 
+#Inherit magic
+$(call inherit-product, vendor/cm/config/rebrand.mk)
+
 # Required CM packages
 PRODUCT_PACKAGES += \
     BluetoothExt \

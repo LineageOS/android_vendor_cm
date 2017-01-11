@@ -1,0 +1,16 @@
+## This file allows data retention from CM -> LAOS by exploiting
+## the updatecmds mechanism within installd. 
+
+# Example:
+
+#Declare the source:target package
+#then list the directory which need to retained across
+#an upgrade.
+org.cyanogenmod.launcher:org.lineageos.launcher
+    databases
+    files
+    shared_prefs
+
+#Due to source and target equivelance not being checked by installd
+#this may work for retaining data across signature changes as well
+#without having a rename
