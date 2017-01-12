@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da3975d1_f18848c8",
+        "filename": "build/core/http_prebuilt.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 2681
+      },
+      "writtenOn": "2017-01-12T16:17:32Z",
+      "side": 0,
+      "message": "I think this line is what was causing the failures for me. The \u0027-\u003e $(filepath) is outside of the quotes for echo",
+      "revId": "0e579746302af63a749972bfcdca8bd643ba7ad5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
