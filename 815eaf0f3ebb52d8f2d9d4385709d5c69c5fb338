@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da3975d1_343b5eed",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 1
+      },
+      "lineNbr": 86,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-01-13T05:46:57Z",
+      "side": 1,
+      "message": "Are these the aliases y\u0027all want to go by? It seems like some of them aren\u0027t valid or aren\u0027t on GitHub though.",
+      "range": {
+        "startLine": 86,
+        "startChar": 66,
+        "endLine": 86,
+        "endChar": 115
+      },
+      "revId": "815eaf0f3ebb52d8f2d9d4385709d5c69c5fb338",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
