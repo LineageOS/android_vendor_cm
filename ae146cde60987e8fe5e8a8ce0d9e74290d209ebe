@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da3975d1_5a04c914",
+        "filename": "prebuilt/common/bin/keys-migration.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 38,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-01-13T15:21:27Z",
+      "side": 1,
+      "message": "Probably unneeded",
+      "revId": "ae146cde60987e8fe5e8a8ce0d9e74290d209ebe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_1a0e4135",
+        "filename": "prebuilt/common/bin/keys-migration.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-01-13T15:21:27Z",
+      "side": 1,
+      "message": "I could probably add a \"rm packages.xml\" here as fallback mechanism in case of error. That would cause packages to lose their permissions, but not their data.",
+      "revId": "ae146cde60987e8fe5e8a8ce0d9e74290d209ebe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
