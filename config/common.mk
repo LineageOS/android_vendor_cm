@@ -229,6 +229,10 @@ PRODUCT_PACKAGES += \
 endif
 endif
 
+# test-keys migration script
+PRODUCT_PACKAGES += \
+    keys-migration.sh
+
 DEVICE_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
 PRODUCT_VERSION_MAJOR = 14
