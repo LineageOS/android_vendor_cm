@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da3975d1_572b8482",
+        "filename": "config/common.mk",
+        "patchSetId": 8
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-01-13T07:28:53Z",
+      "side": 1,
+      "message": "This will allow su to be built into user builds if WITH_SU\u003dtrue. I don\u0027t think we want to allow this?",
+      "revId": "a84a75ad47890b8fcd8eeb0b9d2da648bc542b72",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
