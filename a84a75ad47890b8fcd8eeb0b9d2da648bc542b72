@@ -16,6 +16,24 @@
       "revId": "a84a75ad47890b8fcd8eeb0b9d2da648bc542b72",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da3975d1_d7f534cc",
+        "filename": "config/common.mk",
+        "patchSetId": 8
+      },
+      "lineNbr": 237,
+      "author": {
+        "id": 6351
+      },
+      "writtenOn": "2017-01-13T10:15:57Z",
+      "side": 1,
+      "message": "Why not?\n\nSeems perfectly reasonable that WITH_SU will include su, no matter what build variant you are creating.",
+      "parentUuid": "da3975d1_572b8482",
+      "revId": "a84a75ad47890b8fcd8eeb0b9d2da648bc542b72",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
