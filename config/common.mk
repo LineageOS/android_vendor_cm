@@ -220,6 +220,14 @@ PRODUCT_PACKAGES += \
 endif
 endif
 
+# Watermark for cm -> lineage data migration build
+# Fields are:
+# text%fontsize%deltax%deltay%shadowcolor%color%shadowradius%shadowdx%shadowdy
+# For more info, see:
+# frameworks/base/services/core/java/com/android/server/wm/Watermark.java
+PRODUCT_COPY_FILES += \
+    vendor/cm/watermark.conf:system/etc/setup.conf
+
 DEVICE_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
 PRODUCT_VERSION_MAJOR = 13
