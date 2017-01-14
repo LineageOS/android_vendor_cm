@@ -52,10 +52,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/cm/config/permissions/backup.xml:system/etc/sysconfig/backup.xml
 
-# Signature compatibility validation
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/bin/otasigcheck.sh:install/bin/otasigcheck.sh
-
 # init.d support
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner \
@@ -101,6 +97,10 @@ endif
 # Bootanimation
 #PRODUCT_PACKAGES += \
 #    bootanimation.zip
+
+# Signature compatibility validation
+PRODUCT_PACKAGES += \
+    otasigcheck
 
 # Required CM packages
 PRODUCT_PACKAGES += \
