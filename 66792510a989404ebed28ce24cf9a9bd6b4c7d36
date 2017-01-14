@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da3975d1_ab8fe5cb",
+        "filename": "prebuilt/common/bin/otasigcheck.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 3075
+      },
+      "writtenOn": "2017-01-14T20:55:18Z",
+      "side": 0,
+      "message": "Why not just add the test key string here and amend the if statement to allow $pkgkey to equal the test key ?\n\nRewriting the whole thing seems overkill.",
+      "revId": "66792510a989404ebed28ce24cf9a9bd6b4c7d36",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
