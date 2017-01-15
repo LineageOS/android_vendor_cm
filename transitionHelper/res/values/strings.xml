@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Transition helper</string>
+
+    <string name="title">Welcome to LineageOS</string>
+    <string name="message">This is a migration build.\nThis special build helps you upgrade to LineageOS 14.1 from CyanogenMod 14.1 making sure all your data is preserved.\nTo complete the upgrade make sure you flash the standard build.\nThe waterkmark will be removed once you\'ve upgraded to a proper LineageOS installation.</string>
+
+    <string name="gotit">Got it</string>
+</resources>
