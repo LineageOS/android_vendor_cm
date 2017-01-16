@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba3e81b7_44b06edd",
+        "filename": "prebuilt/common/bin/otasigcheck.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 9394
+      },
+      "writtenOn": "2017-01-16T07:25:44Z",
+      "side": 1,
+      "message": "you can split this up to multiple lines with something like:\n\nTESTKEY\u003d\"\\\nAAAAAAAAAAAAA\\\nAAAAAAAAAAAAA\\\nAAAAAAAAAAAAA\\\nAAAAAAAAAAAAA\"",
+      "revId": "8c4779123b7c5ccd54f2cedd5f4a9fdc7bf9e47c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
