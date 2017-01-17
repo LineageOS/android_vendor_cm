@@ -90,6 +90,10 @@ include vendor/cm/config/themes_common.mk
 # CMSDK
 include vendor/cm/config/cmsdk_common.mk
 
+# Bootanimation
+PRODUCT_PACKAGES += \
+    bootanimation.zip
+
 # Required CM packages
 PRODUCT_PACKAGES += \
     CMAudioService \
