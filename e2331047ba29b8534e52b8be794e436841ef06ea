@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba3e81b7_b7a62752",
+        "filename": "bootanimation/generate-bootanimation.sh",
+        "patchSetId": 5
+      },
+      "lineNbr": 25,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2017-01-17T13:04:31Z",
+      "side": 1,
+      "message": "Didn\u0027t we have a problem with this syntax when we did the boot animation creation stuff last time, like on some build environments it literally created a part{0..2} file?",
+      "range": {
+        "startLine": 25,
+        "startChar": 15,
+        "endLine": 25,
+        "endChar": 22
+      },
+      "revId": "e2331047ba29b8534e52b8be794e436841ef06ea",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
