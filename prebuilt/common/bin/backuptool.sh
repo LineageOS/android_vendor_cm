@@ -8,7 +8,11 @@ export S=/system
 export V=14.1
 
 # Scripts in /system/addon.d expect to find backuptool.functions in /tmp
-cp -f /tmp/install/bin/backuptool.functions /tmp
+if [ `getprop ro.build.ab_update` == "true" ]; then
+  cp -f /system/bin/backuptool.functions /tmp
+else
+  cp -f /tmp/install/bin/backuptool.functions /tmp
+fi
 
 # Preserve /system/addon.d in /tmp/addon.d
 preserve_addon_d() {
@@ -23,7 +27,11 @@ preserve_addon_d() {
 restore_addon_d() {
   if [ -d /tmp/addon.d/ ]; then
     mkdir -p /system/addon.d/
-    cp -a /tmp/addon.d/* /system/addon.d/
+    if [ `getprop ro.build.ab_update` == "true" ]; then
+      cp -a /tmp/addon.d/* /postinstall/addon.d/
+    else
+      cp -a /tmp/addon.d/* /system/addon.d/
+    fi
     rm -rf /tmp/addon.d/
   fi
 }
@@ -98,6 +106,9 @@ case "$1" in
         if check_whitelist tmp; then
             exit 127
         fi
+    fi
+    if [ `getprop ro.build.ab_update` == "true" ]; then
+        export S=/postinstall
     fi
     check_blacklist tmp
     run_stage pre-restore

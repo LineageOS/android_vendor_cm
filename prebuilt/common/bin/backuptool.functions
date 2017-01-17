@@ -22,6 +22,10 @@ backup_file() {
 }
 
 restore_file() {
+  if [ `getprop ro.build.ab_update` == "true" ]; then
+    export S=/postinstall
+  fi
+
   local FILE=`basename "$1"`
   local DIR=`dirname "$1"`
   if [ -e "$C/$DIR/$FILE" ]; then
