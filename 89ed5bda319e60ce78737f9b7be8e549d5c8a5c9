@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba3e81b7_2540c455",
+        "filename": "prebuilt/common/bin/lineage_postinstall.sh",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-01-17T03:50:34Z",
+      "side": 1,
+      "message": "this probably doesn\u0027t work, might need to just opt for our own set of scripts",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 29
+      },
+      "revId": "89ed5bda319e60ce78737f9b7be8e549d5c8a5c9",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
