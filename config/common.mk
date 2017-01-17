@@ -95,6 +95,10 @@ PRODUCT_COPY_FILES += \
 # T-Mobile theme engine
 include vendor/cm/config/themes_common.mk
 
+# Bootanimation
+PRODUCT_PACKAGES += \
+    bootanimation.zip
+
 # Required CM packages
 PRODUCT_PACKAGES += \
     Development \
