@@ -42,6 +42,13 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/50-cm.sh:system/addon.d/50-cm.sh \
     vendor/cm/prebuilt/common/bin/blacklist:system/addon.d/blacklist
 
+ifeq ($(AB_OTA_UPDATER),true)
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/bin/backuptool_ab.sh:system/bin/backuptool_ab.sh \
+    vendor/cm/prebuilt/common/bin/backuptool_ab.functions:system/bin/backuptool_ab.functions \
+    vendor/cm/prebuilt/common/bin/lineage_postinstall.sh:system/bin/lineage_postinstall.sh
+endif
+
 # System feature whitelists
 PRODUCT_COPY_FILES += \
     vendor/cm/config/permissions/backup.xml:system/etc/sysconfig/backup.xml \
