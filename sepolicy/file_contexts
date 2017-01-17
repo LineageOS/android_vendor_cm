@@ -50,3 +50,8 @@
 
 # bash
 /system/xbin/bash                               u:object_r:shell_exec:s0
+
+# postinstall
+bin/backuptool_ab.functions                     u:object_r:otapreopt_chroot_exec:s0
+bin/backuptool_ab.sh                            u:object_r:otapreopt_chroot_exec:s0
+bin/lineage_postinstall.sh                      u:object_r:otapreopt_chroot_exec:s0
