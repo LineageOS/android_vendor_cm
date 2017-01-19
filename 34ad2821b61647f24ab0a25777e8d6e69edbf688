@@ -46,6 +46,30 @@
       "revId": "34ad2821b61647f24ab0a25777e8d6e69edbf688",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_6f8fd124",
+        "filename": "build/envsetup.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 819,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-01-19T20:50:22Z",
+      "side": 1,
+      "message": "The point being you have a call here that\u0027s useless",
+      "parentUuid": "9a437d4f_4fbf6dd1",
+      "range": {
+        "startLine": 819,
+        "startChar": 32,
+        "endLine": 819,
+        "endChar": 39
+      },
+      "revId": "34ad2821b61647f24ab0a25777e8d6e69edbf688",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
