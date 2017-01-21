@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_69a0e9f4",
+        "filename": "addonsu/updater-script-remove",
+        "patchSetId": 6
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-01-21T19:45:54Z",
+      "side": 1,
+      "message": "Doesn\u0027t edify support mount(\"/system\")?",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 77
+      },
+      "revId": "0780922eb296ca14c4abe7c69f95ab7712645e0a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
