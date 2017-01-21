@@ -22,6 +22,30 @@
       "revId": "0780922eb296ca14c4abe7c69f95ab7712645e0a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_29aae1d4",
+        "filename": "addonsu/updater-script-remove",
+        "patchSetId": 6
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-01-21T19:48:30Z",
+      "side": 1,
+      "message": "I actually didn\u0027t try that, but https://github.com/LineageOS/android_bootable_recovery/blob/cm-14.1/updater/install.cpp#L115",
+      "parentUuid": "9a437d4f_69a0e9f4",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 5,
+        "endChar": 77
+      },
+      "revId": "0780922eb296ca14c4abe7c69f95ab7712645e0a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
