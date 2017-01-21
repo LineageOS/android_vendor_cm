@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_3e445573",
+        "filename": "addonsu/mount-system.cpp",
+        "patchSetId": 5
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-01-21T18:32:57Z",
+      "side": 1,
+      "message": "I don\u0027t like this, I\u0027ll see if I can do something better than this.",
+      "range": {
+        "startLine": 49,
+        "startChar": 4,
+        "endLine": 49,
+        "endChar": 28
+      },
+      "revId": "a107b7d0e188e45d145e008195d251d6c67e513b",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
