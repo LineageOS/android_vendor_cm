@@ -204,56 +204,87 @@ General developers:
 * __UX Team:__ blunden, ciwrl, daneshm, DvTonder, jackmu95, maniac103, Kaik541
 * __Other:__ jruesga
 
-Translators:
-------------
-* __Afrikaans:__ David van Tonder (DvTonder), Corrie Meyer (isimobile)
-* __Arabic:__ Umar Omar (uomar8)
-* __Asturian:__ esbardu (esbardu), ivarela (malditoastur), Xandru Martino Ruz (Xandru), Xuacu Saturio (Xuacu)
-* __Catalan:__ Arnau (Arnau), Pau Galindo (Pau_Galindo)
-* __Chinese Simplified:__ Matthew Humphrey (775405984), Contactfront (Contactfront), Easeman Wang (easeman9), jiveking (jiveking), Yun Liu (liuyun97), Hexchain Tong (richard0053), Ryan Chan (smartryan), Thomas Wang (ts0516)
-* __Chinese Traditional:__ Hsiang Jung, CHENG (HJCHENG), Kelvin Cheong (kelvincheong), Bing-Hua Wang (louiswpf), npes87184 (npes87184), Ryan Chan (smartryan)
-* __Chinese Traditional, Hong Kong:__ Kelvin Cheong (kelvincheong), Ryan Chan (smartryan), Li Chi Tung (tonyli1357)
-* __Croatian:__ David Boca (davidboca), markan (markan), Robert Rozić (Rox), Josip Volf (Wuk)
-* __Czech:__ Radovan Kepák (bckp), Štěpán Dalecký (daleckystepan), engy (engy), Keltek (Keltek), ScArSVK (ScArSVK), Snoop05 (Snoop05)
-* __Danish:__ Morten Jørgensen (Fidoble), Jacob_DK (Jacob_DK), Ole Ingeman Christensen (OIChristensen)
-* __Dutch:__ Eddy Witkamp (eddywitkamp), Frank Baeten (frankbaeten), Tom Heisterkamp (HappyFlow), Martin Coulon (martinusbe), Timo Viveen (Nadermane), ray1618 (ray1618), Marco Brohet (therbom)
-* __Estonian:__ Rudolf Tammekivi (rtammekivi)
-* __Finnish:__ Eero Hyrsky (EnergySnail), Jani Kinnunen (jkinnunen), Niko Koivu (niko0o), Sasu Lehtonen (zazza)
-* __French:__ DelPETER (DelPETER), humpf (humpf), Julien Stephan (julienstephan29), laddass (laddass), .... (lemachinbidule), math Matmutant (matmutant), Micks29 (Micks29), opengillou (opengillou), Alexandre Bertrand (trandbert)
-* __Galician:__ Daniel (canu7), Isaac Álvarez Veiga (Erithrym)
-* __Georgian:__ Alexander (alexander_9)
-* __German:__ Sascha Schroeder (c1ph4), Kim Le (elektroschmock78), Jacob Müller (jackmu95), Kilian von Pflugk (kilianvonpflugk), Kilowatt.W (kilowatt), Benjamin Huschle (kolsms), Danny Baumann (maniac103), Mardon (markusmenzel), maxee (maxee), michelsberg (michelsberg), Roman Ettlinger (romanett98), Stefan O. (stefanao), Thomas Reinhardt (tarreas), unpublished (unpublished), Yannik (yanniks)
-* __Greek:__ Vasilis Akritas (billak75), Michael Bestas (mikeioannina)
-* __Hebrew:__ Arthur Zamarin (arthurzam), evyatark2 (evyatark2), Mr_Guy (Mr_Guy), Oren Cohen (orenc17), sagi232123 (sagi232123)
-* __Hindi:__ c0d3ripp3r (c0d3ripp3r), Solomon Sunder (solomonsunder)
-* __Hungarian:__ Bálint Czobor (balint), Buga Dániel (BugaDániel), fischerandris (fischerandris), lazajnd (lazajnd), Tamás Tóth (tothtamassyman)
-* __Indonesian:__ Vicky Sofyan (Arch9), famihyypia (famihyypia), Ilham Ibrahim (iiibrahim89), Ruswan Efendi (RuswanWu7), tohenk (tohenk)
-* __Italian:__ Alessandro Preti (alessandropreti), Francesco Foresta (francescoforesta), Joey Rizzoli (linuxx), Lorenzo Faccini (lo97), rheeze (rheeze), Valdevies (Valdevies)
-* __Japanese:__ Black Zigong (blackzigong), jiveking (jiveking), おたっく (otack), Sena Endo (senaforandroid), stmay30 (stmay30)
-* __Korean:__ 이승렬 (toy0605)
-* __Kurdish:__ falah (Dylan2785)
-* __Latvian:__ Māris Rēdmanis (maaris)
-* __Lithuanian:__ Liudas Ališauskas (liudas.alisauskas), Edmundas Plentauskas (plentauskas1992), HardLight (polizplz), Saulius Vyšniauskas (SauliusVy)
-* __Luxembourgish:__ Michel Weimerskirch (michel_weimerskirch), soued031 (soued031)
-* __Malay:__ tanakwagu (tanakwagu)
-* __Norwegian Bokmal:__ Vegard Fladby (Allram), Sten Eikrem (Storesteinen)
-* __Persian:__ Ali Niki (alinik), Mehdi HosseinZade (Arshen) (Arshen-2014), Yaser Rajabi (yrajabi)
-* __Polish:__ Dawid (dawidohs), Kamil Jarosław (devloz1996), Michał Gątkowski (IreuN), Andrzej Ressel (jereksel), Michał Kamień (kamykowsky), lozohcum M (lozohcum), Tomasz Popielarczyk (popielarczyktomasz), Michał Jakubowski (revanmj)
-* __Portuguese:__ João Pedro Luís (joaopluis), Sergio Borges (sergioborges99), André Pinela (sheffzor), Tercio Carvalho (tercioc)
-* __Portuguese, Brazilian:__ Carlos Henrique Brendler Cabral (carloshbcabral), Gafanhotz (Gafanhotz), Gustavo Rosa (gustavogyn), Tercio Carvalho (tercioc)
-* __Romanian:__ apolodor (apolodor), azzureux (azzureux), Marian-Mina Mihai (bboylalu), mihaitaus (mihaitaus)
-* __Russian:__ Vladislav Koldobskiy (NeverGone), Alexey Kuznetsov (eeepc1016p), Artem Leshchev (matshch), Maxim Perepelitsa (N0xFF), Yaroslav Yadrishnikov (MrYadro)
-* __Serbian (Cyrillic):__ Dragan Milenkovic (gagy187), Sava Mikalački (mikalackis), Драган (WD40)
-* __Sinhala:__ Rananga Suraweera (rananga)
-* __Slovak:__ Martin (mato), Bohuslav Oršula (orsulab), Peter Malík (PeterM), pyler (pyler), Snoop05 (Snoop05)
-* __Spanish:__ Isaac Álvarez Veiga (Erithrym), Jorge Ruesga (jruesga), Lorenzo M (Lorenzo_M), luchomacedo92 (LuchoMacedo), Pau Galindo (Pau_Galindo)
-* __Swedish:__ Simon Bäck (backsimon), elelinux (elelinux), Simon Danielsson (sad_88), Ted Lundwall (TedLundwall)
-* __Tamil:__ Kishore Sheik Ahamed (kishoreinme), Solomon Sunder (solomonsunder), Stars Soft (starssoft), அருண் குமார் - Arun Kumar (thangamani-arun)
-* __Thai:__ pureexe (pureexe)
-* __Turkish:__ Arif GÜLER (ArF), Mesut Öztürk (doktormesut), Murat KOŞAK (muratkosak), okirat (okirat), Şenol (senoleker)
-* __Ukrainian:__ Andriy Poznakhovskyy (Andrulko), Nazar Sokolovsky (nazar_sokolovsky), Maks (probil), xalich (xalich)
-* __Uyghur:__ jiveking (jiveking)
-* __Vietnamese:__ Bảo Quân (quan221295), Triet Bui Minh (x3cafe)
+Translation Proofreaders:
+-------------------------
+* __Afrikaans:__ isimobile, DvTonder, mikeioannina
+* __Amharic:__ mikeioannina
+* __Arabic:__ Niket, zoharchabaud, mfawwaz93, NohaKamal, uomar8, HaniHassaan, ramyhamza, ciwrl, mnothum, babbleon, mikeioannina
+* __Armenian:__ mikeioannina
+* __Assamese:__ gitika, mikeioannina
+* __Asturian:__ malditoastur, mikeioannina
+* __Azerbaijani:__ Khan27, sssemil, mikeioannina
+* __Basque:__ Osoitz, mikeioannina
+* __Belarusian:__ Niket, bitlogger, XiveZ, mikeioannina
+* __Bengali:__ testmasterbd
+* __Bulgarian:__ hristodipchikov, emilstf, ciwrl, mikeioannina
+* __Catalan:__ jmontane, Arnau, ciwrl, mikeioannina
+* __Chinese Simplified:__ zhcn, liuyun97, 775405984, ciwrl, mikeioannina
+* __Chinese Traditional:__ smartryan, HJCHENG, louiswpf, lzmxya, ayackmk, boxajay, ciwrl, mnothum, mikeioannina
+* __Chinese Traditional, Hong Kong:__ zhcn, smartryan, s1097854603, ciwrl, mikeioannina
+* __Croatian:__ davidboca, MASVA, Rox, apavlesic, markomegla, ciwrl, mikeioannina
+* __Czech:__ Keltek, ciwrl, therbom, mikeioannina
+* __Danish:__ Fidoble, Jacob_DK, mnothum, mikeioannina
+* __Dutch:__ eddywitkamp, mnothum, therbom
+* __English, Australia:__ uberlaggydarwin, mikeioannina
+* __English, India:__ Niket, mayankmethad, ciwrl, mikeioannina
+* __English, United Kingdom:__ skaveelicious, mikeioannina
+* __Esperanto:__ axel584, emmrichard, robin0van0der0v
+* __Estonian:__ rtammekivi, mikeioannina
+* __Finnish:__ niko0o, ciwrl, mikeioannina
+* __French:__ ciwrl, mnothum, babbleon, Mariesfbr, DelPETER, pierregehenne, M1ck, RadianDC, martina88, mikeioannina
+* __French, Canada:__ fabiolacontreras, ciwrl, mnothum, babbleon, mikeioannina
+* __Frisian:__ robin0van0der0v
+* __Galician:__ xosecalvo, Erithrym, meixome, xguerrap, manuiglesias96
+* __Georgian:__ mikeioannina
+* __German:__ ciwrl, mnothum, maniac103, elektroschmock78, ukappler, skaveelicious, mikeioannina
+* __Greek:__ mikeioannina
+* __Gujarati:__ Chhota_Bheem
+* __Hebrew:__ Niket, zoharchabaud, ciwrl, arthurzam, nbruderman, mikeioannina
+* __Hindi:__ ciwrl, mnothum, mikeioannina
+* __Hungarian:__ ciwrl, balint, tothtamassyman, mikeioannina
+* __Indonesian:__ mnothum, Arch9, eggoez, anzhyo, tohenk, mikeioannina
+* __Italian:__ mnothum, rheeze, francescoforesta, linuxx, mikeioannina
+* __Japanese:__ blackzigong, mikeioannina
+* __Kannada:__ adarshmr1998, sneha_b
+* __Khmer:__ mikeioannina
+* __Korean:__ Zeero1778, cpu344, joohaky, kadmiran, icejerry, mikeioannina
+* __Kurdish:__ Niket, ciwrl, NeverGone, Dylan2785, mikeioannina
+* __Lao:__ mikeioannina
+* __Latvian:__ valdisvi, mikeioannina
+* __Lithuanian:__ plentauskas1992, polizplz, mikeioannina
+* __Luxembourgish:__ soued031, michel_weimerskirch
+* __Malay:__ Rahayu, mikeioannina
+* __Malayalam:__ sabithmuhammed
+* __Marathi:__ ankita_g
+* __Mongolian:__ mikeioannina
+* __Nepali:__ mikeioannina
+* __Norwegian Bokmal:__ ciwrl, mnothum, Allram, sssandum, mikeioannina
+* __Oriya:__ Manishdas
+* __Persian:__ mnothum, magasgoon, mohammad_a, mikeioannina
+* __Polish:__ Niket, mnothum, jereksel, popielarczyktomasz, godlesplay
+* __Portuguese:__ joaopluis, sergioborges99
+* __Portuguese, Brazilian:__ Niket, gustavogyn, felipesimon, Pelgatal, mikeioannina
+* __Romanian:__ therbom, mikeioannina, mihaipi, bboylalu
+* __Russian:__ martina88, ciwrl, mnothum, babbleon, NeverGone
+* __Serbian (Cyrillic):__ gagy187, WD40, mikeioannina
+* __Sinhala:__ pkavinda, rananga, mikeioannina
+* __Slovak:__ mato, rbarat, pyler
+* __Slovenian:__ ciwrl, Klofutar, jierro
+* __Swedish:__ mnothum, zippin, TedLundwall, backsimon, mikeioannina
+* __Spanish:__ ciwrl, mnothum, babbleon, pabrishami, Gilma, Lorenzo_M, jruesga, bricin, mikeioannina
+* __Spanish, Mexico:__ ciwrl, Gilma
+* __Spanish, United States:__ ciwrl, mnothum, babbleon, LAV, mikeioannina
+* __Swahili:__ mikeioannina
+* __Tagalog:__ mikeioannina
+* __Tamil:__ solomonsunder, thangamani-arun, kishoreinme, gayathri
+* __Telugu:__ ciwrl, Munikumari, mikeioannina
+* __Thai:__ mnothum, babbleon, pureexe, vkrisana, mikeioannina
+* __Turkish:__ Niket, zoharchabaud, ciwrl, mnothum, babbleon, ArF, okirat, glybaran, mikeioannina , thenexus
+* __Ukrainian:__ mnothum, Aleksander_Belilovets, nazar_sokolovsky, mikeioannina
+* __Uyghur:__ Sahran, ekberjan, mikeioannina
+* __Uzbek:__ uzeconomist
+* __Vietnamese:__ Niket, mnothum, babbleon, vn_paradise, Nguyen_Trung_Hau, mikeioannina
+* __Zulu:__ mikeioannina
 
 Graphics and Assets:
 --------------------
