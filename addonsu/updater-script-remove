@@ -1,0 +1,12 @@
+ui_print("Removing su addon...");
+ifelse(is_mounted("/system"), unmount("/system"));
+package_extract_file("mount-system.sh", "/tmp/mount-system.sh");
+set_metadata("/tmp/mount-system.sh", "uid", 0, "gid", 0, "mode", 0755);
+run_program("/tmp/mount-system.sh") == 0 || abort("Could not mount /system");
+delete("/system/addon.d/51-addonsu.sh");
+delete("/system/bin/su");
+delete("/system/etc/init/superuser.rc");
+delete("/system/xbin/su");
+unmount("/system");
+ui_print("Done");
+set_progress(1.000000);
