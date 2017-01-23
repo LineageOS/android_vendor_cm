@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_871d3176",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 5
+      },
+      "lineNbr": 209,
+      "author": {
+        "id": 5574
+      },
+      "writtenOn": "2017-01-23T18:48:22Z",
+      "side": 1,
+      "message": "I would suggest to change this to smth like \"translation managers\" since we all have this role (and also add me because why not)",
+      "range": {
+        "startLine": 209,
+        "startChar": 0,
+        "endLine": 209,
+        "endChar": 25
+      },
+      "revId": "a9052c6f6cd5bea046888da5e3c5232ab90b0032",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
