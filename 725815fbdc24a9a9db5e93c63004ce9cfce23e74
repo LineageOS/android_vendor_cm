@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_75f30e0b",
+        "filename": "addonsu/updater-script-install",
+        "patchSetId": 11
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-01-25T15:24:44Z",
+      "side": 1,
+      "message": "I think I need to remove this. According to the fstab, the block is mounted in /.",
+      "range": {
+        "startLine": 18,
+        "startChar": 11,
+        "endLine": 18,
+        "endChar": 18
+      },
+      "revId": "725815fbdc24a9a9db5e93c63004ce9cfce23e74",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
