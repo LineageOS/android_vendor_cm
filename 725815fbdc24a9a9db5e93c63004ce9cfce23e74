@@ -22,6 +22,30 @@
       "revId": "725815fbdc24a9a9db5e93c63004ce9cfce23e74",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9a437d4f_b6129cb2",
+        "filename": "addonsu/updater-script-install",
+        "patchSetId": 11
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-01-26T13:26:32Z",
+      "side": 1,
+      "message": "in android its mounted at /, in recovery its mounted at /system",
+      "parentUuid": "9a437d4f_75f30e0b",
+      "range": {
+        "startLine": 18,
+        "startChar": 11,
+        "endLine": 18,
+        "endChar": 18
+      },
+      "revId": "725815fbdc24a9a9db5e93c63004ce9cfce23e74",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
