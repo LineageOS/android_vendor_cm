@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9a437d4f_df264768",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 11
+      },
+      "lineNbr": 213,
+      "author": {
+        "id": 15037
+      },
+      "writtenOn": "2017-01-30T11:33:53Z",
+      "side": 1,
+      "message": "He was proofreader before 30 Dec 2016.",
+      "range": {
+        "startLine": 213,
+        "startChar": 34,
+        "endLine": 213,
+        "endChar": 41
+      },
+      "revId": "58516b8d16bed379705a972f9cb0ab5b80eed3de",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
