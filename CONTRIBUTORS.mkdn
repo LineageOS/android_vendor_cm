@@ -226,16 +226,24 @@ Translations Proofreaders:
 * __Greek:__ Michael Bestas (mikeioannina)
 * __Hebrew:__ Nir Bruderman (nbruderman)
 * __Hungarian:__ Tamás Tóth (tothtamassyman)
+* __Indonesian:__ nikfrmn
+* __Japanese:__ Noumi
 * __Kashubian:__ Krzysztof Mesek (mesiu84)
 * __Italian:__ Joey Rizzoli (linuxx)
 * __Luxembourgish:__ Michel Weimerskirch (michel_weimerskirch), Edson Souza Morais (soued031)
+* __Nepali:__ avseq
 * __Norwegian Bokmal:__ Vegard Fladby (Allram), Syver Stensholt (sssandum)
 * __Pirate English:__ Paul Keith (javelinanddart)
 * __Polish:__ Mateusz (godlesplay)
 * __Portuguese:__ Sergio Borges (sergioborges99)
 * __Romanian:__ Pop Alexandru Radu (minealex2244)
+* __Russian:__ Dmitry Porshnev (knazevvv6514), Sergey Gryzhin (sgryzhin)
 * __Serbian (Cyrillic):__ Драган (WD40)
 * __Slovak:__ Róbert Barát (rbarat)
+* __Swedish:__ Simon Bäck (backsimon)
+* __Spanish:__ tio_mauri (rodrigomaureiracontreras), Franco (franco999)
+* __Spanish, United States:__ tio_mauri (rodrigomaureiracontreras), Franco (franco999)
+* __Turkish:__ Burak "TheNexus" Dede (TheNexus)
 * __Ukrainian:__ Aleksander Belilovets (Aleksander_Belilovets)
 
 Graphics and Assets:
