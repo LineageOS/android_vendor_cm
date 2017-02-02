@@ -1,0 +1,2 @@
+# Create /data/ota_package/* for OTA packages.
+allow priv_app ota_package_file:dir create_dir_perms;

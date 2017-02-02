@@ -1,0 +1,8 @@
+allow postinstall kernel:process setsched;
+allow postinstall persist_file:dir getattr;
+allow postinstall postinstall_file:dir create_dir_perms;
+allow postinstall postinstall_file:file create_file_perms;
+allow postinstall postinstall_file:filesystem remount;
+allow postinstall self:capability { dac_override sys_rawio };
+allow postinstall storage_file:dir getattr;
+allow postinstall system_block_device:blk_file { ioctl open };
