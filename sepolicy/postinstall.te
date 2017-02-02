@@ -1,0 +1,11 @@
+# I don't believe any of this is necessary anymore
+#allow postinstall kernel:process setsched;
+#allow postinstall postinstall_file:dir { create_dir_perms mounton };
+#allow postinstall postinstall_file:file create_file_perms;
+#allow postinstall postinstall_file:filesystem { mount unmount };
+#allow postinstall proc:file r_file_perms;
+#allow postinstall rootfs:dir r_dir_perms;
+#allow postinstall self:capability { dac_override sys_admin sys_rawio };
+#allow postinstall storage_file:dir getattr;
+#allow postinstall system_block_device:blk_file r_file_perms;
+#allow postinstall system_file:dir r_dir_perms;
