@@ -1,0 +1,1 @@
+allow sdcardfs labeledfs:filesystem associate;

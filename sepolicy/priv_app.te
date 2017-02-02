@@ -1,1 +1,2 @@
+allow priv_app ota_package_file:dir create_dir_perms;
 allow priv_app system_app_data_file:file rw_file_perms;
