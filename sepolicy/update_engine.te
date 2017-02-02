@@ -1,0 +1,3 @@
+allow update_engine self:capability { dac_override dac_read_search sys_rawio };
+
+allow update_engine labeledfs:filesystem mount;
