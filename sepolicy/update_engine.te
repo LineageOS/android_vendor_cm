@@ -1,0 +1,22 @@
+allow update_engine self:capability { chown dac_override dac_read_search fsetid sys_rawio };
+
+#allow update_engine firmware_file:dir { search };
+allow update_engine labeledfs:filesystem { mount unmount };
+allow update_engine media_rw_data_file:dir { add_name create getattr open read remove_name rmdir search write };
+allow update_engine media_rw_data_file:file { create getattr open read unlink write };
+allow update_engine mnt_user_file:dir { search };
+allow update_engine mnt_user_file:lnk_file { read };
+allow update_engine otapreopt_chroot_exec:file { execute execute_no_trans getattr read open };
+#allow update_engine persist_file:dir { getattr };
+allow update_engine rootfs:dir { add_name create remove_name rmdir write };
+allow update_engine rootfs:file { create execute execute_no_trans relabelfrom relabelto rename setattr unlink write };
+allow update_engine sdcardfs:dir { add_name create open read remove_name rmdir search write };
+allow update_engine sdcardfs:file { create getattr open read relabelto setattr unlink write };
+allow update_engine storage_file:dir { getattr search };
+allow update_engine storage_file:lnk_file { read };
+allow update_engine system_data_file:dir { add_name create remove_name write };
+allow update_engine system_data_file:file { create open write unlink };
+allow update_engine system_file:dir { add_name create remove_name rmdir setattr write };
+allow update_engine system_file:file { create relabelfrom relabelto rename setattr unlink write };
+allow update_engine system_file:lnk_file { create rename };
+allow update_engine toolbox_exec:file { execute execute_no_trans getattr read open };
