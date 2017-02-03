@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_f195e288",
+        "filename": "CONTRIBUTORS.mkdn",
+        "patchSetId": 4
+      },
+      "lineNbr": 108,
+      "author": {
+        "id": 7880
+      },
+      "writtenOn": "2017-02-03T15:08:26Z",
+      "side": 1,
+      "message": "Shouldn\u0027t these be \"OnePlus 2\" and \"OnePlus 3\" respectively? I\u0027ve never seen them being advertised as \"OnePlus Two\" or \"OnePlus Three\".",
+      "range": {
+        "startLine": 107,
+        "startChar": 0,
+        "endLine": 108,
+        "endChar": 50
+      },
+      "revId": "374c167b33a2ebe2de1ce7cbde5c27733cbb4239",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
