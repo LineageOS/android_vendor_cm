@@ -54,7 +54,7 @@ Maintainers (LineageOS 14.1):
 * __HTC One X+:__ Lloir, tombriden
 * __HTC One XL:__ h8rift, intervigil, jrior001
 * __Huawei Ascend Mate 2:__ mdmower, u-ra
-* __Huawei Honor 4/4X (cherry):__ dianlujitao, surdupetru, desalesouche
+* __Huawei Honor 4/4X (cherry):__ Blefish, dianlujitao
 * __LeEco Le 2 (s2):__ codeworkx
 * __LG G Pad 8.3 (v500):__ fefifofum
 * __LG G2 (AT&T) (D800):__ arcee, Rashed97, Shelnutt2
@@ -104,7 +104,8 @@ Maintainers (LineageOS 14.1):
 * __Motorola Xoom 3G (UMTS):__ bazar, SteadyHawkin, TDR (Team Rogue)
 * __Motorola Xoom 4G LTE (Verizon):__ bazar, SteadyHawkin, TDR (Team Rogue)
 * __OnePlus One:__ cyanogen, intervigil, inwotep, arcee
-* __OnePlus Two:__ ciwrl, grarak, raymanfx
+* __OnePlus 2:__ ciwrl, grarak, raymanfx
+* __OnePlus 3:__ cyanogen, dianlujitao, Grarak
 * __OnePlus X:__ ashwin007, MasterAwesome
 * __Oppo Find 5:__ intervigil, nebkat, raymanfx
 * __Oppo Find 7:__ intervigil, tdm, inwotep, mikeioannina
@@ -194,7 +195,10 @@ Maintainers (LineageOS 14.1):
 * __Xiaomi Redmi 1S (armani):__ fefifofum
 * __Xiaomi Redmi 3/Prime (ido):__ Anik1199
 * __Xiaomi Redmi Note 3 (kenzo):__ TheStrix
-* __ZTE Nubia Z9 Max (nx510j):__ dianlujitao
+* __YU Yunique (jalebi):__ mikeioannina, ashwin007
+* __YU Yuphoria (lettuce):__ mikeioannina, TheStrix
+* __YU Yureka/Yureka+ (tomato):__ mikeioannina, Meninblack007
+* __ZUK Z1 (ham):__ defer, ashwin007
 
 FreeXperia Team:
 -------------------
