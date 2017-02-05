@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7a288981_43e744e5",
+        "filename": "bootanimation/generate-bootanimation.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-02-05T22:03:26Z",
+      "side": 1,
+      "message": "You probably only need \n\nmkdir -p $ANDROID_PRODUCT_OUT/obj/BOOTANIMATION/bootanimation/",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 4
+      },
+      "revId": "d9af77478895ec253dbe31cba554b6054d9ce651",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
