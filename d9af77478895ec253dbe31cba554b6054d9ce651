@@ -22,6 +22,30 @@
       "revId": "d9af77478895ec253dbe31cba554b6054d9ce651",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_580f32e2",
+        "filename": "bootanimation/generate-bootanimation.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 7155
+      },
+      "writtenOn": "2017-02-06T19:11:16Z",
+      "side": 1,
+      "message": "Maybe, but that\u0027s not part of this change.\nPush another one?",
+      "parentUuid": "7a288981_43e744e5",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 4
+      },
+      "revId": "d9af77478895ec253dbe31cba554b6054d9ce651",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
