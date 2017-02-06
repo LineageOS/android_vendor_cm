@@ -46,6 +46,30 @@
       "revId": "d9af77478895ec253dbe31cba554b6054d9ce651",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7a288981_78942e37",
+        "filename": "bootanimation/generate-bootanimation.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 28,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-02-06T19:47:14Z",
+      "side": 1,
+      "message": "That\u0027s debatable. I consider the for loop a fundamental part of the previous extraction mechanism (convert needs the directories to save the files). Since this commit changes how the files are extracted, the removal of the for loop could have been included, maybe adding a note to the commit message explaining why.\n\nIn any case, I don\u0027t care, I just wanted to point that out. I\u0027m not going to push a change for that.",
+      "parentUuid": "7a288981_580f32e2",
+      "range": {
+        "startLine": 25,
+        "startChar": 0,
+        "endLine": 28,
+        "endChar": 4
+      },
+      "revId": "d9af77478895ec253dbe31cba554b6054d9ce651",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
