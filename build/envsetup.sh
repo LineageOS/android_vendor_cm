@@ -683,7 +683,7 @@ function mka() {
                 make -C $T -j `sysctl hw.ncpu|cut -d" " -f2` "$@"
                 ;;
             *)
-                mk_timer schedtool -B -n 10 -e ionice -n 7 make -C $T -j$(grep "^processor" /proc/cpuinfo | wc -l) "$@"
+                mk_timer schedtool -B -n 10 -e ionice -n 7 make -C $T -j$(echo "$(cat /proc/cpuinfo | grep processor | wc -l) * 1.5" | bc | grep -oP '^[0-9]+') "$@"
                 ;;
         esac
 
@@ -727,7 +727,7 @@ function mms() {
                 make -C $T -j $NUM_CPUS "$@"
             ;;
         *)
-            local NUM_CPUS=$(grep "^processor" /proc/cpuinfo | wc -l)
+            local NUM_CPUS=$(echo "$(cat /proc/cpuinfo | grep processor | wc -l) * 1.5" | bc | grep -oP '^[0-9]+')
             ONE_SHOT_MAKEFILE="__none__" \
                 mk_timer schedtool -B -n 1 -e ionice -n 1 \
                 make -C $T -j $NUM_CPUS "$@"
