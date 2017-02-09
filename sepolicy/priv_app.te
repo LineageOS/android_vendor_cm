@@ -1,0 +1,2 @@
+# Read system properties managed by zygote.
+allow priv_app zygote_tmpfs:file read;
