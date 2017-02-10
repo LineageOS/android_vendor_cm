@@ -54,10 +54,22 @@ function breakfast()
         # No arguments, so let's have the full menu
         lunch
     else
+        # Strip lineage/cm from target
+        target=`echo $target | sed 's:^\(lineage_\|cm_\)::g'`
+
         echo "z$target" | grep -q "-"
         if [ $? -eq 0 ]; then
-            # A buildtype was specified, assume a full device name
-            lunch $target
+            # A buildtype was specified
+
+            # Remove buildtype for check_product
+            target_no_variant=$(echo $target | sed 's/-.*//')
+
+            if ! check_product lineage_$target_no_variant && check_product cm_$target_no_variant; then
+                echo "** Warning: '$target_no_variant' is using CM-based makefiles. This will be deprecated in the next major release."
+                lunch cm_$target
+            else
+                lunch lineage_$target
+            fi
         else
             # This is probably just the Lineage model name
             if [ -z "$variant" ]; then
