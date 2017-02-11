@@ -122,7 +122,7 @@ PRODUCT_PACKAGES += \
     Eleven \
     LockClock \
     CMUpdater \
-    CyanogenSetupWizard \
+    LineageSetupWizard \
     CMSettingsProvider \
     ExactCalculator \
     LiveLockScreenService \
