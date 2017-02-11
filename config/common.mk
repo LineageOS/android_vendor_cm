@@ -124,7 +124,7 @@ PRODUCT_PACKAGES += \
     CMSettingsProvider \
     CMUpdater \
     CMWallpapers \
-    CyanogenSetupWizard \
+    LineageSetupWizard \
     Eleven \
     ExactCalculator \
     LiveLockScreenService \
