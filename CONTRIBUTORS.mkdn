@@ -55,6 +55,7 @@ Maintainers (LineageOS 13.0):
 * __Huawei Ascend Mate 2:__ mdmower, u-ra
 * __Huawei Honor 4/4X (cherry):__ dianlujitao, surdupetru, desalesouche
 * __LeEco Le 2 (s2):__ codeworkx
+* __LeEco Le Pro3 (zl1):__ jrior001, codeworkx
 * __LG G2 (AT&T) (D800):__ arcee, Rashed97, Shelnutt2
 * __LG G2 (T-Mobile) (D801):__ arcee, Rashed97, Shelnutt2
 * __LG G2 (International) (D802):__ arcee, Rashed97, Shelnutt2
