@@ -209,6 +209,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.storage_manager.enabled=true
 
+# Substratum OMS themes
+PRODUCT_PACKAGES += \
+    ThemeInterfacer
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext
