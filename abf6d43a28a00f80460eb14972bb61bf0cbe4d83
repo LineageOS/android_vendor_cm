@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_cd1c67c4",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 472,
+      "author": {
+        "id": 5404
+      },
+      "writtenOn": "2017-02-22T04:46:21Z",
+      "side": 1,
+      "message": "I get timeouts after setting the proxy (tested with Salt prepay)",
+      "revId": "abf6d43a28a00f80460eb14972bb61bf0cbe4d83",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

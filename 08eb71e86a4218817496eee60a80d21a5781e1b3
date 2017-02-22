@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa5d592f_ad7933fe",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 475,
+      "author": {
+        "id": 5404
+      },
+      "writtenOn": "2017-02-22T04:46:21Z",
+      "side": 0,
+      "message": "These (475-476) are the ones that are defined in stock gohan. They are working for both, prepaid and plan.",
+      "revId": "08eb71e86a4218817496eee60a80d21a5781e1b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
