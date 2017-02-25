@@ -16,6 +16,24 @@
       "revId": "08eb71e86a4218817496eee60a80d21a5781e1b3",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fa5d592f_a98da033",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 475,
+      "author": {
+        "id": 10846
+      },
+      "writtenOn": "2017-02-25T00:11:25Z",
+      "side": 0,
+      "message": "Done",
+      "parentUuid": "fa5d592f_ad7933fe",
+      "revId": "08eb71e86a4218817496eee60a80d21a5781e1b3",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
