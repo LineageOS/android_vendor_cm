@@ -890,7 +890,7 @@ function extract() {
                     if [ "$(uname)" == "Darwin" ]; then
                         local DEST_HASH=$(shasum "$DEST" | awk '{print $1}' )
                     else
-                        local DEST_HASH=$(sha1sum "$DEST" | awk '{print $1}' )
+                        local DEST_HASH=$(sha256sum "$DEST" | awk '{print $1}' )
                     fi
                     if [ "$DEST_HASH" != "$HASH" ]; then
                         KEEP="1"
@@ -900,7 +900,7 @@ function extract() {
                     if [ "$(uname)" == "Darwin" ]; then
                         local TMP_HASH=$(shasum "$TMP" | awk '{print $1}' )
                     else
-                        local TMP_HASH=$(sha1sum "$TMP" | awk '{print $1}' )
+                        local TMP_HASH=$(sha256sum "$TMP" | awk '{print $1}' )
                     fi
                     if [ "$TMP_HASH" = "$HASH" ]; then
                         printf '    + (keeping pinned file with hash %s)\n' "$HASH"
