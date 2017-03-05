@@ -75,4 +75,7 @@
     <!-- If this is true, long press on power button will be available from a
          non-interactive state. -->
     <bool name="config_supportLongPressPowerWhenNonInteractive">true</bool>
+
+    <!-- IpReachability monitor enable/Disable -->
+    <bool name="config_wifi_ipreachability_monitor">true</bool>
 </resources>
