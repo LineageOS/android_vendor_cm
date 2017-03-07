@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da6255ed_29dd4d43",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 8328
+      },
+      "writtenOn": "2017-03-07T08:46:35Z",
+      "side": 1,
+      "message": "you don\u0027t execute it, you source it\n\n\n. envsetup.sh\n\n\nor\n\n\nsource envsetup.sh\n\n\nbut usually you do\n\n\nsource build/envsetup.sh, which automatically sources this envsetup.sh too",
+      "range": {
+        "startLine": 13,
+        "startChar": 1,
+        "endLine": 13,
+        "endChar": 14
+      },
+      "revId": "f99b2f82883e3ed3f5701cbc1ae1ccec232f7413",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
