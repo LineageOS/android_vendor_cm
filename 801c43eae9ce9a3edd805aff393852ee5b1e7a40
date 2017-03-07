@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da6255ed_a9e6dd42",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 446,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2017-03-07T04:53:00Z",
+      "side": 1,
+      "message": "List is ordered by mcc/mnc pair ascending. This one is in the wrong spot with this change.",
+      "range": {
+        "startLine": 446,
+        "startChar": 43,
+        "endLine": 446,
+        "endChar": 45
+      },
+      "revId": "801c43eae9ce9a3edd805aff393852ee5b1e7a40",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
