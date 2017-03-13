@@ -1,3 +1,4 @@
+allow zygote self:capability sys_nice;
 allow zygote themeservice_app_data_file:file r_file_perms;
 allow zygote themeservice_app_data_file:dir r_dir_perms;
 
