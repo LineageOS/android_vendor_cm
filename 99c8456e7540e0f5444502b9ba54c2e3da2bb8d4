@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_4fabde89",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 367,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-03-14T10:15:09Z",
+      "side": 0,
+      "message": "You can probably remove all of these. TIM no longer suggests them.",
+      "range": {
+        "startLine": 367,
+        "startChar": 64,
+        "endLine": 367,
+        "endChar": 163
+      },
+      "revId": "99c8456e7540e0f5444502b9ba54c2e3da2bb8d4",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
