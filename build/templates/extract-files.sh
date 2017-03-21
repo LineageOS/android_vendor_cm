@@ -38,7 +38,38 @@ if [ $# -eq 0 ]; then
     SRC=adb
 else
     if [ $# -eq 1 ]; then
-        SRC=$1
+        if [ "${1##*.}" == "zip" ]; then   # this could probably be improved
+            DUMPDIR=$CM_ROOT/system_dump
+            rm -rf $DUMPDIR
+            mkdir $DUMPDIR
+            unzip $1 -d $DUMPDIR
+
+            # If block based, extract it first
+            if [ -a $DUMPDIR/system.new.dat ]; then
+                sdatpath=`which sdat2img.py`
+                if [[ $sdatpath == "" ]]; then
+                    git clone https://github.com/xpirt/sdat2img $DUMPDIR/sdat2img
+                    sdatpath=$DUMPDIR/sdat2img/sdat2img.py
+                fi
+
+                echo "Converting system.new.dat to system.img"
+                python $sdatpath $DUMPDIR/system.transfer.list $DUMPDIR/system.new.dat $DUMPDIR/system.img 2>&1
+                rm $DUMPDIR/system.new.dat
+                rm -rf $DUMPDIR/system
+                mkdir $DUMPDIR/system $DUMPDIR/tmp
+                echo "Requesting sudo access to mount the system.img"
+                sudo mount -o loop $DUMPDIR/system.img $DUMPDIR/tmp
+                sudo cp -r $DUMPDIR/tmp/* $DUMPDIR/system/
+                sudo umount $DUMPDIR/tmp
+                sudo chown -R ${whoami}:${whoami} $DUMPDIR/system/
+                rmdir $DUMPDIR/tmp
+                rm $DUMPDIR/system.img
+            fi
+
+            SRC=$DUMPDIR
+        else
+            SRC=$1
+        fi
     else
         echo "$0: bad number of arguments"
         echo ""
