@@ -904,9 +904,8 @@
   <apn carrier="Sonera MMS" mcc="244" mnc="91" apn="wap.sonera.net" proxy="" port="" user="" password="" mmsc="http://mms.sonera.fi:8002" mmsproxy="195.156.25.33" mmsport="80" type="mms" />
   <apn carrier="Tele Finland Internet" mcc="244" mnc="91" apn="internet" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="Tele Finland MMS" mcc="244" mnc="91" apn="wap.sonera.net" proxy="" port="" user="" password="" mmsc="http://mms.sonera.fi:8002" mmsproxy="195.156.25.33" mmsport="80" type="mms" />
-  <apn carrier="Omnitel MMS" mcc="246" mnc="01" apn="gprs.mms.lt" proxy="" port="" user="mms" password="mms" mmsc="http://mms.omnitel.net:8002/" mmsproxy="194.176.32.149" mmsport="8080" type="mms" />
-  <apn carrier="Omnitel" mcc="246" mnc="01" apn="gprs.startas.lt" proxy="" port="" user="omni" password="omni" mmsc="" type="default,supl" />
-  <apn carrier="Omnitel Internet" mcc="246" mnc="01" apn="omnitel" proxy="" port="" user="omni" password="omni" mmsc="" type="default,supl" />
+  <apn carrier="Telia LT MMS" mcc="246" mnc="01" apn="gprs.mms.lt" proxy="" port="" user="mms" password="mms" mmsc="http://mms.omnitel.net:8002/" mmsproxy="194.176.32.149" mmsport="8080" type="mms" />
+  <apn carrier="Telia LT Internet" mcc="246" mnc="01" apn="omnitel" proxy="" port="" user="omni" password="omni" mmsc="" type="default,supl" />
   <apn carrier="Bite LT Internet" mcc="246" mnc="02" apn="banga" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="Bite MMS" mcc="246" mnc="02" apn="mms" proxy="" port="" user="mms@mms" password="mms" mmsc="http://mmsc" mmsproxy="192.168.150.2" mmsport="8080" type="mms" />
   <apn carrier="Bite" mcc="246" mnc="02" apn="wap" proxy="" port="" user="" password="" server="213.226.131.133" mmsc="" type="default,supl" />
