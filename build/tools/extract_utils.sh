@@ -778,7 +778,7 @@ function fix_xml() {
 # extract:
 #
 # $1: file containing the list of items to extract
-# $2: path to extracted system folder, or "adb" to extract from device
+# $2: path to extracted system folder, an ota zip file, or "adb" to extract from device
 #
 function extract() {
     if [ -z "$OUTDIR" ]; then
@@ -800,6 +800,36 @@ function extract() {
 
     if [ "$SRC" = "adb" ]; then
         init_adb_connection
+    fi
+
+    if [ "${SRC##*.}" == "zip" ]; then
+        DUMPDIR="$CM_ROOT"/system_dump
+
+        MD5=`md5sum "$SRC"| awk '{print $1}'`
+        OLDMD5=`cat "$DUMPDIR"/zipmd5.txt`
+
+        if [ "$MD5" != "$OLDMD5" ]; then
+            rm -rf "$DUMPDIR"
+            mkdir "$DUMPDIR"
+            unzip "$SRC" -d "$DUMPDIR"
+            echo "$MD5" > "$DUMPDIR"/zipmd5.txt
+        fi
+
+        # If block based, extract it first
+        if [ -a "$DUMPDIR"/system.new.dat ]; then
+            echo "Converting system.new.dat to system.img"
+            python "$CM_ROOT"/vendor/cm/build/tools/sdat2img.py "$DUMPDIR"/system.transfer.list "$DUMPDIR"/system.new.dat "$DUMPDIR"/system.img 2>&1
+            rm -rf "$DUMPDIR"/system.new.dat "$DUMPDIR"/system
+            mkdir "$DUMPDIR"/system "$DUMPDIR"/tmp
+            echo "Requesting sudo access to mount the system.img"
+            sudo mount -o loop "$DUMPDIR"/system.img "$DUMPDIR"/tmp
+            sudo cp -r "$DUMPDIR"/tmp/* "$DUMPDIR"/system/
+            sudo umount "$DUMPDIR"/tmp
+            rm -rf "$DUMPDIR"/tmp "$DUMPDIR"/system.img
+            sudo chown -R $USER:$USER "$DUMPDIR"/system/
+        fi
+
+        SRC="$DUMPDIR"
     fi
 
     if [ "$VENDOR_STATE" -eq "0" ]; then
