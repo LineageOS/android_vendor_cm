@@ -595,7 +595,7 @@ function parse_file_list() {
             PRODUCT_COPY_FILES_HASHES+=("$HASH")
         fi
 
-    done < <(egrep -v '(^#|^[[:space:]]*$)' "$1" | sort | uniq)
+    done < <(egrep -v '(^#|^[[:space:]]*$)' "$1" | LC_ALL=C sort | uniq)
 }
 
 #
@@ -853,12 +853,12 @@ function extract() {
                 adb pull "/$FILE" "$DEST"
             fi
         else
-            # Try OEM target first
-            if [ -f "$SRC/$FILE" ]; then
-                cp "$SRC/$FILE" "$DEST"
-            # if file does not exist try CM target
-            elif [ -f "$SRC/$TARGET" ]; then
+            # Try CM target first
+            if [ -f "$SRC/$TARGET" ]; then
                 cp "$SRC/$TARGET" "$DEST"
+            # if file does not exist try OEM target
+            elif [ -f "$SRC/$FILE" ]; then
+                cp "$SRC/$FILE" "$DEST"
             else
                 printf '    !! file not found in source\n'
             fi

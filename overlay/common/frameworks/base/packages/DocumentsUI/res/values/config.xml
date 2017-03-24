@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2014-2015 The CyanogenMod Project
+<!-- Copyright (C) 2015 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,9 +13,11 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
-    <!-- Defaults for Secure -->
 
-    <!-- Default for CMSettings.Secure.STATS_COLLECTION -->
-    <bool name="def_stats_collection">true</bool>
+<resources>
+
+    <!-- Flags setup as productivity oriented in which case Downloads app will be presented
+             as Files app. Including showing of the Documents and "advanced" roots. -->
+    <bool name="productivity_device">true</bool>
+
 </resources>
