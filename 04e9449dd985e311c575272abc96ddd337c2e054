@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ba57610f_c6ee818b",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 584,
+      "author": {
+        "id": 848
+      },
+      "writtenOn": "2017-03-24T17:21:51Z",
+      "side": 1,
+      "message": "Did you intend to drop supl,mms? If so, why does this still have mms attributes?",
+      "range": {
+        "startLine": 584,
+        "startChar": 185,
+        "endLine": 584,
+        "endChar": 199
+      },
+      "revId": "04e9449dd985e311c575272abc96ddd337c2e054",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
