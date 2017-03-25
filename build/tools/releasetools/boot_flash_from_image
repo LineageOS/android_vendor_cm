@@ -114,12 +114,16 @@ if path.exists("%s/system/lib/modules" % out):
     copytree("%s/system/lib/modules" % out, "%s/system/lib/modules" % zip_dir, symlinks=True)
 
 # strip kernel modules
+prefix = environ.get('KERNEL_TOOLCHAIN_PREFIX')
 kernel_modules = "%s/system/lib/modules" % zip_dir
 for root, dirs, files in walk(kernel_modules):
     for file in files:
         fn = path.join(root, file)
         if not path.islink(fn):
-            call(['arm-eabi-strip', '--strip-unneeded', fn])
+            if prefix == "arm-eabi-":
+                call(['arm-eabi-strip', '--strip-unneeded', fn])
+            else:
+                call(['arm-linux-androideabi-strip', '--strip-unneeded', fn])
 
 # zip package
 with ZipFile("%s.zip" % zip_dir, "w") as zipper:
