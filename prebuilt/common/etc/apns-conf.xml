@@ -1202,13 +1202,10 @@
   <apn carrier="Eagle Mobile" mcc="276" mnc="03" apn="internet" type="default,supl" />
   <apn carrier="Eagle Mobile MMS" mcc="276" mnc="03" apn="mms" mmsc="http://192.168.140.164:38090" mmsproxy="192.168.141.25" mmsport="80" type="mms" />
   <apn carrier="Plus" mcc="276" mnc="04" apn="plusweb" type="default,supl" />
-  <apn carrier="PrimeTel" mcc="280" mnc="01" apn="ip.primetel" type="default,supl" />
-  <apn carrier="Cyta" mcc="280" mnc="01" apn="cytamobile" proxy="" port="" user="" password="" mmsc="http://mmsc.cyta.com.cy" mmsproxy="212.31.96.161" mmsport="8080" type="mms,default,supl" />
-  <apn carrier="Cytamobile" mcc="280" mnc="01" apn="internet" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="Cytamobile MMS" mcc="280" mnc="01" apn="cytamobile" user="user" password="pass" mmsc="http://mmsc.cyta.com.cy" mmsproxy="212.031.096.161" mmsport="9201" type="mms" />
-  <apn carrier="MTN Mobile Broadband" mcc="280" mnc="10" apn="internet" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
-  <apn carrier="MTN MMS" mcc="280" mnc="10" apn="mms" proxy="" port="" user="mms" password="mms" mmsc="http://mms.mtn.com.cy/mmsc" mmsproxy="172.24.97.1" mmsport="3130" type="mms" />
-  <apn carrier="CallSat" mcc="280" mnc="20" apn="internet" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="CYTA" mcc="280" mnc="01" apn="cytamobile" mmsc="http://mmsc.cyta.com.cy" mmsproxy="212.31.96.161" mmsport="8080" type="default,supl,mms"/>
+  <apn carrier="MTN MMS" mcc="280" mnc="10" apn="mms" user="mms" password="mms" mmsc="http://mms.mtn.com.cy/mmsc" mmsproxy="172.24.97.1" mmsport="3130" type="mms"/>
+  <apn carrier="MTN Internet" mcc="280" mnc="10" apn="internet" type="default,supl"/>
+  <apn carrier="PrimeTel" mcc="280" mnc="20" apn="ip.primetel" mmsc="http://mms.primetel" type="default,supl,mms"/>
   <apn carrier="Geocell" mcc="282" mnc="01" apn="internet" proxy="" port="" user="" password="" mmsc="" type="default,supl,mms" />
   <apn carrier="Geocell Mms" mcc="282" mnc="01" apn="mms" proxy="" port="" user="" password="" mmsc="http://mms.geocell.com.ge/cmmsc/post" mmsproxy="10.11.240.7" mmsport="8080" type="default,supl,mms" />
   <apn carrier="Beeline AM" mcc="283" mnc="01" apn="internet.beeline.am" proxy="" port="" user="internet" password="internet" mmsc="" type="default,supl" />
