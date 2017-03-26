@@ -17,7 +17,7 @@
 
   <!-- CMUpdater -->
   <signer signature="@RELEASE" >
-    <package name="com.cyanogenmod.updater" >
+    <package name="org.lineageos.updater" >
       <seinfo value="cmupdater" />
     </package>
   </signer>
