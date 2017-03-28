@@ -124,6 +124,7 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     Jelly \
     LockClock \
+    ThemeInterfacer \
     Trebuchet \
     Updater \
     WallpaperPicker \
