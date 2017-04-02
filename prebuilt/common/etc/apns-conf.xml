@@ -1725,6 +1725,7 @@
   <apn carrier="Digicel JM" mcc="338" mnc="50" apn="wap.digiceljamaica.com" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="Digicel JM MMS" mcc="338" mnc="50" apn="wap.digiceljamaica.com" proxy="" port="" user="wapuser" password="wap03jam" mmsc="http://mms.digicelgroup.com" mmsproxy="172.16.7.12" mmsport="8080" type="mms" />
   <apn carrier="Digicel BM" mcc="338" mnc="50" apn="web.digicelbermuda.com" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
+  <apn carrier="ONE BM" mcc="350" mnc="00" apn="web.c1.bm" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="Claro JM" mcc="338" mnc="70" apn="internet.ideasclaro.com.jm" proxy="" port="8080" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="Orange World" mcc="340" mnc="01" apn="orangeweb" user="orange" password="orange" type="default,supl" />
   <apn carrier="Orange World" mcc="340" mnc="01" apn="Orange MMS" proxy="" port="" mmsproxy="10.0.0.10" mmsport="8082" mmsc="http://193.251.160.246/servlets/mms" user="orange" password="orange" type="mms" />
