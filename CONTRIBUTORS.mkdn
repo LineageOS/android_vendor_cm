@@ -21,7 +21,4 @@
 
 *) Special Thanks to =LineageOs team and other awesome roms!
 
-
-# contributors will be added once the rom heads up
-
-regards   >>>>>ANAND RAMACHANDRAN<<<<<<<<
+Regards   >>>>>Team AIM<<<<<<<<
