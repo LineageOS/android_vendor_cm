@@ -11,14 +11,23 @@ else
     IMAGEWIDTH="$WIDTH"
 fi
 
-RESOLUTION=""$WIDTH"x"$HEIGHT""
+IMAGESCALEWIDTH="$IMAGEWIDTH"
+IMAGESCALEHEIGHT=$(expr $IMAGESCALEWIDTH / 3)
+
+if [ "$HALF_RES" = "true" ]; then
+    IMAGEWIDTH=$(expr $IMAGEWIDTH /2)
+fi
+
+IMAGEHEIGHT=$(expr $IMAGEWIDTH / 3)
+
+RESOLUTION=""$IMAGEWIDTH"x"$IMAGEHEIGHT""
 
 mkdir -p $ANDROID_PRODUCT_OUT/obj/BOOTANIMATION/bootanimation/part0
 tar xfp "vendor/cm/bootanimation/bootanimation.tar" -C "$OUT/bootanimation/"
 mogrify -resize $RESOLUTION -colors 250 -background white -gravity center -extent $RESOLUTION "$OUT/bootanimation/"*"/"*".png"
 
 # Create desc.txt
-echo "$WIDTH $HEIGHT" 60 > "$OUT/bootanimation/desc.txt"
+echo "IMAGESCALE$WIDTH $IMAGESCALEHEIGHT" 60 > "$OUT/bootanimation/desc.txt"
 cat "vendor/cm/bootanimation/desc.txt" >> "$OUT/bootanimation/desc.txt"
 
 # Create bootanimation.zip
