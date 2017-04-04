@@ -891,8 +891,12 @@ function extract() {
             OUTPUT_DIR="$OUTPUT_DIR/rootfs"
             TMP_DIR="$TMP_DIR/rootfs"
         else
-            TARGET="system/$FROM"
-            FILE="system/$FILE"
+            if [ "$(adb shell 'ls /system/$FILE &> /dev/null && echo 0 || echo 1')" == "1" ]; then
+                TARGET="$FROM"
+            else
+                TARGET="system/$FROM"
+                FILE="system/$FILE"
+            fi
         fi
 
         if [ "$SRC" = "adb" ]; then
