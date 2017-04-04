@@ -567,11 +567,33 @@ function parse_file_list() {
         exit 1
     fi
 
+    if [ $# -eq 2 ]; then
+        TEMPDIR=$(mktemp -d "${TMPDIR:-/tmp/}$(basename 0).XXXXXXXXXXXX")
+        LIST=$TEMPDIR/files.txt
+        START_LINE=`grep -n "# $2" $1 | cut -f1 -d:`
+        for LINE in $START_LINE; do
+            if [ "$LINE" != "" ]; then
+                END_LINE=$((`tail -n +$(($LINE+1)) $1 | grep -n -m 1 '^$'| cut -f1 -d:`+LINE-1))
+                if [[ $END_LINE -eq 0 || $END_LINE -le $START_LINE ]]; then
+                    tail +$LINE $1 > $LIST
+                else
+                    head -$END_LINE $1 | tail -$(($END_LINE-$LINE+1)) >> $LIST
+                fi
+            else
+                SKIP="true"
+            fi
+        done
+    else
+        LIST=$1
+    fi
+
+
     PRODUCT_PACKAGES_LIST=()
     PRODUCT_PACKAGES_HASHES=()
     PRODUCT_COPY_FILES_LIST=()
     PRODUCT_COPY_FILES_HASHES=()
 
+    if [ "$SKIP" != "true" ]; then
     while read -r line; do
         if [ -z "$line" ]; then continue; fi
 
@@ -595,7 +617,8 @@ function parse_file_list() {
             PRODUCT_COPY_FILES_HASHES+=("$HASH")
         fi
 
-    done < <(egrep -v '(^#|^[[:space:]]*$)' "$1" | LC_ALL=C sort | uniq)
+    done < <(egrep -v '(^#|^[[:space:]]*$)' "$LIST" | LC_ALL=C sort | uniq)
+    fi
 }
 
 #
@@ -786,7 +809,11 @@ function extract() {
         exit 1
     fi
 
-    parse_file_list "$1"
+    if [ "$3" != "" ]; then
+        parse_file_list "$1" "$3"
+    else
+        parse_file_list "$1"
+    fi
 
     # Allow failing, so we can try $DEST and/or $FILE
     set +e
