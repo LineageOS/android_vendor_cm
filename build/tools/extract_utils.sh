@@ -891,8 +891,12 @@ function extract() {
             OUTPUT_DIR="$OUTPUT_DIR/rootfs"
             TMP_DIR="$TMP_DIR/rootfs"
         else
-            TARGET="system/$FROM"
-            FILE="system/$FILE"
+            if [ "$drop_system" == "true" ]; then
+                TARGET="$FROM"
+            else
+                TARGET="system/$FROM"
+                FILE="system/$FILE"
+            fi
         fi
 
         if [ "$SRC" = "adb" ]; then
