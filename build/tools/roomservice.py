@@ -179,12 +179,19 @@ def add_to_manifest(repositories, fallback_branch = None):
             print('LineageOS/%s already fetched to %s' % (repo_name, repo_target))
             continue
 
-        print('Adding dependency: LineageOS/%s -> %s' % (repo_name, repo_target))
-        project = ElementTree.Element("project", attrib = { "path": repo_target,
-            "remote": "github", "name": "LineageOS/%s" % repo_name })
+        if '/' in repo_name:
+            print('Adding dependency: %s -> %s' % (repo_name, repo_target))
+            project = ElementTree.Element("project", attrib = { "path": repo_target,
+                "remote": "github", "name": "%s" % repo_name })
+        else:
+            print('Adding dependency: LineageOS/%s -> %s' % (repo_name, repo_target))
+            project = ElementTree.Element("project", attrib = { "path": repo_target,
+                "remote": "github", "name": "LineageOS/%s" % repo_name })
 
         if 'branch' in repository:
             project.set('revision',repository['branch'])
+        elif 'revision' in repository:
+            project.set('revision',repository['revision'])
         elif fallback_branch:
             print("Using fallback branch %s for %s" % (fallback_branch, repo_name))
             project.set('revision', fallback_branch)
