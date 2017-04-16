@@ -30,7 +30,7 @@ tar xfp "vendor/aim/bootanimation/bootanimation.tar" -C "$OUT/bootanimation/"
 mogrify -resize $RESOLUTION -colors 250 "$OUT/bootanimation/"*"/"*".png"
 
 # Create desc.txt
-echo "$IMAGESCALEWIDTH $IMAGESCALEHEIGHT" 30 > "$OUT/bootanimation/desc.txt"
+echo "$IMAGESCALEWIDTH $IMAGESCALEHEIGHT" 60 > "$OUT/bootanimation/desc.txt"
 cat "vendor/aim/bootanimation/desc.txt" >> "$OUT/bootanimation/desc.txt"
 
 # Create bootanimation.zip
