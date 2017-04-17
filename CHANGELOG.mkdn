@@ -1,27 +1,195 @@
-||  ============================================ ||
-||                                               ||
-||                   AIM-ROM                     ||
-||                                               ||
-|| ==============================================||
+
+ (->) AIM ROM Ver 1.0 Changelog
+ ====================================== 
 
 
-*---------------CONTRIBUTORS-----------------------*
-
-*) Development Coordinator = Emmanuel N. D. DENLINGER
-
-*) LEAD DEVELOPER       = Anand Ramachandran , ShadowReaper1
-
-*) Core DEVELOPERS         = GreekDragon(Alex), Fauzan
-
-*) DEVELOPER/MAINTAINER    = Ali al asadi, Dan,... 
-
-*) SOCIAL MEDIA MAINTAINER  = 
-
-*) OTHER MAINTAINER         =
-
-*) Special Thanks to =LineageOs team and other awesome roms!
+ [*] 04/17/2017
+  *******************    
 
 
-# contributors will be added once the rom heads up
+ ▪ project vendor/aim/
+ ▪ 45cd7659 vendor: correct the path for building bootanimation.
 
-regards   >>>>>ANAND RAMACHANDRAN<<<<<<<<
+ [*] 04/16/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ d0c20efe2a0 Fix automatic brightness after merging
+
+ ▪ project vendor/aim/
+ ▪ 02a8bffc Revert "vendor: add bootanimation"
+ ▪ cc730a79 Revert "bootanimation: make it 30fps"
+
+ [*] 04/15/2017
+  *******************    
+
+
+ ▪ project build/
+ ▪ c073d2e85 Merge branch 'cm-14.1' into N
+
+ ▪ project frameworks/base/
+ ▪ 2d0bff2a470 base: fix build errors after merge.
+ ▪ 992c471156e Merge remote-tracking branch 'sub/n-mr2' into N
+ ▪ 5b29c743992 Merge branch 'cm-14.1' into N
+ ▪ dbfbf86d6df Various fixes and cleanups after 7.1.2 merge
+
+ ▪ project frameworks/native/
+ ▪ 2be807fd7 Merge branch 'cm-14.1' into N
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ f01f87f4 Themes: Define back arrow tint color for themes
+ ▪ d7ae7087 Themes: Expose hardcoded contact tile text colors
+
+ ▪ project packages/apps/Dialer/
+ ▪ cd3eee7c1 Themes: InCallUI dialpad digits color
+ ▪ 2b03d3134 Themes: Separate background color from text color
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ 36c8364 Themes: Make dialpad seperator line theme-able
+
+ ▪ project packages/apps/Settings/
+ ▪ fd25c569fa Settings: fix build error after merge.
+ ▪ ae8336ceef Merge branch 'cm-14.1' into N
+
+ ▪ project system/sepolicy/
+ ▪ ca76887 Merge branch 'cm-14.1' into N
+
+ ▪ project vendor/aim/
+ ▪ 53c63b22 kernel: Fix broken C_INCLUDE_PATH for Darwin
+ ▪ f401a475 kernel: Include openssl headers and dylibs on darwin
+ ▪ d086271f build: Update smali and baksmali to 2.2.0
+ ▪ d7e8fc54 charger: updates for 7.1.2 minui
+ ▪ 16b9262e roomservice: handle devices with underscores
+ ▪ bf65c98a Add Official Devices
+
+ [*] 04/14/2017
+  *******************    
+
+
+ ▪ project frameworks/av/
+ ▪ 4a9859015 stagefright: Fix SurfaceMediaSource buffer search condition when buffer return
+
+ ▪ project frameworks/base/
+ ▪ d597cd5a871 Zygote: Fix GL preload property evaluation
+ ▪ 6bc59f1d0de Set Advanced Reboot Default /overriding developer settings
+ ▪ 732a166018d  Add AIM logo To Empty Recent View
+ ▪ 254275d44c4 fix derp commit -fuck luckypatcher
+ ▪ 3d131c59011 Fuck pirate Cunts
+ ▪ ec2b99595c9 ADD OMNI UTILIS
+ ▪ 42f7295e6e7 fix for lockscreen quick unlock --------------------------------------
+ ▪ 33e31be6d39 systemui: Fix DE translation for navbar buttons
+ ▪ b531f7e3900 Show lockscreen wallpaper when blur effect is enabled
+
+ [*] 04/13/2017
+  *******************    
+
+
+ ▪ project packages/apps/Nfc/
+ ▪ 30909804 Nfc: Include android-support-v4 for the NXP stack
+
+ [*] 04/12/2017
+  *******************    
+
+
+ ▪ project frameworks/av/
+ ▪ 18a402d67 stagefright: Remove the HAL3 limitation from the video reference clock selection
+
+ ▪ project frameworks/base/
+ ▪ cf0409a68b8 New Fancy voLTE logo ;)
+ ▪ 4fea4189b54 Add platlogo when clicking AIM  banner
+ ▪ 22a3f0266b9 Revert "SystemUI: Add SlotId for MultiSim"
+ ▪ 6432ec286a2 Add VOLTE icon
+ ▪ 20a35fe3d88 Merge branch 'N' of https://github.com/AIMROM/android_frameworks_base into N
+ ▪ c8a775bbdd3 Lockscreen PIN quick unlock [1/2]
+
+ ▪ project packages/apps/CarrierConfig/
+ ▪ fd64a03 Consider O2 and E-Plus as non-roaming
+
+ ▪ project packages/apps/Gallery2/
+ ▪ aad548ed3 Gallery2: support the newly added media file types in MTP mode
+ ▪ 99a5354e4 Gallery2: Fix use of uninitialized stack variables
+ ▪ 7959af661 Gallery2: Remove unused renderscript class
+
+ ▪ project packages/apps/Settings/
+ ▪ 2a84ce50a3 Fix Derp
+ ▪ 4ddd0f6db1 Make AIM Rom version Selectable
+ ▪ 4ffd112191 Add Support For Custom PlatLogo -------------------------------
+
+ ▪ project packages/apps/ThemeInterfacer/
+ ▪ 754b6ea restartService --> forceStopService
+
+ ▪ project packages/services/Telephony/
+ ▪ 33e790db VoicemailSettingsActivity: Fix NPE
+
+ [*] 04/11/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ dfcace0e01a Hold "volume up" during boot to disable all overlays
+ ▪ a586a19c3b9 Themes: Expose Keyboard Shortcuts Dialog
+ ▪ 9205893bdfc Expose Screenshot flash and background colors
+ ▪ f290fefe74b ThemeSafety: Introduce App Crash Intent
+ ▪ b3f73854b41 Revert "Add a protected broadcast for Masquerade events"
+ ▪ 81a6230d29f base: Force authorize all calling packages by Masquerade (2/3)
+ ▪ f1ce23122e4 FWB: Give power dialogs own set of volume icons for themes
+ ▪ 331fcc8e3a9 OMS: Add hide annotation to MODIFY_OVERLAYS permission
+ ▪ 7d884117277 OMS7: Rootless Security Update Preparation for March 2017
+ ▪ 7ccd0ad27cf Add a protected broadcast for Masquerade events
+ ▪ 657849f53a2 Notification tint: add optional findContrastColor algorithm for dark backgrounds
+ ▪ f19e795a289 Themes: Expose Keyguard affordance circle background
+ ▪ fb59e2dfa56 Set external QS tiles tint mode to SRC_ATOP
+ ▪ 8d0cbb613c6 graphics: ADB "N" icon compatible with OMS7
+ ▪ 69b01a7fbac Expose external qs tile tint color
+ ▪ 9c9ad3bfb81 SystemUI: Expose switch bar title
+ ▪ 527369ee0a2 OMS: Introduce MODIFY_OVERLAYS permission for user apps
+ ▪ dc3cc8f87ad Themes: Expose QS battery
+ ▪ 7323f7582ac OMS7-N: ApplicationsState: add filter for Substratum icon overlays [1/2]
+ ▪ 97c777ae1ba OMS7-N: ApplicationsState: add filter for Substratum overlays [1/2]
+ ▪ 10691835284 SystemUI: Use own drawables for QS expand icon
+ ▪ 402ee78000d doze: allow grayscale even if invert boolean is false
+ ▪ c9d36b8eeab OMS7 compatible 'Ambient notification inversion'
+ ▪ 97c009b2e83 Allow prevention of doze notification color inversion
+ ▪ 43d81fcab44 Notification dynamic colors bool compatible with OMS7
+ ▪ a9a42e3a5fb Notifications: Expose a bool to disable dynamic colors
+ ▪ 783453f9f6e Themes: Expose various QuickSettings text colors
+ ▪ cdea1da6149 Allow custom alpha for notification shade bg color
+ ▪ 1b9ce41cade SystemUI: Expose QS edit item decoration background color
+ ▪ 731767bbc93 Themes: Allow Navbar ripple color to be themed
+ ▪ 7166db9df6d Themes: Allow Permission Icons to be fully themed
+ ▪ 80012813b7a Themes: Allow Immersive cling colors to be fully themed
+ ▪ b26a9b76c03 Themes: Expose resolver hardcoded colors
+ ▪ c391a26ab88 N-Extras: AudioService: Allow system effect sounds to be themed
+ ▪ ab4cc7e36e4 N-Extras: Add dynamic theme fonts support
+ ▪ 8120f8540e1 N-Extras: Add dynamic theme BootAnimation support
+ ▪ 5555a17641c OMS7-N: Implement multi-target enable/disable and disable-all [11/11]
+ ▪ 309379b3a7d OMS7-N: Do not enforce code policy limiting overlay installation [10/11]
+ ▪ ab6c66b3e49 OMS7-N: Persistence on boot through OverlayManagerServiceImpl [9/11]
+ ▪ c92b277b15c OMS7-N: Disable Zygote preloaded drawables [8/11]
+ ▪ 24c33a5db3e OMS7-N: installd: add command 'rmidmap' [7/11]
+ ▪ 3faf5f0b7d2 OMS7-N: Fix memory leak during idmap creation [6/11]
+ ▪ 66195e5dfbf OMS7-N: idmap: suppress print for padded resources [5/11]
+ ▪ 01a914ad5ce OMS7-N: Set EXTRA_REPLACING correctly in ACTION_PACKAGE_ADDED [4/11]
+ ▪ c3e3297b120 OMS7-N: Integrate OverlayManagerService into framework [3/11]
+ ▪ 628a04fb02d OMS7-N: Introduce the OverlayManagerService [2/11]
+ ▪ dbc68eec401 OMS7-N: Support tagging resources as OK to overlay [1/11]
+ ▪ fb9c2458ae3 Revert "OMS: don't hide MODIFY_OVERLAYS permission"
+ ▪ fe6d728ce0b Add auto brightness toggle to Quick Settings
+
+ ▪ project hardware/qcom/display-caf/msm8960/
+ ▪ 09cce1b07 hwcomposer: Fix regression in hwc_sync
+
+ ▪ project packages/apps/Settings/
+ ▪ 2fd7999125 Lockscreen PIN quick unlock [2/2]
+
+ ▪ project packages/apps/Snap/
+ ▪ 2ecc334e4 CameraControls: Toggle the status of disabled views
+ ▪ 7e10f005f Never remove unsupported controls
+ ▪ 30ba55822 WideAnglePanoramaUI: Correctly position the progressbar
+
+ ▪ project packages/apps/ThemeInterfacer/
+ ▪ 31b36ca Polish copyright
+
+---------------------------------------------------------
+
