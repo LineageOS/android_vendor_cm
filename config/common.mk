@@ -126,6 +126,7 @@ PRODUCT_PACKAGES += \
     LineageSetupWizard \
     Eleven \
     ExactCalculator \
+    Jill \
     LiveLockScreenService \
     LockClock \
     Trebuchet \
