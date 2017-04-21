@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">@color/material_pixel_blue_bright</color>
+    <color name="material_pixel_blue_bright">@*android:color/material_pixel_blue_bright</color>
+</resources>
