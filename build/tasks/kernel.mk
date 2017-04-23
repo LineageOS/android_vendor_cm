@@ -112,6 +112,8 @@ else
   ifeq ($(TARGET_KERNEL_APPEND_DTB),true)
     TARGET_PREBUILT_INT_KERNEL_TYPE := $(TARGET_PREBUILT_INT_KERNEL_TYPE)-dtb
   endif
+  echo "** Warning: 'BOARD_KERNEL_IMAGE_NAME' is not set. This could break your build in the future."
+  echo "** Information: Set 'BOARD_KERNEL_IMAGE_NAME := $(TARGET_PREBUILT_INT_KERNEL_TYPE)' in your device tree to skip this warning."
 endif
 
 TARGET_PREBUILT_INT_KERNEL := $(KERNEL_OUT)/arch/$(KERNEL_ARCH)/boot/$(TARGET_PREBUILT_INT_KERNEL_TYPE)
