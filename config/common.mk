@@ -323,7 +323,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.cm.releasetype=$(CM_BUILDTYPE) \
     ro.cm.build.version=$(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR) \
     ro.modversion=$(LINEAGE_VERSION) \
-    ro.cmlegal.url=https://lineageos.org/legal
+    ro.cmlegal.url=https://lineageos.org/legal \
+    ro.lineageoms.version=$(LINEAGE_VERSION)
 
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     vendor/cm/build/target/product/security/lineage
