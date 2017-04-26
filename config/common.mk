@@ -225,10 +225,8 @@ PRODUCT_PACKAGES += \
     procrank
 
 # Conditionally build in su
-ifeq ($(WITH_SU),true)
 PRODUCT_PACKAGES += \
     su
-endif
 endif
 
 DEVICE_PACKAGE_OVERLAYS += vendor/aim/overlay/common
