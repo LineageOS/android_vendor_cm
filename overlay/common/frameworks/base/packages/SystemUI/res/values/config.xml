@@ -24,4 +24,7 @@
 
 <!-- Should "4G" be shown instead of "LTE" when the network is NETWORK_TYPE_LTE? -->
     <bool name="config_show4GForLTE">false</bool>
+
+<!-- When true, show the AutoBrightness imageview -->
+    <bool name="config_show_auto_brightness">true</bool>
 </resources>
