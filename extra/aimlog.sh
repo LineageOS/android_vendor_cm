@@ -44,9 +44,9 @@ touch $Changelog
 
 # ask for days and version
 echo ""
-echo ${grn}" -> Set Number Of days For Changelog"${txtrst}
+echo ${grn}" -> Set Number Of Days For Changelog"${txtrst}
 echo ""
-echo -e ${red}"you have 30/s to pick -6 Days by default"${txtrst}
+echo -e ${red}"You Have 30/s To Pick Or Else, 6 Days By Default"${txtrst}
 echo -e "";
 echo -e ${grn}"  Enter How Many Days"${txtrst}
 echo -e "";
@@ -92,4 +92,4 @@ then
 	rm -f $Temp_Changelog
 fi
 
-echo -e ${grn}"\n AIM ROM Change logs has been succesfully genarated.\n"${txtrst}
+echo -e ${grn}"\n AIM ROM Changelogs have been succesfully generated.\n"${txtrst}
