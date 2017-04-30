@@ -1,4 +1,4 @@
-ADDONSU_PREBUILTS_PATH := vendor/cm/addonsu/
+ADDONSU_PREBUILTS_PATH := vendor/aim/addonsu/
 
 ADDONSU_INSTALL_OUT := $(PRODUCT_OUT)/addonsu-install/
 ADDONSU_INSTALL_TARGET := $(PRODUCT_OUT)/addonsu-$(TARGET_ARCH).zip
