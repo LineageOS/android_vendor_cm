@@ -221,7 +221,7 @@ on property:persist.sys.root_access=1
     start su_daemon
 
 on property:persist.sys.root_access=2
-    start su_daemon
+    stop su_daemon
 
 on property:persist.sys.root_access=3
     start su_daemon
