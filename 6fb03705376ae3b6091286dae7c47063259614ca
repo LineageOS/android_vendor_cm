@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_0974bbcd",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 5
+      },
+      "lineNbr": 900,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-05-01T18:51:55Z",
+      "side": 1,
+      "message": "This is what I\u0027d do (untested)\n\n        elif [ -f \"$FILE\" ] \u0026\u0026 [ \"$SRC\" !\u003d \"adb\" ]; then\n            TARGET\u003d\"$FROM\"\n        else\n            TARGET\u003d\"system/$FROM\"\n            FILE\u003d\"system/$FILE\"\n        fi",
+      "range": {
+        "startLine": 893,
+        "startChar": 0,
+        "endLine": 900,
+        "endChar": 10
+      },
+      "revId": "6fb03705376ae3b6091286dae7c47063259614ca",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
