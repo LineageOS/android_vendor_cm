@@ -1,0 +1,78 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_09939ba4",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 558,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-05-01T17:48:17Z",
+      "side": 1,
+      "message": "Document the new argument",
+      "revId": "4142ae619bb24a8d418c8bdd62602f003fab18bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_c9b58332",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 571,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-05-01T17:48:17Z",
+      "side": 1,
+      "message": "\"basename $0\" maybe? Anyway, I\u0027d put this new temp dir inside TMPDIR, in this way it\u0027s when TMPDIR is removed:\n\n   TEMPDIR\u003d$(mktemp -d --tmpdir\u003d$TMPDIR)\n\nBut do we even need a new directory here?",
+      "range": {
+        "startLine": 571,
+        "startChar": 45,
+        "endLine": 571,
+        "endChar": 58
+      },
+      "revId": "4142ae619bb24a8d418c8bdd62602f003fab18bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_e9bddf03",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 589,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-05-01T17:48:17Z",
+      "side": 1,
+      "message": "You can extract a section using sed:\n\n    SECTION\u003dCamera\n    cat proprietary-files.txt | sed -n \u0027/# \u0027\"$SECTION\"\u0027/I,/^\\s*$/p\u0027",
+      "revId": "4142ae619bb24a8d418c8bdd62602f003fab18bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "1a486d77_e98f1f74",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 805,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-05-01T17:48:17Z",
+      "side": 1,
+      "message": "Document the new argument.",
+      "revId": "4142ae619bb24a8d418c8bdd62602f003fab18bf",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
