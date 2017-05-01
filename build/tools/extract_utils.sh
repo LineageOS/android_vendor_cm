@@ -92,12 +92,9 @@ function setup_vendor() {
         COMMON=0
     fi
 
-    if [ "$5" == "true" ] || [ "$5" == "1" ]; then
+    if [ "$5" == "false" ] || [ "$5" == "0" ]; then
         VENDOR_STATE=1
         VENDOR_RADIO_STATE=1
-    else
-        VENDOR_STATE=0
-        VENDOR_RADIO_STATE=0
     fi
 }
 
