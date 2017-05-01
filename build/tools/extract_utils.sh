@@ -92,12 +92,9 @@ function setup_vendor() {
         COMMON=0
     fi
 
-    if [ "$5" == "true" ] || [ "$5" == "1" ]; then
+    if [ "$5" == "false" ] || [ "$5" == "0" ]; then
         VENDOR_STATE=1
         VENDOR_RADIO_STATE=1
-    else
-        VENDOR_STATE=0
-        VENDOR_RADIO_STATE=0
     fi
 }
 
@@ -837,7 +834,7 @@ function extract() {
         SRC="$DUMPDIR"
     fi
 
-    if [ "$VENDOR_STATE" -eq "0" ]; then
+    if [ "$VENDOR_STATE" -ne "1" ]; then
         echo "Cleaning output directory ($OUTPUT_ROOT).."
         rm -rf "${OUTPUT_TMP:?}"
         mkdir -p "${OUTPUT_TMP:?}"
@@ -982,7 +979,7 @@ function extract_firmware() {
     local SRC="$2"
     local OUTPUT_DIR="$CM_ROOT"/"$OUTDIR"/radio
 
-    if [ "$VENDOR_RADIO_STATE" -eq "0" ]; then
+    if [ "$VENDOR_RADIO_STATE" -ne "1" ]; then
         echo "Cleaning firmware output directory ($OUTPUT_DIR).."
         rm -rf "${OUTPUT_DIR:?}/"*
         VENDOR_RADIO_STATE=1
