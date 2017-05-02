@@ -292,7 +292,7 @@ endif
 
 ifeq ($(AIM_BUILDTYPE), OFFICIAL)
     ifndef TARGET_VENDOR_RELEASE_BUILD_ID
-        AIM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)_$(shell date -u +%Y%m%d)-OFFFICIAL-$(AIM_BUILD)
+        AIM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)_$(shell date -u +%Y%m%d)-OFFICIAL-$(AIM_BUILD)
     else
         ifeq ($(TARGET_BUILD_VARIANT),user)
             ifeq ($(AIM_VERSION_MAINTENANCE),0)
