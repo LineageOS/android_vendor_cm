@@ -132,7 +132,8 @@ PRODUCT_PACKAGES += \
 # Extra Packages For AimRom
 PRODUCT_PACKAGES += \
     ThemeInterfacer \
-    SnapdragonCamera
+    SnapdragonCamera \
+    PixelLauncherPrebuilt
 
 # Exchange support
 PRODUCT_PACKAGES += \
