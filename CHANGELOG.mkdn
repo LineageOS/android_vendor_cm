@@ -3,6 +3,124 @@
  ====================================== 
 
 
+ [*] 05/04/2017
+  *******************    
+
+
+ ▪ project packages/apps/Settings/
+ ▪ 92f585a5c5 Merge branch 'N' of https://github.com/aimrom/android_packages_apps_settings into N
+ ▪ 54911574f7 Imprrooved string for HTC M9
+ ▪ a1cff0acf6 Added Device Maintainer For Lenovo K3 Note (#2)
+ ▪ c08d83fdb4 Add HIMAUL maintainer
+ ▪ 3cd102abb3 Bring up Device maintainers
+ ▪ ef4bebae37 WELCOME KLABIT87
+
+ ▪ project vendor/aim/
+ ▪ 7e1895ff Set Google's DeskClock as default
+ ▪ f00c49ab Overlays: Pixel theme
+ ▪ 2b127619 Add Pixel Launcher
+
+ [*] 05/03/2017
+  *******************    
+
+
+ ▪ project art/
+ ▪ 8b0b7302c runtime: arch: support kryo for 32 bit
+
+ ▪ project bionic/
+ ▪ 46fdf7dee libc: ARM: add Apple strcmp
+ ▪ a7211caf0 libc: import ARM strlen from Apple C library
+ ▪ 769f202de bionic: arm64: generic: strcmp: align to cache and preload
+ ▪ 38cd829d8 linker: convert 'mov pc' instruction to 'bx'
+ ▪ 22d6b5b57 libc: ARM: Add 32-bit Kryo memcpy
+ ▪ 45a39871e libc: use Cortex-A7/A53 memset on Kryo
+ ▪ ba97f82ba Add kryo support.
+
+ ▪ project bootable/recovery/
+ ▪ 8011e66 recovery: Fix UI freezing
+
+ ▪ project build/
+ ▪ ead0e7d9d envsetup: recognise lineage product files. This way people can just do lunch and start building immediately without having to edit their device trees.
+ ▪ db46d678c core: use 0 compression when creating the target_files package
+
+ ▪ project frameworks/base/
+ ▪ c94636d7e28 Add protected broadcast for app crash broadcast
+ ▪ 85512431d7b Themes: Allow volume slider and thumb to work with custom images.
+ ▪ 282a60f0be4 Separate tile label color from icon drawable color
+
+ [*] 05/02/2017
+  *******************    
+
+
+ ▪ project android/
+ ▪ fc78b86 manifest: android-7.1.2_r2 -> android-7.1.2_r8
+ ▪ 9182986 android: nuke browser, welcome jelly
+ ▪ 8f9085b Sync contributors cloud generator and random scripts
+
+ ▪ project external/boringssl/
+ ▪ 8f156df Merge tag 'android-7.1.2_r8' into cm-14.1
+
+ ▪ project frameworks/base/
+ ▪ b491816ca03 Automatic translation import
+ ▪ ced3609024e base: don't show reboot options for safe mode
+ ▪ 1571befc0d4 SystemUI: Use already existing overlay to show QS auto brightness
+ ▪ 2079e0079a8 SystemUI: use vector drawables for brightness icons
+ ▪ d160536ab9a fix anr when concurrent request provider
+ ▪ b1d299088ea Ensure that the decor view is attached to window.
+ ▪ 958073dc3f5 Bad token of activity when do the launch work at the app process side.
+ ▪ b577073ab97 Query geo description in worker thread to prevent ANR
+ ▪ a6c39892b13 remove duplicated incorrectly code in ProcessRecord
+ ▪ 1b800c83f31 fix foreground process will be mistakenly killed when it uses content provider.
+ ▪ 874101d8e63 Fix PacketKeepalive.stop() crash
+ ▪ 4fd90ffdee8 FATAL EXCEPTION IN SYSTEM PROCESS: android.ui
+ ▪ f9356c850c1 Restart persistent process if start timeout.
+ ▪ 4ebe8845750 fix system_server crash issue caused by fd leak.
+ ▪ 21bc643d06a base: LocationTile detail
+ ▪ cee86c7fd1f SystemUI: Use AOSP AutoBrightness implementation
+ ▪ 0b0555e92d4 Revert "SystemUI: Fix QSTileHost exception"
+ ▪ 821c3464f1d Revert "SystemUI: [RJIL new function] AutoBrightness"
+
+ ▪ project packages/apps/Contacts/
+ ▪ da25aeb8f Themes: Expose hardcoded layout and styles colors
+
+ ▪ project packages/apps/Dialer/
+ ▪ 2476da680 Themes: InCallUI dialpad digits color
+ ▪ 3abe3e6c7 Themes: Separate background color from text color
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ f79831a Themes: Make dialpad seperator line theme-able
+
+ ▪ project system/bt/
+ ▪ 85d4e422 Merge tag 'android-7.1.2_r8' into cm-14.1
+
+ ▪ project system/core/
+ ▪ d7cbf4b4c Merge tag 'android-7.1.2_r8' into cm-14.1
+
+ ▪ project vendor/aim/
+ ▪ 7b1ba462 vendor: correct a minor mistype
+
+ [*] 05/01/2017
+  *******************    
+
+
+ ▪ project build/
+ ▪ e780c6437 core.mk: correct an overlooked thing while rebranding.
+
+ ▪ project device/qcom/sepolicy/
+ ▪ 8132fd2 sepolicy.mk: correct the path to our vendor.
+
+ ▪ project frameworks/base/
+ ▪ 0671e13a008 am: Handle unchecked activity starts for protected components (2)
+ ▪ 9ca8641c222 fix wrong algorithm in WifiPowerPerPacket()
+ ▪ 2b0a32272cc Keyguard: Move CAF strings to cm_strings.xml.
+
+ ▪ project system/extras/su/
+ ▪ 7344440 su: Don't start daemon for adb only mode
+
+ ▪ project vendor/aim/
+ ▪ 8b4a36d9 addonsu: Add Lineage version to zip name
+ ▪ 24f994d5 Remove all traces of CMTE policy
+
  [*] 04/30/2017
   *******************    
 
@@ -15,10 +133,8 @@
  ▪ 8c3e5863b Merge pull request #1 from HassanSardar/patch-1
  ▪ 80aeb3384 envsetup.sh: Fix The Path For Aimlog.sh
 
- ▪ project packages/apps/Settings/
- ▪ f667d1c97f  FreedomHub:Add owr Own Preference
-
  ▪ project vendor/aim/
+ ▪ 87c1a710 Update Changelog
  ▪ 9f7cb249 Merge pull request #1 from HassanSardar/patch-1
  ▪ ae14661e vendor: correct various paths.
  ▪ af7d2788 aimlog.sh: Minor Changes & Corrections.
@@ -48,9 +164,6 @@
  ▪ 94643c014 build: Add support for selective LTO with QCLD
  ▪ cc8ed29ba build: enhance and extend support for SDCLANG
 
- ▪ project device/qcom/common/
- ▪ 0dc3673 recovery: Use project pathmap for recovery
-
  ▪ project frameworks/base/
  ▪ 1d1268eb055 Add AMIFY to proto
  ▪ 6e0bd6fdd7b Update QS Location icon with accent colors signed-off-by Anand Ramachandran<anand.nv1998@gmail.com>
@@ -61,11 +174,38 @@
  ▪ project hardware/libhardware_legacy/
  ▪ ec33ac3 wifi: add firmware loader support for the non-LKM case
 
+ ▪ project hardware/qcom/fm/
+ ▪ d17952e Automatic translation import
+
+ ▪ project packages/apps/CMParts/
+ ▪ 1e3c0b4 Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ b7d1a8b Automatic translation import
+
+ ▪ project packages/apps/Contacts/
+ ▪ ecc144ce7 Automatic translation import
+
+ ▪ project packages/apps/CustomTiles/
+ ▪ 7c2b32d Automatic translation import
+
+ ▪ project packages/apps/Dialer/
+ ▪ d5d1e6947 Automatic translation import
+
+ ▪ project packages/apps/Gallery2/
+ ▪ ed6763f13 Automatic translation import
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ be5e9c9 Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 9b9c5c9 Automatic translation import
+
  ▪ project packages/apps/Settings/
- ▪ 208fb61d50 Added modded marginov color picker
- ▪ fb6951281a Unlock keystore with fingerprint after reboot[2/2]
- ▪ 5a15d6768b FreedomHub:Fingerprint autentication vibration[2/2]
  ▪ 2493cdd2a9 FreedomHub:Add icon to about AIMROM
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 8518aa3 Automatic translation import
 
  ▪ project system/core/
  ▪ 3efb4eca7 fs_mgr: Use project pathmap for recovery
@@ -74,97 +214,18 @@
  ▪ project system/extras/
  ▪ f30ae7f Use project pathmap for recovery
 
+ ▪ project vendor/cmsdk/
+ ▪ e2c64b8 Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ 5de40fe Automatic translation import
+
  [*] 04/28/2017
   *******************    
 
 
  ▪ project packages/apps/ThemeInterfacer/
  ▪ 40e3809 JobService: Expose configuration shim refresh delay
-
- [*] 04/27/2017
-  *******************    
-
-
- ▪ project android/
- ▪ 12f1ffd Manifest : Stop syncing blank intel sensor repo.
- ▪ bc5479a cm: Sync ansible repo
-
- ▪ project build/
- ▪ db59f9236 core: main: never enable checkjni
- ▪ c3b021cfb build: fix verity generation
-
- ▪ project packages/apps/ThemeInterfacer/
- ▪ 3f3c33b Add a looper to the locale change handler
-
- ▪ project packages/apps/Trebuchet/
- ▪ 29b0b0a29 Trebuchet: lineage launcher icon
- ▪ c9e76546f Trebuchet: Do not crash if normalized string for sorting is empty
-
- ▪ project vendor/aim/
- ▪ 882ced1b vendor: build native su
- ▪ 480757cc vendor:export OFFICIAL builds instead of RELEASE
-
- [*] 04/26/2017
-  *******************    
-
-
- ▪ project frameworks/opt/telephony/
- ▪ bc432281 Create cdma dummy apns.
-
- ▪ project hardware/qcom/audio-caf/msm8996/
- ▪ 6bace74d msm8996: audio: Add l/r mic swapping when using stereo mics
-
- ▪ project packages/apps/Gallery2/
- ▪ 1f0ec6ea1 Revert "Gallery2: hide navigation bar when we turn off lights"
-
- ▪ project packages/apps/SnapdragonCamera/
- ▪ 44e64863 Automatic translation import
-
- ▪ project packages/apps/ThemeInterfacer/
- ▪ 9936dc3 README: Recommend Interfacer be put in the services folder
-
- ▪ project packages/apps/Trebuchet/
- ▪ 99649a575 Don't show market links if market app is protected
- ▪ 1cc5cef42 Trebuchet: use normalized strings for sorting into bucket
-
- ▪ project vendor/cmsdk/
- ▪ 117d242 Protect system profiles related broadcasts
-
- [*] 04/25/2017
-  *******************    
-
-
- ▪ project packages/apps/ThemeInterfacer/
- ▪ 97eceaf JobService: Transition to the Binder Interprocess Communication System
-
- [*] 04/24/2017
-  *******************    
-
-
- ▪ project frameworks/base/
- ▪ 863331795b1 Fw_base - Disable Lockscreen Media Art [1/2]
-
- ▪ project hardware/qcom/audio-caf/msm8996/
- ▪ fc1c0d9f Add special case for stereo camcorder
-
- ▪ project packages/apps/Settings/
- ▪ e6c4723498 Disable Lockscreen Media Art [2/2]
- ▪ 8a8c589212 Move custom dp settings to FreedomHub
- ▪ b2bcf69a45 Add About AIMROM to FreedomHub
- ▪ d0df04625c Fix FreedomHub FC
-
- ▪ project system/sepolicy/
- ▪ 60a5927 sepolicy: add file and domain trans to interfacer
- ▪ da493ab Welcome to Theme Interfacer! [2/2]
- ▪ 4329ff8 sepolicy: Redo masquerade rules
- ▪ 84525ee sepolicy: Fix application of bootanimation
- ▪ 2e05ef7 sepolicy: allow masquerade to read and write theme assets
- ▪ 3e31c78 sepolicy: rename masquerade domain and allow JobService in system_server
- ▪ 8e50eac initial policy edits for masquerade to operate rootless
- ▪ a34134f sepolicy: fix themed sounds
- ▪ e0e500e sepolicy: fix themed boot animation
- ▪ 09802c1 Introduce sepolicy exceptions for theme assets
- ▪ 1a50ba5 OMS7-N: Add service 'overlay' to service_contexts
 
 ---------------------------------------------------------
 
