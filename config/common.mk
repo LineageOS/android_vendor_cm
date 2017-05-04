@@ -135,7 +135,7 @@ PRODUCT_PACKAGES += \
     SnapdragonCamera \
     PixelLauncherPrebuilt
 
-
+ifneq ($(WITH_MAGISK),false)
 # Magisk Manager
 PRODUCT_PACKAGES += \
     MagiskManager
@@ -143,6 +143,7 @@ PRODUCT_PACKAGES += \
 # Copy Magisk zip
 PRODUCT_COPY_FILES += \
     vendor/aim/prebuilt/common/magisk.zip:system/addon.d/magisk.zip
+endif
 
 # Exchange support
 PRODUCT_PACKAGES += \
