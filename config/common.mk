@@ -135,6 +135,15 @@ PRODUCT_PACKAGES += \
     SnapdragonCamera \
     PixelLauncherPrebuilt
 
+
+# Magisk Manager
+PRODUCT_PACKAGES += \
+    MagiskManager
+
+# Copy Magisk zip
+PRODUCT_COPY_FILES += \
+    vendor/aim/prebuilt/common/magisk.zip:system/addon.d/magisk.zip
+
 # Exchange support
 PRODUCT_PACKAGES += \
     Exchange2
