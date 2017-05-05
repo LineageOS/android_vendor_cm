@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_ca120762",
+        "filename": "sepolicy/recovery.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 21,
+      "author": {
+        "id": 2936
+      },
+      "writtenOn": "2017-05-05T08:30:40Z",
+      "side": 1,
+      "message": "Is this supposed to be in the userdebug_or_eng block?",
+      "revId": "9b3023bca0476ed58dca3a8446926fe34a0a61b8",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
