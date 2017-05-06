@@ -123,6 +123,7 @@ PRODUCT_PACKAGES += \
     LineageSetupWizard \
     Eleven \
     ExactCalculator \
+    Jelly \
     LiveLockScreenService \
     LockClock \
     Trebuchet \
