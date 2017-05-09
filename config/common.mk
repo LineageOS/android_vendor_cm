@@ -130,6 +130,10 @@ PRODUCT_PACKAGES += \
     WallpaperPicker \
     WeatherProvider
 
+# Enable assistant by default
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.opa.eligible_device=true
+
 # Extra Packages For AimRom
 PRODUCT_PACKAGES += \
     ThemeInterfacer \
