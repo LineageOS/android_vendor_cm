@@ -134,6 +134,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opa.eligible_device=true
 
+# Pixel icons
+vendor/aim/prebuilt/app/pixelicons/PixelLauncherIcons.apk:system/app/pixellaunchericons/PixelLauncherIcons.apk 
+
 # Extra Packages For AimRom
 PRODUCT_PACKAGES += \
     ThemeInterfacer \
