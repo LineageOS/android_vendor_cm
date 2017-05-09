@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "1a486d77_4974dcce",
+        "filename": "gello/Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-05-09T15:25:21Z",
+      "side": 1,
+      "message": "Change this to m57 please. We didn\u0027t go go with m58 and we\u0027re going to get off the old maven build id version schema and go with the actual version of the app.",
+      "range": {
+        "startLine": 45,
+        "startChar": 27,
+        "endLine": 45,
+        "endChar": 29
+      },
+      "revId": "50984bf69553bd1bb6da49debd8a9115cb8b9b0a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
