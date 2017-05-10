@@ -3,11 +3,195 @@
  ====================================== 
 
 
+ [*] 05/09/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ 26bc278d185 Add pixel like round icons and pixel colors -->override existing icon settings to round
+
+ ▪ project packages/apps/Settings/
+ ▪ d9898387a4 Merge branch 'N' of https://github.com/aimrom/android_packages_apps_settings into N
+ ▪ ef395e44d6 Settings: show Device maintainer in About
+ ▪ e07a74cace Settings: Add Substratum to dashboard ... again
+ ▪ 3ae6719917 Revert "Settings: Add Substratum to dashboard"
+ ▪ 08d667101d Settings: Update Substratum dashboard icon
+ ▪ d3c7004baa Settings: Add Substratum to dashboard
+
+ ▪ project vendor/aim/
+ ▪ 61e01250 Squashed update of Lineage apns-conf.xml
+ ▪ 4c1a5d3f pissel pissel pissel --> add pixel icons
+ ▪ 3de1fcec Enable assistant by default --> add build.prop override
+
+ [*] 05/08/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ 5ee1a2d3f4a AlarmsBlocker [1/2] Made by @faust93. Based on WakelockBlocker by @maxwen
+
+ ▪ project packages/apps/Settings/
+ ▪ 67abd23884 Merge https://github.com/aimrom/android_packages_apps_Settings into N
+ ▪ 3eb981a76a AlarmsBlocker [2/2] Made by @faust93. Based on WakelockBlocker by @maxwen Included WakeLock: Layout Improvements - Moved switch to the right - Replaced refresh/save icons to match stock lollipop theme - Added padding to title/summary - Removed drawables / add vector
+ ▪ 81e1ea994c Merge pull request #8 from JavAster/Z3
+ ▪ a78436808d Update maintainers.xml
+ ▪ ddf308e0df Update dev_info.xml
+ ▪ 3fd9784ab9 Update maintainers.xml
+ ▪ a22ed5ac14 Fix Settings FC caused by changelog viewer
+ ▪ d734d5dbb5 Settings: Added changelog Heavily adapted for AIM-ROM from Nitrogen
+
+ ▪ project vendor/aim/
+ ▪ 1635264e Add Pixel blue icon for jelly+i dont like green thing -->i hate green icon -->added aim website as default -->changed accent color to pixel blue
+
+ [*] 05/07/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ ba3dc3fa01b Net monitor: fix visual glitch on statusbar expand when autohide enabled
+ ▪ 8859fd1c8a5 Make Network traffic meter smaller
+ ▪ bd7d44f5840 remove network coloring and make network meter play nice with dark mode. from -> https://github.com/PureNexusProject/android_frameworks_base/commit/e20dee5912f26e8b1b34d93644ed50aca37a56f6
+
+ ▪ project hardware/qcom/audio-caf/msm8937/
+ ▪ 99617f93 Configs: remove audio sink buffer size property
+ ▪ a9f2c000 hal: fix kw issue in hal
+ ▪ 61918047 hal: remove redundant logs from utils.c
+ ▪ 905d1d8f audiod: Skip enumerating non-ADSP sound cards
+
+ ▪ project hardware/qcom/display-caf/msm8937/
+ ▪ eb495123a sdm: Use ColorMetadata in SDM
+ ▪ 37d5aff1b display: Add support for Rec.2020
+ ▪ b6a2bfbd5 sdm: Use safe mode on External display on low end device
+ ▪ 9c6421096 HWC: Set skip to layers with Non Integral Source Crop
+ ▪ 93afadf42 sdm: skip null commit on command mode panels
+ ▪ 2428bc491 libmemtrack: Fix integer overflow in kgsl function
+
+ ▪ project hardware/qcom/media-caf/msm8937/
+ ▪ de0c52ed5 media: libOmxSw encoders require prop headers :(
+ ▪ fcd1cfd90 mm-video-v4l2: serialize FTB's for dropped frames
+ ▪ 057d1c7bf mm-video-v4l2: vidc: venc: Free buffer FDs and handles
+ ▪ a5da2d3e6 mm-video-v4l2: vdec: Support for HEVCMain10HDR10 profile
+ ▪ 76dd49f77 mm-video-v4l2: Update max level for h264 decoder to 5.1
+ ▪ 46aa731c9 mm-video-v4l2: venc: Disable Pframes incase of resolution 5k/6k
+ ▪ 5dc8e7ec4 mm-video-v4l2: Reset drv_ctx o/p buffer requirements in loaded state
+ ▪ 0a4ad7e00 mm-video-v4l2: vdec: Convert maximum display luminance in cd/m2
+ ▪ 9e702ea45 mm-video-v4l2: vdec:Metadata for HDR and ColorAspects
+ ▪ 6076eb611 mm-video-v4l2: vdec: Support for HDR Info extension
+
+ ▪ project lineage/cve/
+ ▪ 642e2a0 cve_tracker: seed: prevent double entries
+
+ ▪ project lineage/jenkins/
+ ▪ 109948c Readd ether
+
+ ▪ project packages/apps/Settings/
+ ▪ f8de165c66 Redirect dev info to xda profile
+ ▪ 9112c42218 Move Magisk to be underneath Freedom Hub
+ ▪ 34eb56b656 Merge branch 'N' of https://github.com/AIMROM/android_packages_apps_Settings into HEAD
+ ▪ 7079f90694 move network traffic settings to statusbar tab in freedom hub.
+ ▪ be089f1500 Fix cherry-pick error
+ ▪ 7f9a8595ab Settings: Change magisk dashboard icon
+ ▪ cf4132fc37 Add Magisk Manager dashboard option
+
+ ▪ project packages/apps/SnapdragonCamera/
+ ▪ 1b4a3a3b SnapdragonCamera: use correct context
+
+ [*] 05/06/2017
+  *******************    
+
+
+ ▪ project build/
+ ▪ d0895e6ea Merge remote-tracking branch 'los/cm-14.1' into N
+
+ ▪ project frameworks/base/
+ ▪ 96b164061af Merge remote-tracking branch 'cm-14.1' into N
+
+ ▪ project frameworks/native/
+ ▪ b2ebcb83c Merge remote-tracking branch 'cm-14.1' into N
+
+ ▪ project lineage/website/
+ ▪ 8f8a440 www/community: Small fixes
+
+ ▪ project lineage/wiki/
+ ▪ 7b181fd wiki: Build: Update build instructions for Ubuntu
+ ▪ 79eb2df wiki: HTTPS-ise some links
+
+ ▪ project packages/apps/Settings/
+ ▪ 8fa77695f6 Merge remote-tracking branch 'cm-14.1' into N
+ ▪ 00f44407d3 Add support for z3c
+ ▪ 5953620d0e Update maintainers.xml
+ ▪ 49b5ed76b0 Add Support for Z00L and Z00T (#5)
+ ▪ f72d2796f3 NetworkTrafficSettings: where'd you come from?
+
+ ▪ project vendor/aim/
+ ▪ c6f06a52 Merge remote-tracking branch 'cm-14.1' into N
+
+ [*] 05/05/2017
+  *******************    
+
+
+ ▪ project build/
+ ▪ 637e0c7fd Fix typo
+ ▪ df0cc080a Fix Magisk option
+ ▪ 5de45647d Optional Magisk [1/2]
+ ▪ bc22823c1 Build: Include Magisk as an option [2/2] Usage: export WITH_MAGISK=true
+
+ ▪ project frameworks/base/
+ ▪ 0ad42c53bd0 Network Traffic [1/2] *Fix visibility when all data is disabled
+ ▪ e3075698fde Smooth Spinners: Makes the loading "spinner" animation smoother in non-holo apps
+ ▪ e6ce70b8bb4 If a wake key is disabled by the user, do not wake from doze. * also clean up wake key options Currently, any wake key will wake the device from a doze, even if that key has not been enabled as a wake key in Settings.
+ ▪ 674eb204a0f Keep quiet when volume keys are used to wake up device - Userspace will make a 'beep' with it receives a key up, so   consume that event as well. - Removed wake key check in music control code as it will already   be disabled here.
+ ▪ 33fa8dce991 Materialize toast frames
+ ▪ 2d5928c428b Notifications: Materialize missed calls icons
+ ▪ 5b2cbb7dfd3 Remove unnecessary videos
+ ▪ fdb328cdc7d Aapt2: Fix png leak
+
+ ▪ project lineage/cve/
+ ▪ 9d54129 cve_tracker: Add new Xiaomi msm8996 devices
+ ▪ f0932d0 cve_tracker: Restore tsubasa in android_kernel_sony_msm8x60
+
+ ▪ project lineage/wiki/
+ ▪ 6dd10da devices: Set mako as discontinued
+
+ ▪ project packages/apps/Settings/
+ ▪ acb5a100bd Network Traffic [2/2] PureNexus edits: *removed color option Extras: iclude CustomseekbarPreference
+
+ ▪ project system/bt/
+ ▪ 0ebf465d Do not include the trailing NULL from the C-String in the SDP service name
+
+ ▪ project vendor/aim/
+ ▪ 567ea5aa Optional Magisk [2/2]
+ ▪ bebc8cb6 Update Magisk
+ ▪ 01b59190 Adapt for AIM
+
  [*] 05/04/2017
   *******************    
 
 
+ ▪ project bootable/recovery/
+ ▪ 616bf9a recovery: Fix event system
+
+ ▪ project lineage/website/
+ ▪ 786aa23 www: Minor corrections
+
+ ▪ project lineage/wiki/
+ ▪ 47ffb8b wiki: Build: Some corrections
+
+ ▪ project packages/apps/Jelly/
+ ▪ 2006774 Jelly: no need of using srcCompat for imageviews
+ ▪ 9be745e Jelly: fix InflateException on builds compiled with aosp build system
+
  ▪ project packages/apps/Settings/
+ ▪ e4fd9a7cdf Update maintainers.xml (#3)
+ ▪ 05a123511e Unlock keystore with fingerprint after reboot (2/2)
+ ▪ 732a040af4 Fingerprint authentication vibration [2/2]
+ ▪ addade0b46 Automatic translation import
+ ▪ 9076f428ba Revert "Settings: Lost cached BT devices in found devices list"
+ ▪ 8ab343a0d7 Settings[Wifi]: fix the input invalid length for WEP encryption.
+ ▪ 86a6ee2dc5 Settings: Fix internal storage summary for non-emulated storage
+ ▪ 9bc816c0fe We have this in Developer mode
+ ▪ 23ceab0e69 FreedomHub: Move advanced reboot from dev_pref
+ ▪ 459fb6fa40 Update Telegram invitation link
  ▪ 92f585a5c5 Merge branch 'N' of https://github.com/aimrom/android_packages_apps_settings into N
  ▪ 54911574f7 Imprrooved string for HTC M9
  ▪ a1cff0acf6 Added Device Maintainer For Lenovo K3 Note (#2)
@@ -16,216 +200,55 @@
  ▪ ef4bebae37 WELCOME KLABIT87
 
  ▪ project vendor/aim/
+ ▪ f36c82af New Material LivePicker Icon
+ ▪ 509b694a Materialize MediaProvider icon
+ ▪ 47117a16 Calendar Provider Overlays
+ ▪ 7f1666fb Materialize NFC Tags Icon
+ ▪ 09fe03c6 Overlay: Add material Stk icon
+ ▪ 7eef8c68 Material Phone icons from factory image
+ ▪ 81d1d4c9 Update changelog
  ▪ 7e1895ff Set Google's DeskClock as default
  ▪ f00c49ab Overlays: Pixel theme
- ▪ 2b127619 Add Pixel Launcher
 
  [*] 05/03/2017
   *******************    
 
-
- ▪ project art/
- ▪ 8b0b7302c runtime: arch: support kryo for 32 bit
 
  ▪ project bionic/
  ▪ 46fdf7dee libc: ARM: add Apple strcmp
  ▪ a7211caf0 libc: import ARM strlen from Apple C library
  ▪ 769f202de bionic: arm64: generic: strcmp: align to cache and preload
  ▪ 38cd829d8 linker: convert 'mov pc' instruction to 'bx'
- ▪ 22d6b5b57 libc: ARM: Add 32-bit Kryo memcpy
- ▪ 45a39871e libc: use Cortex-A7/A53 memset on Kryo
- ▪ ba97f82ba Add kryo support.
-
- ▪ project bootable/recovery/
- ▪ 8011e66 recovery: Fix UI freezing
 
  ▪ project build/
  ▪ ead0e7d9d envsetup: recognise lineage product files. This way people can just do lunch and start building immediately without having to edit their device trees.
  ▪ db46d678c core: use 0 compression when creating the target_files package
+
+ ▪ project frameworks/av/
+ ▪ faa8b85e0 seccomp: Fix policy for ffmpeg
 
  ▪ project frameworks/base/
  ▪ c94636d7e28 Add protected broadcast for app crash broadcast
  ▪ 85512431d7b Themes: Allow volume slider and thumb to work with custom images.
  ▪ 282a60f0be4 Separate tile label color from icon drawable color
 
- [*] 05/02/2017
-  *******************    
+ ▪ project lineage/jenkins/
+ ▪ 2567151 Disable mako builds
 
+ ▪ project lineage/website/
+ ▪ 517c3ea Changelog #8 - May ASB, Jelly, Donations and More Servers (W/C 18th April)
 
- ▪ project android/
- ▪ fc78b86 manifest: android-7.1.2_r2 -> android-7.1.2_r8
- ▪ 9182986 android: nuke browser, welcome jelly
- ▪ 8f9085b Sync contributors cloud generator and random scripts
+ ▪ project lineage/wiki/
+ ▪ 28704f5 devices: Update Z00A/Z008 maintainers
+ ▪ e3dd26e devices: asus: Add recovery install instructions
+ ▪ d5a2665 us996: typo fixed from us995
+ ▪ d1a713f devices: Add HTC One A9 (hiaeul and hiauhl variants)
 
- ▪ project external/boringssl/
- ▪ 8f156df Merge tag 'android-7.1.2_r8' into cm-14.1
-
- ▪ project frameworks/base/
- ▪ b491816ca03 Automatic translation import
- ▪ ced3609024e base: don't show reboot options for safe mode
- ▪ 1571befc0d4 SystemUI: Use already existing overlay to show QS auto brightness
- ▪ 2079e0079a8 SystemUI: use vector drawables for brightness icons
- ▪ d160536ab9a fix anr when concurrent request provider
- ▪ b1d299088ea Ensure that the decor view is attached to window.
- ▪ 958073dc3f5 Bad token of activity when do the launch work at the app process side.
- ▪ b577073ab97 Query geo description in worker thread to prevent ANR
- ▪ a6c39892b13 remove duplicated incorrectly code in ProcessRecord
- ▪ 1b800c83f31 fix foreground process will be mistakenly killed when it uses content provider.
- ▪ 874101d8e63 Fix PacketKeepalive.stop() crash
- ▪ 4fd90ffdee8 FATAL EXCEPTION IN SYSTEM PROCESS: android.ui
- ▪ f9356c850c1 Restart persistent process if start timeout.
- ▪ 4ebe8845750 fix system_server crash issue caused by fd leak.
- ▪ 21bc643d06a base: LocationTile detail
- ▪ cee86c7fd1f SystemUI: Use AOSP AutoBrightness implementation
- ▪ 0b0555e92d4 Revert "SystemUI: Fix QSTileHost exception"
- ▪ 821c3464f1d Revert "SystemUI: [RJIL new function] AutoBrightness"
-
- ▪ project packages/apps/Contacts/
- ▪ da25aeb8f Themes: Expose hardcoded layout and styles colors
-
- ▪ project packages/apps/Dialer/
- ▪ 2476da680 Themes: InCallUI dialpad digits color
- ▪ 3abe3e6c7 Themes: Separate background color from text color
-
- ▪ project packages/apps/PhoneCommon/
- ▪ f79831a Themes: Make dialpad seperator line theme-able
-
- ▪ project system/bt/
- ▪ 85d4e422 Merge tag 'android-7.1.2_r8' into cm-14.1
-
- ▪ project system/core/
- ▪ d7cbf4b4c Merge tag 'android-7.1.2_r8' into cm-14.1
+ ▪ project packages/apps/Jelly/
+ ▪ b01a7b8 Jelly: handle rotation and multiwindow changes
 
  ▪ project vendor/aim/
- ▪ 7b1ba462 vendor: correct a minor mistype
-
- [*] 05/01/2017
-  *******************    
-
-
- ▪ project build/
- ▪ e780c6437 core.mk: correct an overlooked thing while rebranding.
-
- ▪ project device/qcom/sepolicy/
- ▪ 8132fd2 sepolicy.mk: correct the path to our vendor.
-
- ▪ project frameworks/base/
- ▪ 0671e13a008 am: Handle unchecked activity starts for protected components (2)
- ▪ 9ca8641c222 fix wrong algorithm in WifiPowerPerPacket()
- ▪ 2b0a32272cc Keyguard: Move CAF strings to cm_strings.xml.
-
- ▪ project system/extras/su/
- ▪ 7344440 su: Don't start daemon for adb only mode
-
- ▪ project vendor/aim/
- ▪ 8b4a36d9 addonsu: Add Lineage version to zip name
- ▪ 24f994d5 Remove all traces of CMTE policy
-
- [*] 04/30/2017
-  *******************    
-
-
- ▪ project bootable/recovery/
- ▪ 5d701cc recovery: Complete project pathmap usage
-
- ▪ project build/
- ▪ 0745d47c3 Revert "build: releasetools: ota: Add support for 32-64 bit upgrades"
- ▪ 8c3e5863b Merge pull request #1 from HassanSardar/patch-1
- ▪ 80aeb3384 envsetup.sh: Fix The Path For Aimlog.sh
-
- ▪ project vendor/aim/
- ▪ 87c1a710 Update Changelog
- ▪ 9f7cb249 Merge pull request #1 from HassanSardar/patch-1
- ▪ ae14661e vendor: correct various paths.
- ▪ af7d2788 aimlog.sh: Minor Changes & Corrections.
- ▪ 11abe9da common.mk: build Snapdragon Camera.
-
- [*] 04/29/2017
-  *******************    
-
-
- ▪ project bootable/recovery/
- ▪ 39ce741 Revert "recovery:updater: Changes to support 32->64 bit upgrades"
-
- ▪ project build/
- ▪ 887cef8dd build: sdclang: move the host detection logic
- ▪ b316d6944 build: condition cortex-a53-835769 workaround for the linker
- ▪ 868af141d build: condition A53 errata workarounds in RenderScript
- ▪ f2cbdc2c0 Revert "Add -mfpu=neon-vfpv4 if cpu is krait"
- ▪ 4f7bc367e build: take ARM erratum cortex-a53-835769 into our hands
- ▪ 71208c501 Revert "core: Enable -mcpu=cortex-a8 flag for Scorpion cpu variant"
- ▪ dc6feff5b Revert "core: Enable -mcpu=cortex-a9 flag for Cortex-A9 cpu variant"
- ▪ f62c4840d Revert "Apply correct, optimized mfpu compiler flag for ARMv7-A Cortex CPUs"
- ▪ aa7fe9b83 build: dynamically fix ARM erratum cortex-a53-843419
- ▪ 5c9e9bcd7 build: Do proper optimization during SDCLANG_LTO
- ▪ 985947f1a build: ensure QCLD usage when requested
- ▪ 5f5f5597c build: cleanup SDCLANG logic
- ▪ 0b5841df7 build: QCLD/LTO: support for unsafe filtering
- ▪ 94643c014 build: Add support for selective LTO with QCLD
- ▪ cc8ed29ba build: enhance and extend support for SDCLANG
-
- ▪ project frameworks/base/
- ▪ 1d1268eb055 Add AMIFY to proto
- ▪ 6e0bd6fdd7b Update QS Location icon with accent colors signed-off-by Anand Ramachandran<anand.nv1998@gmail.com>
- ▪ c6c767461a9 Status bar: Update notification count icons
- ▪ 6e299614c3a Unlock keystore with fingerprint after reboot (1/2)
- ▪ 8cb14ebccce Fingerprint authentication vibration [1/2]
-
- ▪ project hardware/libhardware_legacy/
- ▪ ec33ac3 wifi: add firmware loader support for the non-LKM case
-
- ▪ project hardware/qcom/fm/
- ▪ d17952e Automatic translation import
-
- ▪ project packages/apps/CMParts/
- ▪ 1e3c0b4 Automatic translation import
-
- ▪ project packages/apps/CellBroadcastReceiver/
- ▪ b7d1a8b Automatic translation import
-
- ▪ project packages/apps/Contacts/
- ▪ ecc144ce7 Automatic translation import
-
- ▪ project packages/apps/CustomTiles/
- ▪ 7c2b32d Automatic translation import
-
- ▪ project packages/apps/Dialer/
- ▪ d5d1e6947 Automatic translation import
-
- ▪ project packages/apps/Gallery2/
- ▪ ed6763f13 Automatic translation import
-
- ▪ project packages/apps/PhoneCommon/
- ▪ be5e9c9 Automatic translation import
-
- ▪ project packages/apps/Recorder/
- ▪ 9b9c5c9 Automatic translation import
-
- ▪ project packages/apps/Settings/
- ▪ 2493cdd2a9 FreedomHub:Add icon to about AIMROM
-
- ▪ project packages/apps/SetupWizard/
- ▪ 8518aa3 Automatic translation import
-
- ▪ project system/core/
- ▪ 3efb4eca7 fs_mgr: Use project pathmap for recovery
- ▪ 783cb54ee healthd: Use project pathmap for recovery
-
- ▪ project system/extras/
- ▪ f30ae7f Use project pathmap for recovery
-
- ▪ project vendor/cmsdk/
- ▪ e2c64b8 Automatic translation import
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
- ▪ 5de40fe Automatic translation import
-
- [*] 04/28/2017
-  *******************    
-
-
- ▪ project packages/apps/ThemeInterfacer/
- ▪ 40e3809 JobService: Expose configuration shim refresh delay
+ ▪ 2b127619 Add Pixel Launcher
 
 ---------------------------------------------------------
 
