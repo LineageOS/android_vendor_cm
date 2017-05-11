@@ -3,25 +3,122 @@
  ====================================== 
 
 
- [*] 05/09/2017
+ [*] 05/11/2017
   *******************    
 
 
  ▪ project frameworks/base/
- ▪ 26bc278d185 Add pixel like round icons and pixel colors -->override existing icon settings to round
+ ▪ 5fecea749d1 AIMIFY-Add custom Power on/off Dialog
+ ▪ 2d086659394 Fix for google backup and restore
+ ▪ 58892a9bd90 Port "Battery Usage Alerts" feature from factory images to aosp
+
+ ▪ project lineage/cve/
+ ▪ cf9dd13 cve_tracker: Add vs985 to G3 devices
+ ▪ 4f7a9ef run script: pass all args to flask
+ ▪ c2d546a index: fix alignment of footer links
+ ▪ d0062ed app: compute version on startup
+ ▪ af355a5 cve: hook up authentication to front-end
+ ▪ fce8368 app: add support for unauthenticated viewing
+
+ ▪ project lineage/wiki/
+ ▪ 0a13aa5 wiki: correct v521 info
+
+ ▪ project packages/apps/Settings/
+ ▪ b41d07f15e Fix error in maintainer string
+ ▪ ecd077adef Merge branch 'N' of https://github.com/aimrom/android_packages_apps_settings into N
+ ▪ aee14c793c Settings : Rebuild app list after reset
+ ▪ 8ea64ca71d InstalledApp: show link to Google Play
+ ▪ 7687d24669 Settings: background not set in main Settings screen
+ ▪ d60b6047ea Get rid of framework holo actionbar buttons
+ ▪ eb141b951d Settings: disable the other learn more too to prevent crash
+ ▪ 6e985c9970 Settings: Wi-Fi WPS Materialized icon
+ ▪ 635883a180 bluetooth: Show a refresh icon on the select devices screen
+ ▪ d4310b02a4 Add fastscroll to the Manage applications screen
+ ▪ 1f41ce028f Settings: Tint Black Drawables
+ ▪ ad8087ec38 Title is different after tapping "Memory used by apps"
+ ▪ a391a4b00f Show USB Mode Dialog
+ ▪ 7039c8663a Settings: display fstype for mounted volumes
+ ▪ fdf783b2fc Add Redmi2 Official support (#9)
+ ▪ 12a71db11a Add support for Redmi 2 (#10)
+
+ [*] 05/10/2017
+  *******************    
+
+
+ ▪ project build/
+ ▪ 510e9a9ae Revert "build: use the system's ccache by default"
+
+ ▪ project frameworks/base/
+ ▪ 65290522293 Reboot/Recovery QS Tile: Use vectorized icons
+
+ ▪ project lineage/jenkins/
+ ▪ e2b5abf Revert "Disable v521"
+
+ ▪ project lineage/wiki/
+ ▪ 10e03c2 wiki: Add V521
 
  ▪ project packages/apps/Settings/
  ▪ d9898387a4 Merge branch 'N' of https://github.com/aimrom/android_packages_apps_settings into N
  ▪ ef395e44d6 Settings: show Device maintainer in About
+
+ ▪ project vendor/aim/
+ ▪ d6028ff6 CHANGELOG updae
+ ▪ 61e01250 Squashed update of Lineage apns-conf.xml
+
+ [*] 05/09/2017
+  *******************    
+
+
+ ▪ project build/
+ ▪ 938b3f993 Makefile: when compiling, use release-keys tag not dev-keys *fix issues with some app requiring release-keys
+ ▪ 37950eea0 core: Makefile: Correct package signature disable
+ ▪ 134fa4fc0 core: assume non-release recoveries to skip signature check
+ ▪ 87964306b releasetools: silence binary info printed by blockimgdiff
+ ▪ cb94ad864 build: use the system's ccache by default
+ ▪ 55ffe61b1 Don't stop if JDK version doesn't match
+ ▪ a75d36422 Allow building with OpenJDK
+ ▪ 51dc73087 core: use 0 compression target_files package only if block based ota
+
+ ▪ project frameworks/base/
+ ▪ 26bc278d185 Add pixel like round icons and pixel colors -->override existing icon settings to round
+
+ ▪ project lineage/ansible/
+ ▪ 0c21a53 update inventory/site.yml for new boxes
+ ▪ 01dc2fe stats setup
+ ▪ 47f1804 JIRA setup
+ ▪ 05ceb99 become root for build slaves
+ ▪ 431529f rsync whitelist: ad super.net.sg new IP
+
+ ▪ project lineage/stats/
+ ▪ 1df69f4 Add COLLECT_ONLY config option, as there are far too many items to actually display right now
+
+ ▪ project lineage/updater/
+ ▪ 23033e5 Missing quotes in check_builds
+
+ ▪ project lineage/wiki/
+ ▪ 2f0f9e5 costs: stats needed a larger instance
+ ▪ d97ee6b Add sendgrid to costs
+
+ ▪ project packages/apps/Settings/
  ▪ e07a74cace Settings: Add Substratum to dashboard ... again
  ▪ 3ae6719917 Revert "Settings: Add Substratum to dashboard"
  ▪ 08d667101d Settings: Update Substratum dashboard icon
  ▪ d3c7004baa Settings: Add Substratum to dashboard
+ ▪ 67abd23884 Merge https://github.com/aimrom/android_packages_apps_Settings into N
+ ▪ 3eb981a76a AlarmsBlocker [2/2] Made by @faust93. Based on WakelockBlocker by @maxwen Included WakeLock: Layout Improvements - Moved switch to the right - Replaced refresh/save icons to match stock lollipop theme - Added padding to title/summary - Removed drawables / add vector
+ ▪ 81e1ea994c Merge pull request #8 from JavAster/Z3
+ ▪ a78436808d Update maintainers.xml
+ ▪ ddf308e0df Update dev_info.xml
+ ▪ 3fd9784ab9 Update maintainers.xml
+
+ ▪ project system/core/
+ ▪ 28cbdd146 Revert "init.rc: set initial cpuset to all cores"
+ ▪ ada295f88 init.rc: set initial cpuset to all cores
 
  ▪ project vendor/aim/
- ▪ 61e01250 Squashed update of Lineage apns-conf.xml
  ▪ 4c1a5d3f pissel pissel pissel --> add pixel icons
  ▪ 3de1fcec Enable assistant by default --> add build.prop override
+ ▪ 1635264e Add Pixel blue icon for jelly+i dont like green thing -->i hate green icon -->added aim website as default -->changed accent color to pixel blue
 
  [*] 05/08/2017
   *******************    
@@ -30,27 +127,34 @@
  ▪ project frameworks/base/
  ▪ 5ee1a2d3f4a AlarmsBlocker [1/2] Made by @faust93. Based on WakelockBlocker by @maxwen
 
+ ▪ project hardware/qcom/display-caf/msm8937/
+ ▪ b7a301067 display: Add color metadata definition
+
+ ▪ project lineage/wiki/
+ ▪ 0b70c76 wiki: Fix link visibility on 'alert' sections
+ ▪ dba1c23 wiki: Tweak GitHub link
+
  ▪ project packages/apps/Settings/
- ▪ 67abd23884 Merge https://github.com/aimrom/android_packages_apps_Settings into N
- ▪ 3eb981a76a AlarmsBlocker [2/2] Made by @faust93. Based on WakelockBlocker by @maxwen Included WakeLock: Layout Improvements - Moved switch to the right - Replaced refresh/save icons to match stock lollipop theme - Added padding to title/summary - Removed drawables / add vector
- ▪ 81e1ea994c Merge pull request #8 from JavAster/Z3
- ▪ a78436808d Update maintainers.xml
- ▪ ddf308e0df Update dev_info.xml
- ▪ 3fd9784ab9 Update maintainers.xml
  ▪ a22ed5ac14 Fix Settings FC caused by changelog viewer
  ▪ d734d5dbb5 Settings: Added changelog Heavily adapted for AIM-ROM from Nitrogen
-
- ▪ project vendor/aim/
- ▪ 1635264e Add Pixel blue icon for jelly+i dont like green thing -->i hate green icon -->added aim website as default -->changed accent color to pixel blue
+ ▪ f8de165c66 Redirect dev info to xda profile
+ ▪ 9112c42218 Move Magisk to be underneath Freedom Hub
 
  [*] 05/07/2017
   *******************    
 
 
+ ▪ project build/
+ ▪ d0895e6ea Merge remote-tracking branch 'los/cm-14.1' into N
+
  ▪ project frameworks/base/
  ▪ ba3dc3fa01b Net monitor: fix visual glitch on statusbar expand when autohide enabled
  ▪ 8859fd1c8a5 Make Network traffic meter smaller
  ▪ bd7d44f5840 remove network coloring and make network meter play nice with dark mode. from -> https://github.com/PureNexusProject/android_frameworks_base/commit/e20dee5912f26e8b1b34d93644ed50aca37a56f6
+ ▪ 96b164061af Merge remote-tracking branch 'cm-14.1' into N
+
+ ▪ project frameworks/native/
+ ▪ b2ebcb83c Merge remote-tracking branch 'cm-14.1' into N
 
  ▪ project hardware/qcom/audio-caf/msm8937/
  ▪ 99617f93 Configs: remove audio sink buffer size property
@@ -59,6 +163,7 @@
  ▪ 905d1d8f audiod: Skip enumerating non-ADSP sound cards
 
  ▪ project hardware/qcom/display-caf/msm8937/
+ ▪ 26cd5045c display: Add color metadata definition
  ▪ eb495123a sdm: Use ColorMetadata in SDM
  ▪ 37d5aff1b display: Add support for Rec.2020
  ▪ b6a2bfbd5 sdm: Use safe mode on External display on low end device
@@ -82,49 +187,46 @@
  ▪ 642e2a0 cve_tracker: seed: prevent double entries
 
  ▪ project lineage/jenkins/
+ ▪ ceb3679 Disable v521
  ▪ 109948c Readd ether
-
- ▪ project packages/apps/Settings/
- ▪ f8de165c66 Redirect dev info to xda profile
- ▪ 9112c42218 Move Magisk to be underneath Freedom Hub
- ▪ 34eb56b656 Merge branch 'N' of https://github.com/AIMROM/android_packages_apps_Settings into HEAD
- ▪ 7079f90694 move network traffic settings to statusbar tab in freedom hub.
- ▪ be089f1500 Fix cherry-pick error
- ▪ 7f9a8595ab Settings: Change magisk dashboard icon
- ▪ cf4132fc37 Add Magisk Manager dashboard option
-
- ▪ project packages/apps/SnapdragonCamera/
- ▪ 1b4a3a3b SnapdragonCamera: use correct context
-
- [*] 05/06/2017
-  *******************    
-
-
- ▪ project build/
- ▪ d0895e6ea Merge remote-tracking branch 'los/cm-14.1' into N
-
- ▪ project frameworks/base/
- ▪ 96b164061af Merge remote-tracking branch 'cm-14.1' into N
-
- ▪ project frameworks/native/
- ▪ b2ebcb83c Merge remote-tracking branch 'cm-14.1' into N
-
- ▪ project lineage/website/
- ▪ 8f8a440 www/community: Small fixes
 
  ▪ project lineage/wiki/
  ▪ 7b181fd wiki: Build: Update build instructions for Ubuntu
  ▪ 79eb2df wiki: HTTPS-ise some links
 
  ▪ project packages/apps/Settings/
+ ▪ 34eb56b656 Merge branch 'N' of https://github.com/AIMROM/android_packages_apps_Settings into HEAD
+ ▪ 7079f90694 move network traffic settings to statusbar tab in freedom hub.
+ ▪ be089f1500 Fix cherry-pick error
+ ▪ 7f9a8595ab Settings: Change magisk dashboard icon
+ ▪ cf4132fc37 Add Magisk Manager dashboard option
  ▪ 8fa77695f6 Merge remote-tracking branch 'cm-14.1' into N
  ▪ 00f44407d3 Add support for z3c
  ▪ 5953620d0e Update maintainers.xml
  ▪ 49b5ed76b0 Add Support for Z00L and Z00T (#5)
  ▪ f72d2796f3 NetworkTrafficSettings: where'd you come from?
 
+ ▪ project packages/apps/SnapdragonCamera/
+ ▪ 1b4a3a3b SnapdragonCamera: use correct context
+
  ▪ project vendor/aim/
  ▪ c6f06a52 Merge remote-tracking branch 'cm-14.1' into N
+
+ [*] 05/06/2017
+  *******************    
+
+
+ ▪ project lineage/website/
+ ▪ 8f8a440 www/community: Small fixes
+
+ ▪ project lineage/wiki/
+ ▪ 6dd10da devices: Set mako as discontinued
+
+ ▪ project packages/apps/Settings/
+ ▪ acb5a100bd Network Traffic [2/2] PureNexus edits: *removed color option Extras: iclude CustomseekbarPreference
+
+ ▪ project system/core/
+ ▪ 836145724 Revert "rootdir: init.rc: Fix for "add_tid_to_cgroup failed to write" warnings"
 
  [*] 05/05/2017
   *******************    
@@ -150,36 +252,8 @@
  ▪ 9d54129 cve_tracker: Add new Xiaomi msm8996 devices
  ▪ f0932d0 cve_tracker: Restore tsubasa in android_kernel_sony_msm8x60
 
- ▪ project lineage/wiki/
- ▪ 6dd10da devices: Set mako as discontinued
-
- ▪ project packages/apps/Settings/
- ▪ acb5a100bd Network Traffic [2/2] PureNexus edits: *removed color option Extras: iclude CustomseekbarPreference
-
- ▪ project system/bt/
- ▪ 0ebf465d Do not include the trailing NULL from the C-String in the SDP service name
-
- ▪ project vendor/aim/
- ▪ 567ea5aa Optional Magisk [2/2]
- ▪ bebc8cb6 Update Magisk
- ▪ 01b59190 Adapt for AIM
-
- [*] 05/04/2017
-  *******************    
-
-
- ▪ project bootable/recovery/
- ▪ 616bf9a recovery: Fix event system
-
- ▪ project lineage/website/
- ▪ 786aa23 www: Minor corrections
-
- ▪ project lineage/wiki/
- ▪ 47ffb8b wiki: Build: Some corrections
-
  ▪ project packages/apps/Jelly/
  ▪ 2006774 Jelly: no need of using srcCompat for imageviews
- ▪ 9be745e Jelly: fix InflateException on builds compiled with aosp build system
 
  ▪ project packages/apps/Settings/
  ▪ e4fd9a7cdf Update maintainers.xml (#3)
@@ -197,9 +271,14 @@
  ▪ a1cff0acf6 Added Device Maintainer For Lenovo K3 Note (#2)
  ▪ c08d83fdb4 Add HIMAUL maintainer
  ▪ 3cd102abb3 Bring up Device maintainers
- ▪ ef4bebae37 WELCOME KLABIT87
+
+ ▪ project system/bt/
+ ▪ 0ebf465d Do not include the trailing NULL from the C-String in the SDP service name
 
  ▪ project vendor/aim/
+ ▪ 567ea5aa Optional Magisk [2/2]
+ ▪ bebc8cb6 Update Magisk
+ ▪ 01b59190 Adapt for AIM
  ▪ f36c82af New Material LivePicker Icon
  ▪ 509b694a Materialize MediaProvider icon
  ▪ 47117a16 Calendar Provider Overlays
@@ -207,48 +286,6 @@
  ▪ 09fe03c6 Overlay: Add material Stk icon
  ▪ 7eef8c68 Material Phone icons from factory image
  ▪ 81d1d4c9 Update changelog
- ▪ 7e1895ff Set Google's DeskClock as default
- ▪ f00c49ab Overlays: Pixel theme
-
- [*] 05/03/2017
-  *******************    
-
-
- ▪ project bionic/
- ▪ 46fdf7dee libc: ARM: add Apple strcmp
- ▪ a7211caf0 libc: import ARM strlen from Apple C library
- ▪ 769f202de bionic: arm64: generic: strcmp: align to cache and preload
- ▪ 38cd829d8 linker: convert 'mov pc' instruction to 'bx'
-
- ▪ project build/
- ▪ ead0e7d9d envsetup: recognise lineage product files. This way people can just do lunch and start building immediately without having to edit their device trees.
- ▪ db46d678c core: use 0 compression when creating the target_files package
-
- ▪ project frameworks/av/
- ▪ faa8b85e0 seccomp: Fix policy for ffmpeg
-
- ▪ project frameworks/base/
- ▪ c94636d7e28 Add protected broadcast for app crash broadcast
- ▪ 85512431d7b Themes: Allow volume slider and thumb to work with custom images.
- ▪ 282a60f0be4 Separate tile label color from icon drawable color
-
- ▪ project lineage/jenkins/
- ▪ 2567151 Disable mako builds
-
- ▪ project lineage/website/
- ▪ 517c3ea Changelog #8 - May ASB, Jelly, Donations and More Servers (W/C 18th April)
-
- ▪ project lineage/wiki/
- ▪ 28704f5 devices: Update Z00A/Z008 maintainers
- ▪ e3dd26e devices: asus: Add recovery install instructions
- ▪ d5a2665 us996: typo fixed from us995
- ▪ d1a713f devices: Add HTC One A9 (hiaeul and hiauhl variants)
-
- ▪ project packages/apps/Jelly/
- ▪ b01a7b8 Jelly: handle rotation and multiwindow changes
-
- ▪ project vendor/aim/
- ▪ 2b127619 Add Pixel Launcher
 
 ---------------------------------------------------------
 
