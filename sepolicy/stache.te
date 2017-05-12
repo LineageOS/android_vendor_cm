@@ -1,0 +1,3 @@
+allow stache stache_data_file:dir rw_dir_perms;
+allow stache stache_data_file:file rw_file_perms;
+allow stache stache_socket:sock_file { create_file_perms rw_file_perms };

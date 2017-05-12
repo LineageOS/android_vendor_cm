@@ -50,3 +50,8 @@
 
 # bash
 /system/xbin/bash                               u:object_r:shell_exec:s0
+
+# stache
+/system/bin/stached                             u:object_r:stache_exec:s0
+/data/stache(/.*)?                              u:object_r:stache_data_file:s0
+/data/stache/stache_socket                      u:object_r:stache_socket:s0
