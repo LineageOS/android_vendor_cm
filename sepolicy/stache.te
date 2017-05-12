@@ -1,0 +1,23 @@
+type stache, domain, domain_deprecated;
+init_daemon_domain(stache)
+
+type_transition stache system_data_file:{ dir file } stache_data_file;
+
+allow stache self:capability {
+    net_admin
+    fsetid
+    setuid
+    setgid
+    chown
+    dac_override
+    dac_read_search
+    net_bind_service
+};
+
+allow stache self:{ netlink_kobject_uevent_socket socket } create_socket_perms;
+
+allow stache stache_socket:dir rw_dir_perms;
+allow stache stache_socket:sock_file create_file_perms;
+
+allow stache stache_data_file:dir create_dir_perms;
+allow stache stache_data_file:file create_file_perms;
