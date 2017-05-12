@@ -1,0 +1,24 @@
+type stache, domain, domain_deprecated;
+init_daemon_domain(stache)
+
+type_transition stache system_data_file:{ dir file } stache_data_file;
+
+allow stache self:capability {
+    setuid
+    setgid
+    chown
+    dac_override
+    dac_read_search
+    net_bind_service
+};
+
+allow stache stache_socket:sock_file create_file_perms;
+type_transition stache socket_device:sock_file stache_socket "sensor_ctl_socket";
+allow stache socket_device:dir rw_dir_perms;
+
+allow stache stache_data_file:dir create_dir_perms;
+allow stache stache_data_file:dir rw_dir_perms;
+allow stache stache_data_file:file create_file_perms;
+allow stache stache_data_file:file rw_file_perms;
+allow stache stache_socket:sock_file create_file_perms;
+allow stache stache_socket:sock_file rw_file_perms;
