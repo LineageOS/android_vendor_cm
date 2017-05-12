@@ -16,3 +16,7 @@ type livedisplay_sysfs, sysfs_type, file_type;
 # Filesystems
 type exfat, sdcard_type, fs_type, mlstrustedobject;
 type ntfs, sdcard_type, fs_type, mlstrustedobject;
+
+# stache
+type stache_data_file, file_type, data_file_type;
+type stache_socket, file_type, mlstrustedobject;
