@@ -110,10 +110,6 @@ on boot
     chmod 0664 /sys/block/sde/queue/scheduler
     restorecon /sys/block/sde/queue/scheduler
 
-    chown system system /sys/block/dm-0/queue/scheduler
-    chmod 0664 /sys/block/dm-0/queue/scheduler
-    restorecon /sys/block/dm-0/queue/scheduler
-
     chown system system /dev/cpuctl/cpu.notify_on_migrate
     chmod 0664 /dev/cpuctl/cpu.notify_on_migrate
 
@@ -147,6 +143,12 @@ on boot
 
     # Persistent properties (only created if persist exists)
     mkdir /persist/properties 0770 system system
+
+# set up properties for encrypted devices after encryption
+on property:vold.decrypt=trigger_restart_framework
+    chown system system /sys/block/dm-0/queue/scheduler
+    chmod 0664 /sys/block/dm-0/queue/scheduler
+    restorecon /sys/block/dm-0/queue/scheduler
 
 # sysinit (/system/etc/init.d)
 service sysinit /system/bin/sysinit
