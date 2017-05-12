@@ -141,7 +141,8 @@ vendor/aim/prebuilt/app/pixelicons/PixelLauncherIcons.apk:system/app/pixellaunch
 PRODUCT_PACKAGES += \
     ThemeInterfacer \
     SnapdragonCamera \
-    PixelLauncherPrebuilt
+    PixelLauncherPrebuilt \
+    Turbo
 
 ifneq ($(WITH_MAGISK),false)
 # Magisk Manager
