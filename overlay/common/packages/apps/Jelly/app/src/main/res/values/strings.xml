@@ -2,5 +2,5 @@
 <resources>
     <string translatable="false" name="default_search_engine">https://encrypted.google.com/search?q={searchTerms}</string>
    <!-- upcoming website change it if we add a new one -->
-    <string translatable="false" name="default_home_page">https://Aim-Rom.github.io</string>
+    <string translatable="false" name="default_home_page">https://aimrom.github.io</string>
 </resources>
