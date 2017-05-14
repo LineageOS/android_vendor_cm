@@ -130,30 +130,6 @@ PRODUCT_PACKAGES += \
     WallpaperPicker \
     WeatherProvider
 
-# Enable assistant by default
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.opa.eligible_device=true
-
-# Pixel icons
-vendor/aim/prebuilt/app/pixelicons/PixelLauncherIcons.apk:system/app/pixellaunchericons/PixelLauncherIcons.apk 
-
-# Extra Packages For AimRom
-PRODUCT_PACKAGES += \
-    ThemeInterfacer \
-    SnapdragonCamera \
-    PixelLauncherPrebuilt \
-    Turbo
-
-ifneq ($(WITH_MAGISK),false)
-# Magisk Manager
-PRODUCT_PACKAGES += \
-    MagiskManager
-
-# Copy Magisk zip
-PRODUCT_COPY_FILES += \
-    vendor/aim/prebuilt/common/magisk.zip:system/addon.d/magisk.zip
-endif
-
 # Exchange support
 PRODUCT_PACKAGES += \
     Exchange2
@@ -374,5 +350,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
 -include vendor/aim/config/partner_gms.mk
 -include vendor/cyngn/product.mk
+
+# Packages
+include vendor/aim/config/aim_extra.mk
 
 $(call prepend-product-if-exists, vendor/extra/product.mk)
