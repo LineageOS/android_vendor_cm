@@ -3,7 +3,8 @@ PRODUCT_PACKAGES += \
     ThemeInterfacer \
     SnapdragonCamera \
     PixelLauncherPrebuilt \
-    Turbo 
+    Turbo \
+    AIMWIZARD
     
 # Enable assistant by default
 PRODUCT_PROPERTY_OVERRIDES += \
