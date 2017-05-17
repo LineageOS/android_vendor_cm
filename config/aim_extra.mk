@@ -22,3 +22,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/aim/prebuilt/common/magisk.zip:system/addon.d/magisk.zip
 endif
+
+# unlock sim globaly
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.telephony.sim_unlocked=1
