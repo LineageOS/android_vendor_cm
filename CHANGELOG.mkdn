@@ -8,9 +8,33 @@
 
 
  ▪ project frameworks/base/
- ▪ 2a572ae0d44 Improve strings
- ▪ 299119c309d Merge branch 'N' of https://github.com/AIMROM/android_frameworks_base into N
- ▪ 099536c2586 base: Switch to pixel theme
+ ▪ 5711b4715b2 SystemUI: Tiny expanding improvement
+ ▪ e47e69d89f6 Fek you Package verifier
+ ▪ d4acd8babf6 revert some fastJni
+ ▪ e9ff24a7c11 Remove drawables we don't need
+ ▪ d896973ce27 Icon does not disappear even though it is disabled in Launcher
+ ▪ 9b6f2c203ba Remove unused variable.
+ ▪ 1772bc69a5a Resolve deadlock between ActivityManagerService and PowerManagerService
+ ▪ f9a04f8184f Add make_unique function for jni
+ ▪ bc43728d730 Fix memory-leak warnings from the static analyzer
+ ▪ 99ebfa63da8 KernelWakelockReader: stop the panic
+ ▪ 9f740998681 ParcelFileDescriptor: can we stop the panic here?
+ ▪ 340c4658c2a sysui: add missing string to volume panel
+ ▪ 7c882b0b7df Prevent IndexOutOfBoundsException
+ ▪ e0d2365b4a6 frameworks: squash of leak & race fixes
+ ▪ d970cbfee14 Fix potential heap memory leakage.
+ ▪ 9ec4529823d SysUI: prevents crash caused by NetworkOverLimitActivity
+ ▪ 07a37feb570 Avoid NPE when restarting task all activities of which will be cleared
+ ▪ 21f9b0aed7e Fix error java.lang.NullPointerException
+ ▪ 4ad5800dbb6 Fix the NullPointerException
+ ▪ f3857418b6b InputWrapper: opt out early if session == null
+ ▪ 7f2506ee972 Fix potential NULL dereference errors.
+ ▪ 104f65c602c Remove the unnecessary window animation request
+ ▪ caf4b4bdf7e Fix a NPE when putting a null-Bundle in an Intent
+ ▪ 1f37ab9accc fix wrong algorithm in getMobilePowerPerPacket()
+ ▪ 643bf7566ac SystemUI: disable statusbar time refresh when screen off
+ ▪ b8c1ee86274 Make roaming indicator optional [1/2]
+ ▪ 6c93015f427 Improve strings
  ▪ 39a45c0905d SystemUI: Add tunable for auto brightness icon
  ▪ 0872b5dcf5c Validate handler of wakelock option for flashlight.
  ▪ e599919a24e telecom: Fix order of arguments when creating Details object
@@ -25,13 +49,9 @@
  ▪ 2b10a1db02e Bluetooth: 50% transparency when disconnected
  ▪ d4c4b94c070 Set System Animations to .5 by default (1 of 2)
 
- ▪ project lineage/mirror/
- ▪ a2adc03 Updated to 17-May-2017 06:38:41 UTC
-
- ▪ project lineage/updater/
- ▪ b431dcb Add exceptions to the rule for kernel->device mappings
-
  ▪ project packages/apps/Settings/
+ ▪ 14581da3a2 Small change in Freedomhub
+ ▪ ab6f169624 Make roaming indicator optional [2/2]
  ▪ b4b6640208 Fix a small mistake
  ▪ 3d957c32e4 Changes and Fixes in freedomhub --> changed UI to INTERFACE --> Fixed unlink notification sound --> Fixed launch music player when headset connect --> Assigned icon to some category's --> String improvements --> STFU #VARUN_SOMA
  ▪ a17cd30689 Revert "Statusbar clock and date customizations [2/2]"
@@ -45,6 +65,9 @@
  ▪ 31514602f7 Set System Animations to .5 by default (2 of 2)
 
  ▪ project vendor/aim/
+ ▪ 5fcb63ff Merge branch 'N' of https://github.com/AIMROM/android_vendor_aim into N
+ ▪ f2ab8f91 Changelog update
+ ▪ 103c59a4 common.mk: Bye bye LineageSetupWizard :D
  ▪ c1997821 add override for sim unlock
  ▪ 457266da Change changelog name
 
@@ -55,30 +78,21 @@
  ▪ project build/
  ▪ 00305fa75 Fix one more ASCII typo
 
- ▪ project lineage/ansible/
- ▪ 5a17835 update cve tracker config
-
  ▪ project lineage/cve/
  ▪ 59f4946 Fix up a couple of kernel->device mappings
  ▪ 8e938e5 cve_tracker: Don't display deprecated kernels
  ▪ 12afec2 cve: add enpoint for querying kernel/cve pair status
  ▪ f91e0fe cve_tracker: Status: Remove non-required stuff
  ▪ f540eec fix rendering in kernel template
- ▪ e3f01fb Revert "Cache public functions for public requests"
- ▪ f2c8690 utils: fix kernel progress calculation
- ▪ 207d710 include flask-caching
- ▪ 355cf82 Reduce number of monogo queries made during device/cve patch page rendering
- ▪ d64173b Use progress everywhere, only recalc on changes
+
+ ▪ project lineage/mirror/
+ ▪ a2adc03 Updated to 17-May-2017 06:38:41 UTC
 
  ▪ project lineage/updater/
  ▪ b431dcb Add exceptions to the rule for kernel->device mappings
 
  ▪ project packages/apps/AimWizard/
  ▪ 58ec902 New icon
- ▪ f2a574d AIMWIZARD INITIAL --->wew
-
- ▪ project packages/apps/Settings/
- ▪ 42899743ce New icon
 
  ▪ project vendor/aim/
  ▪ c6d15e72 Extra: build AIMWIZARD. Our own modified version of LineageOS SetupWizard.
@@ -91,9 +105,15 @@
  ▪ 266c6a328 Fix ASCII
 
  ▪ project lineage/ansible/
+ ▪ 5a17835 update cve tracker config
  ▪ 81c0559 cve_tracker init
 
  ▪ project lineage/cve/
+ ▪ e3f01fb Revert "Cache public functions for public requests"
+ ▪ f2c8690 utils: fix kernel progress calculation
+ ▪ 207d710 include flask-caching
+ ▪ 355cf82 Reduce number of monogo queries made during device/cve patch page rendering
+ ▪ d64173b Use progress everywhere, only recalc on changes
  ▪ 2b91ce7 Enable flask_debugtoolbar
  ▪ d6d7d2d Cache public functions for public requests
  ▪ 7ef3d85 Migrate from flask_oauth to GitHub-Flask
@@ -109,16 +129,15 @@
  ▪ project lineage/website/
  ▪ 1c566de CVE tracker isn't ready for spotlight
  ▪ ef30b29 Fix links to "kernel su-hide" reference changes
- ▪ 197f8fc Changelog #9 - Gello, Jelly and a security advisory (W/C 2nd May)
+
+ ▪ project packages/apps/AimWizard/
+ ▪ f2a574d AIMWIZARD INITIAL --->wew
 
  ▪ project packages/apps/Settings/
- ▪ 5bed63187e FreedomHub: MODIFICATIONS TO UI AND STRINGS
+ ▪ 42899743ce New icon
 
  ▪ project packages/apps/SnapdragonCamera/
  ▪ de51a808 Automatic translation import
-
- ▪ project system/keymaster/
- ▪ a1bbfc0 Fix bugs regarding KeyStore::isHardwareBacked always returning true.
 
  ▪ project system/sepolicy/
  ▪ 42169cf sepolicy: Allow system_server to set theme_prop
@@ -129,15 +148,6 @@
 
  ▪ project frameworks/base/
  ▪ 5308e5c5b2e Statusbar clock and date customization: fix duplicate functions and syntax errors.
-
- ▪ project hardware/qcom/audio-caf/msm8996/
- ▪ 6e8e9c54 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
-
- ▪ project hardware/qcom/display-caf/msm8996/
- ▪ 332f57a2b Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
-
- ▪ project hardware/qcom/media-caf/msm8996/
- ▪ 87965a028 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
 
  ▪ project lineage/ansible/
  ▪ 20bbda8 re-enable stats UI
@@ -169,6 +179,9 @@
  ▪ 37f2557 Add final step to device deps generator
  ▪ ebbc791 Add device_deps.json regeneration scripts
 
+ ▪ project lineage/website/
+ ▪ 197f8fc Changelog #9 - Gello, Jelly and a security advisory (W/C 2nd May)
+
  ▪ project packages/apps/AudioFX/
  ▪ e696bf0 AudioFX: Fix choppy preset transitions
 
@@ -185,12 +198,15 @@
  ▪ 21c6894 Jelly: strings: Various pedantics
 
  ▪ project packages/apps/Settings/
+ ▪ 5bed63187e FreedomHub: MODIFICATIONS TO UI AND STRINGS
  ▪ af0d7f8620 Move things from here to there
+
+ ▪ project system/keymaster/
+ ▪ a1bbfc0 Fix bugs regarding KeyStore::isHardwareBacked always returning true.
 
  ▪ project vendor/aim/
  ▪ be3a27c6 New makefile for AIM extra apps
  ▪ 7c49cdc0 Pixel blue for globalActions silent mode selection indicator
- ▪ c6941b1d update Turbo.apk
 
  [*] 05/14/2017
   *******************    
@@ -199,13 +215,15 @@
  ▪ project external/chromium-webview/
  ▪ b544e48 Update README
 
- ▪ project frameworks/base/
- ▪ 27ac0ab5cac Statusbar clock and date customizations [1/2] Squashed commit of the following:
- ▪ d334f243048 base: Improve secure lockscreen access with disabled QS
- ▪ cbc8fd79fd1 base: allow disabling quick settings on secure lockscreen [1/2]
-
  ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 6e8e9c54 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
  ▪ 23be04d0 msm8996: ultrasound: Initial open source hal for Elliptic Ultrasound
+
+ ▪ project hardware/qcom/display-caf/msm8996/
+ ▪ 332f57a2b Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+
+ ▪ project hardware/qcom/media-caf/msm8996/
+ ▪ 87965a028 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
 
  ▪ project lineage/stats/
  ▪ 7cbabe1 New agggregate table.
@@ -213,14 +231,9 @@
  ▪ project packages/apps/Settings/
  ▪ 53d5a044c5 Statusbar clock and date customizations: Oops forgot that.
  ▪ a34af1ae2e Statusbar clock and date customizations [2/2] Squashed commit of the following:
- ▪ dd82bff538 update banner
- ▪ 01146f2607 Freedomhub: copy screenshot sound on/off to misc tab
- ▪ 9c2a28da74 FreedomHub: allow disabling quick settings on secure lockscreen [2/2]
- ▪ c21ba7c558 improove some strings
- ▪ f1d9e1c2ad System App Remover
- ▪ 4a490d0e96 Settings: add a restore default wallpaper action
 
  ▪ project vendor/aim/
+ ▪ c6941b1d update Turbo.apk
  ▪ 57a11005 Jelly change homepage
 
  [*] 05/13/2017
@@ -230,9 +243,38 @@
  ▪ project build/
  ▪ e0bc310d3 NEW Fkng ASCII GRAPHICS (.Y.) -->#Let's_Aim-ify
 
+ ▪ project frameworks/base/
+ ▪ 27ac0ab5cac Statusbar clock and date customizations [1/2] Squashed commit of the following:
+ ▪ d334f243048 base: Improve secure lockscreen access with disabled QS
+ ▪ cbc8fd79fd1 base: allow disabling quick settings on secure lockscreen [1/2]
+
  ▪ project lineage/cve/
  ▪ 1e3f1bc cve_tracker: Add the rest of Xiaomi msm8996 devices
  ▪ 88d6626 cve_tracker: Fix progress-bar value when patching
+
+ ▪ project packages/apps/Settings/
+ ▪ dd82bff538 update banner
+ ▪ 01146f2607 Freedomhub: copy screenshot sound on/off to misc tab
+ ▪ 9c2a28da74 FreedomHub: allow disabling quick settings on secure lockscreen [2/2]
+ ▪ c21ba7c558 improove some strings
+ ▪ f1d9e1c2ad System App Remover
+ ▪ 4a490d0e96 Settings: add a restore default wallpaper action
+
+ [*] 05/12/2017
+  *******************    
+
+
+ ▪ project android/
+ ▪ f9ffaa1 cm: Remove Gello
+
+ ▪ project frameworks/base/
+ ▪ b17b426a93d Change shutdown background to pitch Black
+
+ ▪ project lineage/cve/
+ ▪ d1207a0 app: support for disabling auth
+
+ ▪ project vendor/aim/
+ ▪ 9657618a  prebuilt: Add turbo apk
 
 ---------------------------------------------------------
 
