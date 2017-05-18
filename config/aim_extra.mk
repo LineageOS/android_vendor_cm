@@ -25,4 +25,5 @@ endif
 
 # unlock sim globaly
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.telephony.sim_unlocked=1
+    ro.telephony.sim_unlocked=1 \
+    ro.com.google.ime.theme_id=5
