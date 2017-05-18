@@ -27,3 +27,8 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.sim_unlocked=1 \
     ro.com.google.ime.theme_id=5
+
+# BOOT ANIMATION
+PRODUCT_COPY_FILES += \
+ vendor/aim/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+

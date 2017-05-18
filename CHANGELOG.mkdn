@@ -8,6 +8,7 @@
 
 
  ▪ project frameworks/base/
+ ▪ b54b30a473b Chnage usb debugging icon.. --> vectorised and working perfectly
  ▪ 5711b4715b2 SystemUI: Tiny expanding improvement
  ▪ e47e69d89f6 Fek you Package verifier
  ▪ d4acd8babf6 revert some fastJni
@@ -44,12 +45,11 @@
  ▪ e89177cf02c Make Dark Theme Looks more cool
  ▪ 854c7ad0560 Remove the green teal outline from dark theme
  ▪ 666ac49ec37 AIM dark theme initial [1/2]
- ▪ 481c261c5c9 Revert: "Remove DayNight theme"
- ▪ a0b6be1e220 Shutdown: import ProgressDialog
- ▪ 2b10a1db02e Bluetooth: 50% transparency when disconnected
- ▪ d4c4b94c070 Set System Animations to .5 by default (1 of 2)
 
  ▪ project packages/apps/Settings/
+ ▪ aae2e872dd Dont sync source this theme is a fucking headache
+ ▪ 64ba48b1fa Settings: fix dark theme for suggestions and conditions
+ ▪ 4a42673fd4 AIM DARK THEME CHANGES
  ▪ 14581da3a2 Small change in Freedomhub
  ▪ ab6f169624 Make roaming indicator optional [2/2]
  ▪ b4b6640208 Fix a small mistake
@@ -59,17 +59,11 @@
  ▪ c7f0958c22 System app remover fix layout and remove missmerge shits -->also added system/priv-app directory
  ▪ b5c4bf2544 Improve app remover layout & tint icon colors better for themers
  ▪ 16aa1fec6a add additional battery saver steps
- ▪ d1ae2f56c5 AIM dark theme initial [2/2]
- ▪ 2265375827 Change changelog name
- ▪ 1d86217c14 Improoved UI and strings --> Added icon for appremover --> Added summary to some categorys --> Moved unlink notification sound to misc --> Moved Autolaunch musicplayer to misc --> Created Category's
- ▪ 31514602f7 Set System Animations to .5 by default (2 of 2)
 
  ▪ project vendor/aim/
- ▪ 5fcb63ff Merge branch 'N' of https://github.com/AIMROM/android_vendor_aim into N
+ ▪ 55a79548 small tweak
+ ▪ 14c311ab cleanup
  ▪ f2ab8f91 Changelog update
- ▪ 103c59a4 common.mk: Bye bye LineageSetupWizard :D
- ▪ c1997821 add override for sim unlock
- ▪ 457266da Change changelog name
 
  [*] 05/17/2017
   *******************    
@@ -77,6 +71,12 @@
 
  ▪ project build/
  ▪ 00305fa75 Fix one more ASCII typo
+
+ ▪ project frameworks/base/
+ ▪ 481c261c5c9 Revert: "Remove DayNight theme"
+ ▪ a0b6be1e220 Shutdown: import ProgressDialog
+ ▪ 2b10a1db02e Bluetooth: 50% transparency when disconnected
+ ▪ d4c4b94c070 Set System Animations to .5 by default (1 of 2)
 
  ▪ project lineage/cve/
  ▪ 59f4946 Fix up a couple of kernel->device mappings
@@ -94,7 +94,15 @@
  ▪ project packages/apps/AimWizard/
  ▪ 58ec902 New icon
 
+ ▪ project packages/apps/Settings/
+ ▪ d1ae2f56c5 AIM dark theme initial [2/2]
+ ▪ 2265375827 Change changelog name
+ ▪ 1d86217c14 Improoved UI and strings --> Added icon for appremover --> Added summary to some categorys --> Moved unlink notification sound to misc --> Moved Autolaunch musicplayer to misc --> Created Category's
+ ▪ 31514602f7 Set System Animations to .5 by default (2 of 2)
+
  ▪ project vendor/aim/
+ ▪ c1997821 add override for sim unlock
+ ▪ 457266da Change changelog name
  ▪ c6d15e72 Extra: build AIMWIZARD. Our own modified version of LineageOS SetupWizard.
 
  [*] 05/16/2017
@@ -170,14 +178,10 @@
  ▪ project lineage/scripts/
  ▪ e0f5ea8 Add capability for checking CVE json
 
- ▪ project lineage/stats/
- ▪ 1c89d61 migration: no_cache is required due to memory overhead
-
  ▪ project lineage/updater/
  ▪ 57e3e4a Sort repos in kernels.json
  ▪ aa571cf Sort kernels.json alphabetically
  ▪ 37f2557 Add final step to device deps generator
- ▪ ebbc791 Add device_deps.json regeneration scripts
 
  ▪ project lineage/website/
  ▪ 197f8fc Changelog #9 - Gello, Jelly and a security advisory (W/C 2nd May)
@@ -206,7 +210,6 @@
 
  ▪ project vendor/aim/
  ▪ be3a27c6 New makefile for AIM extra apps
- ▪ 7c49cdc0 Pixel blue for globalActions silent mode selection indicator
 
  [*] 05/14/2017
   *******************    
@@ -217,7 +220,6 @@
 
  ▪ project hardware/qcom/audio-caf/msm8996/
  ▪ 6e8e9c54 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
- ▪ 23be04d0 msm8996: ultrasound: Initial open source hal for Elliptic Ultrasound
 
  ▪ project hardware/qcom/display-caf/msm8996/
  ▪ 332f57a2b Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
@@ -226,13 +228,18 @@
  ▪ 87965a028 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
 
  ▪ project lineage/stats/
+ ▪ 1c89d61 migration: no_cache is required due to memory overhead
  ▪ 7cbabe1 New agggregate table.
+
+ ▪ project lineage/updater/
+ ▪ ebbc791 Add device_deps.json regeneration scripts
 
  ▪ project packages/apps/Settings/
  ▪ 53d5a044c5 Statusbar clock and date customizations: Oops forgot that.
  ▪ a34af1ae2e Statusbar clock and date customizations [2/2] Squashed commit of the following:
 
  ▪ project vendor/aim/
+ ▪ 7c49cdc0 Pixel blue for globalActions silent mode selection indicator
  ▪ c6941b1d update Turbo.apk
  ▪ 57a11005 Jelly change homepage
 
@@ -247,6 +254,9 @@
  ▪ 27ac0ab5cac Statusbar clock and date customizations [1/2] Squashed commit of the following:
  ▪ d334f243048 base: Improve secure lockscreen access with disabled QS
  ▪ cbc8fd79fd1 base: allow disabling quick settings on secure lockscreen [1/2]
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 23be04d0 msm8996: ultrasound: Initial open source hal for Elliptic Ultrasound
 
  ▪ project lineage/cve/
  ▪ 1e3f1bc cve_tracker: Add the rest of Xiaomi msm8996 devices

@@ -90,8 +90,6 @@ include vendor/aim/config/cmsdk_common.mk
 endif
 
 # Bootanimation
-PRODUCT_PACKAGES += \
-    bootanimation.zip
 
 # Required CM packages
 PRODUCT_PACKAGES += \
