@@ -26,8 +26,8 @@
     blurev=${rev}$(tput setaf 4)
     normal='tput sgr0'
 
-source_tree="$ANDROID_BUILD_TOP"; #path here must be inside home directory
-changelog_path_name=CHANGELOG.mkdn #changelog file path/name.extension
+source_tree="${ANDROID_BUILD_TOP}"; #path here must be inside home directory
+changelog_path_name=vendor/aim/CHANGELOG.mkdn #changelog file path/name.extension
 source_name="AIM ROM" #Name to display in changelog.md top before version
 # input variables end
 

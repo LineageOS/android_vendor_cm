@@ -3,289 +3,236 @@
  ====================================== 
 
 
- [*] 05/11/2017
+ [*] 05/18/2017
   *******************    
 
 
  ▪ project frameworks/base/
- ▪ 5fecea749d1 AIMIFY-Add custom Power on/off Dialog
- ▪ 2d086659394 Fix for google backup and restore
- ▪ 58892a9bd90 Port "Battery Usage Alerts" feature from factory images to aosp
+ ▪ 2a572ae0d44 Improve strings
+ ▪ 299119c309d Merge branch 'N' of https://github.com/AIMROM/android_frameworks_base into N
+ ▪ 099536c2586 base: Switch to pixel theme
+ ▪ 39a45c0905d SystemUI: Add tunable for auto brightness icon
+ ▪ 0872b5dcf5c Validate handler of wakelock option for flashlight.
+ ▪ e599919a24e telecom: Fix order of arguments when creating Details object
+ ▪ e54bfd75da7 aapt: default to 0 compression
+ ▪ d4a38cb7f0d Revert "Statusbar clock and date customizations [1/2]" We don't need this as we already have these customizations from LineageOS.
+ ▪ 8f13733933e Revert "Statusbar clock and date customization: fix duplicate functions and syntax errors."
+ ▪ e89177cf02c Make Dark Theme Looks more cool
+ ▪ 854c7ad0560 Remove the green teal outline from dark theme
+ ▪ 666ac49ec37 AIM dark theme initial [1/2]
+ ▪ 481c261c5c9 Revert: "Remove DayNight theme"
+ ▪ a0b6be1e220 Shutdown: import ProgressDialog
+ ▪ 2b10a1db02e Bluetooth: 50% transparency when disconnected
+ ▪ d4c4b94c070 Set System Animations to .5 by default (1 of 2)
 
- ▪ project lineage/cve/
- ▪ cf9dd13 cve_tracker: Add vs985 to G3 devices
- ▪ 4f7a9ef run script: pass all args to flask
- ▪ c2d546a index: fix alignment of footer links
- ▪ d0062ed app: compute version on startup
- ▪ af355a5 cve: hook up authentication to front-end
- ▪ fce8368 app: add support for unauthenticated viewing
-
- ▪ project lineage/wiki/
- ▪ 0a13aa5 wiki: correct v521 info
-
- ▪ project packages/apps/Settings/
- ▪ b41d07f15e Fix error in maintainer string
- ▪ ecd077adef Merge branch 'N' of https://github.com/aimrom/android_packages_apps_settings into N
- ▪ aee14c793c Settings : Rebuild app list after reset
- ▪ 8ea64ca71d InstalledApp: show link to Google Play
- ▪ 7687d24669 Settings: background not set in main Settings screen
- ▪ d60b6047ea Get rid of framework holo actionbar buttons
- ▪ eb141b951d Settings: disable the other learn more too to prevent crash
- ▪ 6e985c9970 Settings: Wi-Fi WPS Materialized icon
- ▪ 635883a180 bluetooth: Show a refresh icon on the select devices screen
- ▪ d4310b02a4 Add fastscroll to the Manage applications screen
- ▪ 1f41ce028f Settings: Tint Black Drawables
- ▪ ad8087ec38 Title is different after tapping "Memory used by apps"
- ▪ a391a4b00f Show USB Mode Dialog
- ▪ 7039c8663a Settings: display fstype for mounted volumes
- ▪ fdf783b2fc Add Redmi2 Official support (#9)
- ▪ 12a71db11a Add support for Redmi 2 (#10)
-
- [*] 05/10/2017
-  *******************    
-
-
- ▪ project build/
- ▪ 510e9a9ae Revert "build: use the system's ccache by default"
-
- ▪ project frameworks/base/
- ▪ 65290522293 Reboot/Recovery QS Tile: Use vectorized icons
-
- ▪ project lineage/jenkins/
- ▪ e2b5abf Revert "Disable v521"
-
- ▪ project lineage/wiki/
- ▪ 10e03c2 wiki: Add V521
-
- ▪ project packages/apps/Settings/
- ▪ d9898387a4 Merge branch 'N' of https://github.com/aimrom/android_packages_apps_settings into N
- ▪ ef395e44d6 Settings: show Device maintainer in About
-
- ▪ project vendor/aim/
- ▪ d6028ff6 CHANGELOG updae
- ▪ 61e01250 Squashed update of Lineage apns-conf.xml
-
- [*] 05/09/2017
-  *******************    
-
-
- ▪ project build/
- ▪ 938b3f993 Makefile: when compiling, use release-keys tag not dev-keys *fix issues with some app requiring release-keys
- ▪ 37950eea0 core: Makefile: Correct package signature disable
- ▪ 134fa4fc0 core: assume non-release recoveries to skip signature check
- ▪ 87964306b releasetools: silence binary info printed by blockimgdiff
- ▪ cb94ad864 build: use the system's ccache by default
- ▪ 55ffe61b1 Don't stop if JDK version doesn't match
- ▪ a75d36422 Allow building with OpenJDK
- ▪ 51dc73087 core: use 0 compression target_files package only if block based ota
-
- ▪ project frameworks/base/
- ▪ 26bc278d185 Add pixel like round icons and pixel colors -->override existing icon settings to round
-
- ▪ project lineage/ansible/
- ▪ 0c21a53 update inventory/site.yml for new boxes
- ▪ 01dc2fe stats setup
- ▪ 47f1804 JIRA setup
- ▪ 05ceb99 become root for build slaves
- ▪ 431529f rsync whitelist: ad super.net.sg new IP
-
- ▪ project lineage/stats/
- ▪ 1df69f4 Add COLLECT_ONLY config option, as there are far too many items to actually display right now
+ ▪ project lineage/mirror/
+ ▪ a2adc03 Updated to 17-May-2017 06:38:41 UTC
 
  ▪ project lineage/updater/
- ▪ 23033e5 Missing quotes in check_builds
-
- ▪ project lineage/wiki/
- ▪ 2f0f9e5 costs: stats needed a larger instance
- ▪ d97ee6b Add sendgrid to costs
+ ▪ b431dcb Add exceptions to the rule for kernel->device mappings
 
  ▪ project packages/apps/Settings/
- ▪ e07a74cace Settings: Add Substratum to dashboard ... again
- ▪ 3ae6719917 Revert "Settings: Add Substratum to dashboard"
- ▪ 08d667101d Settings: Update Substratum dashboard icon
- ▪ d3c7004baa Settings: Add Substratum to dashboard
- ▪ 67abd23884 Merge https://github.com/aimrom/android_packages_apps_Settings into N
- ▪ 3eb981a76a AlarmsBlocker [2/2] Made by @faust93. Based on WakelockBlocker by @maxwen Included WakeLock: Layout Improvements - Moved switch to the right - Replaced refresh/save icons to match stock lollipop theme - Added padding to title/summary - Removed drawables / add vector
- ▪ 81e1ea994c Merge pull request #8 from JavAster/Z3
- ▪ a78436808d Update maintainers.xml
- ▪ ddf308e0df Update dev_info.xml
- ▪ 3fd9784ab9 Update maintainers.xml
-
- ▪ project system/core/
- ▪ 28cbdd146 Revert "init.rc: set initial cpuset to all cores"
- ▪ ada295f88 init.rc: set initial cpuset to all cores
+ ▪ b4b6640208 Fix a small mistake
+ ▪ 3d957c32e4 Changes and Fixes in freedomhub --> changed UI to INTERFACE --> Fixed unlink notification sound --> Fixed launch music player when headset connect --> Assigned icon to some category's --> String improvements --> STFU #VARUN_SOMA
+ ▪ a17cd30689 Revert "Statusbar clock and date customizations [2/2]"
+ ▪ ef86329ead Revert "Statusbar clock and date customizations: Oops forgot that."
+ ▪ c7f0958c22 System app remover fix layout and remove missmerge shits -->also added system/priv-app directory
+ ▪ b5c4bf2544 Improve app remover layout & tint icon colors better for themers
+ ▪ 16aa1fec6a add additional battery saver steps
+ ▪ d1ae2f56c5 AIM dark theme initial [2/2]
+ ▪ 2265375827 Change changelog name
+ ▪ 1d86217c14 Improoved UI and strings --> Added icon for appremover --> Added summary to some categorys --> Moved unlink notification sound to misc --> Moved Autolaunch musicplayer to misc --> Created Category's
+ ▪ 31514602f7 Set System Animations to .5 by default (2 of 2)
 
  ▪ project vendor/aim/
- ▪ 4c1a5d3f pissel pissel pissel --> add pixel icons
- ▪ 3de1fcec Enable assistant by default --> add build.prop override
- ▪ 1635264e Add Pixel blue icon for jelly+i dont like green thing -->i hate green icon -->added aim website as default -->changed accent color to pixel blue
+ ▪ c1997821 add override for sim unlock
+ ▪ 457266da Change changelog name
 
- [*] 05/08/2017
-  *******************    
-
-
- ▪ project frameworks/base/
- ▪ 5ee1a2d3f4a AlarmsBlocker [1/2] Made by @faust93. Based on WakelockBlocker by @maxwen
-
- ▪ project hardware/qcom/display-caf/msm8937/
- ▪ b7a301067 display: Add color metadata definition
-
- ▪ project lineage/wiki/
- ▪ 0b70c76 wiki: Fix link visibility on 'alert' sections
- ▪ dba1c23 wiki: Tweak GitHub link
-
- ▪ project packages/apps/Settings/
- ▪ a22ed5ac14 Fix Settings FC caused by changelog viewer
- ▪ d734d5dbb5 Settings: Added changelog Heavily adapted for AIM-ROM from Nitrogen
- ▪ f8de165c66 Redirect dev info to xda profile
- ▪ 9112c42218 Move Magisk to be underneath Freedom Hub
-
- [*] 05/07/2017
+ [*] 05/17/2017
   *******************    
 
 
  ▪ project build/
- ▪ d0895e6ea Merge remote-tracking branch 'los/cm-14.1' into N
+ ▪ 00305fa75 Fix one more ASCII typo
 
- ▪ project frameworks/base/
- ▪ ba3dc3fa01b Net monitor: fix visual glitch on statusbar expand when autohide enabled
- ▪ 8859fd1c8a5 Make Network traffic meter smaller
- ▪ bd7d44f5840 remove network coloring and make network meter play nice with dark mode. from -> https://github.com/PureNexusProject/android_frameworks_base/commit/e20dee5912f26e8b1b34d93644ed50aca37a56f6
- ▪ 96b164061af Merge remote-tracking branch 'cm-14.1' into N
-
- ▪ project frameworks/native/
- ▪ b2ebcb83c Merge remote-tracking branch 'cm-14.1' into N
-
- ▪ project hardware/qcom/audio-caf/msm8937/
- ▪ 99617f93 Configs: remove audio sink buffer size property
- ▪ a9f2c000 hal: fix kw issue in hal
- ▪ 61918047 hal: remove redundant logs from utils.c
- ▪ 905d1d8f audiod: Skip enumerating non-ADSP sound cards
-
- ▪ project hardware/qcom/display-caf/msm8937/
- ▪ 26cd5045c display: Add color metadata definition
- ▪ eb495123a sdm: Use ColorMetadata in SDM
- ▪ 37d5aff1b display: Add support for Rec.2020
- ▪ b6a2bfbd5 sdm: Use safe mode on External display on low end device
- ▪ 9c6421096 HWC: Set skip to layers with Non Integral Source Crop
- ▪ 93afadf42 sdm: skip null commit on command mode panels
- ▪ 2428bc491 libmemtrack: Fix integer overflow in kgsl function
-
- ▪ project hardware/qcom/media-caf/msm8937/
- ▪ de0c52ed5 media: libOmxSw encoders require prop headers :(
- ▪ fcd1cfd90 mm-video-v4l2: serialize FTB's for dropped frames
- ▪ 057d1c7bf mm-video-v4l2: vidc: venc: Free buffer FDs and handles
- ▪ a5da2d3e6 mm-video-v4l2: vdec: Support for HEVCMain10HDR10 profile
- ▪ 76dd49f77 mm-video-v4l2: Update max level for h264 decoder to 5.1
- ▪ 46aa731c9 mm-video-v4l2: venc: Disable Pframes incase of resolution 5k/6k
- ▪ 5dc8e7ec4 mm-video-v4l2: Reset drv_ctx o/p buffer requirements in loaded state
- ▪ 0a4ad7e00 mm-video-v4l2: vdec: Convert maximum display luminance in cd/m2
- ▪ 9e702ea45 mm-video-v4l2: vdec:Metadata for HDR and ColorAspects
- ▪ 6076eb611 mm-video-v4l2: vdec: Support for HDR Info extension
+ ▪ project lineage/ansible/
+ ▪ 5a17835 update cve tracker config
 
  ▪ project lineage/cve/
- ▪ 642e2a0 cve_tracker: seed: prevent double entries
+ ▪ 59f4946 Fix up a couple of kernel->device mappings
+ ▪ 8e938e5 cve_tracker: Don't display deprecated kernels
+ ▪ 12afec2 cve: add enpoint for querying kernel/cve pair status
+ ▪ f91e0fe cve_tracker: Status: Remove non-required stuff
+ ▪ f540eec fix rendering in kernel template
+ ▪ e3f01fb Revert "Cache public functions for public requests"
+ ▪ f2c8690 utils: fix kernel progress calculation
+ ▪ 207d710 include flask-caching
+ ▪ 355cf82 Reduce number of monogo queries made during device/cve patch page rendering
+ ▪ d64173b Use progress everywhere, only recalc on changes
 
- ▪ project lineage/jenkins/
- ▪ ceb3679 Disable v521
- ▪ 109948c Readd ether
+ ▪ project lineage/updater/
+ ▪ b431dcb Add exceptions to the rule for kernel->device mappings
 
- ▪ project lineage/wiki/
- ▪ 7b181fd wiki: Build: Update build instructions for Ubuntu
- ▪ 79eb2df wiki: HTTPS-ise some links
+ ▪ project packages/apps/AimWizard/
+ ▪ 58ec902 New icon
+ ▪ f2a574d AIMWIZARD INITIAL --->wew
 
  ▪ project packages/apps/Settings/
- ▪ 34eb56b656 Merge branch 'N' of https://github.com/AIMROM/android_packages_apps_Settings into HEAD
- ▪ 7079f90694 move network traffic settings to statusbar tab in freedom hub.
- ▪ be089f1500 Fix cherry-pick error
- ▪ 7f9a8595ab Settings: Change magisk dashboard icon
- ▪ cf4132fc37 Add Magisk Manager dashboard option
- ▪ 8fa77695f6 Merge remote-tracking branch 'cm-14.1' into N
- ▪ 00f44407d3 Add support for z3c
- ▪ 5953620d0e Update maintainers.xml
- ▪ 49b5ed76b0 Add Support for Z00L and Z00T (#5)
- ▪ f72d2796f3 NetworkTrafficSettings: where'd you come from?
-
- ▪ project packages/apps/SnapdragonCamera/
- ▪ 1b4a3a3b SnapdragonCamera: use correct context
+ ▪ 42899743ce New icon
 
  ▪ project vendor/aim/
- ▪ c6f06a52 Merge remote-tracking branch 'cm-14.1' into N
+ ▪ c6d15e72 Extra: build AIMWIZARD. Our own modified version of LineageOS SetupWizard.
 
- [*] 05/06/2017
+ [*] 05/16/2017
   *******************    
 
+
+ ▪ project build/
+ ▪ 266c6a328 Fix ASCII
+
+ ▪ project lineage/ansible/
+ ▪ 81c0559 cve_tracker init
+
+ ▪ project lineage/cve/
+ ▪ 2b91ce7 Enable flask_debugtoolbar
+ ▪ d6d7d2d Cache public functions for public requests
+ ▪ 7ef3d85 Migrate from flask_oauth to GitHub-Flask
+ ▪ addc701 PEP8 cleanup: use 4 spaces, do not mix spacing
+ ▪ 7e746ef include python3 virtualenv files in .gitignore
+ ▪ e51e66f cve_tracker: Calculate progress on update
+ ▪ 2afe6da cve_tracker: Determine patch status before rendering
+ ▪ 459050f Revert "cve_tracker: use len() instead of .count()"
+
+ ▪ project lineage/updater/
+ ▪ 81f8c68 updater: HTTP-ise and correct links
 
  ▪ project lineage/website/
- ▪ 8f8a440 www/community: Small fixes
-
- ▪ project lineage/wiki/
- ▪ 6dd10da devices: Set mako as discontinued
+ ▪ 1c566de CVE tracker isn't ready for spotlight
+ ▪ ef30b29 Fix links to "kernel su-hide" reference changes
+ ▪ 197f8fc Changelog #9 - Gello, Jelly and a security advisory (W/C 2nd May)
 
  ▪ project packages/apps/Settings/
- ▪ acb5a100bd Network Traffic [2/2] PureNexus edits: *removed color option Extras: iclude CustomseekbarPreference
+ ▪ 5bed63187e FreedomHub: MODIFICATIONS TO UI AND STRINGS
 
- ▪ project system/core/
- ▪ 836145724 Revert "rootdir: init.rc: Fix for "add_tid_to_cgroup failed to write" warnings"
+ ▪ project packages/apps/SnapdragonCamera/
+ ▪ de51a808 Automatic translation import
 
- [*] 05/05/2017
+ ▪ project system/keymaster/
+ ▪ a1bbfc0 Fix bugs regarding KeyStore::isHardwareBacked always returning true.
+
+ ▪ project system/sepolicy/
+ ▪ 42169cf sepolicy: Allow system_server to set theme_prop
+
+ [*] 05/15/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ 5308e5c5b2e Statusbar clock and date customization: fix duplicate functions and syntax errors.
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 6e8e9c54 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+
+ ▪ project hardware/qcom/display-caf/msm8996/
+ ▪ 332f57a2b Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+
+ ▪ project hardware/qcom/media-caf/msm8996/
+ ▪ 87965a028 Merge tag 'LA.UM.5.5.r1-04600-8x96.0' into HEAD
+
+ ▪ project lineage/ansible/
+ ▪ 20bbda8 re-enable stats UI
+
+ ▪ project lineage/cve/
+ ▪ 7a503a3 cve_tracker: use len() instead of .count()
+ ▪ 038f9a2 cve_tracker: Display vendors on each row
+ ▪ 19adb90 cve_tracker: Display numerical progress
+ ▪ cc32996 cve_tracker: Also redeploy templates when they were changed
+ ▪ 92fcb58 cve_tracker: Also count "does not apply" as progress
+ ▪ b9f3a98 Update kernel to device mappings
+
+ ▪ project lineage/mirror/
+ ▪ c7a6b1c Updated to 14-May-2017 18:51:13 UTC
+ ▪ 3b07946 mirror: Sort repos
+ ▪ fe0ca78 Updated to 14-May-2017 18:11:04 UTC
+ ▪ 609748d New Python mirror-regen script
+ ▪ 0e2aa06 Updated to 14-May-17 14:24:00 UTC
+
+ ▪ project lineage/scripts/
+ ▪ e0f5ea8 Add capability for checking CVE json
+
+ ▪ project lineage/stats/
+ ▪ 1c89d61 migration: no_cache is required due to memory overhead
+
+ ▪ project lineage/updater/
+ ▪ 57e3e4a Sort repos in kernels.json
+ ▪ aa571cf Sort kernels.json alphabetically
+ ▪ 37f2557 Add final step to device deps generator
+ ▪ ebbc791 Add device_deps.json regeneration scripts
+
+ ▪ project packages/apps/AudioFX/
+ ▪ e696bf0 AudioFX: Fix choppy preset transitions
+
+ ▪ project packages/apps/Jelly/
+ ▪ eab04da Jelly: lint cleanup
+ ▪ a8dcb76 Jelly: Don't sign the app with a system certificate
+ ▪ 5e5fb97 Jelly: Fix storage permission check
+ ▪ c315497 Jelly: add Desktop mode toggle
+ ▪ 5859bc6 Jelly: Actually disable cookies
+ ▪ fd7418e Jelly: Flush cookies when calling onStop()
+ ▪ eb6375d Jelly: Don't make app persistent
+ ▪ 2d4853b Jelly: Add proguard rules
+ ▪ d583aad Jelly: Improve URL/search query handling
+ ▪ 21c6894 Jelly: strings: Various pedantics
+
+ ▪ project packages/apps/Settings/
+ ▪ af0d7f8620 Move things from here to there
+
+ ▪ project vendor/aim/
+ ▪ be3a27c6 New makefile for AIM extra apps
+ ▪ 7c49cdc0 Pixel blue for globalActions silent mode selection indicator
+ ▪ c6941b1d update Turbo.apk
+
+ [*] 05/14/2017
+  *******************    
+
+
+ ▪ project external/chromium-webview/
+ ▪ b544e48 Update README
+
+ ▪ project frameworks/base/
+ ▪ 27ac0ab5cac Statusbar clock and date customizations [1/2] Squashed commit of the following:
+ ▪ d334f243048 base: Improve secure lockscreen access with disabled QS
+ ▪ cbc8fd79fd1 base: allow disabling quick settings on secure lockscreen [1/2]
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ 23be04d0 msm8996: ultrasound: Initial open source hal for Elliptic Ultrasound
+
+ ▪ project lineage/stats/
+ ▪ 7cbabe1 New agggregate table.
+
+ ▪ project packages/apps/Settings/
+ ▪ 53d5a044c5 Statusbar clock and date customizations: Oops forgot that.
+ ▪ a34af1ae2e Statusbar clock and date customizations [2/2] Squashed commit of the following:
+ ▪ dd82bff538 update banner
+ ▪ 01146f2607 Freedomhub: copy screenshot sound on/off to misc tab
+ ▪ 9c2a28da74 FreedomHub: allow disabling quick settings on secure lockscreen [2/2]
+ ▪ c21ba7c558 improove some strings
+ ▪ f1d9e1c2ad System App Remover
+ ▪ 4a490d0e96 Settings: add a restore default wallpaper action
+
+ ▪ project vendor/aim/
+ ▪ 57a11005 Jelly change homepage
+
+ [*] 05/13/2017
   *******************    
 
 
  ▪ project build/
- ▪ 637e0c7fd Fix typo
- ▪ df0cc080a Fix Magisk option
- ▪ 5de45647d Optional Magisk [1/2]
- ▪ bc22823c1 Build: Include Magisk as an option [2/2] Usage: export WITH_MAGISK=true
-
- ▪ project frameworks/base/
- ▪ 0ad42c53bd0 Network Traffic [1/2] *Fix visibility when all data is disabled
- ▪ e3075698fde Smooth Spinners: Makes the loading "spinner" animation smoother in non-holo apps
- ▪ e6ce70b8bb4 If a wake key is disabled by the user, do not wake from doze. * also clean up wake key options Currently, any wake key will wake the device from a doze, even if that key has not been enabled as a wake key in Settings.
- ▪ 674eb204a0f Keep quiet when volume keys are used to wake up device - Userspace will make a 'beep' with it receives a key up, so   consume that event as well. - Removed wake key check in music control code as it will already   be disabled here.
- ▪ 33fa8dce991 Materialize toast frames
- ▪ 2d5928c428b Notifications: Materialize missed calls icons
- ▪ 5b2cbb7dfd3 Remove unnecessary videos
- ▪ fdb328cdc7d Aapt2: Fix png leak
+ ▪ e0bc310d3 NEW Fkng ASCII GRAPHICS (.Y.) -->#Let's_Aim-ify
 
  ▪ project lineage/cve/
- ▪ 9d54129 cve_tracker: Add new Xiaomi msm8996 devices
- ▪ f0932d0 cve_tracker: Restore tsubasa in android_kernel_sony_msm8x60
-
- ▪ project packages/apps/Jelly/
- ▪ 2006774 Jelly: no need of using srcCompat for imageviews
-
- ▪ project packages/apps/Settings/
- ▪ e4fd9a7cdf Update maintainers.xml (#3)
- ▪ 05a123511e Unlock keystore with fingerprint after reboot (2/2)
- ▪ 732a040af4 Fingerprint authentication vibration [2/2]
- ▪ addade0b46 Automatic translation import
- ▪ 9076f428ba Revert "Settings: Lost cached BT devices in found devices list"
- ▪ 8ab343a0d7 Settings[Wifi]: fix the input invalid length for WEP encryption.
- ▪ 86a6ee2dc5 Settings: Fix internal storage summary for non-emulated storage
- ▪ 9bc816c0fe We have this in Developer mode
- ▪ 23ceab0e69 FreedomHub: Move advanced reboot from dev_pref
- ▪ 459fb6fa40 Update Telegram invitation link
- ▪ 92f585a5c5 Merge branch 'N' of https://github.com/aimrom/android_packages_apps_settings into N
- ▪ 54911574f7 Imprrooved string for HTC M9
- ▪ a1cff0acf6 Added Device Maintainer For Lenovo K3 Note (#2)
- ▪ c08d83fdb4 Add HIMAUL maintainer
- ▪ 3cd102abb3 Bring up Device maintainers
-
- ▪ project system/bt/
- ▪ 0ebf465d Do not include the trailing NULL from the C-String in the SDP service name
-
- ▪ project vendor/aim/
- ▪ 567ea5aa Optional Magisk [2/2]
- ▪ bebc8cb6 Update Magisk
- ▪ 01b59190 Adapt for AIM
- ▪ f36c82af New Material LivePicker Icon
- ▪ 509b694a Materialize MediaProvider icon
- ▪ 47117a16 Calendar Provider Overlays
- ▪ 7f1666fb Materialize NFC Tags Icon
- ▪ 09fe03c6 Overlay: Add material Stk icon
- ▪ 7eef8c68 Material Phone icons from factory image
- ▪ 81d1d4c9 Update changelog
+ ▪ 1e3f1bc cve_tracker: Add the rest of Xiaomi msm8996 devices
+ ▪ 88d6626 cve_tracker: Fix progress-bar value when patching
 
 ---------------------------------------------------------
 
