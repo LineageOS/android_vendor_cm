@@ -32,3 +32,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
  vendor/aim/prebuilt/bootanimation/bootanimation.zip:system/media/bootanimation.zip
 
+ # CHANGELOG
+PRODUCT_COPY_FILES += \
+	vendor/aim/CHANGELOG.mkdn:system/etc/AIMLOG.txt
+
