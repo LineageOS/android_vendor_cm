@@ -16,7 +16,6 @@
 <resources>
     <!-- When true enable gesture setting. -->
     <bool name="config_gesture_settings_enabled">true</bool>
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- If the Storage Manager settings are enabled. -->
     <bool name="config_storage_manager_settings_enabled">true</bool>
