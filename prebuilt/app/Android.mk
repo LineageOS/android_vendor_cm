@@ -35,3 +35,16 @@ LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
+
+#Pixel WallpaperPicker
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := WallpaperPickerGoogle
+LOCAL_SRC_FILES := WallpaperPickerGoogle/WallpaperPickerGoogle.apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_TAGS := optional
+LOCAL_CERTIFICATE := platform
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
