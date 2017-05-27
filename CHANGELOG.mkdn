@@ -3,59 +3,98 @@
  ====================================== 
 
 
- [*] 05/24/2017
+ [*] 05/27/2017
   *******************    
 
+
+ ▪ project packages/services/Telephony/
+ ▪ 9d67fcae Fix minor inconsistency in the CDMA call settings
+
+ ▪ project vendor/aim/
+ ▪ 88d5ceae Merge branch 'N' of https://github.com/AIMROM/android_vendor_aim into N
+ ▪ 75785d8c New bootanimation? fek yeah
+
+ [*] 05/26/2017
+  *******************    
+
+
+ ▪ project packages/apps/Settings/
+ ▪ c32b217dd5 Fix spelling so Varun will stfu!
+
+ ▪ project vendor/aim/
+ ▪ 57cede8e add shamu to the official devices lunch menu
+
+ [*] 05/25/2017
+  *******************    
+
+
+ ▪ project build/
+ ▪ 7e2d9704f Add script to envsetup
 
  ▪ project frameworks/base/
  ▪ d7b7ead10bf On-The-Go Mode [1/2]
 
+ ▪ project packages/apps/Email/
+ ▪ c0e5d54c0 Search in folder specified via URI parameter, if possible.
+
+ ▪ project packages/apps/Jelly/
+ ▪ c9f336c Jelly: Pause WebView along with the activity
+ ▪ c23c013 Jelly: Don't claim to be a simple WebView
+ ▪ c218521 Jelly: Define base class for Activities containing WebViewExt
+ ▪ 1607c0d Jelly: Make it easier to initiate gestures
+ ▪ 978e74e Jelly: Don't leak fileoutputstream if bm is null
+
  ▪ project packages/apps/Settings/
+ ▪ 23d7711113 Donation link update
+ ▪ 5ceccc332f Add nexus 6 maintainer(varun soma)
  ▪ 5b69432780 On-The-Go Mode [2/2]
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ 5462df5cd Pass selected folder to message search.
+
+ ▪ project vendor/aim/
+ ▪ ffedcdae Revert "Update Pixel launcher" --> fek you android o This reverts commit 0d1cba68c2eed3b1baf47d2ff96c71a15dbc0959.
+ ▪ 816757e3 Add Root method picker script
+ ▪ 5c95e9ae Changelog update
+ ▪ 735b30c6 Go away mint, nobody likes you
+ ▪ a9883e36 Add modified Pixel launcher icon
+ ▪ ecc5f9d4 Fix pixel theme colors
+ ▪ af414b05 Change accent color for AOSP keyboard
+
+ [*] 05/24/2017
+  *******************    
+
+
+ ▪ project android/
+ ▪ a7fc9f8 Sync slackbot repo
+
+ ▪ project frameworks/base/
+ ▪ 1396b6eebf9 Live Volume Steps [1/2]
+
+ ▪ project packages/apps/Settings/
+ ▪ c51e93ec18 Live Volume Steps [2/2]
+ ▪ d10523a532 Slight change in vectar drawable logo
+ ▪ a46d8d5f6c FREEDOMHUB:AIM DARK THEME FIX --> stable
+
+ ▪ project packages/services/Telephony/
+ ▪ 96a9e3ca telephony: Fix and move CAF strings
 
  [*] 05/23/2017
   *******************    
 
 
  ▪ project frameworks/base/
- ▪ 1396b6eebf9 Live Volume Steps [1/2]
+ ▪ 29961468b10 New Sounds
 
- ▪ project lineage/ansible/
- ▪ 0732ead Fix changeid and commit hooks
- ▪ 1bf9b93 Link jira reports if a ticket is detected
-
- ▪ project lineage/cve/
- ▪ ab7bd72 Fix some mistakes from the last change
- ▪ 9bf4c2a Clarify the README information
-
- ▪ project lineage/wiki/
- ▪ 133ab4b Update r5/r7plus recovery install instructions
- ▪ 5497803 We don't have migration builds anymore
+ ▪ project packages/apps/DeskClock/
+ ▪ 89aae760 DeskClock: Fix issues with flip/shake actions and poweroff alarm
 
  ▪ project packages/apps/Settings/
- ▪ c51e93ec18 Live Volume Steps [2/2]
- ▪ d10523a532 Slight change in vectar drawable logo
- ▪ a46d8d5f6c FREEDOMHUB:AIM DARK THEME FIX --> stable
  ▪ 98640e0704 Utils.java: import some missing configuration.
  ▪ 5dda2ce0f0 Revert "FeaturePreferences: Introduce settings reset"
  ▪ d1babdcc3b Revert "FeaturePreferences: Update getMetricsCategory for N changes"
  ▪ 0a86bf9e96 Revert "FeaturePreferences: reload preferences when reloading activity"
  ▪ c92085f08f Vectorise AIMROM banner
-
- [*] 05/22/2017
-  *******************    
-
-
- ▪ project frameworks/base/
- ▪ 29961468b10 New Sounds
-
- ▪ project lineage/ansible/
- ▪ a4c2b22 Don't warn on `curl` usage, we're using it as a test not a task
-
- ▪ project lineage/cve/
- ▪ d0248ee cve_tracker: Allow own CVEs
-
- ▪ project packages/apps/Settings/
  ▪ 0e88973f71 ConditionManager: don't crash when trying to add unexpected condition
  ▪ a348fc8abe Fix ApplicationsState.Session memory leak in settings app
  ▪ 6b9ff5fc80 Fix the momery leak in DrawOverlayDetails
@@ -76,28 +115,10 @@
  ▪ 6db9372c ADD OFFICIAL DEVICES TO LUNCH MENU Signed-off-by: Anand Ramachandran <anand.nv1998@gmail.com>
  ▪ 6bc0e074 Add default wallpapers for AIM --> load from only nodpi so wall will not look streached --> delete other shitty wall from hdpi,mdpi,xxhdpi,xxxhdpi,
  ▪ 101be283 Bishhh .. we dont need you
- ▪ 0d1cba68 Update Pixel launcher
- ▪ e2395936 Add prebuilt Pixelwallpaper Picker
 
- [*] 05/21/2017
+ [*] 05/22/2017
   *******************    
 
-
- ▪ project frameworks/base/
- ▪ ad4183c5583 moar fixes!
-
- ▪ project lineage/scripts/
- ▪ c23843d Add lineage-push
- ▪ 398cf10 Change to dashes to keep inline with maintainers folder
- ▪ f0ab2a9 Move maintainers script to python
-
- ▪ project lineage/wiki/
- ▪ 9af2719 devices: Set mako as maintained
- ▪ b5368e4 wiki: w7: add recovery install method
- ▪ 38264cd wiki: w5: add recovery install method
- ▪ 23b91f6 wiki: jagnm: add recovery install method
- ▪ b977804 wiki: jag3gds: add recovery install method
- ▪ 1270138 wiki: g2m: add recovery install method
 
  ▪ project packages/apps/Settings/
  ▪ 4614933781 Merge pull request #12 from Keerten/N
@@ -105,314 +126,9 @@
  ▪ 774dda5ab5 Merge pull request #14 from manikchathli/patch-2
  ▪ c44bff9972 Merge pull request #13 from manikchathli/patch-1
 
- [*] 05/20/2017
-  *******************    
-
-
- ▪ project build/
- ▪ d015d0c8c Makefile: add a missing endif
- ▪ 833876f8f build: Revert recent mcpu changes for aarch32
- ▪ 8053733ba build: use optimal CPU configuration for ARMv8 CPUs
- ▪ cd3978fdb build: armv7: fix optimal FPU configuration for denver
- ▪ 8d5a6ce6c core: use 0 compression when creating the target_files package
-
- ▪ project frameworks/base/
- ▪ 3ef657115a0 Revert "Turned ENABLE_CPUSETS into runtime decision."
- ▪ e4fc097e558 base: dont worry but dont be lucky
- ▪ 0d83494f8ac    New ADB icon
- ▪ 7653443bcd3 base: fix compilation errors
- ▪ 8a9046534de frameworks/base: reduce the setTransactions
- ▪ b59e1c155e2 Reduce hwui CPU time by using glDrawRangeElements
- ▪ 4a540b28afb Fix crash issue on Storage Manager app
- ▪ d43b1aa9724 The network event should be an asynchronous callback.
- ▪ a00aefd9b2c fix incorrect context classloader initialization in system_server
- ▪ a83f69b3ced core: os: Build: Don't fail consistency check if vendor is mismatched
- ▪ 4f5591a77fe BoostFramework: Remove debug boost prop dependency
- ▪ 012a4272366 Activity: Improve DragBoost logic
- ▪ e25f4299905 Fix the reset of boosted zygote thread priority.
- ▪ 015af545889 Implement better Screen Zoom levels
- ▪ 0a76b6cb218 Turned ENABLE_CPUSETS into runtime decision.
- ▪ 02001d0b078 clean receivers completely when forceStop the process
- ▪ 8142ff1e597 [Resources] preloaded drawables few
- ▪ d7d85ce145d aapt: enforce 0 compression
- ▪ 5d37e4adba9 ViewConfiguration: Set scroll friction to 0.012
- ▪ 89a98d74d4d base: Increase brightness faster if ambient light is brightening quickly.
- ▪ 1b4125b0fac BoostFramework: Implement asynchronous processing of perflocks
- ▪ 2dff13389a3 Add synchronized protection in BoostFramework constructor
- ▪ dddadfa8418 frameworks: Add custom boost for scroll/fling
- ▪ 7a5f89c3861 Perf: Adding hooks for IO prefetcher into framework
- ▪ cb8794f0b9f BoostFramework to enhance performance during critical scenarios
- ▪ eb6ffb5e38e KeyguardConstants: turn off debugging
- ▪ e4ec8ade1d2 Move service from starting list once onStartCommand get called
- ▪ c7d89e67369 UserController: Introduce Bootup Boost
- ▪ 130ab7ac7d0 New UTF-8 codes
- ▪ 38460816a16 Reset battery stats [1/2]
-
- ▪ project lineage/cve/
- ▪ 17747c8 app: dump CVE list + links to JSON
-
- ▪ project lineage/jenkins/
- ▪ 4de78a6 Enable mako builds
-
- ▪ project lineage/mirror/
- ▪ 1d0c1e7 Add headings to README for readability
-
- ▪ project lineage/scripts/
- ▪ c71ce73 Move device_deps scripts to LineageOS/scripts [2/2]
-
- ▪ project lineage/updater/
- ▪ 8cafe87 Move device_deps scripts to LineageOS/scripts [1/2]
-
- ▪ project lineage/wiki/
- ▪ c928eae Update LeEco devices, add custom unlock command support
- ▪ 67944ad v410: add recovery and download boot methods
- ▪ e4daa6b devices: update several maintainer/contributor lists
- ▪ fca11b5 jfltevzw: add installation method
- ▪ 87bb558 wiki: update CVE url
- ▪ 38e31bc vs985: add recovery install method
- ▪ b2641a0 templates: Add note about the bootloader version requirement
-
- ▪ project packages/apps/CMParts/
- ▪ ba40900 Automatic translation import
-
- ▪ project packages/apps/Contacts/
- ▪ 219d490bb Themes: Expose hardcoded layout and styles colors
-
- ▪ project packages/apps/ContactsCommon/
- ▪ 7fe83ca8 Themes: Define back arrow tint color for themes
- ▪ 0b43ef0e Themes: Expose hardcoded contact tile text colors
-
- ▪ project packages/apps/Dialer/
- ▪ 801d812fc Themes: InCallUI dialpad digits color
- ▪ ced4b6006 Themes: Separate background color from text color
- ▪ 77b414754 Dialer: lock screen appear before incoming call screen
-
- ▪ project packages/apps/Jelly/
- ▪ 96e4243 Automatic translation import
- ▪ 7c65684 Jelly: EditTextExt: Remove shader before drawing
- ▪ 0a0fcbd Jelly: Don't reload webview on screen rotation
-
- ▪ project packages/apps/PhoneCommon/
- ▪ 3bb4717 Themes: Make dialpad seperator line theme-able
-
- ▪ project packages/apps/Settings/
- ▪ 4717e43846 Update maintainers.xml
- ▪ 2e9a503fc1 Add support for Potter [2/2}
- ▪ 7377ecf7a2 Add support for Potter [1/2]
- ▪ b24d4dbfa8 Add Athene support Part 2/2
- ▪ 4c72309d28 Add support for Motorola Moto G4 Plus  (Athene)
-
- ▪ project packages/apps/ThemeInterfacer/
- ▪ 5aeba49 Add interface to get API version and app authentication status
- ▪ 069e629 Fix permissions for CTS [2/2]
-
- ▪ project system/sepolicy/
- ▪ a61cd05 sepolicy: Allow system_server to set theme_prop
- ▪ 1611d9f sepolicy: add file and domain trans to interfacer
- ▪ 2e9216a Welcome to Theme Interfacer! [2/2]
- ▪ 8f47b65 sepolicy: Redo masquerade rules
- ▪ df6d400 sepolicy: Fix application of bootanimation
- ▪ b1c86f8 sepolicy: allow masquerade to read and write theme assets
- ▪ 52c38a9 sepolicy: rename masquerade domain and allow JobService in system_server
- ▪ c1e3d9b initial policy edits for masquerade to operate rootless
- ▪ 6aa0fc5 sepolicy: fix themed sounds
- ▪ aa20949 sepolicy: fix themed boot animation
- ▪ 0516823 Introduce sepolicy exceptions for theme assets
- ▪ 02d6dd8 OMS7-N: Add service 'overlay' to service_contexts
-
  ▪ project vendor/aim/
- ▪ edce7416 Fix compile error
- ▪ 7b7b395e SystemUI: Set recents taskbar delay to 0
- ▪ a207430a Aimrom: enable some hidden features
-
- [*] 05/19/2017
-  *******************    
-
-
- ▪ project build/
- ▪ ffd27151f Fix derp
- ▪ 5a82d0c6d Revert "Fix AIMLOG"
- ▪ 885066ec2 Revert "Fix AIMLOG again..."
- ▪ 5a0b716b6 Revert "Fix build error"
- ▪ 110da63fc Lets remove that for now
- ▪ f75bbb242 Fix build error
-
- ▪ project lineage/wiki/
- ▪ c0934c3 devices: Fix typo on CPU type
- ▪ 6e1b40d wiki: Move xt897 (Photon Q) to 14.1
- ▪ 40b0f8e v480: add recovery install method
- ▪ 171ea52 v410: add recovery install method
- ▪ d490d27 templates: Add rooting instructions for 'dd' method
-
- ▪ project packages/apps/Settings/
- ▪ 50fe1ed819 Fix a few more possible NPE's
- ▪ 7f90718099 Correct fingerprint position during setup
- ▪ cd27e94d23 Reset battery stats [2/2]
- ▪ b89172c87a Added modded marginov color picker
- ▪ bac64a04d6 Freedomhub: Move Doubletap to sleep to Statusbar
-
- ▪ project system/sepolicy/
- ▪ ec269cc Allow recovery to alter / on userdebug/eng builds
-
- ▪ project vendor/aim/
- ▪ 6f9a1ebb 30 days changelog --> Special Editions for those dick heads who act like a great changelog readers --> Read and die
- ▪ 570853d8 Actually copy the changelog
- ▪ 368da7cc Add Temporary Bootanimation
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
- ▪ 359c449 Automatic translation import
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
- ▪ d275bf3 Automatic translation import
-
- [*] 05/18/2017
-  *******************    
-
-
- ▪ project build/
- ▪ 1bd652af2 Fix AIMLOG again...
- ▪ 21ee30f6b Fix AIMLOG
- ▪ 9ab4f7201 Revert "Revert "ota: Remove cruft we don't care about""
- ▪ 12076f2b4 apicheck_msg_current: Don't do this in LineageOS
-
- ▪ project frameworks/base/
- ▪ b54b30a473b Chnage usb debugging icon.. --> vectorised and working perfectly
- ▪ 5711b4715b2 SystemUI: Tiny expanding improvement
- ▪ e47e69d89f6 Fek you Package verifier
- ▪ d4acd8babf6 revert some fastJni
- ▪ e9ff24a7c11 Remove drawables we don't need
- ▪ d896973ce27 Icon does not disappear even though it is disabled in Launcher
- ▪ 9b6f2c203ba Remove unused variable.
- ▪ 1772bc69a5a Resolve deadlock between ActivityManagerService and PowerManagerService
- ▪ f9a04f8184f Add make_unique function for jni
- ▪ bc43728d730 Fix memory-leak warnings from the static analyzer
- ▪ 99ebfa63da8 KernelWakelockReader: stop the panic
- ▪ 9f740998681 ParcelFileDescriptor: can we stop the panic here?
- ▪ 340c4658c2a sysui: add missing string to volume panel
- ▪ 7c882b0b7df Prevent IndexOutOfBoundsException
- ▪ e0d2365b4a6 frameworks: squash of leak & race fixes
- ▪ d970cbfee14 Fix potential heap memory leakage.
- ▪ 9ec4529823d SysUI: prevents crash caused by NetworkOverLimitActivity
- ▪ 07a37feb570 Avoid NPE when restarting task all activities of which will be cleared
- ▪ 21f9b0aed7e Fix error java.lang.NullPointerException
- ▪ 4ad5800dbb6 Fix the NullPointerException
- ▪ f3857418b6b InputWrapper: opt out early if session == null
- ▪ 7f2506ee972 Fix potential NULL dereference errors.
- ▪ 104f65c602c Remove the unnecessary window animation request
- ▪ caf4b4bdf7e Fix a NPE when putting a null-Bundle in an Intent
- ▪ 1f37ab9accc fix wrong algorithm in getMobilePowerPerPacket()
- ▪ 643bf7566ac SystemUI: disable statusbar time refresh when screen off
- ▪ b8c1ee86274 Make roaming indicator optional [1/2]
- ▪ 6c93015f427 Improve strings
- ▪ 39a45c0905d SystemUI: Add tunable for auto brightness icon
- ▪ 0872b5dcf5c Validate handler of wakelock option for flashlight.
- ▪ e599919a24e telecom: Fix order of arguments when creating Details object
- ▪ e54bfd75da7 aapt: default to 0 compression
- ▪ d4a38cb7f0d Revert "Statusbar clock and date customizations [1/2]" We don't need this as we already have these customizations from LineageOS.
- ▪ 8f13733933e Revert "Statusbar clock and date customization: fix duplicate functions and syntax errors."
- ▪ e89177cf02c Make Dark Theme Looks more cool
- ▪ 854c7ad0560 Remove the green teal outline from dark theme
- ▪ 666ac49ec37 AIM dark theme initial [1/2]
-
- ▪ project hardware/qcom/fm/
- ▪ 68e8f7d Automatic translation import
-
- ▪ project lineage/contributors-cloud-generator/
- ▪ 477f0ba Bump DEFAULT_SIZE to 1880
- ▪ 37a4798 Drop the prebuilt jar
-
- ▪ project lineage/cve/
- ▪ 6098aac Regenerate kernel->device mappings
- ▪ bda2138 kernel: use a jquery context menu for selecting status
-
- ▪ project lineage/jenkins/
- ▪ ddf33de Move xt897 (Photon Q) to 14.1
- ▪ 2b62a33 Bump Le Max 2 to 14.1
-
- ▪ project lineage/updater/
- ▪ b114a0f Remove common repos with no dependencies from JSON
-
- ▪ project lineage/wiki/
- ▪ ebf5ea5 templates: Add a simple template for dd'ing a recovery image
- ▪ b037d2e templates: install: Include basic requirements on top
- ▪ dac485b templates: Refine heimdall instructions
- ▪ ec5b147 wiki: A6020 update install method
- ▪ 7635aa6 seed: Add installation method
- ▪ 36ee5af wiki: BQ: Add install instructions
- ▪ bde4164 wiki: Add BQ Aquaris U/X5 Plus
-
- ▪ project packages/apps/CMParts/
- ▪ e3457ee Update contributors cloud
-
- ▪ project packages/apps/Calendar/
- ▪ 57b015eb Automatic translation import
-
- ▪ project packages/apps/CellBroadcastReceiver/
- ▪ 45cead5 Automatic translation import
-
- ▪ project packages/apps/Contacts/
- ▪ 00c1cbed6 Automatic translation import
-
- ▪ project packages/apps/ContactsCommon/
- ▪ 34fd53cb Automatic translation import
-
- ▪ project packages/apps/CustomTiles/
- ▪ 39b0e6d Automatic translation import
-
- ▪ project packages/apps/Dialer/
- ▪ 11b92979b Automatic translation import
-
- ▪ project packages/apps/Eleven/
- ▪ 7c62b1d Automatic translation import
-
- ▪ project packages/apps/FMRadio/
- ▪ 5704c07 Automatic translation import
-
- ▪ project packages/apps/Gallery2/
- ▪ 68f782bfd Automatic translation import
-
- ▪ project packages/apps/LockClock/
- ▪ 98a6964 Automatic translation import
-
- ▪ project packages/apps/PackageInstaller/
- ▪ 1b36092e Automatic translation import
-
- ▪ project packages/apps/PhoneCommon/
- ▪ 116dd81 Automatic translation import
-
- ▪ project packages/apps/Recorder/
- ▪ 85a167b Automatic translation import
-
- ▪ project packages/apps/Settings/
- ▪ fa7a69de85 Bishhh.... fkng colors
- ▪ 64ba48b1fa Settings: fix dark theme for suggestions and conditions
- ▪ 4a42673fd4 AIM DARK THEME CHANGES
- ▪ 14581da3a2 Small change in Freedomhub
- ▪ ab6f169624 Make roaming indicator optional [2/2]
- ▪ b4b6640208 Fix a small mistake
- ▪ 3d957c32e4 Changes and Fixes in freedomhub --> changed UI to INTERFACE --> Fixed unlink notification sound --> Fixed launch music player when headset connect --> Assigned icon to some category's --> String improvements --> STFU #VARUN_SOMA
- ▪ a17cd30689 Revert "Statusbar clock and date customizations [2/2]"
- ▪ ef86329ead Revert "Statusbar clock and date customizations: Oops forgot that."
- ▪ c7f0958c22 System app remover fix layout and remove missmerge shits -->also added system/priv-app directory
- ▪ b5c4bf2544 Improve app remover layout & tint icon colors better for themers
- ▪ 16aa1fec6a add additional battery saver steps
-
- ▪ project packages/apps/TvSettings/
- ▪ dcc5072a Automatic translation import
-
- ▪ project packages/apps/UnifiedEmail/
- ▪ 226fafcae Automatic translation import
-
- ▪ project packages/services/Telephony/
- ▪ 13c66d45 Automatic translation import
-
- ▪ project vendor/aim/
- ▪ 55a79548 small tweak
- ▪ 14c311ab cleanup
- ▪ f2ab8f91 Changelog update
-
- ▪ project vendor/cmsdk/
- ▪ a4df9e2 Automatic translation import
+ ▪ 0d1cba68 Update Pixel launcher
+ ▪ e2395936 Add prebuilt Pixelwallpaper Picker
 
 ---------------------------------------------------------
 
