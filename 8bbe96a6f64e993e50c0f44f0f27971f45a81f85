@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa82b9bf_02681fb9",
+        "filename": "build/tasks/kernel.mk",
+        "patchSetId": 3
+      },
+      "lineNbr": 70,
+      "author": {
+        "id": 15964
+      },
+      "writtenOn": "2017-05-28T02:34:42Z",
+      "side": 1,
+      "message": "This incorrectly sets path : \n/bin/sh: 1: cd: can\u0027t cd to /media/daedroza/AndroidDev/LineageOS//media/daedroza/AndroidDev/LineageOS/out/target/product/dogo/obj/KERNEL_OBJ\nMakefile:121: *** output directory \"/media/daedroza/AndroidDev/LineageOS//media/daedroza/AndroidDev/LineageOS/out/target/product/dogo/obj/KERNEL_OBJ\" does not exist.  Stop.",
+      "revId": "8bbe96a6f64e993e50c0f44f0f27971f45a81f85",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
