@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa82b9bf_18265217",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 74,
+      "author": {
+        "id": 16082
+      },
+      "writtenOn": "2017-05-29T11:53:10Z",
+      "side": 1,
+      "message": "This does not need to be changed",
+      "revId": "079bedfc8b288e493b0c210f1d82983de54864d2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
