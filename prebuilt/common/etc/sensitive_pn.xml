@@ -67,4 +67,11 @@
         <item>100</item>
         <item>180</item>
     </sensitivePN>
+    <!--Turkey-->
+    <sensitivePN network="286">
+        <item>05493810183</item>
+        <item>183</item>
+        <item>05494412144</item>
+        <item>144</item>
+    </sensitivePN>
 </sensitivePNS>
