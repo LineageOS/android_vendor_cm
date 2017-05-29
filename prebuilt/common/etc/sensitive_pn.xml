@@ -30,6 +30,10 @@
     <sensitivePN network="222">
         <item>1522</item>
     </sensitivePN>
+    <!--Romania-->
+    <sensitivePN network="226">
+        <item>0213114636</item>
+    </sensitivePN>
     <!--Austria-->
     <sensitivePN network="232">
         <item>0800222555</item>
