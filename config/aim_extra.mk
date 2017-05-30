@@ -35,3 +35,6 @@ $(call inherit-product, vendor/aim/prebuilt/bootanimation/bootanimation.mk)
 PRODUCT_COPY_FILES += \
 	vendor/aim/CHANGELOG.mkdn:system/etc/AIMLOG.txt
 
+
+# ADB BY DEFAULT 
+PRODUCT_PROPERTY_OVERRIDES += persist.service.adb.enable=1
