@@ -24,7 +24,8 @@
     </sensitivePN>
     <!--France-->
     <sensitivePN network="208">
-        <item>3919</item>
+        <item>3919</item><!-- Domestic abuse -->
+        <item>119</item><!-- Child abuse -->
     </sensitivePN>
     <!--Spain-->
     <sensitivePN network="214">
