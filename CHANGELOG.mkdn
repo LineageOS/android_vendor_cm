@@ -3,132 +3,179 @@
  ====================================== 
 
 
+ [*] 05/31/2017
+  *******************    
+
+
+ ▪ project external/stagefright-plugins/
+ ▪ 4089877 FFmpegExtractor: Don't use our extractor when we agree with StageFright
+
+ ▪ project frameworks/base/
+ ▪ e2294f5 Add three-fingers-swipe to screenshot [2/2]
+ ▪ 2f99e4a8 AIM settings header:Quick fix
+
+ ▪ project packages/apps/CMParts/
+ ▪ 919fe50 AIM-ify: Move Buttons settings to FreedomHub (1/2)
+ ▪ c0d4227 AIM-ify: Move Gestures settings to FreedomHub (1/2)
+
+ ▪ project packages/apps/Jelly/
+ ▪ c35cc24 Jelly: Update android tools build
+ ▪ 020a697 Jelly: Don't accept cookies in incognito mode
+
+ ▪ project packages/apps/Settings/
+ ▪ da18813 FreedomHub:Add Three Finger Swipe for Screenshot settings
+ ▪ bd6b640 Fix a typo
+
+ ▪ project packages/apps/Snap/
+ ▪ f68cddc SnapdragonCamera: Fix torch mode with continuous shot
+ ▪ c737df5 Revert "Snap: CaptureModule: lock exposure also when precapture trigger is started"
+ ▪ 09a7a0b SnapdragonCamera: Camera2 force close after focused
+ ▪ 018fdd0 SnapdragonCamera: GPS location can't be turn On in camera settings
+
+ ▪ project vendor/aim/
+ ▪ f7bed7c Enable adb by default --> dont know  who removed this
+ ▪ 21aca51 Pissel launcher update
+
+ [*] 05/30/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ fcb48b38 Merge branch 'N' of https://github.com/AIMROM/android_frameworks_base into HEAD
+ ▪ 74f3423 Update piracy notification
+ ▪ d3e84a6 Add SettingsDrawerActivity header
+
+ ▪ project packages/apps/CMParts/
+ ▪ 1d223b2 AIM-ify: Move Status bar to FreedomHub (1/2)
+
+ ▪ project packages/apps/DUI/
+ ▪ 18d9f44 AIM-ify the fling bar icon
+
+ ▪ project packages/apps/Email/
+ ▪ b76ada5 Fix check for deleted messages.
+ ▪ 70ccb25 Close body InputStreams correctly.
+
+ ▪ project packages/apps/Jelly/
+ ▪ dc48da6 Jelly: Don't add duplicates to the history
+ ▪ 78e3754 Jelly: Query an already ordered history
+ ▪ c8e5ebe Jelly: Enable the DOM storage API
+
+ ▪ project packages/apps/Settings/
+ ▪ 865b108 CustomSeekBar: fix progressbar glitch with custom min-max values
+ ▪ d43d668 [SQUASHED] Add Pixel animations to settings Squash of: https://github.com/nitrogen-project/android_packages_apps_NitrogenSettings/commit/f5249cbbb6de7a34254735e11114ab59fdff1b00 https://github.com/nitrogen-project/android_packages_apps_NitrogenSettings/commit/61f769238ebf540cb30583153985b8fa8b8e35ba
+ ▪ 0408ada SmartBar: Add Pixel to button animation settings [3/3]
+ ▪ a7b4840 SmartBar: add Flip button animation [2/2]
+
+ ▪ project packages/apps/Snap/
+ ▪ 26d9aec Fixed camera crash on exit
+
+ ▪ project packages/apps/UnifiedEmail/
+ ▪ e353ae2 Properly close body InputStreams.
+
+ [*] 05/29/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ f2f7982 Revert "QS: Add Pulse Tile"
+ ▪ f8e0f3c Fixup icon
+ ▪ 0929610 DUI: Fix navbar edit logspam
+ ▪ 7f14ff7 QS: Clean up Pulse Tile
+ ▪ f04e804 QS: Add Pulse Tile
+ ▪ f22b3a7 sysui: Use pixel navbar icons
+ ▪ 921c0d7 Merge branch 'N' of https://github.com/AIMROM/android_frameworks_base into HEAD
+ ▪ 08ccc27 Integrate DUtils for now
+ ▪ 728954f Fix botched cherry-pick
+ ▪ 5580b36 [2/2] core: Completely remove the AOSP System Updates
+ ▪ aad0f5a Fix lag when opening an entry from the Settings left drawer
+ ▪ d14f3a6 Revert "The network event should be an asynchronous callback."
+ ▪ 8cc55f1 [PackageManagerService]: Fix the IndexOutOfBoundsException issue.
+ ▪ 24eacf1 SoundPool: decrease binder call when calling SoundPool.play
+ ▪ 5b05dd4 use FgThread.class instead of UiThread.class for lock object
+ ▪ 6ef9786 Destroy Allocation with ScriptIntrinsicLut
+ ▪ cf426ab Destroy Allocation right away on exception
+ ▪ 70cec39 SystemUI: Misc fixes for right (custom) lockscreen shortcuts
+ ▪ bedf2cc Automatic translation import
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ 90c90d1 Themes: Define back arrow tint color for themes
+ ▪ 1fe9804 Themes: Expose hardcoded contact tile text colors
+
+ ▪ project packages/apps/Settings/
+ ▪ c420659 Fix Settings FC && move some things around
+ ▪ acade43 Merge branch 'N' of https://github.com/AIMROM/android_packages_apps_Settings into HEAD
+ ▪ 5f5ba35 [1/2] Settings: Completely remove the AOSP System Updates
+ ▪ 0110145 Squash commit of SAR and IC Code.
+ ▪ b088aa4 Fix crash when calling remove() with a null variable
+ ▪ a4c3ae4 Automatic translation import
+
+ ▪ project vendor/aim/
+ ▪ a29b5ce Fix directory error
+ ▪ cda706b (2/2) Make sensitive phone numbers not to be shown in call log history.
+ ▪ 39350fa overlay: Enable Wi-Fi by default on first boot
+ ▪ 4b3ccfa Show full alarm info
+ ▪ 45aa1c9 extract_utils: fix extracting XML files containing binary characters
+
+ [*] 05/28/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ 826d28a SmartBar: allow set custom buttons opacity when Pulse is active [3/3]
+ ▪ 89a093e One handed mode toggle [1/3]
+ ▪ 371c3bc DUI: Remove screen record [1/2]
+ ▪ 650d8a5 Fw_base - apple can do...we can do as well
+ ▪ 937bc97 DUI: Initialize package monitor class
+ ▪ 07bc249 DUI: Initial DUI checkin for N
+ ▪ f079ff4 Fw_base - Revert "Runtime toggle of navbar"
+ ▪ 0764c17 Fw_base - DUI: core building support
+
+ ▪ project packages/apps/Jelly/
+ ▪ 64920b0 Jelly: Fix some warnings
+ ▪ 503fea1 Jelly: Use lambdas in settings activity
+ ▪ 576d1b9 Jelly: Make download_message not specific to sdcard
+
+ ▪ project packages/apps/Settings/
+ ▪ eb3a5e3 ColorPickerPreference compile errors
+ ▪ 899ce9b Forgot to move strings
+ ▪ c1fb4d3 Pulse: Moar bars for solid line renderer [3/3]
+ ▪ 11721cc Pulse: allow custom opacity for solid line renderer [3/3]
+ ▪ afa113f One handed mode toggle [3/3]
+ ▪ cfd1d82 Fix compile errors
+ ▪ a637c70 Add marginov color picker
+ ▪ 0eb1d6a Add missing SeekBarPreference attrs && string
+ ▪ 92669b7 Move some things around and fix SeekBarPreference type"
+ ▪ 6f1f325 [SQUASHED] Settings : Add DU Fling,Pulse,SmartBar
+
+ ▪ project vendor/aim/
+ ▪ dfdb8f2 Changelog update
+
+ ▪ project vendor/cmsdk/
+ ▪ b5e2ea3 cmsdk: fix twilight state not updating in live display auto mode
+
  [*] 05/27/2017
   *******************    
 
 
+ ▪ project packages/apps/Jelly/
+ ▪ 8f1365c Jelly: Handle screenLayout changes
+
  ▪ project packages/services/Telephony/
- ▪ 9d67fcae Fix minor inconsistency in the CDMA call settings
+ ▪ 9d67fca Fix minor inconsistency in the CDMA call settings
 
  ▪ project vendor/aim/
- ▪ 88d5ceae Merge branch 'N' of https://github.com/AIMROM/android_vendor_aim into N
- ▪ 75785d8c New bootanimation? fek yeah
+ ▪ 88d5cea Merge branch 'N' of https://github.com/AIMROM/android_vendor_aim into N
+ ▪ 75785d8 New bootanimation? fek yeah
 
  [*] 05/26/2017
   *******************    
 
 
  ▪ project packages/apps/Settings/
- ▪ c32b217dd5 Fix spelling so Varun will stfu!
+ ▪ c32b217 Fix spelling so Varun will stfu!
 
  ▪ project vendor/aim/
- ▪ 57cede8e add shamu to the official devices lunch menu
-
- [*] 05/25/2017
-  *******************    
-
-
- ▪ project build/
- ▪ 7e2d9704f Add script to envsetup
-
- ▪ project frameworks/base/
- ▪ d7b7ead10bf On-The-Go Mode [1/2]
-
- ▪ project packages/apps/Email/
- ▪ c0e5d54c0 Search in folder specified via URI parameter, if possible.
-
- ▪ project packages/apps/Jelly/
- ▪ c9f336c Jelly: Pause WebView along with the activity
- ▪ c23c013 Jelly: Don't claim to be a simple WebView
- ▪ c218521 Jelly: Define base class for Activities containing WebViewExt
- ▪ 1607c0d Jelly: Make it easier to initiate gestures
- ▪ 978e74e Jelly: Don't leak fileoutputstream if bm is null
-
- ▪ project packages/apps/Settings/
- ▪ 23d7711113 Donation link update
- ▪ 5ceccc332f Add nexus 6 maintainer(varun soma)
- ▪ 5b69432780 On-The-Go Mode [2/2]
-
- ▪ project packages/apps/UnifiedEmail/
- ▪ 5462df5cd Pass selected folder to message search.
-
- ▪ project vendor/aim/
- ▪ ffedcdae Revert "Update Pixel launcher" --> fek you android o This reverts commit 0d1cba68c2eed3b1baf47d2ff96c71a15dbc0959.
- ▪ 816757e3 Add Root method picker script
- ▪ 5c95e9ae Changelog update
- ▪ 735b30c6 Go away mint, nobody likes you
- ▪ a9883e36 Add modified Pixel launcher icon
- ▪ ecc5f9d4 Fix pixel theme colors
- ▪ af414b05 Change accent color for AOSP keyboard
-
- [*] 05/24/2017
-  *******************    
-
-
- ▪ project android/
- ▪ a7fc9f8 Sync slackbot repo
-
- ▪ project frameworks/base/
- ▪ 1396b6eebf9 Live Volume Steps [1/2]
-
- ▪ project packages/apps/Settings/
- ▪ c51e93ec18 Live Volume Steps [2/2]
- ▪ d10523a532 Slight change in vectar drawable logo
- ▪ a46d8d5f6c FREEDOMHUB:AIM DARK THEME FIX --> stable
-
- ▪ project packages/services/Telephony/
- ▪ 96a9e3ca telephony: Fix and move CAF strings
-
- [*] 05/23/2017
-  *******************    
-
-
- ▪ project frameworks/base/
- ▪ 29961468b10 New Sounds
-
- ▪ project packages/apps/DeskClock/
- ▪ 89aae760 DeskClock: Fix issues with flip/shake actions and poweroff alarm
-
- ▪ project packages/apps/Settings/
- ▪ 98640e0704 Utils.java: import some missing configuration.
- ▪ 5dda2ce0f0 Revert "FeaturePreferences: Introduce settings reset"
- ▪ d1babdcc3b Revert "FeaturePreferences: Update getMetricsCategory for N changes"
- ▪ 0a86bf9e96 Revert "FeaturePreferences: reload preferences when reloading activity"
- ▪ c92085f08f Vectorise AIMROM banner
- ▪ 0e88973f71 ConditionManager: don't crash when trying to add unexpected condition
- ▪ a348fc8abe Fix ApplicationsState.Session memory leak in settings app
- ▪ 6b9ff5fc80 Fix the momery leak in DrawOverlayDetails
- ▪ a76daf6258 PowerUsageFeatureProviderImpl: little cleanup
- ▪ 5dec850827 Port "Battery Usage Alerts" feature from factory images to aosp
- ▪ 0366e995bd Settings: PreviewPagerAdapter: copy the full theme
- ▪ de488cc465 Utils: Correct NetworkSetting availability check
- ▪ da8990909d BugFix:Correct fullBearer in APNSettings
- ▪ 8f26f808e4 FeaturePreferences: reload preferences when reloading activity
- ▪ 70b4a2039a DevelopmentSettings: Remove and force-disable automatic OTA
- ▪ a78d4ed378 DisplaySettings: disable ambient display by default
- ▪ 17e0b75cd0 FeaturePreferences: Update getMetricsCategory for N changes
- ▪ 3514f40a7b FeaturePreferences: Introduce settings reset
- ▪ ff54184b82 Pixelify Freedomhub
-
- ▪ project vendor/aim/
- ▪ cc1237e8 Merge branch 'N' of https://github.com/AIMROM/android_vendor_aim into N
- ▪ 6db9372c ADD OFFICIAL DEVICES TO LUNCH MENU Signed-off-by: Anand Ramachandran <anand.nv1998@gmail.com>
- ▪ 6bc0e074 Add default wallpapers for AIM --> load from only nodpi so wall will not look streached --> delete other shitty wall from hdpi,mdpi,xxhdpi,xxxhdpi,
- ▪ 101be283 Bishhh .. we dont need you
-
- [*] 05/22/2017
-  *******************    
-
-
- ▪ project packages/apps/Settings/
- ▪ 4614933781 Merge pull request #12 from Keerten/N
- ▪ ff3910fad7 Merge branch 'N' into N
- ▪ 774dda5ab5 Merge pull request #14 from manikchathli/patch-2
- ▪ c44bff9972 Merge pull request #13 from manikchathli/patch-1
-
- ▪ project vendor/aim/
- ▪ 0d1cba68 Update Pixel launcher
- ▪ e2395936 Add prebuilt Pixelwallpaper Picker
+ ▪ 57cede8 add shamu to the official devices lunch menu
 
 ---------------------------------------------------------
 
