@@ -30,6 +30,11 @@
     <sensitivePN network="214">
         <item>016</item>
     </sensitivePN>
+    <!--Serbia-->
+    <sensitivePN network="220">
+        <item>0800100600</item>
+        <item>192</item>
+    </sensitivePN>
     <!--Italy-->
     <sensitivePN network="222">
         <item>1522</item>
