@@ -1,5 +1,4 @@
 #!/bin/bash
-# Root method chooser for the Resurrection Remix ROM
 # Specify colors utilized in the terminal
     red=$(tput setaf 1)             #  red
     grn=$(tput setaf 2)             #  green
@@ -25,16 +24,16 @@
 if [ -z "${WITH_MAGISK}" ]; then
 echo -e ${ylw}"\n\n ▼ Which root method do you want to use?\n"${txtrst}
 echo -e "";
-echo -e ${blu}" 〉 0- Magisk "${txtrst}${red}"    ︱ Magisk Root Method"${txtrst}
+echo -e ${blu}" 〉 0 - Magisk "${txtrst}${red}"    ︱ Magisk Root Method"${txtrst}
 echo -e "";
-echo -e ${blu}" 〉 1 or any other input- Without magisk "${txtrst}${red}"  ︱ Without magisk but with stock su binary [default]"${txtrst}
+echo -e ${blu}" 〉 1 - Native SU"${txtrst}${red}"  ︱  LineageOS superuser binary[default]"${txtrst}
 echo -e "";
-echo -e ${blu}" 🕑  30/sec Time-out"${txtrst}${red}"︱ Default option"${txtrst}
+echo -e ${blu}" 🕑  10 seconds Time-out"${txtrst}${red}"︱ Default option"${txtrst}
 echo -e "";
 echo -e ${cya}" ▼ Pick a Method"${txtrst}
 echo -e "";
 $normal
-read -t 30 askvariant
+read -t 10 askvariant
 sleep 1
 if [ "$askvariant" == "0" ];
 then
@@ -47,7 +46,7 @@ $normal
 sleep 1
 else
 echo -e "";
-echo -e ${blu}" ▪ WITHOUT MAGISK "${txtrst}
+echo -e ${blu}" ▪ Native Su "${txtrst}
 export WITH_MAGISK="false";
 echo -e "";
 echo -e "";
