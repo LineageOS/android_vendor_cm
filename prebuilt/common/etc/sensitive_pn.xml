@@ -29,6 +29,11 @@
     <!--Spain-->
     <sensitivePN network="214">
         <item>016</item>
+        <item>061</item>
+        <item>062</item>
+        <item>091</item>
+        <item>092</item>
+        <item>112</item>
     </sensitivePN>
     <!--Serbia-->
     <sensitivePN network="220">
