@@ -3,24 +3,259 @@
  ====================================== 
 
 
+ [*] 06/05/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ f0760ac StorageManager: Improve exception handling
+ ▪ 685cde3 SystemUI: Remove trailing whitespace on high_accuracy_description
+ ▪ 4dab144 Add support for page theme color to WebView and WebChromeClient.
+ ▪ f2c316d incall vibration options [1/3] *allow setting vibration when call is connected *allow setting vibration when call is disconnected *allow setting vibration for call waiting *this works with google and aosp dialer :)
+ ▪ 1e58c58 LOL!!.. my bad
+
+ ▪ project frameworks/opt/telephony/
+ ▪ 17f6747 Get wifi working with Iran SIM Card
+
+ ▪ project hardware/qcom/display-caf/msm8996/
+ ▪ 92fa2ea Merge tag 'LA.UM.5.5.r1-04700-8x96.0' into HEAD
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 6850778 AudioFX: Sign with platform key
+
+ ▪ project packages/apps/Jelly/
+ ▪ 7ac5399 Add support for WebViews that provide the site's theme color.
+
+ ▪ project packages/apps/Settings/
+ ▪ 5b2286c Settings:Incall Vibration options [3/3]
+
+ ▪ project packages/services/Telecomm/
+ ▪ bb1712d Use double vibration on hang-up call
+ ▪ f997fd9 incall vibration options [2/3] *allow setting vibration when call is connected *allow setting vibration when call is disconnected *allow setting vibration for call waiting *this works with google and aosp dialer :)
+
+ ▪ project packages/services/Telephony/
+ ▪ 6ba71dd VoicemailSettingsActivity: Fix some NPEs
+
+ [*] 06/04/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ d76eb02 Pix..pix..pix (fix error. and change fab clear icon to dianamic one)
+ ▪ 88df83b Delete media tests
+ ▪ 4a7f7be ImmersiveRecents: Fix api error *fix get/set api error settings.java needs @hide *removed getImmersiveRecents *remove unused gravity import
+ ▪ c30c719 [SQUASH]Immersive Recents [1/2]&& Recents FAB Clear All Button Tweaks [1/2]
+ ▪ 264c1a6 Power menu: Change color of volume selector to pixel blue
+ ▪ 7223399 Base: Pixel Colors: Change dividers from Holo Blue to Pixel Blue
+
+ ▪ project packages/apps/Settings/
+ ▪ ff0b665 Fix a small typo
+ ▪ ad95ba1 [SQUASH]Recents FAB Clear All Button Tweaks [2/2]&& Immersive Recents [2/2] * Show or hide recents button * Place the button in top left, center, right or bottom left, center, right
+ ▪ daf9ddd Merge branch 'N' of https://github.com/AIMROM/android_packages_apps_Settings into N
+ ▪ 48508eb FreedomHub:Add recents tewak tab
+
+ ▪ project vendor/aim/
+ ▪ b41bd24 Merge pull request #4 from riad236/N
+ ▪ 7cb6be1 Update aimlog.sh
+ ▪ c13aa8a Update root.sh
+
+ [*] 06/03/2017
+  *******************    
+
+
+ ▪ project external/chromium-webview/
+ ▪ 6613943 Update README
+
+ ▪ project frameworks/base/
+ ▪ 3d4dcc6 Merge branch 'N' of https://github.com/AIMROM/android_frameworks_base into N
+ ▪ c5c8298 WTF!!!!	..but why?
+ ▪ 13efabe Merge pull request #1 from StringYM/patch-1
+ ▪ 016d363 Moar dianamic icons!!!!
+ ▪ 33dd28c Update Strings.xml (Values-pt-rPt-large)
+
+ ▪ project packages/apps/CMParts/
+ ▪ 1dbebd0 Automatic translation import
+ ▪ dcc8dbc Regenerate contributors cloud
+
+ ▪ project packages/apps/Dialer/
+ ▪ bd5f89d Themes: InCallUI dialpad digits color
+ ▪ 9833c04 Themes: Separate background color from text color
+
+ ▪ project packages/apps/Settings/
+ ▪ d509303 add maintainer for lenovo k4 note (#21)
+ ▪ 5d5dbb9 Update dev_info.xml (#22)
+ ▪ f4c6f0c Remove some unnecessary options from about phone settings. Cause -> Bad Cherry-pick.
+
+ ▪ project vendor/aim/
+ ▪ cae086d Add new device
+ ▪ 7f090d9 Merge pull request #3 from EypCnn/patch-1
+ ▪ bcf7dc9 Add New Devıce
+ ▪ b8a18a1 prebuilt/app: Here comes LSpeed.
+
+ ▪ project vendor/cmsdk/
+ ▪ f53bcaa Automatic translation import
+ ▪ 6a47344 Double tap to sleep anywhere on lock screen [3/3]
+ ▪ 062bfa9 cmsdk: Disable Lockscreen Media Art [3/3]
+
+ [*] 06/02/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ 7887583 Fully give theme support for SystemUI icons
+ ▪ 4929aa0 Smarbar Pixel Navbar Animation Duration Settings [1/3]
+ ▪ cc67945 Remove duplicate definition
+ ▪ 48a446b Smartbar pixel animation: Ability to customize the dots [1/3]
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ ef3989b Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.18' into cm-14.1-caf-8916
+ ▪ 40d378a Revert "audio HAL: fix thread starvation"
+
+ ▪ project hardware/qcom/media-caf/msm8916/
+ ▪ d781d8f Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.18' into cm-14.1-caf-8916
+
+ ▪ project packages/apps/CMParts/
+ ▪ ceadf25 Set android:configChanges for .PartsActivity
+
+ ▪ project packages/apps/DUI/
+ ▪ 64d9d34 Make Smartbar Pixel Animation Durations Customizable [2/3]
+
+ ▪ project packages/apps/Settings/
+ ▪ 962ad6f Merge branch 'N' of https://github.com/AIMROM/android_packages_apps_Settings into N
+ ▪ 37e09f0  FreedomHub: Add Recents tab for recents tweaks
+ ▪ dc60b49e Fix build error due to bad pull request
+ ▪ 8f07e52 Fix build error due to bad pull request
+ ▪ 51a4247 Added Cedrıc,Shamrock,Seed Devıce (#19)
+ ▪ 7f8ba36 Added Cedrıc,Shamrock,Seed Devıce (#20)
+
+ ▪ project vendor/aim/
+ ▪ a1c21ab Revert "Add prebuilt Pixelwallpaper Picker"
+ ▪ 01806f4 	Add indian Sensitive numbers ;)
+ ▪ 7cd5b6c sensitive_pn: Add more numbers for Germany
+ ▪ 7c1ad0e sensitive_pn: Add sensitive phone numbers for Norway
+ ▪ 6f332a7 sensitive_pn: add sensitive number for Indonesia
+ ▪ b793f51 sensitive_pn: Add sensitive phone number for Romania
+ ▪ f1133f9 sensitive_pn: Added sensitive number for the Netherlands
+ ▪ c5fdf9b sensitive_pn: add sensitive numbers for Turkey
+ ▪ b7bd5dc sensitive_pn: Add sensitive phone number for Bangladesh
+ ▪ beafa2c sensitive_pn: Add US number
+ ▪ 39bf6e5 Add sensitive phone numbers for Brazil
+ ▪ 587d64e sensitive_pn: reorder by MCC code
+ ▪ c12b7e1 sensitive_pn: Add Australian sensitive phone number.
+ ▪ 890b9a0 sensitive_pn: Add New Zealand sensitive numbers.
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ 0b94297 Automatic translation import
+
+ ▪ project vendor/qcom/opensource/cryptfs_hw/
+ ▪ da6e595 cryptfs_hw: Fix stack out of bound issue
+
+ [*] 06/01/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ 1b396c7 Carrier Label: Extend it to Both Statusbar & Keyguard [1/2]
+ ▪ 80698ef Fix imports for carrier label
+ ▪ aba9784 Show carrier label / custom & change color [1/2] [Squashed]
+
+ ▪ project hardware/qcom/fm/
+ ▪ 10a0e49 Automatic translation import
+
+ ▪ project packages/apps/AudioFX/
+ ▪ a9e6e96 Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ a1d4b44 Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ 1716e53 Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ f8d149a Automatic translation import
+
+ ▪ project packages/apps/CustomTiles/
+ ▪ bcc7ac9 Automatic translation import
+
+ ▪ project packages/apps/DeskClock/
+ ▪ 245a33d Automatic translation import
+
+ ▪ project packages/apps/EmergencyInfo/
+ ▪ 3ea2db7 Automatic translation import
+
+ ▪ project packages/apps/ExactCalculator/
+ ▪ 16e9688 Automatic translation import
+
+ ▪ project packages/apps/FMRadio/
+ ▪ 22979c0 Automatic translation import
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 97a397b Automatic translation import
+
+ ▪ project packages/apps/Jelly/
+ ▪ 153b7b7 Automatic translation import
+ ▪ 0106448 Jelly: Enable adjust bounds for incognito image
+
+ ▪ project packages/apps/ManagedProvisioning/
+ ▪ 4b787a2 Automatic translation import
+
+ ▪ project packages/apps/Messaging/
+ ▪ 824d9d3 Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 8c0b44d Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ a48a860 Add support for Mido (#18)
+ ▪ 15cb74f Remove custom actions from Fling settings temporarily
+ ▪ 9550ed7 Carrier Label: Extend it to Both Statusbar & Keyguard [2/2]
+ ▪ 5693e47 Merge branch 'N' of https://github.com/AIMROM/android_packages_apps_Settings into HEAD
+ ▪ 445d8cd Fix Settings FC for carrier label
+ ▪ e4e562a Add Lenovo A6000 Maintainer (#16)
+ ▪ 11155f2 Show carrier label / custom & change color [2/2] [Squashed]
+
+ ▪ project packages/apps/Snap/
+ ▪ d8c3f82 Automatic translation import
+
+ ▪ project packages/apps/Tag/
+ ▪ 1dc7751 Automatic translation import
+
+ ▪ project packages/apps/TvSettings/
+ ▪ 8314f85 Automatic translation import
+
+ ▪ project packages/inputmethods/LatinIME/
+ ▪ 30c53af Automatic translation import
+
+ ▪ project packages/providers/WeatherProvider/
+ ▪ 7f81c53 Automatic translation import
+
+ ▪ project packages/services/LiveLockScreenService/
+ ▪ 15d4966 Automatic translation import
+
+ ▪ project packages/services/Telecomm/
+ ▪ 65fe3b8 Automatic translation import
+
+ ▪ project packages/services/Telephony/
+ ▪ 5c6ea38 Automatic translation import
+
+ ▪ project vendor/aim/
+ ▪ 1f33875 Merge branch 'N' of https://github.com/AIMROM/android_vendor_aim into HEAD
+ ▪ 0c031de Dont need to have this here
+ ▪ b93a03c Merge pull request #2 from HassanSardar/patch-2
+ ▪ d341b45 New bootanimation thanks to mohan sekar ;)
+
  [*] 05/31/2017
   *******************    
 
 
- ▪ project external/stagefright-plugins/
- ▪ 4089877 FFmpegExtractor: Don't use our extractor when we agree with StageFright
-
  ▪ project frameworks/base/
  ▪ e2294f5 Add three-fingers-swipe to screenshot [2/2]
- ▪ 2f99e4a8 AIM settings header:Quick fix
-
- ▪ project packages/apps/CMParts/
- ▪ 919fe50 AIM-ify: Move Buttons settings to FreedomHub (1/2)
- ▪ c0d4227 AIM-ify: Move Gestures settings to FreedomHub (1/2)
 
  ▪ project packages/apps/Jelly/
+ ▪ c642120 Jelly: Never hide history view
+ ▪ ea83c6c Jelly: Use an observer to refresh the history view
+ ▪ 837ec77 Add an indicator icon for incognito mode.
  ▪ c35cc24 Jelly: Update android tools build
- ▪ 020a697 Jelly: Don't accept cookies in incognito mode
 
  ▪ project packages/apps/Settings/
  ▪ da18813 FreedomHub:Add Three Finger Swipe for Screenshot settings
@@ -33,6 +268,7 @@
  ▪ 018fdd0 SnapdragonCamera: GPS location can't be turn On in camera settings
 
  ▪ project vendor/aim/
+ ▪ 297f29f Add A6000 To Lunch Menu
  ▪ f7bed7c Enable adb by default --> dont know  who removed this
  ▪ 21aca51 Pissel launcher update
 
@@ -40,142 +276,28 @@
   *******************    
 
 
+ ▪ project external/stagefright-plugins/
+ ▪ 4089877 FFmpegExtractor: Don't use our extractor when we agree with StageFright
+
  ▪ project frameworks/base/
+ ▪ 2f99e4a8 AIM settings header:Quick fix
  ▪ fcb48b38 Merge branch 'N' of https://github.com/AIMROM/android_frameworks_base into HEAD
  ▪ 74f3423 Update piracy notification
- ▪ d3e84a6 Add SettingsDrawerActivity header
 
- ▪ project packages/apps/CMParts/
- ▪ 1d223b2 AIM-ify: Move Status bar to FreedomHub (1/2)
-
- ▪ project packages/apps/DUI/
- ▪ 18d9f44 AIM-ify the fling bar icon
-
- ▪ project packages/apps/Email/
- ▪ b76ada5 Fix check for deleted messages.
- ▪ 70ccb25 Close body InputStreams correctly.
+ ▪ project hardware/qcom/display-caf/msm8960/
+ ▪ d222af7 hwc: return correct color format string while layer dump
 
  ▪ project packages/apps/Jelly/
+ ▪ 020a697 Jelly: Don't accept cookies in incognito mode
  ▪ dc48da6 Jelly: Don't add duplicates to the history
  ▪ 78e3754 Jelly: Query an already ordered history
  ▪ c8e5ebe Jelly: Enable the DOM storage API
 
- ▪ project packages/apps/Settings/
- ▪ 865b108 CustomSeekBar: fix progressbar glitch with custom min-max values
- ▪ d43d668 [SQUASHED] Add Pixel animations to settings Squash of: https://github.com/nitrogen-project/android_packages_apps_NitrogenSettings/commit/f5249cbbb6de7a34254735e11114ab59fdff1b00 https://github.com/nitrogen-project/android_packages_apps_NitrogenSettings/commit/61f769238ebf540cb30583153985b8fa8b8e35ba
- ▪ 0408ada SmartBar: Add Pixel to button animation settings [3/3]
- ▪ a7b4840 SmartBar: add Flip button animation [2/2]
-
  ▪ project packages/apps/Snap/
  ▪ 26d9aec Fixed camera crash on exit
 
- ▪ project packages/apps/UnifiedEmail/
- ▪ e353ae2 Properly close body InputStreams.
-
- [*] 05/29/2017
-  *******************    
-
-
- ▪ project frameworks/base/
- ▪ f2f7982 Revert "QS: Add Pulse Tile"
- ▪ f8e0f3c Fixup icon
- ▪ 0929610 DUI: Fix navbar edit logspam
- ▪ 7f14ff7 QS: Clean up Pulse Tile
- ▪ f04e804 QS: Add Pulse Tile
- ▪ f22b3a7 sysui: Use pixel navbar icons
- ▪ 921c0d7 Merge branch 'N' of https://github.com/AIMROM/android_frameworks_base into HEAD
- ▪ 08ccc27 Integrate DUtils for now
- ▪ 728954f Fix botched cherry-pick
- ▪ 5580b36 [2/2] core: Completely remove the AOSP System Updates
- ▪ aad0f5a Fix lag when opening an entry from the Settings left drawer
- ▪ d14f3a6 Revert "The network event should be an asynchronous callback."
- ▪ 8cc55f1 [PackageManagerService]: Fix the IndexOutOfBoundsException issue.
- ▪ 24eacf1 SoundPool: decrease binder call when calling SoundPool.play
- ▪ 5b05dd4 use FgThread.class instead of UiThread.class for lock object
- ▪ 6ef9786 Destroy Allocation with ScriptIntrinsicLut
- ▪ cf426ab Destroy Allocation right away on exception
- ▪ 70cec39 SystemUI: Misc fixes for right (custom) lockscreen shortcuts
- ▪ bedf2cc Automatic translation import
-
- ▪ project packages/apps/ContactsCommon/
- ▪ 90c90d1 Themes: Define back arrow tint color for themes
- ▪ 1fe9804 Themes: Expose hardcoded contact tile text colors
-
- ▪ project packages/apps/Settings/
- ▪ c420659 Fix Settings FC && move some things around
- ▪ acade43 Merge branch 'N' of https://github.com/AIMROM/android_packages_apps_Settings into HEAD
- ▪ 5f5ba35 [1/2] Settings: Completely remove the AOSP System Updates
- ▪ 0110145 Squash commit of SAR and IC Code.
- ▪ b088aa4 Fix crash when calling remove() with a null variable
- ▪ a4c3ae4 Automatic translation import
-
- ▪ project vendor/aim/
- ▪ a29b5ce Fix directory error
- ▪ cda706b (2/2) Make sensitive phone numbers not to be shown in call log history.
- ▪ 39350fa overlay: Enable Wi-Fi by default on first boot
- ▪ 4b3ccfa Show full alarm info
- ▪ 45aa1c9 extract_utils: fix extracting XML files containing binary characters
-
- [*] 05/28/2017
-  *******************    
-
-
- ▪ project frameworks/base/
- ▪ 826d28a SmartBar: allow set custom buttons opacity when Pulse is active [3/3]
- ▪ 89a093e One handed mode toggle [1/3]
- ▪ 371c3bc DUI: Remove screen record [1/2]
- ▪ 650d8a5 Fw_base - apple can do...we can do as well
- ▪ 937bc97 DUI: Initialize package monitor class
- ▪ 07bc249 DUI: Initial DUI checkin for N
- ▪ f079ff4 Fw_base - Revert "Runtime toggle of navbar"
- ▪ 0764c17 Fw_base - DUI: core building support
-
- ▪ project packages/apps/Jelly/
- ▪ 64920b0 Jelly: Fix some warnings
- ▪ 503fea1 Jelly: Use lambdas in settings activity
- ▪ 576d1b9 Jelly: Make download_message not specific to sdcard
-
- ▪ project packages/apps/Settings/
- ▪ eb3a5e3 ColorPickerPreference compile errors
- ▪ 899ce9b Forgot to move strings
- ▪ c1fb4d3 Pulse: Moar bars for solid line renderer [3/3]
- ▪ 11721cc Pulse: allow custom opacity for solid line renderer [3/3]
- ▪ afa113f One handed mode toggle [3/3]
- ▪ cfd1d82 Fix compile errors
- ▪ a637c70 Add marginov color picker
- ▪ 0eb1d6a Add missing SeekBarPreference attrs && string
- ▪ 92669b7 Move some things around and fix SeekBarPreference type"
- ▪ 6f1f325 [SQUASHED] Settings : Add DU Fling,Pulse,SmartBar
-
- ▪ project vendor/aim/
- ▪ dfdb8f2 Changelog update
-
- ▪ project vendor/cmsdk/
- ▪ b5e2ea3 cmsdk: fix twilight state not updating in live display auto mode
-
- [*] 05/27/2017
-  *******************    
-
-
- ▪ project packages/apps/Jelly/
- ▪ 8f1365c Jelly: Handle screenLayout changes
-
- ▪ project packages/services/Telephony/
- ▪ 9d67fca Fix minor inconsistency in the CDMA call settings
-
- ▪ project vendor/aim/
- ▪ 88d5cea Merge branch 'N' of https://github.com/AIMROM/android_vendor_aim into N
- ▪ 75785d8 New bootanimation? fek yeah
-
- [*] 05/26/2017
-  *******************    
-
-
- ▪ project packages/apps/Settings/
- ▪ c32b217 Fix spelling so Varun will stfu!
-
- ▪ project vendor/aim/
- ▪ 57cede8 add shamu to the official devices lunch menu
+ ▪ project packages/apps/Stk/
+ ▪ f9f50a5 Do not display toast if alpha text is null.
 
 ---------------------------------------------------------
 
