@@ -170,6 +170,13 @@
         <item>777800983</item>
         <item>800200007</item>
     </sensitivePN>
+    <!--Israel-->
+    <sensitivePN network="425">
+        <item>1201</item>
+        <item>1202</item>
+        <item>1203</item>
+        <item>1204</item>
+    </sensitivePN>
     <!--Bangladesh-->
     <!--India be safe from now-->
     <sensitivePN network="404">
