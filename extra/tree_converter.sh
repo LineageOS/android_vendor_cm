@@ -19,3 +19,4 @@ else
 echo -e "No LineageOS device tree found."
 echo -e "If you have already edited the device tree to work with AIMROM then you can continue building the rom otherwise lunch your device."
 fi
+cd $rom_source
