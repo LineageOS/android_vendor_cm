@@ -11,7 +11,7 @@ echo -e "Please wait until we modify it to work with our sources."
 find . -type f -name lineage.mk -execdir mv {} aim.mk \;
 wait
 grep -rl "lineage_" | xargs sed -i s:lineage_:aim_:g
-grep -rl "/cm/" | xargs sed -i s:/cm/:/aim/:g
+grep -rl "vendor/cm/" | xargs sed -i s:vendor/cm/:vendor/aim/:g
 echo -e "Device tree converted succesfully!"
 echo -e "Make sure to clone the vendor for your device."
 echo -e "You can continue building now."
