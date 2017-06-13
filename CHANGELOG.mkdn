@@ -3,6 +3,68 @@
  ====================================== 
 
 
+ [*] 06/13/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ 2edb80b AIM DARK THEME[ WE LOVE RED ACCENT]
+ ▪ 8b7b017 SystemUI: Data activity
+ ▪ bf8c030 Add QSDetailItems
+ ▪ 03d0210 [QUICK SETTINGS] Add Screenshot QS Tile
+ ▪ e57cb48 [QUICK SETTINGS] Add metrics constant for Quick settings tiles
+ ▪ b3dcfef Align recent 'Clear All' text with 'Free Ram' text
+ ▪ 36026aa Add membar to recents options [1/2]
+ ▪ d0229a5 BHOLTE ICON IZ BACK! NOW STFU!
+ ▪ 2ae52b8 Speed up StatusBar
+ ▪ dd887fe Replace VOLTE Icon
+ ▪ f448058 Add VOLTE icon
+ ▪ 97e5eb2 Recents fab button improvements
+ ▪ 00944ac SystemUI: Support recents task locking
+ ▪ 27608e0 Fix screenpinning from showing up unless enabled
+ ▪ 1d65963 Screen pinning improvements
+ ▪ 26b1a4c Frameworks: icon materialization
+ ▪ 0a16c8b Remove the HD Icon from StatusBar
+ ▪ 39cebc6 Advanced Bluetooth, Data, Wifi Toggles [1/2]
+ ▪ bd0c323 Fix derp after removing volte icon
+ ▪ 7601b3f Revert "Add VOLTE icon" buggy shit. This reverts commit 07f7221459b3ee55b5ea9647d8d19afb5e2b2251.
+
+ ▪ project packages/apps/Settings/
+ ▪ eb90e6a Add Switch for Memmory bar[2/2]
+ ▪ 16df2e0 Merge branch 'N' of https://github.com/AIMROM/android_packages_apps_Settings into N
+ ▪ b600b80 Advanced Bluetooth, Data, Wifi Toggles [2/2]
+ ▪ d1ee44d settings: res: add op2 maintainer (#29)
+
+ [*] 06/11/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ 8db270d base: featureize ro.recents.grid
+
+ ▪ project packages/apps/Settings/
+ ▪ 803defb Make a switch for Grid recents --> also choose grid as default
+
+ [*] 06/10/2017
+  *******************    
+
+
+ ▪ project build/
+ ▪ 5f3adaf Introduce non-preopt boot jars
+ ▪ 52770fe core: remove duplicated boot jars
+
+ ▪ project packages/apps/Settings/
+ ▪ ed1619c New banner& changes
+ ▪ 8510f15 lets use invitation link insted of tag
+ ▪ d91fbcc Add maintainer for Lenovo Vibe K4 Note(A7010a48) (#28)
+ ▪ 50e9f94 Merge pull request #27 from mohancm100/N
+ ▪ 2571523 Add maintainer for Coolpad Note 3 (CP8676_I02)
+ ▪ 6dd3c0e Aupdate (#25)
+ ▪ 7198c79 Added Lenovo P2 (#26)
+ ▪ 15e5cc9 Added Official support for coolpad note 3 lite  (#24)
+ ▪ daa241a Drop K4 maintainer( sorry to do this to you)
+ ▪ a916aae NEW AWESOME ANIMATED BANNER FOR AIM
+
  [*] 06/09/2017
   *******************    
 
@@ -39,6 +101,7 @@
  ▪ 096205d fix a small typo
 
  ▪ project vendor/aim/
+ ▪ 3a229b0 AIM V2.0 changelog
  ▪ 12abe54 V2.0 is here
  ▪ ed2cfb0 Merge branch 'N' of https://github.com/AIMROM/android_vendor_aim into N
  ▪ fa21c40 tree_converter: Go back to source directory after editing device trees. This fixes make command related failures.
@@ -136,99 +199,6 @@
  ▪ 0fe2e3b Add build date (ro.build.date from build.prop) to About screen.
  ▪ 18c18a9 One does not simply become a Developer
  ▪ 34001b8 Add LineageOS version to the About screen
-
- [*] 06/06/2017
-  *******************    
-
-
- ▪ project android/
- ▪ 90d2205 manifest: android-7.1.2_r8 -> android-7.1.2_r17
-
- ▪ project build/
- ▪ d004945 Merge tag 'android-7.1.2_r17' into cm-14.1
- ▪ 82220cb Revert "core: use 0 compression when creating the target_files package"
-
- ▪ project external/stagefright-plugins/
- ▪ 05bf4e7 ffmpeg-extractor: StageFright supports Opus files
- ▪ 11bc5a2 Revert "FFmpegExtractor: Don't use our extractor when we agree with StageFright"
-
- ▪ project frameworks/base/
- ▪ 77163a2 Merge tag 'android-7.1.2_r17' into cm-14.1
- ▪ 4f07a6b SystemUI: Remove trailing whitespace on high_accuracy_description
-
- ▪ project frameworks/native/
- ▪ 1eed077 Merge tag 'android-7.1.2_r17' into cm-14.1
-
- ▪ project libcore/
- ▪ b162f5e Merge tag 'android-7.1.2_r17' into cm-14.1
-
- ▪ project packages/apps/Bluetooth/
- ▪ 9d274ac BluetoothOppTransferActivity: fix after ad46f6a52d7240ed1e2127c4263a5cbcf454df09
- ▪ 9efb588 Merge tag 'android-7.1.2_r17' into cm-14.1
-
- ▪ project packages/apps/Contacts/
- ▪ 2a4e3e1 Themes: Expose hardcoded layout and styles colors
-
- ▪ project packages/apps/ContactsCommon/
- ▪ 8e81717 Themes: Define back arrow tint color for themes
- ▪ 8821911 Themes: Expose hardcoded contact tile text colors
-
- ▪ project packages/apps/Dialer/
- ▪ cb5662b Themes: InCallUI dialpad digits color
- ▪ 58d0997 Themes: Separate background color from text color
-
- ▪ project packages/apps/Gallery2/
- ▪ 95cb32b Increase the size of the tiles when decoding images
-
- ▪ project packages/apps/Jelly/
- ▪ e28fd6c Jelly: Add HTTP auth login support
-
- ▪ project packages/apps/PhoneCommon/
- ▪ f575035 Themes: Make dialpad seperator line theme-able
-
- ▪ project packages/apps/Settings/
- ▪ 5b2286c Settings:Incall Vibration options [3/3]
-
- ▪ project packages/services/Telecomm/
- ▪ bb1712d Use double vibration on hang-up call
- ▪ f997fd9 incall vibration options [2/3] *allow setting vibration when call is connected *allow setting vibration when call is disconnected *allow setting vibration for call waiting *this works with google and aosp dialer :)
-
- ▪ project system/bt/
- ▪ aa31852 Merge tag 'android-7.1.2_r17' into cm-14.1
-
- ▪ project system/core/
- ▪ 5e54c5f libcutils: fix schedboost after 31f78ddf4ea2ab7963d873cb16db98e976346468
- ▪ 14bdeb8 Merge tag 'android-7.1.2_r17' into cm-14.1
-
- ▪ project vendor/aim/
- ▪ eda03a1 Changelog Update
- ▪ 02c44cb CChangelog Update
-
- [*] 06/05/2017
-  *******************    
-
-
- ▪ project frameworks/base/
- ▪ c9e4d80 StorageManager: Improve exception handling
- ▪ 2b7fd52 Add support for page theme color to WebView and WebChromeClient.
-
- ▪ project frameworks/opt/telephony/
- ▪ 17f6747 Get wifi working with Iran SIM Card
-
- ▪ project hardware/qcom/display-caf/msm8996/
- ▪ 92fa2ea Merge tag 'LA.UM.5.5.r1-04700-8x96.0' into HEAD
-
- ▪ project packages/apps/AudioFX/
- ▪ 6850778 AudioFX: Sign with platform key
-
- ▪ project packages/apps/Jelly/
- ▪ 7ac5399 Add support for WebViews that provide the site's theme color.
-
- ▪ project packages/services/Telephony/
- ▪ 6ba71dd VoicemailSettingsActivity: Fix some NPEs
-
- ▪ project vendor/aim/
- ▪ b41bd24 Merge pull request #4 from riad236/N
 
 ---------------------------------------------------------
 
