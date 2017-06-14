@@ -1,0 +1,223 @@
+
+ (->) AIM ROM Ver 2.0 Changelog
+ ====================================== 
+
+
+ [*] 06/14/2017
+  *******************    
+
+
+ ▪ project build/
+ ▪ c7709f8 envsetup: stop jack server once build completed
+ ▪ 59de0cd Email GTFO!!! PicoTTS you too
+ ▪ d0caa8a fancystuff
+
+ ▪ project development/
+ ▪ b1c48ff AIM RETRO THEME add missing part
+
+ ▪ project frameworks/base/
+ ▪ 7ccc0bd AIM RETRO Theme [1/5]
+
+ ▪ project frameworks/native/
+ ▪ 6eef3d8 AIM RETRO THEME [5/5]
+
+ ▪ project frameworks/support/
+ ▪ e43b237 AIM RETRO THEME [4/5]
+
+ ▪ project packages/apps/Settings/
+ ▪ 214d185 AIM RETRO THEME [3/5]
+
+ ▪ project vendor/aim/
+ ▪ 84f5a71 LSpeed boi
+ ▪ ca8ab78 AIM RETRO THEME [2/5]
+
+ [*] 06/13/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ 2edb80b AIM DARK THEME[ WE LOVE RED ACCENT]
+ ▪ 8b7b017 SystemUI: Data activity
+ ▪ bf8c030 Add QSDetailItems
+ ▪ 03d0210 [QUICK SETTINGS] Add Screenshot QS Tile
+ ▪ e57cb48 [QUICK SETTINGS] Add metrics constant for Quick settings tiles
+ ▪ b3dcfef Align recent 'Clear All' text with 'Free Ram' text
+ ▪ 36026aa Add membar to recents options [1/2]
+ ▪ d0229a5 BHOLTE ICON IZ BACK! NOW STFU!
+ ▪ 2ae52b8 Speed up StatusBar
+ ▪ dd887fe Replace VOLTE Icon
+ ▪ f448058 Add VOLTE icon
+ ▪ 97e5eb2 Recents fab button improvements
+ ▪ 00944ac SystemUI: Support recents task locking
+ ▪ 27608e0 Fix screenpinning from showing up unless enabled
+ ▪ 1d65963 Screen pinning improvements
+ ▪ 26b1a4c Frameworks: icon materialization
+ ▪ 0a16c8b Remove the HD Icon from StatusBar
+ ▪ 39cebc6 Advanced Bluetooth, Data, Wifi Toggles [1/2]
+ ▪ bd0c323 Fix derp after removing volte icon
+
+ ▪ project packages/apps/Eleven/
+ ▪ 6665277 Eleven: Remove unused permission REAL_GET_TASKS
+
+ ▪ project packages/apps/Settings/
+ ▪ eb90e6a Add Switch for Memmory bar[2/2]
+ ▪ 16df2e0 Merge branch 'N' of https://github.com/AIMROM/android_packages_apps_Settings into N
+ ▪ b600b80 Advanced Bluetooth, Data, Wifi Toggles [2/2]
+
+ ▪ project packages/apps/Snap/
+ ▪ bd1d6ea Snap: Sign with platform key
+ ▪ d7247ff Add orientation correction for landscape devices
+
+ ▪ project packages/services/Telephony/
+ ▪ a40c8ca Fix Phone Service crash on MSIM devices as Guest user
+
+ [*] 06/12/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ 7601b3f Revert "Add VOLTE icon" buggy shit. This reverts commit 07f7221459b3ee55b5ea9647d8d19afb5e2b2251.
+
+ ▪ project packages/apps/Settings/
+ ▪ d1ee44d settings: res: add op2 maintainer (#29)
+
+ [*] 06/11/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ 8db270d base: featureize ro.recents.grid
+
+ ▪ project packages/apps/Settings/
+ ▪ 803defb Make a switch for Grid recents --> also choose grid as default
+
+ [*] 06/10/2017
+  *******************    
+
+
+ ▪ project packages/apps/Settings/
+ ▪ ed1619c New banner& changes
+ ▪ 8510f15 lets use invitation link insted of tag
+ ▪ d91fbcc Add maintainer for Lenovo Vibe K4 Note(A7010a48) (#28)
+ ▪ 50e9f94 Merge pull request #27 from mohancm100/N
+ ▪ 2571523 Add maintainer for Coolpad Note 3 (CP8676_I02)
+ ▪ 6dd3c0e Aupdate (#25)
+ ▪ 7198c79 Added Lenovo P2 (#26)
+ ▪ 15e5cc9 Added Official support for coolpad note 3 lite  (#24)
+ ▪ daa241a Drop K4 maintainer( sorry to do this to you)
+ ▪ a916aae NEW AWESOME ANIMATED BANNER FOR AIM
+
+ ▪ project vendor/aim/
+ ▪ ce41151 Minor fixes for builds with dexpreopt (#5)
+ ▪ 65fe7f1 tree_converter: Make it more specific
+
+ [*] 06/09/2017
+  *******************    
+
+
+ ▪ project build/
+ ▪ 5f3adaf Introduce non-preopt boot jars
+ ▪ 52770fe core: remove duplicated boot jars
+ ▪ ef245d0 Merge branch 'cm-14.1' into N
+
+ ▪ project frameworks/base/
+ ▪ 48ab2cd Statusbar: Gracefully adapt 3Minit Battery hook for AOSP
+ ▪ 61b5b14 Merge branch 'N' of https://github.com/AIMROM/android_frameworks_base into N
+ ▪ 2856cd0 SmartBar: Battery Bar support [1/2]
+ ▪ 0bc55ac Battery bar: blend colors between full/empty [1/2]
+ ▪ 4d95bea Battery bar enhancements [1/2]
+ ▪ 6228509 BatteryBar [1/2]
+ ▪ c2e593b fix bad merge.
+ ▪ a01729d fix bad merge
+ ▪ 51daf1a QS: Remove listeners only if added
+ ▪ 048f6e3 Merge branch 'cm-14.1' into N
+
+ ▪ project frameworks/native/
+ ▪ 8d35263 Merge branch 'cm-14.1' into N
+
+ ▪ project packages/apps/DUI/
+ ▪ b6ff894 SmartBar: Touch sound support
+ ▪ 02a5b1c DUI: Fix NPE in MediaMonitor
+
+ ▪ project packages/apps/Settings/
+ ▪ 718af7d Fix small error
+ ▪ 0a29e50 Freedomhub:Status Bar Combine all  Battery Bar coustomizations
+ ▪ 8d69825 Automatic translation import
+ ▪ 89aa14c Double tap to sleep anywhere on the lock screen [2/3]
+ ▪ 2a96afe Settings: Disable Lockscreen Media Art [2/3]
+ ▪ a255442 Settings: Make string untranslatable
+ ▪ 096205d fix a small typo
+
+ ▪ project vendor/aim/
+ ▪ 3a229b0 AIM V2.0 changelog
+ ▪ 12abe54 V2.0 is here
+ ▪ ed2cfb0 Merge branch 'N' of https://github.com/AIMROM/android_vendor_aim into N
+ ▪ fa21c40 tree_converter: Go back to source directory after editing device trees. This fixes make command related failures.
+ ▪ 4f3e5d6 sensitive_pn: Add sensitive phone numbers for Czech Republic
+ ▪ 725483d sensitive_pn: Add Canadian sensitive numbers
+ ▪ 118615c sensitive_pn: Add more numbers from the Netherlands
+ ▪ 47bf9c7 fix check_blacklist function to work on wiped /system partition
+ ▪ 2b2b4de sensitive_pn: Add sensitive numbers for Serbia
+ ▪ c4b85d8 sensitive_pn: Add sensitive phone numbers for India
+ ▪ 4b80263 Introduce device tree converting script. A simple script that will edit LineageOS device tree right after lunch to work with AIMROM.$
+
+ [*] 06/08/2017
+  *******************    
+
+
+ ▪ project build/
+ ▪ f21a1e3 Execute device tree converting script after lunch.
+
+ ▪ project frameworks/base/
+ ▪ 0eef556 Custom small QS tiles [1/2]
+ ▪ 8f56518 long press qs settings icon to launch Freedomhub
+ ▪ 0534a60 Add 3Minit battery mod
+ ▪ 32e2943 Network traffic icon color update
+
+ ▪ project hardware/ti/omap4/
+ ▪ 1738329 omap4: Correct disabling of dirty regions invalidation
+
+ ▪ project packages/apps/Email/
+ ▪ ea4eb75 Adjust Email UnitTests to e353ae2ea19c9ea800d10b37e05de7b0ea1aeeb4
+
+ ▪ project packages/apps/Gallery2/
+ ▪ 93bcb4c Gallery2: support GIF animation
+
+ ▪ project packages/apps/Jelly/
+ ▪ 22cb565 Implement history management through a ContentProvider.
+
+ ▪ project packages/apps/Settings/
+ ▪ e42a1fa Custom small QS tiles [2/2]
+
+ ▪ project packages/apps/Snap/
+ ▪ 78666b5 Snap: Simulate back button press when menu back button is pressed
+
+ ▪ project packages/apps/Terminal/
+ ▪ 5856a60 Terminal: Fix keyboard Ctrl- and ALT-key input.
+
+ ▪ project vendor/aim/
+ ▪ 4cbc618 Merge branch 'N' of https://github.com/AIMROM/android_vendor_aim into N
+ ▪ 81eaedd Intriduce device tree converting script. A simple script that will edit LineageOS device tree right after lunch to work with AIMROM.$
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider/
+ ▪ 3fe4133 Add back key to actionbar
+ ▪ b9b9cce Add openweathermap copyright
+ ▪ d0d73c5 Add icon
+ ▪ dccb527 Refactor cyanogenmod -> lineageos
+ ▪ 9d01897 Update gradle
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ 3e9b1c1 Don't fail when a translation is missing
+ ▪ 3a8340c Update icon
+ ▪ a195bb4 Refactor cyanogenmod -> lineageos
+ ▪ a1ff743 Update gradle
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ bf4c5a3 Don't fail when a translation is missing
+ ▪ 6110585 Update app name to match other providers
+ ▪ a0d2c7c Update icon
+ ▪ fd3221f Refactor cyanogemod -> lineageos
+ ▪ 5cb7ddf Update gradle
+
+---------------------------------------------------------
+
