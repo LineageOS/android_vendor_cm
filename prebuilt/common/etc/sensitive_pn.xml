@@ -18,6 +18,30 @@
  */
 -->
 <sensitivePNS>
+    <!--Belgium-->
+    <sensitivePN network="206">
+        <item>1712</item>
+        <item>106</item>
+        <item>100</item>
+        <item>101</item>
+        <item>102</item>
+        <item>112</item>
+        <item>105</item>
+        <item>1813</item>
+        <item>080097079</item>
+        <item>08000432</item>
+        <item>116000</item>
+        <item>078 150 300</item>
+        <item>078151570</item>
+        <item>080099533</item>
+        <item>0781510 20</item>
+        <item>070245245</item>
+        <item>080013144 
+        </item>
+        <item>032391415</item>
+        <item>032185056</item>
+        </sensitivePN>
+
     <!--Netherlands-->
     <sensitivePN network="204">
         <item>08002000</item>
