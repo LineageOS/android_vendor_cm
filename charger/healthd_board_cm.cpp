@@ -83,14 +83,14 @@ static void draw_capacity(int capacity)
 
     struct frame *f = &anim.frames[0];
     int font_x, font_y;
-    gr_font_size(gr_sys_font(), &font_x, &font_y);
-    int w = gr_measure(gr_sys_font(), cap_str);
+    gr_font_size(gr_log_font(), &font_x, &font_y);
+    int w = gr_measure(gr_log_font(), cap_str);
     int h = gr_get_height(f->surface);
     int x = (gr_fb_width() - w) / 2;
     int y = (gr_fb_height() + h) / 2;
 
     gr_color(255, 255, 255, 255);
-    gr_text(gr_sys_font(), x, y + font_y / 2, cap_str, 0);
+    gr_text(gr_log_font(), x, y + font_y / 2, cap_str, 0);
 }
 
 #ifdef QCOM_HARDWARE
