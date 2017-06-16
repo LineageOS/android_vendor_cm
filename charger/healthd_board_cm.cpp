@@ -93,6 +93,24 @@ static void draw_capacity(int capacity)
     gr_text(gr_sys_font(), x, y + font_y / 2, cap_str, 0);
 }
 
+static void draw_charger_stats(int current, int voltage, int temperature)
+{
+    char charger_str[STR_LEN];
+    snprintf(charger_str, (STR_LEN - 1), "%d mA @ %2.2f V - %d C", (int) current/1000, (float) voltage/1000/1000, temperature/10);
+
+    struct frame *f = &anim.frames[0];
+    int font_x, font_y;
+    gr_font_size(gr_sys_font(), &font_x, &font_y);
+    int w = gr_measure(gr_sys_font(), charger_str);
+    int h = gr_get_height(f->surface);
+    int x = (gr_fb_width() - w) / 2;
+    int y = (gr_fb_height() + h) / 2;
+    // Offset charger info from capacity
+    y += 22;
+    gr_color(255, 255, 255, 255);
+    gr_text(gr_sys_font(), x, y + font_y / 2, charger_str, 0);
+}
+
 #ifdef QCOM_HARDWARE
 enum alarm_time_type {
     ALARM_TIME,
@@ -334,9 +352,24 @@ void healthd_board_mode_charger_draw_battery(
 {
     int start_frame = 0;
     int capacity = -1;
+    int current = -1;
+    int voltage = -1;
+    int temperature = -1;
 
     if (batt_prop && batt_prop->batteryLevel >= 0) {
         capacity = batt_prop->batteryLevel;
+    }
+
+    if (batt_prop && batt_prop->maxChargingCurrent >= 0) {
+        current = batt_prop->maxChargingCurrent;
+    }
+
+    if (batt_prop && batt_prop->maxChargingVoltage >= 0) {
+        voltage = batt_prop->maxChargingVoltage;
+    }
+
+    if (batt_prop && batt_prop->batteryTemperature >= 0) {
+        temperature = batt_prop->batteryTemperature;
     }
 
     if (anim.num_frames == 0 || capacity < 0) {
@@ -357,6 +390,7 @@ void healthd_board_mode_charger_draw_battery(
 
     draw_surface_centered(anim.frames[anim.cur_frame].surface);
     draw_capacity(capacity);
+    draw_charger_stats(current, voltage, temperature);
     // Move to next frame, with max possible frame at max_idx
     anim.cur_frame = ((anim.cur_frame + 1) % anim.num_frames);
 }
