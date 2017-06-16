@@ -62,6 +62,8 @@ static struct animation anim = {
     .num_frames = 0,
 };
 
+static bool font_inited;
+
 static int draw_surface_centered(GRSurface* surface)
 {
     int w, h, x, y;
@@ -334,6 +336,11 @@ void healthd_board_mode_charger_draw_battery(
 {
     int start_frame = 0;
     int capacity = -1;
+
+    if (!font_inited) {
+        gr_set_font("log");
+        font_inited = true;
+    }
 
     if (batt_prop && batt_prop->batteryLevel >= 0) {
         capacity = batt_prop->batteryLevel;
