@@ -204,4 +204,18 @@
         <item>180</item>
         <item>181</item>
     </sensitivePN>
+    <!--Belgium-->
+    <sensitivePN network="206">
+        <item>116000</item>
+        <item>102</item>
+        <item>103</item>
+        <item>106</item>
+        <item>107</item>
+        <item>108</item>
+        <item>080032123</item>
+        <item>080030030</item>
+        <item>1813</item>
+        <item>1712</item>
+        <item>081777150</item>
+    </sensitivePN>
 </sensitivePNS>
