@@ -205,4 +205,35 @@
         <item>180</item>
         <item>181</item>
     </sensitivePN>
+    <!--Belgium-->
+    <sensitivePN network="206">
+        <item>116000</item>
+        <item>102</item>
+        <item>103</item>
+        <item>106</item>
+        <item>107</item>
+        <item>108</item>
+        <item>110</item>
+        <item>080032123</item>
+        <item>080030030</item>
+        <item>1813</item>
+        <item>1712</item>
+        <item>081777150</item>
+        <item>025343636</item>
+        <item>078154422</item>
+        <item>081214040</item>
+        <item>071324668</item>
+        <item>065825999</item>
+        <item>085240322</item>
+        <item>010242888</item>
+        <item>080015800</item>
+        <item>080020120</item>
+        <item>022275252</item>
+        <item>078152556</item>
+        <item>025114030</item>
+        <item>032391415</item>
+        <item>078151020</item>
+        <item>078151570</item>
+        <item>080097079</item>
+    </sensitivePN>
 </sensitivePNS>
