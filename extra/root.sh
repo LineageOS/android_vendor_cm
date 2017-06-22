@@ -21,12 +21,13 @@
     blurev=${rev}$(tput setaf 4)
     normal='tput sgr0'
 
-if [ -z "${WITH_MAGISK}" ]; then
 echo -e ${ylw}"\n\n ▼ Which root method do you want to use?\n"${txtrst}
 echo -e "";
 echo -e ${blu}" 〉 0 - Magisk "${txtrst}${red}"    ︱ Magisk Root Method"${txtrst}
 echo -e "";
-echo -e ${blu}" 〉 1 - Native SU"${txtrst}${red}"  ︱  LineageOS superuser binary[default]"${txtrst}
+echo -e ${blu}" 〉 1 - Native SU"${txtrst}${red}"  ︱ LineageOS superuser binary[default]"${txtrst}
+echo -e "";
+echo -e ${blu}" )  2 - Rootless"${txtrst}${red}"   |  No root like stock rom or official LineageOS"${txtrst}
 echo -e "";
 echo -e ${blu}" 🕑  10 seconds Time-out"${txtrst}${red}"︱ Default option"${txtrst}
 echo -e "";
@@ -35,6 +36,7 @@ echo -e "";
 $normal
 read -t 10 askvariant
 sleep 1
+
 if [ "$askvariant" == "0" ];
 then
 echo -e "";
@@ -44,13 +46,27 @@ echo -e "";
 echo -e "";
 $normal
 sleep 1
-else
+fi
+
+if [ "$askvariant" == "1" ];
+then
 echo -e "";
 echo -e ${blu}" ▪ Native Su "${txtrst}
-export WITH_MAGISK="false";
+export WITH_SU="true";
 echo -e "";
 echo -e "";
 $normal
 sleep 1
 fi
+
+if [ "$askvariant" == "2" ];
+then
+echo -e "";
+echo -e ${blu}" • Rootless "${txtrst}
+export WITH_MAGISK="false";
+export WITH_SU="false";
+echo -e "";
+echo -e "";
+$normal
+sleep 1
 fi
