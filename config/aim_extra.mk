@@ -14,7 +14,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 vendor/aim/prebuilt/app/pixelicons/PixelLauncherIcons.apk:system/app/pixellaunchericons/PixelLauncherIcons.apk
 
 # MAGISK INCLUDE
-ifneq ($(WITH_MAGISK),false)
+ifeq ($(WITH_MAGISK),true)
 # Magisk Manager
 PRODUCT_PACKAGES += \
     MagiskManager
