@@ -159,10 +159,6 @@ PRODUCT_PACKAGES += \
     wget \
     zip
 
-# LSpeed
-PRODUCT_COPY_FILES += \
-    vendor/aim/prebuilt/app/LSpeed/LSpeed.apk:system/priv-app/LSpeed/LSpeed.apk
-
 # Custom off-mode charger
 ifneq ($(WITH_AIM_CHARGER),false)
 PRODUCT_PACKAGES += \
@@ -227,6 +223,9 @@ PRODUCT_PACKAGES += \
 ifeq ($(WITH_SU),true)
 PRODUCT_PACKAGES += \
     su
+# Copy Lspeed
+PRODUCT_COPY_FILES += \
+    vendor/aim/prebuilt/app/LSpeed/LSpeed.apk:system/priv-app/LSpeed/LSpeed.apk
 endif
 endif
 

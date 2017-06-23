@@ -21,6 +21,8 @@ PRODUCT_PACKAGES += \
 # Copy Magisk zip
 PRODUCT_COPY_FILES += \
     vendor/aim/prebuilt/common/magisk.zip:system/addon.d/magisk.zip
+# Copy Lspeed
+    vendor/aim/prebuilt/app/LSpeed/LSpeed.apk:system/priv-app/LSpeed/LSpeed.apk
 endif
 
 # unlock sim globaly
