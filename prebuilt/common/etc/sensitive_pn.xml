@@ -57,7 +57,6 @@
     </sensitivePN>
     <!--GB-->
     <sensitivePN network="234">
-        <item>116123</item>
         <item>08001111</item>
         <item>08082000247</item>
     </sensitivePN>
@@ -81,12 +80,10 @@
         <item>08000116016</item>
         <item>08001110111</item>
         <item>08001110222</item>
-        <item>116123</item>
     </sensitivePN>
     <!--Portugal-->
     <sensitivePN network="268">
         <item>800202148</item>
-        <item>116006</item>
     </sensitivePN>
     <!--Turkey-->
     <sensitivePN network="286">
@@ -167,7 +164,6 @@
     </sensitivePN>
     <!--Czech Republic-->
     <sensitivePN network="420">
-        <item>116111</item>
         <item>222514040</item>
         <item>222580697</item>
         <item>224214214</item>
@@ -211,5 +207,13 @@
         <item>100</item>
         <item>180</item>
         <item>181</item>
+    </sensitivePN>
+    <!--EU-->
+    <sensitivePN network="204,214,216,219,222,225,226,230,231,232,234,235,240,246,247,260,268,270,272,278,280,293">
+        <item>116000</item>
+        <item>116006</item>
+        <item>116111</item>
+        <item>116117</item>
+        <item>116123</item>
     </sensitivePN>
 </sensitivePNS>
