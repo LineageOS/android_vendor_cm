@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_7f495dcf",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 169,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2017-06-24T18:14:12Z",
+      "side": 0,
+      "message": "New change",
+      "revId": "f00861841c8b6cad82e3fea448e483da970d6b58",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_df3c2932",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 215,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2017-06-24T18:14:12Z",
+      "side": 0,
+      "message": "Why?",
+      "revId": "f00861841c8b6cad82e3fea448e483da970d6b58",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}

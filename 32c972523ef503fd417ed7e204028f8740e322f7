@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "da87b5cf_9f46a1be",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 12
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 11801
+      },
+      "writtenOn": "2017-06-24T18:14:12Z",
+      "side": 1,
+      "message": "No, don\u0027t touch the MCC or the comment in this change. There\u0027s already a change up for MCC, and the comment change is useless",
+      "revId": "32c972523ef503fd417ed7e204028f8740e322f7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
