@@ -271,8 +271,6 @@ endif
 
 $(KERNEL_OUT_STAMP):
 	$(hide) mkdir -p $(KERNEL_OUT)
-	$(hide) rm -rf $(KERNEL_MODULES_OUT)
-	$(hide) mkdir -p $(KERNEL_MODULES_OUT)
 	$(hide) touch $@
 
 KERNEL_ADDITIONAL_CONFIG_OUT := $(KERNEL_OUT)/.additional_config
@@ -308,6 +306,8 @@ TARGET_KERNEL_BINARIES: $(KERNEL_OUT_STAMP) $(KERNEL_CONFIG) $(KERNEL_HEADERS_IN
 	$(hide) if grep -q 'CONFIG_MODULES=y' $(KERNEL_CONFIG) ; \
 			then \
 				echo "Building Kernel Modules" ; \
+				$(hide) rm -rf $(KERNEL_MODULES_OUT) ; \
+				$(hide) mkdir -p $(KERNEL_MODULES_OUT) ; \
 				$(MAKE) $(MAKE_FLAGS) -C $(KERNEL_SRC) O=$(KERNEL_OUT) ARCH=$(KERNEL_ARCH) $(KERNEL_CROSS_COMPILE) modules && \
 				$(MAKE) $(MAKE_FLAGS) -C $(KERNEL_SRC) O=$(KERNEL_OUT) INSTALL_MOD_PATH=../../$(KERNEL_MODULES_INSTALL) ARCH=$(KERNEL_ARCH) $(KERNEL_CROSS_COMPILE) modules_install && \
 				$(mv-modules) && \
