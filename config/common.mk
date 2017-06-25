@@ -322,7 +322,7 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 
 -include vendor/cm-priv/keys/keys.mk
 
-CM_DISPLAY_VERSION := $(AIM_VERSION)
+AIM_DISPLAY_VERSION := $(AIM_VERSION)
 
 ifneq ($(PRODUCT_DEFAULT_DEV_CERTIFICATE),)
 ifneq ($(PRODUCT_DEFAULT_DEV_CERTIFICATE),build/target/product/security/testkey)
