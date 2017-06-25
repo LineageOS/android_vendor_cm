@@ -1,4 +1,5 @@
 # Copyright (C) 2015 The CyanogenMod Project
+#               2017 The AIMROM Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -26,7 +27,7 @@ ifeq (,$(filter true, $(WITHOUT_CHECK_API) $(TARGET_BUILD_PDK) $(TARGET_DISABLE_
 droidcore: checkapi-cm
 
 # Validate against previous release platform sdk version api text within prebuilts
-cm_last_released_sdk_version := $(CM_PLATFORM_SDK_VERSION)
+cm_last_released_sdk_version := $(AIM_PLATFORM_SDK_VERSION)
 
 .PHONY: check-cm-public-api
 checkapi-cm : check-cm-public-api
