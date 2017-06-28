@@ -956,6 +956,8 @@ function extract() {
 
     done
 
+    dos2unix -q "$DEST"
+
     # Don't allow failing
     set -e
 }
