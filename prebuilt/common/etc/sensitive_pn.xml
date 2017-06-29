@@ -39,6 +39,15 @@
         <item>0882342450</item>
         <item>09009999001</item>
     </sensitivePN>
+    <!--Belgium-->
+    <sensitivePN network="206">
+        <item>1712</item>
+        <item>1813</item>
+        <item>102</item>
+        <item>106</item>
+        <item>080020050</item>
+        <item>078151020</item>
+    </sensitivePN>
     <!--France-->
     <sensitivePN network="208">
         <item>119</item>
