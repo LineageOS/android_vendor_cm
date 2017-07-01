@@ -2,6 +2,7 @@
 PRODUCT_PACKAGES += \
     ThemeInterfacer \
     SnapdragonCamera \
+    Amify \
     Turbo \
     AIMWIZARD
     
