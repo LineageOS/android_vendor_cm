@@ -1,0 +1,176 @@
+
+ (->) AIM ROM Ver 2.0 Changelog
+ ====================================== 
+
+
+ [*] 07/01/2017
+  *******************    
+
+
+ ▪ project hardware/qcom/fm/
+ ▪ 9477a03 Automatic translation import
+
+ ▪ project packages/apps/Amify/
+ ▪ c0008a0 Night Colors
+ ▪ ba5c570 Launcher3: icon pack/app labeling integration
+ ▪ 1fb1501 Launcher3: remove generic icon pack support
+ ▪ 6f8c020 Remove checks for correct swipe up position, enables swipe up everywhere like Pixel Launcher
+ ▪ 16617f2 Fix multi-user permissions for Samsung's Secure Folder
+ ▪ 07373aa Update overlay request version to O Pixel Launcher equivalent
+ ▪ a241d04 Rebrand to Amify
+ ▪ dce9a27 Fix derp
+ ▪ 6650c91 DARK/RETRO CHANGES
+ ▪ 86ec58f Add dark/retro theme spport
+ ▪ 59c975c Update icon
+ ▪ 92a5356 Launcher3: fix to always show settings button
+ ▪ 3a6644a Cleaning up references to mDragView after reordering Workspaces
+ ▪ 8e996e0 Fix crash when LAUNCHER3_ALL_APPS_PULL_UP is false
+ ▪ d280fd5 Change signature|system permissions to signature|privileged
+ ▪ 5130db4 Fix issues with using Launcher3 as default launcher
+ ▪ a9a8983 Launcher3: allow predictive apps to be turned off
+ ▪ f40ec24 Launcher3: reload the workspace after icon pack selection
+ ▪ a24bfb9 Launcher3: add icon pack support
+ ▪ b714b10 Launcher3: update permissions for compatibility
+ ▪ 801ca57 Launcher3: New design policy integration
+ ▪ 18f0dc8 Launcher3: Allow support for Predicted Apps
+ ▪ 611fe84 Launcher3: Materialize the settings menu
+ ▪ 32bc150 Launcher3: bring back pulldown to open notifications panel
+ ▪ e72bcdd Launcher3: animate workspace when animating the Google now page
+ ▪ 21a595c LauncherClient: make sure service is connected before trying to unbind
+ ▪ 77cddf2 Launcher3: prevent crash
+ ▪ 2659dde Launcher3: support google now tab
+ ▪ 31aaebc Launcher3: import reversed google now lib
+ ▪ 9ade73a Launcher3: refactor gesture handling
+ ▪ 7f08344 Launcher3: double tap on home screen to turn off screen
+ ▪ 4febaf4 Launcher3: Add swipe up/down gestures
+
+ ▪ project packages/apps/AudioFX/
+ ▪ efb0b87 Automatic translation import
+
+ ▪ project packages/apps/CMParts/
+ ▪ 87e1919 Automatic translation import
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ 49ba52e Automatic translation import
+
+ ▪ project packages/apps/CustomTiles/
+ ▪ 4b0ab89 Automatic translation import
+
+ ▪ project packages/apps/Eleven/
+ ▪ 778a70f Automatic translation import
+
+ ▪ project packages/apps/Gallery2/
+ ▪ a66d49f Automatic translation import
+
+ ▪ project packages/apps/Jelly/
+ ▪ f50b7e9 Jelly: Fix Suggestions Provider strings (suggestion / uggestion)
+ ▪ 697e32d Jelly: Remove unused parameter
+ ▪ afee4a3 Automatic translation import
+ ▪ 66d1b83 Jelly: Allow launching external apps
+ ▪ 9d693cc Jelly: Remove unneeded getApplicationContext call
+
+ ▪ project packages/apps/LockClock/
+ ▪ 9f73e91 Automatic translation import
+
+ ▪ project packages/apps/Recorder/
+ ▪ 07f7017 Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ bb00c2d quack quack
+
+ ▪ project packages/apps/Snap/
+ ▪ a7eb8d6 Automatic translation import
+
+ ▪ project packages/apps/Terminal/
+ ▪ 23d836b Automatic translation import
+
+ ▪ project packages/providers/DataUsageProvider/
+ ▪ 081bb6a Automatic translation import
+
+ ▪ project packages/providers/WeatherProvider/
+ ▪ 0e3e2af Automatic translation import
+
+ ▪ project packages/services/Telephony/
+ ▪ 37292e6 Automatic translation import
+
+ ▪ project vendor/aim/
+ ▪ 02a0154 Welcome Launcher3
+ ▪ 01e2369 Kick Pissel Launcher & Pissel icons
+
+ ▪ project vendor/cmsdk/
+ ▪ 58c23ed Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
+ ▪ db419bd Automatic translation import
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+ ▪ a731788 Automatic translation import
+
+ [*] 06/30/2017
+  *******************    
+
+
+ ▪ project packages/apps/Jelly/
+ ▪ d6b3b84 Jelly: Add non encrypted google search engine
+ ▪ 897fa20 Jelly: Propagate custom request headers to WebClient
+ ▪ 58c2aed Jelly: Add suggestions
+
+ [*] 06/29/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ 85e8461 PA solid circle battery style [1/2]
+
+ ▪ project packages/apps/Jelly/
+ ▪ 69173dd Jelly: Add show/hide keyboard utilities
+
+ ▪ project vendor/aim/
+ ▪ 1ee5b36 Update Pixel launcher -O
+
+ [*] 06/28/2017
+  *******************    
+
+
+ ▪ project packages/apps/Jelly/
+ ▪ 9a5fcdd Jelly: Search on Enter key
+ ▪ 74c7e51 Jelly: Don't reload on keyboard changes
+
+ ▪ project packages/apps/Messaging/
+ ▪ d1e7aec Messaging: Don't crash on unsupported shared content type
+ ▪ 53b0ba3 Messaging: Request external storage permission before handling shared files
+
+ ▪ project packages/apps/Settings/
+ ▪ d07c763 Merge pull request #35 from PainKiller3/N
+ ▪ e6816fd Update aim_strings.xml
+
+ [*] 06/27/2017
+  *******************    
+
+
+ ▪ project packages/apps/CMParts/
+ ▪ 46dc490 CMParts: Use vector drawables for most system icons
+
+ ▪ project packages/apps/Gallery2/
+ ▪ e988d6a Gallery2: Fix views overlap
+
+ [*] 06/26/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ a57cda9 [QUICK SETTINGS] Add Music QS Tile
+
+ ▪ project packages/apps/Jelly/
+ ▪ cc66a61 Jelly: Add WebChromeClientCompat
+ ▪ e3b22ba Jelly: Fix some lint warnings
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ 0f47b6e MediaProvider: Fix failure in android.provider.cts.MediaStore_FilesTest
+ ▪ 815436d Gallery2: Fix thumbnails of new edit photos display wrongly in Documents.
+ ▪ f3bd6a0 Music: Fix force closed when plug out the SD card while music is playing.
+ ▪ eb0378b MediaProvider: Fix SQLiteDiskIOException.
+ ▪ b619475 Revert "Fix check for existence of parent"
+
+---------------------------------------------------------
+
