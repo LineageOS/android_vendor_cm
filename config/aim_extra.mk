@@ -2,16 +2,12 @@
 PRODUCT_PACKAGES += \
     ThemeInterfacer \
     SnapdragonCamera \
-    PixelLauncherPrebuilt \
     Turbo \
     AIMWIZARD
     
 # Enable assistant by default
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.opa.eligible_device=true
-
-# Pixel icons
-vendor/aim/prebuilt/app/pixelicons/PixelLauncherIcons.apk:system/app/pixellaunchericons/PixelLauncherIcons.apk
 
 # MAGISK INCLUDE
 ifeq ($(WITH_MAGISK),true)
