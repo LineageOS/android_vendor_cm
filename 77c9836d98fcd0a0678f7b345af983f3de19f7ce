@@ -16,6 +16,24 @@
       "revId": "77c9836d98fcd0a0678f7b345af983f3de19f7ce",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da87b5cf_8de18900",
+        "filename": "build/core/qcom_utils.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-07-01T07:34:25Z",
+      "side": 1,
+      "message": "nvm, it\u0027s still UM family",
+      "parentUuid": "da87b5cf_cdd79122",
+      "revId": "77c9836d98fcd0a0678f7b345af983f3de19f7ce",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
