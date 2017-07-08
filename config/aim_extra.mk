@@ -12,12 +12,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # MAGISK INCLUDE
 ifeq ($(WITH_MAGISK),true)
-# Magisk Manager
-PRODUCT_PACKAGES += \
-    MagiskManager
 # Copy Magisk zip
 PRODUCT_COPY_FILES += \
     vendor/aim/prebuilt/common/magisk.zip:system/addon.d/magisk.zip
+endif
+
+ifeq ($(WITH_LSPEED),true)
 # Copy Lspeed
     vendor/aim/prebuilt/app/LSpeed/LSpeed.apk:system/priv-app/LSpeed/LSpeed.apk
 endif
