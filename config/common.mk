@@ -291,7 +291,7 @@ endif
 
 ifeq ($(AIM_BUILDTYPE), OFFICIAL)
     ifndef TARGET_VENDOR_RELEASE_BUILD_ID
-        AIM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)_$(shell date -u +%Y%m%d)-OFFICIAL-$(AIM_BUILD)
+        AIM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date -u +%Y%m%d)-OFFICIAL-$(AIM_BUILD)
     else
         ifeq ($(TARGET_BUILD_VARIANT),user)
             ifeq ($(AIM_VERSION_MAINTENANCE),0)
@@ -322,7 +322,7 @@ PRODUCT_EXTRA_RECOVERY_KEYS += \
 
 -include vendor/cm-priv/keys/keys.mk
 
-AIM_DISPLAY_VERSION := $(AIM_VERSION)
+AIM_DISPLAY_VERSION := AIM-$(AIM_VERSION)
 
 ifneq ($(PRODUCT_DEFAULT_DEV_CERTIFICATE),)
 ifneq ($(PRODUCT_DEFAULT_DEV_CERTIFICATE),build/target/product/security/testkey)
