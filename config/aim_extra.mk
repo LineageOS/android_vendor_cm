@@ -37,3 +37,7 @@ PRODUCT_COPY_FILES += \
 
 # ADB BY DEFAULT 
 PRODUCT_PROPERTY_OVERRIDES += persist.service.adb.enable=1
+
+# OTA UPDATE 
+$(call inherit-product-if-exists, vendor/aim/aim_ota/ota.mk)
+
