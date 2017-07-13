@@ -12,12 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
+ifeq ($(AIM_BUILDTYPE), OFFICIAL)
 PRODUCT_PACKAGES += \
         AIMOTA \
         libbypass
+endif
 
-PRODUCT_PROPERTY_OVERRIDES += \
-        ro.ota.romname=AIM-ROM \
-        ro.ota.version=$(shell date +"%Y%m%d") \
-	ro.ota.manifest=https://github.com/AIMROM/OFFICIAL_DEVICES/blob/N/Z010D.xml
