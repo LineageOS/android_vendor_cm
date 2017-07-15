@@ -92,6 +92,10 @@
         <item>08001111</item>
         <item>08082000247</item>
     </sensitivePN>
+    <!--Sweden-->
+    <sensitivePN network="240">
+        <item>116111</item>
+    </sensitivePN>
     <!--Norway-->
     <sensitivePN network="242">
         <item>22424202</item>
