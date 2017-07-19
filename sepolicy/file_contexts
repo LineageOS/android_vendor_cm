@@ -50,3 +50,6 @@
 
 # bash
 /system/xbin/bash                               u:object_r:shell_exec:s0
+
+# OTA packages
+/data/lineageos_updates(/.*)?                   u:object_r:ota_package_file:s0
