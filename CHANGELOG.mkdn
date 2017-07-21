@@ -3,281 +3,123 @@
  ====================================== 
 
 
- [*] 07/10/2017
+ [*] 07/21/2017
   *******************    
 
 
  ▪ project frameworks/base/
- ▪ fe94ee3 derp Signed-off-by: Anand Ramachandran <anand.nv1998@gmail.com>
-
- ▪ project packages/apps/CMParts/
- ▪ 375d943 Regenerate contributors cloud
-
- ▪ project packages/apps/Settings/
- ▪ 3f11125 Remove device Lets wait for new maintainer
-
- [*] 07/09/2017
-  *******************    
-
-
- ▪ project packages/apps/CMParts/
- ▪ e1423b0 CMParts: Move some strings from arrays.xml to strings.xml
+ ▪ 5e96b38 base: SystemUI: dont hide navbar for screenshot crop
+ ▪ 2facf16 [1/2] base: Screenshot Crop & Share
+ ▪ cf3ac52 Notification panel fingerprint gesture: fix inverted axis on landscape
+ ▪ 6e9e91b Fix issue in PhoneNumberUtils.compareLoosely
+ ▪ 79aa9a4 Replace usages of ShortNumberUtil with ShortNumberInfo
+ ▪ f8cfb13 Fix rare SystemUI FC while changing density in settings
 
  ▪ project packages/apps/Settings/
- ▪ 1624c4a Keep class fragments
+ ▪ 972e273 [2/2] settings: add CPU info overlay
+
+ ▪ project packages/apps/freedomhub/
+ ▪ 0022470 [2/2] OwlsNest: Screenshot Crop & Share Change-Id: Ie30b673c4f9f9f9974b86bb01766bba3adce
 
  ▪ project vendor/aim/
- ▪ 1d6146c add kenzo to launch menu
- ▪ 30a1414 NUke Magiskmanager ,(New magisk packed with Magisk manager)
- ▪ 72607de Update MagiskManager to v5.0.2
- ▪ a0d40c6 Update Magisk 12 to Magisk Beta: v13.0 (c4377ed) (code: 1308)
+ ▪ 105920d Update magisk to 13.3
 
- [*] 07/08/2017
+ [*] 07/20/2017
   *******************    
 
-
- ▪ project packages/apps/AudioFX/
- ▪ 4273aee Automatic translation import
-
- ▪ project packages/apps/CMParts/
- ▪ 548cdbd Automatic translation import
-
- ▪ project packages/apps/Gallery2/
- ▪ bd7c0d6 Automatic translation import
-
- ▪ project packages/apps/Jelly/
- ▪ 99c0a8b Automatic translation import
-
- ▪ project packages/apps/LockClock/
- ▪ e0810ea Automatic translation import
- ▪ 9f2ff45 LockClock: add option to suppress date on widget
-
- ▪ project packages/apps/Settings/
- ▪ 655d869 Add Lenovo A7000-a To Official  (#36)
- ▪ c9ed8e0 Automatic translation import
- ▪ 40c31b7 Enable Development Settings By Default regardless of build type * also kill dev countdown + redo arleady enabled string
- ▪ 35dd11f Revert "Enable Development Settings By Default regardless of build type"
- ▪ 5d44d08 Automatic translation import
- ▪ 5c81ca6 Update aim_strings.xml
- ▪ 5acd8ed Settings: Hide disabled lockscreen blur from search index
- ▪ 0e406f5 Add J5 as Official
- ▪ 56fc08a Automatic translation import
- ▪ ecac593 Settings: handle decrypting larger pattern sizes for sw600dp
- ▪ 55277f1 Fix bad PR
- ▪ 5c49e3a Update dev_info.xml
- ▪ af709a4 Update maintainers.xml
- ▪ 32d878a update maintainers.xml
- ▪ 983cceb Update maintainers.xml
- ▪ 84cf11f Add zuk z2 maintainer
- ▪ 7b2884e Add zuk z2 maintainer
- ▪ b6a360d Revert "Settings: Fix internal storage summary for non-emulated storage"
- ▪ 0907493 AIM RETRO THEME [3/5]
- ▪ 2dce0f1 settings: res: add op2 maintainer (#29)
- ▪ 4e36834 New banner& changes
- ▪ ee0a4c2 lets use invitation link insted of tag
- ▪ c939d4f Add maintainer for Lenovo Vibe K4 Note(A7010a48) (#28)
- ▪ 59bb859 Add maintainer for Coolpad Note 3 (CP8676_I02)
- ▪ 4f9393d Aupdate (#25)
- ▪ 94eb496 Added Lenovo P2 (#26)
- ▪ 4075f85 Added Official support for coolpad note 3 lite  (#24)
- ▪ 40e1477 NEW AWESOME ANIMATED BANNER FOR AIM
- ▪ 46ba4bf Settings: Fix automatic hotspot turn off summary
- ▪ 9fc7cb3 Automatic translation import
- ▪ d6c19c7 Remove some unnecessary options from about phone settings. Cause -> Bad Cherry-pick.
- ▪ 07ea5c3 Double tap to sleep anywhere on the lock screen [2/3]
- ▪ b6b291a fix derp
- ▪ 7ec9307 Settings: Disable Lockscreen Media Art [2/3]
- ▪ b53edb1 Added Cedrıc,Shamrock,Seed Devıce (#19)
- ▪ 9f0238a Added Cedrıc,Shamrock,Seed Devıce (#20)
- ▪ f944ac1 Settings: Make string untranslatable
- ▪ 156b1b1 Add support for Mido (#18)
- ▪ 132d9bb Remove custom actions from Fling settings temporarily
- ▪ c171532 Add Lenovo A6000 Maintainer (#16)
- ▪ 5d54d3a CustomSeekBar: fix progressbar glitch with custom min-max values
-
- ▪ project packages/apps/Terminal/
- ▪ 2e009e8 Automatic translation import
-
- ▪ project packages/providers/WeatherProvider/
- ▪ 37f067f Automatic translation import
-
- ▪ project vendor/cmsdk/
- ▪ 464979d Automatic translation import
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
- ▪ 8a9c801 Automatic translation import
-
- [*] 07/07/2017
-  *******************    
-
-
- ▪ project packages/apps/Settings/
- ▪ a49dbcf [SQUASHED] Add Pixel animations to settings Squash of: https://github.com/nitrogen-project/android_packages_apps_NitrogenSettings/commit/f5249cbbb6de7a34254735e11114ab59fdff1b00 https://github.com/nitrogen-project/android_packages_apps_NitrogenSettings/commit/61f769238ebf540cb30583153985b8fa8b8e35ba
- ▪ 2f986d4 SmartBar: add Flip button animation [2/2]
- ▪ 832d73b Fix Settings FC && move some things around
- ▪ 5d0dc84 [1/2] Settings: Completely remove the AOSP System Updates
- ▪ e4bdad9 Fix crash when calling remove() with a null variable
- ▪ 7a7da94 Automatic translation import
- ▪ 9b73154 ColorPickerPreference compile errors
- ▪ ef58425 Forgot to move strings
- ▪ 3fccd2f Add custom preferences
- ▪ db6d0d8 Added modded marginov color picker
- ▪ c6067c7 Pulse: Moar bars for solid line renderer [3/3]
- ▪ be3a29e Pulse: allow custom opacity for solid line renderer [3/3]
- ▪ 61a0830 One handed mode toggle [3/3]
- ▪ 0374fe8 Fix compile errors
- ▪ e75e4ea Add marginov color picker
- ▪ 8976c9e Add missing SeekBarPreference attrs && string
- ▪ ecde185 Move some things around and fix SeekBarPreference type"
- ▪ 10c0a37 [SQUASHED] Settings : Add DU Fling,Pulse,SmartBar
- ▪ 8de89e7 Squash commit of SAR and IC Code.
- ▪ f1834a7 Fix phishing attack in ChooseLockGeneric
-
- [*] 07/06/2017
-  *******************    
-
-
- ▪ project android/
- ▪ 6c8d659 manifest: android-7.1.2_r17 -> android-7.1.2_r24
-
- ▪ project build/
- ▪ ecf56ec Merge commit 'LineageOS/cm-14.1' into N
- ▪ 644d84d Merge tag 'android-7.1.2_r24' into cm-14.1
-
- ▪ project external/boringssl/
- ▪ c9d9e0b Merge tag 'android-7.1.2_r24' into cm-14.1
-
- ▪ project external/skia/
- ▪ 7c2dfdd Merge tag 'android-7.1.2_r24' into cm-14.1
-
- ▪ project frameworks/av/
- ▪ 2d5f3d9 Merge commit 'LineageOS/cm-14.1' into N
- ▪ 9295880 Merge tag 'android-7.1.2_r24' into cm-14.1
 
  ▪ project frameworks/base/
- ▪ 0895d22 Merge commit 'LineageOS/cm-14.1' into N
- ▪ 83dac07 Automatic translation import
- ▪ a2f32e8 SystemUI: Fix heads up tile off color
- ▪ 210926d Added show volume panel tile to QS
- ▪ 8a94c7e SystemUI: add USB Tether tile
- ▪ 57ec837 QS: add Sync tile (1/2)
- ▪ b9b549f SystemUI: Add heads up tile (1/2)
- ▪ 618394c SystemUI: add caffeine qs tile (1/2)
- ▪ cf2d129 SystemUI: Readd AmbientDisplayTile.
- ▪ 34a3224 SystemUI: Add adb over network tile
- ▪ bf088b8 Merge tag 'android-7.1.2_r24' into cm-14.1
+ ▪ a908775 policy: Use PathClassLoader for loading the keyhandler
+ ▪ e297f50 Added missing @DrawableRes
+ ▪ 5ab02fa Fingerprints: Increase MAX_FAILED_ATTEMPTS to 10
+ ▪ b3d3e38 SystemUI: make online cpu color green for cpu overlay
+ ▪ e6bdee2 [1/2] base: add CPU info overlay this shows CPU temp (if available) for every core governor + online + freq
+ ▪ 2c8cbb8 Base: API to restart SystemUI without root
+ ▪ 3311abf Dont show AM/PM on Lockscreen
 
- ▪ project frameworks/native/
- ▪ 8701a40 Merge commit 'LineageOS/cm-14.1' into N
- ▪ f83381f Merge tag 'android-7.1.2_r24' into cm-14.1
+ ▪ project vendor/aim/
+ ▪ b51d5e1 Add overlay for snap cam
 
- ▪ project libcore/
- ▪ 30ff118 Merge tag 'android-7.1.2_r24' into cm-14.1
-
- ▪ project packages/apps/Settings/
- ▪ 1575310 Fix spelling so Varun will stfu!
- ▪ cc036c2 New icons and donate links
- ▪ fdc220a Add nexus 6 maintainer(varun soma)
- ▪ c07db69 Slight change in vectar drawable logo
- ▪ 785243b Utils.java: import some missing configuration.
- ▪ 6238326 ConditionManager: don't crash when trying to add unexpected condition
- ▪ 05e7751 Fix ApplicationsState.Session memory leak in settings app
- ▪ 1298395 Fix the momery leak in DrawOverlayDetails
- ▪ 9bc89c2 PowerUsageFeatureProviderImpl: little cleanup
- ▪ 8df5fb1 Port "Battery Usage Alerts" feature from factory images to aosp
- ▪ 7fba774 Settings: PreviewPagerAdapter: copy the full theme
- ▪ 039c4e6 Utils: Correct NetworkSetting availability check
- ▪ 5c4a8ba BugFix:Correct fullBearer in APNSettings
- ▪ dba00ad DevelopmentSettings: Remove and force-disable automatic OTA
- ▪ 82d273e DisplaySettings: disable ambient display by default
- ▪ eb296fc Vectorise AIMROM banner
- ▪ 525ae3b Add support for Potter [2/2} Conflicts: 	res/xml/dev_info.xml
- ▪ 4894580 Update maintainers.xml Conflicts: 	res/values/maintainers.xml
- ▪ 95ca6c7 Add Athene support Part 2/2
- ▪ dd34070 Add support for Motorola Moto G4 Plus  (Athene)
- ▪ 73655a1 Fix a few more possible NPE's
- ▪ b0cf7a2 Correct fingerprint position during setup
- ▪ c7752ad Reset battery stats [2/2]
- ▪ 7fb4466 Bishhh.... fkng colors
- ▪ 83773ba Settings: fix dark theme for suggestions and conditions
- ▪ cb17f99 AIM DARK THEME CHANGES
- ▪ eef5451 add additional battery saver steps
- ▪ d1d0124 AIM dark theme initial [2/2]
- ▪ 6bdcfb0 Change changelog name
- ▪ 27faf26 Set System Animations to .5 by default (2 of 2)
- ▪ 0c74ff5 New icon
- ▪ 7c643bf update banner
- ▪ 4766b78 improove some strings
- ▪ d92e451 Settings: add a restore default wallpaper action
- ▪ 41955a8 Fix error in maintainer string
- ▪ 3ade394 Settings : Rebuild app list after reset
- ▪ 379dc81 InstalledApp: show link to Google Play
- ▪ 2aed32b Settings: background not set in main Settings screen
- ▪ 6c8037c Get rid of framework holo actionbar buttons
- ▪ 08cc58a Settings: disable the other learn more too to prevent crash
- ▪ 03e8a30 Settings: Wi-Fi WPS Materialized icon
- ▪ 088f4a4 bluetooth: Show a refresh icon on the select devices screen
- ▪ e91066a Add fastscroll to the Manage applications screen
- ▪ 41ced18 Settings: Tint Black Drawables
- ▪ 6bf471f Title is different after tapping "Memory used by apps"
- ▪ db0fa05 Show USB Mode Dialog
- ▪ 7488589 Settings: display fstype for mounted volumes
- ▪ c802973 Add Redmi2 Official support (#9)
- ▪ 81f723c Add support for Redmi 2 (#10)
- ▪ b43a664 Settings: show Device maintainer in About
- ▪ 65b01bb Update maintainers.xml
- ▪ bdfae5c Update dev_info.xml
- ▪ 7425b70 Update maintainers.xml
- ▪ 8a71785 Fix Settings FC caused by changelog viewer
- ▪ ad0b72d Settings: Added changelog Heavily adapted for AIM-ROM from Nitrogen
- ▪ 948b3a3 Redirect dev info to xda profile
- ▪ faa48be Movie magisk under substratum
- ▪ 0a0aaf1 Fix cherry-pick error
- ▪ 5b1584c Settings: Change magisk dashboard icon
- ▪ a54076c Add Magisk Manager dashboard option
- ▪ 8205138 Add support for z3c
- ▪ 137f708 Add Support for Z00L and Z00T (#5)
- ▪ 09e94b8 Update maintainers.xml (#3)
- ▪ 8ea96ac Update Telegram invitation link
- ▪ 3268aa9 Added Device Maintainer For Lenovo K3 Note (#2)
- ▪ fbcc6ef Add HIMAUL maintainer
- ▪ ccb2bf8 Bring up Device maintainers
- ▪ c09cbc0 WELCOME KLABIT87
- ▪ 27a6730 Automatic translation import
- ▪ 134a91e Revert "Settings: Lost cached BT devices in found devices list"
- ▪ 4549349 Settings[Wifi]: fix the input invalid length for WEP encryption.
- ▪ 3cfe718 Settings: Fix internal storage summary for non-emulated storage
-
- ▪ project packages/providers/DownloadProvider/
- ▪ d20a3a2 Merge tag 'android-7.1.2_r24' into cm-14.1
-
- ▪ project packages/providers/MediaProvider/
- ▪ 03abed5 Merge tag 'android-7.1.2_r24' into cm-14.1
-
- [*] 07/05/2017
+ [*] 07/19/2017
   *******************    
 
 
- ▪ project packages/apps/Contacts/
- ▪ 3d75749 Themes: Expose hardcoded layout and styles colors
-
- ▪ project packages/apps/ContactsCommon/
- ▪ f817e36 Themes: Define back arrow tint color for themes
- ▪ 890ea47 Themes: Expose hardcoded contact tile text colors
-
- ▪ project packages/apps/Dialer/
- ▪ ab5c511 Themes: InCallUI dialpad digits color
- ▪ 8f6bfef Themes: Separate background color from text color
-
- ▪ project packages/apps/Jelly/
- ▪ fa0b42a Jelly: Don't save form data in incognito mode
-
- ▪ project packages/apps/PhoneCommon/
- ▪ fb902f4 Themes: Make dialpad seperator line theme-able
+ ▪ project frameworks/base/
+ ▪ 89c30ea FWB: add user configurable lockscreen shortcuts [1/2]
+ ▪ 12259d3 Add missing import
 
  ▪ project packages/apps/Settings/
- ▪ f567630 Automatic translation import
- ▪ 8916bef Integrate freedomhub to settings
+ ▪ 1457999 Merge pull request #2 from riad236/N
+ ▪ 462fb97 Updated Z00T maintainer
+
+ ▪ project packages/apps/freedomhub/
+ ▪ 0c11caa Add missing imports
+ ▪ d2941cc squash Settings: add user configurable lockscreen shortcuts (2/2)
+ ▪ 485f529 Settings: Materialize DSLV
+ ▪ c9cd73d add dslv controller
+ ▪ 2ca2cd7 Settings: add central slim ActionListViewSettings class back...
+
+ [*] 07/18/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ 350e3e0 Add extra fonts for lockclock
+
+ ▪ project packages/apps/freedomhub/
+ ▪ 0fc30d6 [SQUASH]Lockscreen Clock Widget Fonts,lockscreen color,hide lockscreen clock,hide AM/PM[2/2]
+
+ [*] 07/17/2017
+  *******************    
+
+
+ ▪ project frameworks/base/
+ ▪ da9235c FWB: LS clock fonts: Add more fonts (1/2)
+ ▪ 3353ec9 Lockscreen Clock Widget Fonts [1/2]
+ ▪ ade0908 Hide Lockscreen clock & date [1/2]
+ ▪ 85bdc5c FWB: Lock screen AM/PM switch (1/2)
+ ▪ 5698104 FWB: Lockscreen Colors [1/2]
+ ▪ 994ebaa hwui: skip draw empty frame
+ ▪ aa90c44 hwui: Remove deprecated compiler flag
+ ▪ 7b31eb5 Add Compass tile
+
+ ▪ project packages/apps/AimWizard/
+ ▪ eda9b14 Reduce buttons size
+ ▪ 95329c2 Bg to black and text color to white
+
+ ▪ project packages/apps/Settings/
+ ▪ 7a9f5db Add OTA updates to dashboard
+
+ ▪ project packages/apps/freedomhub/
+ ▪ fd3bc24 Add LockClock ui category to Freedomhub
+
+ ▪ project vendor/aim/
+ ▪ c4e8219 Pixelify drawables for sw900dp devices
+ ▪ 67bde7e Update Magisk to 13.2 stable package
+ ▪ 92498ed Update Turbo
+
+ [*] 07/15/2017
+  *******************    
+
+
+ ▪ project hardware/qcom/audio-caf/msm8996/
+ ▪ f8fcd59 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+ ▪ project hardware/qcom/display-caf/msm8996/
+ ▪ 3005091 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+ ▪ project hardware/qcom/media-caf/msm8996/
+ ▪ 0273a64 Merge tag 'LA.UM.5.5.r1-05300-8x96.0' into HEAD
+
+ ▪ project packages/apps/AimOTA/
+ ▪ 404b435 AIMOTA: Chnages for icons and strings
+
+ ▪ project packages/apps/Jelly/
+ ▪ 4d40bf7 Jelly: Remove unneeded parameter type in addResult
+ ▪ 69f2dad Jelly: Remove redundant character escape
+ ▪ 55f3a05 Jelly: Make suggestion provider "None" translatable
+ ▪ c3794c5 Hide Sheet Menu after clicking on an entry
+ ▪ 4e7e82e Jelly: Query an already ordered favorite list
 
 ---------------------------------------------------------
 
