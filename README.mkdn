@@ -20,7 +20,7 @@ For more help on using this tool, use this command: repo help upload
 Make your changes and commit with a detailed message, starting with what you are working with (i.e. vision: Update Kernel)
 Commit your patches in a single commit. Squash multiple commit using this command: git rebase -i HEAD~<# of commits>
 
-To view the status of your and others' patches, visit [CyanogenMod Code Review](http://review.lineageos.org/)
+To view the status of your and others' patches, visit [LineaeOS Code Review](http://review.lineageos.org/)
 
 
 Getting Started
@@ -29,7 +29,7 @@ Getting Started
 To get started with Android/CyanogenMod, you'll need to get
 familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+To initialize your local repository using the LineageOS trees, use a command like this:
 
     repo init -u git://github.com/LineageOS/android.git -b cm-12.1
 
