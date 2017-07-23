@@ -4,7 +4,8 @@ PRODUCT_PACKAGES += \
     SnapdragonCamera \
     Amify \
     Turbo \
-    AIMWIZARD
+    AIMWIZARD \
+    OmniStyle
     
 # Enable assistant by default
 PRODUCT_PROPERTY_OVERRIDES += \
