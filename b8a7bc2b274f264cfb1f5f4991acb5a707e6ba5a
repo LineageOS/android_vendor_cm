@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "a0b6a0b7_1d0f9f88",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 558,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-07-30T14:45:53Z",
+      "side": 1,
+      "message": "$2: blob section in file - optional",
+      "range": {
+        "startLine": 558,
+        "startChar": 2,
+        "endLine": 558,
+        "endChar": 26
+      },
+      "revId": "b8a7bc2b274f264cfb1f5f4991acb5a707e6ba5a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8f18887b_67ee2dd3",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 791,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-07-30T14:45:53Z",
+      "side": 1,
+      "message": "$3: section in list file to extract - optional",
+      "range": {
+        "startLine": 791,
+        "startChar": 2,
+        "endLine": 791,
+        "endChar": 37
+      },
+      "revId": "b8a7bc2b274f264cfb1f5f4991acb5a707e6ba5a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "b1689fc4_50631e7f",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 803,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-07-30T14:45:53Z",
+      "side": 1,
+      "message": "You can simply use\n\n    parse_file_list \"$1\" \"$3\"\n\nThe shell will automatically ignore the empty argument",
+      "range": {
+        "startLine": 799,
+        "startChar": 0,
+        "endLine": 803,
+        "endChar": 6
+      },
+      "revId": "b8a7bc2b274f264cfb1f5f4991acb5a707e6ba5a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
