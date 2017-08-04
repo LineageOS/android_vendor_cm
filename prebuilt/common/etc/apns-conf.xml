@@ -3806,6 +3806,8 @@
   <apn carrier="WEB EPCS" mcc="730" mnc="10" apn="imovil.entelpcs.cl" user="entelpcs" password="entelpcs" type="default,supl" />
   <apn carrier="MMS EPCS" mcc="730" mnc="10" apn="mms.entelpcs.cl" user="entelmms" password="entelpcs" mmsc="http://mmsc.entelpcs.cl" mmsproxy="10.99.0.10" mmsport="8080" type="mms" />
   <apn carrier="Movistar CL" mcc="730" mnc="10" apn="web.tmovil.cl" proxy="" port="" user="web" password="web" mmsc="" type="default,supl" />
+  <apn carrier="Internet WOM" mmc="730" mnc="09" apn="internet" proxy="" port="" user="" password="" mmsc="" type="default" />
+  <apn carrier="MMS WOM" mmc="730" mnc="09" apn="mms" proxy="" port="" user="" password="" mmsc="http://3gmms.nextelmovil.cl" mmsproxy="129.192.129.104" mmsport="8080" type="mms" />
   <apn carrier="Web Comcel 3GSM" mcc="732" mnc="101" apn="internet.comcel.com.co" user="COMCELWEB" password="COMCELWEB" authtype="1" type="default,supl" />
   <apn carrier="MMS COMCEL 3GSM" mcc="732" mnc="101" apn="mms.comcel.com.co " proxy="" port="" mmsproxy="198.228.90.228" mmsport="8799" mmsc="http://mms.movistar.com.co" user="COMCELMMS" password="COMCELMMS" authtype="1" type="mms" />
   <apn carrier="Movistar CO" mcc="732" mnc="102" apn="internet.movistar.com.co" user="movistar" password="movistar" type="default,supl" />
