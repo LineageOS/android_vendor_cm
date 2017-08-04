@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ecf96a24_19231f53",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 23,
+      "author": {
+        "id": 12527
+      },
+      "writtenOn": "2017-08-04T12:17:40Z",
+      "side": 1,
+      "message": "112 - https://ec.europa.eu/digital-single-market/112\n116000 - https://www.hamogelo.gr/gr/en/116000/",
+      "range": {
+        "startLine": 23,
+        "startChar": 0,
+        "endLine": 23,
+        "endChar": 24
+      },
+      "revId": "99235c0456c8ace6c088a97b82ccf8505942fb2a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
