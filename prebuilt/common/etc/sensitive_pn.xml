@@ -78,6 +78,12 @@
         <item>0213114636</item>
         <item>116111</item>
     </sensitivePN>
+    <!--Switzerland-->
+    <sensitivePN network="228">
+        <item>116000</item>
+        <item>116111</item>
+        <item>147</item>
+    </sensitivePN>
     <!--Slovakia-->
     <sensitivePN network="231">
         <item>116111</item>
