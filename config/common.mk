@@ -222,6 +222,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
+# OMS
+PRODUCT_PACKAGES += \
+    ThemeInterfacer \
+    projekt.substratum.theme.xml
+
 # These packages are excluded from user builds
 ifneq ($(TARGET_BUILD_VARIANT),user)
 PRODUCT_PACKAGES += \
