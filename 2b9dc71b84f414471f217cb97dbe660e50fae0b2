@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "621998bc_e36b2ca8",
+        "filename": "build/envsetup.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 327,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2017-08-13T09:50:27Z",
+      "side": 1,
+      "message": "This warning message doesn\u0027t seem necessary.",
+      "range": {
+        "startLine": 327,
+        "startChar": 12,
+        "endLine": 327,
+        "endChar": 35
+      },
+      "revId": "2b9dc71b84f414471f217cb97dbe660e50fae0b2",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
