@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "36d06e99_38bdf354",
+        "filename": "build/tasks/kernel.mk",
+        "patchSetId": 2
+      },
+      "lineNbr": 165,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-08-17T16:58:16Z",
+      "side": 0,
+      "message": "Should have removed this as well...",
+      "range": {
+        "startLine": 165,
+        "startChar": 20,
+        "endLine": 165,
+        "endChar": 40
+      },
+      "revId": "3bc9c18e11912f6a089927427f7f5136cad31353",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
