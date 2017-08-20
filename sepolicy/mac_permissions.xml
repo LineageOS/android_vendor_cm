@@ -14,11 +14,4 @@
     <allow-all />
     <seinfo value="release" />
   </signer>
-
-  <!-- ThemeManagerService -->
-  <signer signature="@RELEASE" >
-    <package name="org.cyanogenmod.themeservice" >
-      <seinfo value="themeservice" />
-    </package>
-  </signer>
 </policy>
