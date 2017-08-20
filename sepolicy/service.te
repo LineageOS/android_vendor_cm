@@ -6,7 +6,6 @@ type cm_profile_service, system_api_service, system_server_service, service_mana
 type cm_partner_interface, system_api_service, system_server_service, service_manager_type;
 type cm_telephony_service, system_api_service, system_server_service, service_manager_type;
 type cm_hardware_service, system_api_service, system_server_service, service_manager_type;
-type cm_app_suggest_service, system_api_service, system_server_service, service_manager_type;
 type cm_performance_service, system_api_service, system_server_service, service_manager_type;
 type cm_weather_service, system_api_service, system_server_service, service_manager_type;
 type cm_livedisplay_service, system_api_service, system_server_service, service_manager_type;
