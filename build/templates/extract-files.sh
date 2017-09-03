@@ -39,6 +39,8 @@ CLEAN_VENDOR=true
 
 while [ "$1" != "" ]; do
     case $1 in
+        -n | --no-cleanup )     CLEAN_VENDOR=false
+                                ;;
         -p | --path )           shift
                                 SRC=$1
                                 ;;
@@ -46,7 +48,7 @@ while [ "$1" != "" ]; do
                                 SECTION=$1
                                 CLEAN_VENDOR=false
                                 ;;
-        -n | --no-cleanup )     CLEAN_VENDOR=false
+        * )                     SRC=$1
                                 ;;
     esac
     shift
