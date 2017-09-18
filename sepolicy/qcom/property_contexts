@@ -1,2 +1,3 @@
+persist.camera.set.afd        u:object_r:cam_prop:s0
 persist.dbg                   u:object_r:radio_prop:s0
 persist.data                  u:object_r:radio_prop:s0

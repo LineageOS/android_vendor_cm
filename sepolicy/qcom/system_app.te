@@ -1,0 +1,1 @@
+allow system_app cam_prop:property_service set;
