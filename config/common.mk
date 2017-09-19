@@ -211,7 +211,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     telephony-ext
 
-PRODUCT_BOOT_JARS += \
+#PRODUCT_BOOT_JARS += \
     telephony-ext
 
 # These packages are excluded from user builds
