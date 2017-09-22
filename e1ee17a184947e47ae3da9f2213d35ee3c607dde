@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fae1f7c9_cd3807e3",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 440,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-09-22T12:56:10Z",
+      "side": 1,
+      "message": "I don\u0027t think \"spn\" is actually used, but this looks wrong.",
+      "range": {
+        "startLine": 440,
+        "startChar": 168,
+        "endLine": 440,
+        "endChar": 185
+      },
+      "revId": "e1ee17a184947e47ae3da9f2213d35ee3c607dde",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
