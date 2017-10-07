@@ -194,6 +194,10 @@ PRODUCT_COPY_FILES +=  \
 
 endif
 
+# Remove packages unsafe or unused default packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 PRODUCT_PACKAGE_OVERLAYS += vendor/cm/overlay/common
 
 PRODUCT_VERSION_MAJOR = 11
