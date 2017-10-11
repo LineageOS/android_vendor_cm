@@ -38,7 +38,7 @@ function cleanup() {
     rm -rf "${TMPDIR:?}"
 }
 
-trap cleanup EXIT INT TERM ERR
+trap "cleanup; exit" EXIT INT TERM ERR
 
 #
 # setup_vendor
