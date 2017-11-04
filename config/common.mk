@@ -220,6 +220,12 @@ PRODUCT_PACKAGES += \
     procmem \
     procrank
 
+ifneq($(DISABLE_MICROG), true)
+#Fake Signature Permission
+PRODUCT_COPY_FILES += \
+    vendor/cm/config/permissions/com.google.android.gms.xml:system/etc/permissions/com.google.android.gms.xml
+endif
+
 # Conditionally build in su
 ifeq ($(WITH_SU),true)
 PRODUCT_PACKAGES += \
