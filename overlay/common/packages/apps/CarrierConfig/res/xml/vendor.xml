@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="config_enable_mms_with_mobile_data_off" value="true" />
+    </carrier_config>
+</carrier_config_list>
