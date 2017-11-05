@@ -124,7 +124,8 @@ PRODUCT_PACKAGES += \
     LockClock \
     CMUpdater \
     CMAccount \
-    CMHome
+    CMHome \
+    Lightning
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
