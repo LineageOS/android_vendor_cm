@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9f85c8e1_83793fab",
+        "filename": "config/common.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 223,
+      "author": {
+        "id": 18409
+      },
+      "writtenOn": "2017-11-06T16:55:02Z",
+      "side": 1,
+      "message": "Missing space",
+      "range": {
+        "startLine": 223,
+        "startChar": 4,
+        "endLine": 223,
+        "endChar": 6
+      },
+      "revId": "41aded2f5e6f3f5a795a2e52604c96ada5f76da5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "157504e2_e25d3102",
+        "filename": "config/permissions/com.google.android.gms.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 18,
+      "author": {
+        "id": 18409
+      },
+      "writtenOn": "2017-11-06T16:55:02Z",
+      "side": 1,
+      "message": "Note that also FakeStore (com.google.android.vending, signed with the same key) requires the FAKE_SIGNATURE permission",
+      "revId": "41aded2f5e6f3f5a795a2e52604c96ada5f76da5",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
