@@ -1,0 +1,22 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e052c9e3_6a8cec72",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 861,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2017-11-06T21:48:38Z",
+      "side": 1,
+      "message": "We should move it in vendor/cm imo",
+      "parentUuid": "",
+      "revId": "c886fee18b01e977e4e0b9d2f70a9315d656994a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
