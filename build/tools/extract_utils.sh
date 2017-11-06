@@ -856,6 +856,24 @@ function extract() {
                 sudo umount "$DUMPDIR"/tmp
                 rm -rf "$DUMPDIR"/tmp "$DUMPDIR"/system.img
             fi
+
+            mkdir "$TMPDIR"/boot
+            python "$CM_ROOT"/system/core/mkbootimg/unpackbootimg -i "$DUMPDIR"/boot.img -o "$TMPDIR"/boot
+            if [ -f "$TMPDIR"/boot/boot.img-ramdisk.gz ]; then
+                gunzip "$TMPDIR"/boot/boot.img-ramdisk.gz
+            elif [ -f "$TMPDIR"/boot/boot.img-ramdisk.lzma ]; then
+                lzma -d "$TMPDIR"/boot/boot.img-ramdisk.lzma
+            elif [ -f "$TMPDIR"/boot/boot.img-ramdisk.xz ]; then
+                xz -d "$TMPDIR"/boot/boot.img-ramdisk.xz
+            elif [ -f "$TMPDIR"/boot/boot.img-ramdisk.bz2 ]; then
+                bunzip2 -d "$TMPDIR"/boot/boot.img-ramdisk.bz2
+            else
+                echo "Ramdisk compression format not supported"
+            fi
+            if [ -f "$TMPDIR"/boot/boot.img-ramdisk ]; then
+                mkdir "$DUMPDIR"/rootfs
+                (cd "$DUMPDIR"/rootfs && cpio -i < "$TMPDIR"/boot/boot.img-ramdisk 2>/dev/null)
+            fi
         fi
 
         SRC="$DUMPDIR"
