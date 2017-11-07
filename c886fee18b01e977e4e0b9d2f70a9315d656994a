@@ -17,6 +17,29 @@
       "revId": "c886fee18b01e977e4e0b9d2f70a9315d656994a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "93f26804_fec1b9a4",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 3
+      },
+      "lineNbr": 869,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-11-07T20:51:19Z",
+      "side": 1,
+      "message": "I left these out because unpackbootimg only appends gz and lz4 (and lzma after https://review.lineageos.org/#/c/195554/). Ramdisks are normally compressed with gzip, and lzma when space is a concern. I don\u0027t think there are devices using other compression formats. But if we care about these two extra cases, then we could add them to unpackbootimg.",
+      "range": {
+        "startLine": 866,
+        "startChar": 0,
+        "endLine": 869,
+        "endChar": 62
+      },
+      "revId": "c886fee18b01e977e4e0b9d2f70a9315d656994a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
