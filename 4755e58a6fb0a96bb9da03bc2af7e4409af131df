@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8b2151e7_1f589056",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 1
+      },
+      "lineNbr": 830,
+      "author": {
+        "id": 3962
+      },
+      "writtenOn": "2017-11-07T13:35:23Z",
+      "side": 1,
+      "message": "Just make this \"$TMPDIR/system_dump\" since $TMPDIR is already created with mktemp at the beginning of the script",
+      "range": {
+        "startLine": 830,
+        "startChar": 16,
+        "endLine": 830,
+        "endChar": 28
+      },
+      "revId": "4755e58a6fb0a96bb9da03bc2af7e4409af131df",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
