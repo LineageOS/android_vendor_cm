@@ -309,8 +309,7 @@ TARGET_KERNEL_BINARIES: $(KERNEL_OUT_STAMP) $(KERNEL_CONFIG) $(KERNEL_HEADERS_IN
 				echo "Building Kernel Modules" ; \
 				$(MAKE) $(MAKE_FLAGS) -C $(KERNEL_SRC) O=$(KERNEL_OUT) ARCH=$(KERNEL_ARCH) $(KERNEL_CROSS_COMPILE) modules && \
 				$(MAKE) $(MAKE_FLAGS) -C $(KERNEL_SRC) O=$(KERNEL_OUT) INSTALL_MOD_PATH=../../$(KERNEL_MODULES_INSTALL) ARCH=$(KERNEL_ARCH) $(KERNEL_CROSS_COMPILE) modules_install && \
-				$(mv-modules) && \
-				$(clean-module-folder) ; \
+				( $(mv-modules) && $(clean-module-folder) ) ; \
 			else \
 				echo "Kernel Modules not enabled" ; \
 			fi ;
