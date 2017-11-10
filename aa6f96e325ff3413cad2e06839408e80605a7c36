@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e2cc57cf_2b02bc48",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 837,
+      "author": {
+        "id": 13897
+      },
+      "writtenOn": "2017-11-10T14:47:16Z",
+      "side": 1,
+      "message": "This is not needed if you use a temp dir.",
+      "range": {
+        "startLine": 832,
+        "startChar": 0,
+        "endLine": 837,
+        "endChar": 40
+      },
+      "revId": "aa6f96e325ff3413cad2e06839408e80605a7c36",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
