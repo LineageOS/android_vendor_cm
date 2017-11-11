@@ -3508,6 +3508,7 @@
   <apn carrier="Orange CM WAP" mcc="624" mnc="02" apn="orangecmgprs" proxy="192.168.122.101" port="8080" user="orange" password="orange" type="default,supl" />
   <apn carrier="Orange CM MMS" mcc="624" mnc="02" apn="orangecmgprs" user="orange" password="orange" mmsc="http://mms.orange.cm" mmsproxy="192.168.122.101" mmsport="8080" type="mms" />
   <apn carrier="Orange CM" mcc="624" mnc="02" apn="orangecmgprs" user="orange" password="orange" proxy="192.168.122.101" port="8080" mmsc="http://mms.orange.cm" mmsproxy="192.168.122.101" mmsport="8080" type="default,mms" />
+  <apn carrier="CVMóvel Internet" mcc="625" mnc="01" apn="internet-aac" proxy="" port="" mmsc="" user="" password="" server="" mmsc="" mmsproxy="" mmsport="" carrier_enabled="true" mvno_type="None" />
   <apn carrier="Orange GQ MMS" mcc="627" mnc="01" apn="orangemms" user="mms" password="mms" mmsc="http://192.168.17.34/servlets/mms" mmsproxy="192.168.17.2" mmsport="8080" type="mms" />
   <apn carrier="Orange GQ" mcc="627" mnc="01" apn="orangenet" user="net" password="net" type="default,supl" />
   <apn carrier="Vodacom CD" mcc="630" mnc="01" apn="vodanet" user="vodalive" type="default,supl" />
@@ -3887,5 +3888,4 @@
   <apn carrier="Claro MMS" mcc="748" mnc="10" apn="mms.ctimovil.com.uy" proxy="" port="" mmsc="http://mms.ctimovil.com.uy" user="" password="" type="mms" />
   <apn carrier="Claro UY" mcc="748" mnc="10" apn="gprs.claro.com.uy" user="ctigpr" password="ctigpr999" type="default,supl" />
   <apn carrier="Claro UY MMS" mcc="748" mnc="10" apn="mms.ctimovil.com.uy" user="ctimms" password="ctimms999" mmsc="http://mms.ctimovil.com.uy" mmsproxy="170.051.255.240" mmsport="9201" type="mms" />
-  <apn carrier="CVMóvel Internet" mcc="625" mnc="01" apn="internet-aac" proxy="" port="" mmsc="" user="" password="" server="" mmsc="" mmsproxy="" mmsport="" carrier_enabled="true" mvno_type="None" />
 </apns>
