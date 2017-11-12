@@ -1,0 +1,67 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ad91f22c_c3da3f03",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2017-11-12T14:34:29Z",
+      "side": 1,
+      "message": "This is the headline. The \"See:\" part does not belong here. Fix the headline to be something along the lines of \"apn: Add iD Mobile UK MVNO\" or \"Add APN for iD Mobile UK MVNO\". As much as my OCD wishes we always used the former, we have no consistency for the structure of commit messages.",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 26
+      },
+      "revId": "f5f05d167fccab43c54b97c2258560e59c8a6bac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "a2ca85f8_213951ea",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2017-11-12T14:34:29Z",
+      "side": 1,
+      "message": "This is not appropriate to be in the commit message. If you wish to retain the traceability to source, add it as a code review comment.",
+      "range": {
+        "startLine": 9,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 71
+      },
+      "revId": "f5f05d167fccab43c54b97c2258560e59c8a6bac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "fb9ea65a_de41b384",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 600,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2017-11-12T14:34:29Z",
+      "side": 1,
+      "message": "Structure the content of this line to be the same as the rest of them. carrier, mcc, mnc, apn... If you run into a situation where you cannot find similarity with the lines immediately surrounding this one, look farther in the file for some precedent.",
+      "revId": "f5f05d167fccab43c54b97c2258560e59c8a6bac",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
