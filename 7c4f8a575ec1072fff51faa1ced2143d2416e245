@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6346e394_2cc29187",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 6
+      },
+      "lineNbr": 830,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-11-14T20:44:13Z",
+      "side": 1,
+      "message": "This is not needed at all and at this point DUMPDIR variable is not even defined.",
+      "range": {
+        "startLine": 830,
+        "startChar": 8,
+        "endLine": 830,
+        "endChar": 25
+      },
+      "revId": "7c4f8a575ec1072fff51faa1ced2143d2416e245",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
