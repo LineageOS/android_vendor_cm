@@ -22,6 +22,30 @@
       "revId": "aa6f96e325ff3413cad2e06839408e80605a7c36",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ad10fe5d_e3e24ef4",
+        "filename": "build/tools/extract_utils.sh",
+        "patchSetId": 4
+      },
+      "lineNbr": 837,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2017-11-16T12:34:51Z",
+      "side": 1,
+      "message": "Actually this needs to stay. On devices with common repos, sharing common blobs, this makes total sense, otherwise the script will extract the same file. See here: https://gist.github.com/bgcngm/288d3416cf8d66696e341672b7a6d68c",
+      "parentUuid": "e2cc57cf_2b02bc48",
+      "range": {
+        "startLine": 832,
+        "startChar": 0,
+        "endLine": 837,
+        "endChar": 40
+      },
+      "revId": "aa6f96e325ff3413cad2e06839408e80605a7c36",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
     }
   ]
 }
