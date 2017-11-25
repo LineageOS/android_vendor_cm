@@ -183,9 +183,7 @@ ifneq ($(TARGET_BUILD_VARIANT),user)
 
 PRODUCT_PACKAGES += \
     procmem \
-    procrank \
-    Superuser \
-    su
+    procrank
 
 # Terminal Emulator
 PRODUCT_COPY_FILES +=  \
