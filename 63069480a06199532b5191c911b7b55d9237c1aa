@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "31d85ac2_58bec8df",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-11-29T01:44:38Z",
+      "side": 1,
+      "message": "add \"This fixes nonfunctioning factory reset protection and addresses\nnumerous PersistentDataBlockService errors during boot up.\" as per the other commit?",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 66
+      },
+      "revId": "63069480a06199532b5191c911b7b55d9237c1aa",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
