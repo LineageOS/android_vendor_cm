@@ -3172,9 +3172,9 @@
   <apn carrier="KGT" mcc="466" mnc="88" apn="internet" type="default,supl" />
   <apn carrier="KGT MMS" mcc="466" mnc="88" apn="kgtmms" mmsc="http://mms.kgtmms.net.tw/mms/wapenc" mmsproxy="172.28.33.5" mmsport="8080" type="mms" />
   <apn carrier="VIBO-vibo" mcc="466" mnc="89" apn="vibo" proxy="172.24.128.36" port="8080" mmsc="" user="" password="" authtype="1" type="default,supl" />
-  <apn carrier="VIBO-internet" mcc="466" mnc="89" apn="internet" user="" password="" authtype="1" type="default,supl" />
+  <apn carrier="T Star--internet" mcc="466" mnc="89" apn="internet" user="" password="" authtype="1" type="default,supl" />
   <apn carrier="VIBOONE" mcc="466" mnc="89" apn="viboone" user="" password="" authtype="1" type="default,supl" />
-  <apn carrier="VIBO-MMS " mcc="466" mnc="89" apn="vibo" proxy="" port="" mmsproxy="172.24.128.36" mmsport="8080" mmsc="http://mms" user="" password="" authtype="1" type="mms" />
+  <apn carrier="T Star-MMS " mcc="466" mnc="89" apn="internet" proxy="" port="" mmsproxy="172.24.128.36" mmsport="8080" mmsc="http://mms.vibo.net.tw" user="" password="" authtype="1" type="mms" />
   <apn carrier="震旦電信(AURORA) (MMS)" mcc="466" mnc="89" apn="aurorawap" mmsc="http://auroramms" mmsproxy="172.24.128.36" mmsport="8080" type="mms" />
   <apn carrier="震旦電信(AURORA) (Internet)" mcc="466" mnc="89" apn="auroraweb" type="default,supl" />
   <apn carrier="Vibo" mcc="466" mnc="89" apn="internet" type="default,supl" />
