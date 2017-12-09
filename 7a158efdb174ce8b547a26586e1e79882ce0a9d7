@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9422a032_1a7b0e36",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 273,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2017-12-09T19:23:15Z",
+      "side": 1,
+      "message": "Use spaces instead of tabs",
+      "range": {
+        "startLine": 273,
+        "startChar": 0,
+        "endLine": 273,
+        "endChar": 1
+      },
+      "revId": "7a158efdb174ce8b547a26586e1e79882ce0a9d7",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
