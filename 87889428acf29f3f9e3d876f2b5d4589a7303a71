@@ -1,0 +1,418 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "46d58ad8_00e467c0",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 46,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-10T15:45:43Z",
+      "side": 1,
+      "message": "Child abuse",
+      "range": {
+        "startLine": 46,
+        "startChar": 8,
+        "endLine": 46,
+        "endChar": 25
+      },
+      "revId": "87889428acf29f3f9e3d876f2b5d4589a7303a71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "106cd0a3_975b4cc6",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 47,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-10T15:45:43Z",
+      "side": 1,
+      "message": "www.tele-onthaal.be/nl/welkom/ -\u003e Some anonoymous phone hotline when you need someone to talk to, no idea how to call that",
+      "range": {
+        "startLine": 47,
+        "startChar": 8,
+        "endLine": 47,
+        "endChar": 24
+      },
+      "revId": "87889428acf29f3f9e3d876f2b5d4589a7303a71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4825c7fa_e94351cf",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-10T15:45:43Z",
+      "side": 1,
+      "message": "Child and youth phone line",
+      "range": {
+        "startLine": 48,
+        "startChar": 8,
+        "endLine": 48,
+        "endChar": 24
+      },
+      "revId": "87889428acf29f3f9e3d876f2b5d4589a7303a71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e8eb0d23_f5aa159e",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-10T15:45:43Z",
+      "side": 1,
+      "message": "suicide hotline",
+      "range": {
+        "startLine": 49,
+        "startChar": 8,
+        "endLine": 49,
+        "endChar": 25
+      },
+      "revId": "87889428acf29f3f9e3d876f2b5d4589a7303a71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "402a6b01_928dde0a",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 50,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-10T15:45:43Z",
+      "side": 1,
+      "message": "Child abuse - Vertrouwenscentrum kindermishandeling",
+      "range": {
+        "startLine": 50,
+        "startChar": 8,
+        "endLine": 50,
+        "endChar": 29
+      },
+      "revId": "87889428acf29f3f9e3d876f2b5d4589a7303a71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "04f6bb04_2969f8cb",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 51,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-10T15:45:43Z",
+      "side": 1,
+      "message": "Child and youth phone line - https://www.kindertelefoon.nl/\nBut this is missing the official number \"116 111\", should add as well",
+      "range": {
+        "startLine": 51,
+        "startChar": 8,
+        "endLine": 51,
+        "endChar": 29
+      },
+      "revId": "87889428acf29f3f9e3d876f2b5d4589a7303a71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "15513f5a_ec6f78ee",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-10T15:45:43Z",
+      "side": 1,
+      "message": "Center for Missing and Sexually Exploited Children",
+      "range": {
+        "startLine": 52,
+        "startChar": 8,
+        "endLine": 52,
+        "endChar": 27
+      },
+      "revId": "87889428acf29f3f9e3d876f2b5d4589a7303a71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "4ba09bdc_c1e4c765",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-10T15:45:43Z",
+      "side": 1,
+      "message": "Some youth help line for whatever questions they have - problems w. parents, pregnancy, ... http://www.jaccentraalwestvlaanderen.be/onthaal",
+      "range": {
+        "startLine": 53,
+        "startChar": 8,
+        "endLine": 53,
+        "endChar": 30
+      },
+      "revId": "87889428acf29f3f9e3d876f2b5d4589a7303a71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "90d4fc5b_baa71687",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-10T15:45:43Z",
+      "side": 1,
+      "message": "Flemish Support Centre for Ageing and Treatment",
+      "range": {
+        "startLine": 54,
+        "startChar": 8,
+        "endLine": 54,
+        "endChar": 30
+      },
+      "revId": "87889428acf29f3f9e3d876f2b5d4589a7303a71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "f5372eff_cce46517",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 55,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-10T15:45:43Z",
+      "side": 1,
+      "message": "De Holebifoon, the helpline for all questions related to hole bisexuality",
+      "range": {
+        "startLine": 55,
+        "startChar": 8,
+        "endLine": 55,
+        "endChar": 30
+      },
+      "revId": "87889428acf29f3f9e3d876f2b5d4589a7303a71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "80fcd1ed_1ad21e39",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 56,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-10T15:45:43Z",
+      "side": 1,
+      "message": "Alcohol drug line\nAttention: This has a space too much",
+      "range": {
+        "startLine": 56,
+        "startChar": 8,
+        "endLine": 56,
+        "endChar": 31
+      },
+      "revId": "87889428acf29f3f9e3d876f2b5d4589a7303a71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8c9677a4_9f6b9f46",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-10T15:45:43Z",
+      "side": 1,
+      "message": "https://www.antigifcentrum.be/ - BELGIAN POISON CENTRE, not sure if really a sensitive number",
+      "range": {
+        "startLine": 57,
+        "startChar": 8,
+        "endLine": 57,
+        "endChar": 30
+      },
+      "revId": "87889428acf29f3f9e3d876f2b5d4589a7303a71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "ac1c1753_1e480a4c",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-10T15:45:43Z",
+      "side": 1,
+      "message": "Help line for students during exam periods - http://www.wachtebeke.be/website/7-www/146-www/184-www/4158-www.html",
+      "range": {
+        "startLine": 58,
+        "startChar": 8,
+        "endLine": 58,
+        "endChar": 30
+      },
+      "revId": "87889428acf29f3f9e3d876f2b5d4589a7303a71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "934f131e_c6571ad9",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 59,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-10T15:45:43Z",
+      "side": 1,
+      "message": "Group of anonoymous alcoholics",
+      "range": {
+        "startLine": 59,
+        "startChar": 8,
+        "endLine": 59,
+        "endChar": 30
+      },
+      "revId": "87889428acf29f3f9e3d876f2b5d4589a7303a71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "150e7574_d2aec7b2",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-10T15:45:43Z",
+      "side": 1,
+      "message": "Hotline for family members of alcoholics",
+      "range": {
+        "startLine": 60,
+        "startChar": 8,
+        "endLine": 60,
+        "endChar": 30
+      },
+      "revId": "87889428acf29f3f9e3d876f2b5d4589a7303a71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "e3aede10_9678afcb",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 101,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-10T15:45:43Z",
+      "side": 1,
+      "message": "Missing Children Switzerland",
+      "range": {
+        "startLine": 101,
+        "startChar": 8,
+        "endLine": 101,
+        "endChar": 27
+      },
+      "revId": "87889428acf29f3f9e3d876f2b5d4589a7303a71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cb52ff7b_c55cfeb3",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-10T15:45:43Z",
+      "side": 1,
+      "message": "Can only find that one for germany where it would indeed suffice as a sensitive number",
+      "range": {
+        "startLine": 102,
+        "startChar": 8,
+        "endLine": 102,
+        "endChar": 27
+      },
+      "revId": "87889428acf29f3f9e3d876f2b5d4589a7303a71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "7d3af2ce_7f7fa656",
+        "filename": "prebuilt/common/etc/sensitive_pn.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 103,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2017-12-10T15:45:43Z",
+      "side": 1,
+      "message": "Generic helpline - topics like family, education, ... https://www.147.ch/de/",
+      "range": {
+        "startLine": 103,
+        "startChar": 8,
+        "endLine": 103,
+        "endChar": 24
+      },
+      "revId": "87889428acf29f3f9e3d876f2b5d4589a7303a71",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
