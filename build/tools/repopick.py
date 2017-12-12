@@ -124,6 +124,7 @@ def fetch_query(remote_url, query):
 if __name__ == '__main__':
     # Default to LineageOS Gerrit
     default_gerrit = 'http://review.lineageos.org'
+    default_gerrit_hostname = 'review.lineageos.org'
 
     parser = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatter, description=textwrap.dedent('''\
         repopick.py is a utility to simplify the process of cherry picking
@@ -363,7 +364,7 @@ if __name__ == '__main__':
             method = 'ssh'
 
         # Try fetching from GitHub first if using default gerrit
-        if args.gerrit == default_gerrit:
+        if default_gerrit_hostname in args.gerrit:
             if args.verbose:
                 print('Trying to fetch the change from GitHub')
 
@@ -381,10 +382,10 @@ if __name__ == '__main__':
                 print('ERROR: git command failed')
                 sys.exit(result)
         # Check if it worked
-        if args.gerrit != default_gerrit or os.stat(FETCH_HEAD).st_size == 0:
+        if default_gerrit_hostname not in args.gerrit or os.stat(FETCH_HEAD).st_size == 0:
             # If not using the default gerrit or github failed, fetch from gerrit.
             if args.verbose:
-                if args.gerrit == default_gerrit:
+                if default_gerrit_hostname in args.gerrit:
                     print('Fetching from GitHub didn\'t work, trying to fetch the change from Gerrit')
                 else:
                     print('Fetching from {0}'.format(args.gerrit))
