@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d85f1ef9_72950df9",
+        "filename": "build/tools/repopick.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 384,
+      "author": {
+        "id": 3671
+      },
+      "writtenOn": "2017-12-13T12:15:55Z",
+      "side": 0,
+      "message": "don\u0027t remove the \"or\" here, you get breakage",
+      "range": {
+        "startLine": 384,
+        "startChar": 41,
+        "endLine": 384,
+        "endChar": 43
+      },
+      "revId": "54be7a12fafe636c63d967014e3ed81eb5dcf663",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
