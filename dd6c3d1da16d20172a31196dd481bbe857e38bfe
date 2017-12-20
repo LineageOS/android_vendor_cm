@@ -1,0 +1,50 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dca49dfd_b2498535",
+        "filename": "build/tools/repopick.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 35,
+      "author": {
+        "id": 5008
+      },
+      "writtenOn": "2017-12-20T23:01:07Z",
+      "side": 1,
+      "message": "four spaces, not two",
+      "range": {
+        "startLine": 35,
+        "startChar": 0,
+        "endLine": 35,
+        "endChar": 2
+      },
+      "revId": "dd6c3d1da16d20172a31196dd481bbe857e38bfe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "d121c340_efb4297e",
+        "filename": "build/tools/repopick.py",
+        "patchSetId": 10
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 5008
+      },
+      "writtenOn": "2017-12-20T23:01:07Z",
+      "side": 1,
+      "message": "4 spaces (i\u0027m going to not keep saying this, it\u0027s 4-spaces-per-block, don\u0027t mix it)",
+      "range": {
+        "startLine": 37,
+        "startChar": 0,
+        "endLine": 37,
+        "endChar": 2
+      },
+      "revId": "dd6c3d1da16d20172a31196dd481bbe857e38bfe",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
