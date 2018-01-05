@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8f83874e_69cb32e0",
+        "filename": "prebuilt/common/etc/apns-conf.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 3512,
+      "author": {
+        "id": 13028
+      },
+      "writtenOn": "2018-01-05T12:48:21Z",
+      "side": 1,
+      "message": "can\u0027t find this anywhere as a requirement, just drop it",
+      "range": {
+        "startLine": 3512,
+        "startChar": 87,
+        "endLine": 3512,
+        "endChar": 109
+      },
+      "revId": "3ad4af1bc4125e666aa62ecbb91802cb33db367e",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
