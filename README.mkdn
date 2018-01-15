@@ -39,9 +39,6 @@ Then to sync up:
 
 Please see the [LineageOS Wiki](http://wiki.lineageos.org/) for building instructions, by device.
 
-For more information on this Github Organization and how it is structured, 
-please [read the wiki article](http://wiki.lineageos.org/w/Github_Organization)
-
 Buildbot
 --------
 
