@@ -18,3 +18,11 @@ BOARD_SEPOLICY_UNION += \
     ueventd.te \
     vold.te \
     mac_permissions.xml
+
+ifeq ($(TARGET_BUILD_VARIANT),user)
+BOARD_SEPOLICY_UNION += \
+    su_user.te
+else
+BOARD_SEPOLICY_UNION += \
+    su.te
+endif
