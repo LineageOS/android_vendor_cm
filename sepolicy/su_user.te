@@ -1,0 +1,3 @@
+# Just the raw type definitions
+type sudaemon, domain; ## Added
+type superuser_device, file_type, mlstrustedobject;
