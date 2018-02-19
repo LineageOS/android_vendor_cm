@@ -1,0 +1,96 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "904e7c67_d0d72ad5",
+        "filename": "sepolicy/sepolicy.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2018-02-19T01:06:59Z",
+      "side": 1,
+      "message": "Basically one big hack due to the missing userdebug_or_eng macro",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 35
+      },
+      "revId": "4687fe81113fd8dba2f0a579751bd35505c13f51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "515099fa_8fb3ba3e",
+        "filename": "sepolicy/su.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2018-02-19T01:06:59Z",
+      "side": 1,
+      "message": "Not sure why this wasn\u0027t needed in later versions of the sepolicy",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 31
+      },
+      "revId": "4687fe81113fd8dba2f0a579751bd35505c13f51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "212188ab_ff362f5c",
+        "filename": "sepolicy/su.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2018-02-19T01:06:59Z",
+      "side": 1,
+      "message": "appops_service doesn\u0027t exist yet, so it is commented out",
+      "range": {
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 65
+      },
+      "revId": "4687fe81113fd8dba2f0a579751bd35505c13f51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "cc7df706_c081f9fd",
+        "filename": "sepolicy/su_user.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 15734
+      },
+      "writtenOn": "2018-02-19T01:06:59Z",
+      "side": 1,
+      "message": "Double type definitions. Meh...",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 3,
+        "endChar": 51
+      },
+      "revId": "4687fe81113fd8dba2f0a579751bd35505c13f51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    }
+  ]
+}
