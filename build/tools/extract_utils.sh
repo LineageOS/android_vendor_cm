@@ -166,6 +166,7 @@ function write_product_copy_files() {
     local TARGET=
     local FILE=
     local LINEEND=
+    local ARGS=
 
     if [ "$COUNT" -eq "0" ]; then
         return 0
@@ -180,8 +181,14 @@ function write_product_copy_files() {
         fi
 
         TARGET=$(target_file "$FILE")
-        printf '    %s/proprietary/%s:system/%s%s\n' \
-            "$OUTDIR" "$TARGET" "$TARGET" "$LINEEND" >> "$PRODUCTMK"
+        ARGS=$(target_args "$FILE")
+        if [ "$ARGS" = "rootfs" ]; then
+            printf '    %s/proprietary/rootfs/%s:root/%s%s\n' \
+                "$OUTDIR" "$TARGET" "$TARGET" "$LINEEND" >> "$PRODUCTMK"
+        else
+            printf '    %s/proprietary/%s:system/%s%s\n' \
+                "$OUTDIR" "$TARGET" "$TARGET" "$LINEEND" >> "$PRODUCTMK"
+        fi
     done
     return 0
 }
