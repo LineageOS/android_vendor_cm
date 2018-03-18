@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "fcf9a319_edef1bba",
+        "filename": "sepolicy/sepolicy.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 8964
+      },
+      "writtenOn": "2018-03-18T11:02:08Z",
+      "side": 1,
+      "message": "Done. Macro added instead (external/sepolicy)",
+      "parentUuid": "904e7c67_d0d72ad5",
+      "range": {
+        "startLine": 22,
+        "startChar": 0,
+        "endLine": 22,
+        "endChar": 35
+      },
+      "revId": "4687fe81113fd8dba2f0a579751bd35505c13f51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "515099fa_8fb3ba3e",
         "filename": "sepolicy/su.te",
         "patchSetId": 1
@@ -48,6 +72,30 @@
     },
     {
       "key": {
+        "uuid": "65877e8d_26299db7",
+        "filename": "sepolicy/su.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 8964
+      },
+      "writtenOn": "2018-03-18T11:02:08Z",
+      "side": 1,
+      "message": "Any update on that?",
+      "parentUuid": "515099fa_8fb3ba3e",
+      "range": {
+        "startLine": 1,
+        "startChar": 0,
+        "endLine": 1,
+        "endChar": 31
+      },
+      "revId": "4687fe81113fd8dba2f0a579751bd35505c13f51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "212188ab_ff362f5c",
         "filename": "sepolicy/su.te",
         "patchSetId": 1
@@ -59,6 +107,30 @@
       "writtenOn": "2018-02-19T01:06:59Z",
       "side": 1,
       "message": "appops_service doesn\u0027t exist yet, so it is commented out",
+      "range": {
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 65
+      },
+      "revId": "4687fe81113fd8dba2f0a579751bd35505c13f51",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "5ca61b08_0f3b7939",
+        "filename": "sepolicy/su.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 8964
+      },
+      "writtenOn": "2018-03-18T11:02:08Z",
+      "side": 1,
+      "message": "Still not neeeded?",
+      "parentUuid": "212188ab_ff362f5c",
       "range": {
         "startLine": 44,
         "startChar": 0,
