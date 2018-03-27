@@ -127,7 +127,8 @@ PRODUCT_PACKAGES += \
     Trebuchet \
     Updater \
     WallpaperPicker \
-    WeatherProvider
+    WeatherProvider \
+    LOSCoins
 
 # Exchange support
 PRODUCT_PACKAGES += \
