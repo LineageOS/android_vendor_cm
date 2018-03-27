@@ -143,7 +143,7 @@ PRODUCT_PACKAGES += \
 ##
 # Copy Magisk zip
 PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/magisk.zip:system/addon.d/magisk.zip
+    vendor/lineage/prebuilt/common/magisk.zip:system/addon.d/magisk.zip
 ##
 
 # Exchange support
