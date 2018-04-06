@@ -3156,9 +3156,9 @@
   <apn carrier="KGT" mcc="466" mnc="88" apn="internet" type="default,supl" />
   <apn carrier="KGT MMS" mcc="466" mnc="88" apn="kgtmms" mmsc="http://mms.kgtmms.net.tw/mms/wapenc" mmsproxy="172.28.33.5" mmsport="8080" type="mms" />
   <apn carrier="VIBO-vibo" mcc="466" mnc="89" apn="vibo" proxy="172.24.128.36" port="8080" mmsc="" user="" password="" authtype="1" type="default,supl" />
-  <apn carrier="VIBO-internet" mcc="466" mnc="89" apn="internet" user="" password="" authtype="1" type="default,supl" />
+  <apn carrier="台灣之星(T Star) (internet)" mcc="466" mnc="89" apn="internet" user="" password="" authtype="1" type="default,supl" />
   <apn carrier="VIBOONE" mcc="466" mnc="89" apn="viboone" user="" password="" authtype="1" type="default,supl" />
-  <apn carrier="VIBO-MMS " mcc="466" mnc="89" apn="vibo" proxy="" port="" mmsproxy="172.24.128.36" mmsport="8080" mmsc="http://mms" user="" password="" authtype="1" type="mms" />
+  <apn carrier="T Star-MMS " mcc="466" mnc="89" apn="internet" proxy="" port="" mmsproxy="172.24.128.36" mmsport="8080" mmsc="http://mms.vibo.net.tw" user="" password="" authtype="1" type="mms" />
   <apn carrier="震旦電信(AURORA) (MMS)" mcc="466" mnc="89" apn="aurorawap" mmsc="http://auroramms" mmsproxy="172.24.128.36" mmsport="8080" type="mms" />
   <apn carrier="震旦電信(AURORA) (Internet)" mcc="466" mnc="89" apn="auroraweb" type="default,supl" />
   <apn carrier="Vibo" mcc="466" mnc="89" apn="internet" type="default,supl" />
@@ -3175,7 +3175,7 @@
   <apn carrier="台灣大哥大(TW Mobile) (MMS)" mcc="466" mnc="93" apn="mms" mmsc="http://mms.catch.net.tw" mmsproxy="10.1.1.2" mmsport="80" type="mms" />
   <apn carrier="台灣大哥大(TW Mobile) (twm)" mcc="466" mnc="93" apn="twm" type="default,supl" />
   <apn carrier="台灣大哥大TWM" mcc="466" mnc="97" apn="twm" user="" password="" type="default,supl" />
-  <apn carrier="Internet" mcc="466" mnc="97" apn="internet" user="" password="" type="default,supl" />
+  <apn carrier="台灣大哥大(Internet)" mcc="466" mnc="97" apn="internet" user="" password="" type="default,supl" />
   <apn carrier="台灣大哥大MMS" mcc="466" mnc="97" apn="mms" proxy="10.1.1.2" port="80" mmsproxy="10.1.1.2" mmsport="80" mmsc="http://mms.catch.net.tw" user="" password="" type="mms" />
   <apn carrier="Taiwan Mobile Internet" mcc="466" mnc="97" apn="internet" type="default,supl" />
   <apn carrier="Taiwan Mobile MMS" mcc="466" mnc="97" apn="mms" mmsc="http://mms.catch.net.tw" mmsproxy="10.1.1.2" mmsport="80" type="mms" />
@@ -3183,6 +3183,8 @@
   <apn carrier="TransAsia" mcc="466" mnc="99" apn="internet" type="default,supl" />
   <apn carrier="TransAsia MMS" mcc="466" mnc="99" apn="mms" mmsc="http://mms" mmsproxy="10.1.1.2" mmsport="80" type="mms" />
   <apn carrier="台灣大哥大(TW Mobile) (twm)" mcc="466" mnc="99" apn="twm" type="default,supl" />
+  <apn carrier="亞太電信(gtnet)" mcc="525" mnc="05" apn="gnet" type="default,supl" />
+  <apn carrier="亞太電信漫遊(gtnet)" mcc="466" mnc="05" apn="gnet" type="default,supl" />
   <apn carrier="MMS" mcc="467" mnc="05" apn="KL．M" proxy="" port="" mmsproxy="10.250.155.42" mmsport="8080" mmsc="http://10.250.155.30:38090" user="" password="" type="mms" />
   <apn carrier="KL．M" mcc="467" mnc="06" apn="KL．M" proxy="" port="" mmsproxy="10.250.155.42" mmsport="8080" mmsc="http://10.250.155.30:38090" user="" password="" type="mms" />
   <apn carrier="KL．M" mcc="467" mnc="07" apn="KL．M" proxy="" port="" mmsproxy="10.250.155.42" mmsport="8080" mmsc="http://10.250.155.30:38090" user="" password="" type="mms" />
