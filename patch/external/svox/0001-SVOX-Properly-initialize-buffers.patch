@@ -1,0 +1,43 @@
+From dcc906ae96568fe8c18d370c696ec9eb126a0c46 Mon Sep 17 00:00:00 2001
+From: Narayan Kamath <narayan@google.com>
+Date: Tue, 6 Feb 2018 11:02:21 +0000
+Subject: [PATCH] SVOX: Properly initialize buffers.
+
+Bug: 69177126
+Test: Manual / TH
+Change-Id: I894ad89eb0abbc2fd8dc47ecfc897c793751ca9f
+(cherry picked from commit 2258b6512256a2a2ff1a0688c9d3d43ac2df573f)
+---
+ pico/tts/svox_ssml_parser.cpp | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+diff --git a/pico/tts/svox_ssml_parser.cpp b/pico/tts/svox_ssml_parser.cpp
+index 1e86940..94cd25a 100755
+--- a/pico/tts/svox_ssml_parser.cpp
++++ b/pico/tts/svox_ssml_parser.cpp
+@@ -57,7 +57,12 @@ SvoxSsmlParser::SvoxSsmlParser() : m_isInBreak(0), m_appendix(NULL), m_docLangua
+         XML_SetUserData(mParser, (void*)this);
+         m_datasize = 512;
+         m_data = new char[m_datasize];
+-        m_data[0] = '\0';
++        if (!m_data)
++        {
++            ALOGE("Error: failed to allocate memory for string!\n");
++        } else {
++            memset(m_data, 0, m_datasize);
++        }
+     }
+ }
+ 
+@@ -120,6 +125,8 @@ void SvoxSsmlParser::startElement(const XML_Char* element, const XML_Char** attr
+             {
+                 ALOGE("Error: failed to allocate memory for string!\n");
+                 return;
++            } else {
++                memset(m_data, 0, m_datasize);
+             }
+         }
+ 
+-- 
+2.7.4
+
