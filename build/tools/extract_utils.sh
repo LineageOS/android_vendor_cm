@@ -146,16 +146,20 @@ function target_args() {
 # Internal function which loops thru the packages list and returns a new
 # list containing the matched files with the prefix stripped away.
 #
+# Function does not strip the target_args of files,
+# if present (such as :rootfs).
+#
 function prefix_match() {
     local PREFIX="$1"
     for LINE in "${PRODUCT_PACKAGES_LIST[@]}"; do
-        if ! [[ "$LINE" =~ "rootfs" ]]; then
-            local FILE=$(target_file "$LINE")
-        else
-            local FILE="$LINE"
-        fi
+        local FILE=$(target_file "$LINE")
+        local ARGS=$(target_args "$LINE")
         if [[ "$FILE" =~ ^"$PREFIX" ]]; then
-            printf '%s\n' "${FILE#$PREFIX}"
+            if [ -z "$ARGS" ]; then
+                printf '%s\n'    "${FILE#$PREFIX}"
+            else
+                printf '%s:%s\n' "${FILE#$PREFIX}" "${ARGS}"
+            fi
         fi
     done
 }
