@@ -29,6 +29,7 @@ import subprocess
 import re
 import argparse
 import textwrap
+from functools import cmp_to_key
 from xml.etree import ElementTree
 
 try:
@@ -113,17 +114,17 @@ def fetch_query_via_http(remote_url, query):
                     auth = requests.auth.HTTPBasicAuth(username=parts[1], password=parts[2])
         statusCode = '-1'
         if auth:
-            url = '{0}/a/changes/?q={1}&o=CURRENT_REVISION&o=ALL_REVISIONS'.format(remote_url, query)
+            url = '{0}/a/changes/?q={1}&o=CURRENT_REVISION&o=ALL_REVISIONS&o=ALL_COMMITS'.format(remote_url, query)
             data = requests.get(url, auth=auth)
             statusCode = str(data.status_code)
         if statusCode != '200':
             #They didn't get good authorization or data, Let's try the old way
-            url = '{0}/changes/?q={1}&o=CURRENT_REVISION&o=ALL_REVISIONS'.format(remote_url, query)
+            url = '{0}/changes/?q={1}&o=CURRENT_REVISION&o=ALL_REVISIONS&o=ALL_COMMITS'.format(remote_url, query)
             data = requests.get(url)
         reviews = json.loads(data.text[5:])
     else:
         """Given a query, fetch the change numbers via http"""
-        url = '{0}/changes/?q={1}&o=CURRENT_REVISION&o=ALL_REVISIONS'.format(remote_url, query)
+        url = '{0}/changes/?q={1}&o=CURRENT_REVISION&o=ALL_REVISIONS&o=ALL_COMMITS'.format(remote_url, query)
         data = urllib.request.urlopen(url).read().decode('utf-8')
         reviews = json.loads(data[5:])
 
@@ -258,15 +259,32 @@ if __name__ == '__main__':
     # get data on requested changes
     reviews = []
     change_numbers = []
+
+    def cmp_reviews(review_a, review_b):
+        current_a = review_a['current_revision']
+        parents_a = [r['commit'] for r in review_a['revisions'][current_a]['commit']['parents']]
+        current_b = review_b['current_revision']
+        parents_b = [r['commit'] for r in review_b['revisions'][current_b]['commit']['parents']]
+        if current_a in parents_b:
+            return -1
+        elif current_b in parents_a:
+            return 1
+        else:
+            return cmp(review_a['number'], review_b['number'])
+
     if args.topic:
         reviews = fetch_query(args.gerrit, 'topic:{0}'.format(args.topic))
-        change_numbers = sorted([str(r['number']) for r in reviews], key=int)
+        change_numbers = [str(r['number']) for r in sorted(reviews, key=cmp_to_key(cmp_reviews))]
     if args.query:
         reviews = fetch_query(args.gerrit, args.query)
-        change_numbers = sorted([str(r['number']) for r in reviews], key=int)
+        change_numbers = [str(r['number']) for r in sorted(reviews, key=cmp_to_key(cmp_reviews))]
     if args.change_number:
+        change_url_re = re.compile('https?://.+?/([0-9]+(?:/[0-9]+)?)/?')
         for c in args.change_number:
-            if '-' in c:
+            change_number = change_url_re.findall(c)
+            if change_number:
+                change_numbers.extend(change_number)
+            elif '-' in c:
                 templist = c.split('-')
                 for i in range(int(templist[0]), int(templist[1]) + 1):
                     change_numbers.append(str(i))
@@ -292,7 +310,7 @@ if __name__ == '__main__':
 
         change = int(change)
 
-        if patchset is not None:
+        if patchset:
             patchset = int(patchset)
 
         review = next((x for x in reviews if x['number'] == change), None)
@@ -307,14 +325,17 @@ if __name__ == '__main__':
             'change_id': review['change_id'],
             'change_number': review['number'],
             'status': review['status'],
-            'fetch': None
+            'fetch': None,
+            'patchset': review['revisions'][review['current_revision']]['_number'],
         })
+
         mergables[-1]['fetch'] = review['revisions'][review['current_revision']]['fetch']
         mergables[-1]['id'] = change
         if patchset:
             try:
                 mergables[-1]['fetch'] = [review['revisions'][x]['fetch'] for x in review['revisions'] if review['revisions'][x]['_number'] == patchset][0]
                 mergables[-1]['id'] = '{0}/{1}'.format(change, patchset)
+                mergables[-1]['patchset'] = patchset
             except (IndexError, ValueError):
                 args.quiet or print('ERROR: The patch set {0}/{1} could not be found, using CURRENT_REVISION instead.'.format(change, patchset))
 
@@ -376,7 +397,7 @@ if __name__ == '__main__':
         if not args.quiet:
             print('--> Subject:       "{0}"'.format(item['subject'].encode('utf-8')))
             print('--> Project path:  {0}'.format(project_path))
-            print('--> Change number: {0} (Patch Set {0})'.format(item['id']))
+            print('--> Change number: {0} (Patch Set {1})'.format(item['id'], item['patchset']))
 
         if 'anonymous http' in item['fetch']:
             method = 'anonymous http'
