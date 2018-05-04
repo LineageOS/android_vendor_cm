@@ -131,7 +131,6 @@ PRODUCT_PACKAGES += \
     AudioFX \
     LineageSettingsProvider \
     LineageSetupWizard \
-    Eleven \
     ExactCalculator \
     Jelly \
     LockClock \
