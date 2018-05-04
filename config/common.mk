@@ -140,6 +140,7 @@ PRODUCT_PACKAGES += \
     WallpaperPicker \
     WeatherProvider
 
+
 ##
 # Copy Magisk zip
 PRODUCT_COPY_FILES += \
@@ -218,6 +219,11 @@ PRODUCT_PACKAGES += \
     sshd_config \
     ssh-keygen \
     start-ssh
+
+# Included prebuilt apk's
+PRODUCT_PACKAGES += \
+    Amaze \
+    VinylMusicPlayer
 
 # rsync
 PRODUCT_PACKAGES += \
