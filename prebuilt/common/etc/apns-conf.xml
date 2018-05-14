@@ -518,6 +518,7 @@
   <apn carrier="3MMS" mcc="232" mnc="10" apn="drei.at" proxy="" port="" mmsproxy="213.94.78.133" mmsport="8799" mmsc="http://mmsc" user="" password="" type="mms" />
   <apn carrier="3 AT" mcc="232" mnc="10" apn="drei.at" server="http://mobile.drei.at" mmsc="http://mmsc" mmsproxy="213.094.078.133" mmsport="8799" type="default,supl,mms" />
   <apn carrier="Drei A" mcc="232" mnc="10" apn="drei.at" proxy="" port="" user="drei" password="" server="http://mobile.drei.at" mmsc="http://mmsc" mmsproxy="213.94.78.133" mmsport="8799" type="default,supl,mms" />
+  <apn carrier="Eety" mcc="232" mnc="10" apn="eety.at" user="" password="" mmsc="http://mmsc" mmsproxy="213.94.78.133" mmsport="8799" type="default,supl,mms" />
   <apn carrier="Bob" mcc="232" mnc="11" apn="bob.at" proxy="" port="" user="data@bob.at" password="ppp" server="http://start.bob.at/" mmsc="" type="default,supl" />
   <apn carrier="Bob MMS" mcc="232" mnc="11" apn="mms.bob.at" proxy="194.48.124.7" port="8001" user="data@bob.at" password="web" server="http://start.bob.at/" mmsc="http://mmsc.bob.at" mmsproxy="194.48.124.7" mmsport="8001" type="mms" />
   <apn carrier="Orange World" mcc="232" mnc="12" apn="orange.world" proxy="194.24.128.118" port="80" mmsc="" user="wap" password="wap" authtype="3" type="default,supl" />
