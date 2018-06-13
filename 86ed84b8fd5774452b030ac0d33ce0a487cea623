@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "d39be2d2_a9f5a7b8",
+        "filename": "build/tools/sdat2img.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 33,
+      "author": {
+        "id": 11883
+      },
+      "writtenOn": "2018-06-13T20:15:54Z",
+      "side": 1,
+      "message": "There is always time to learn about new built-in features.",
+      "range": {
+        "startLine": 33,
+        "startChar": 34,
+        "endLine": 33,
+        "endChar": 37
+      },
+      "revId": "86ed84b8fd5774452b030ac0d33ce0a487cea623",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
