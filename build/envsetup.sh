@@ -108,10 +108,10 @@ function eat()
             return 1
         fi
         adb start-server # Prevent unexpected starting server message from adb get-state in the next line
-        if [ $(adb get-state) != device -a $(adb shell test -e /sbin/recovery 2> /dev/null; echo $?) != 0 ] ; then
+        if [ $(adb get-state) != device -a $(adb shell 'test -e /sbin/recovery 2> /dev/null; echo $?') != 0 ] ; then
             echo "No device is online. Waiting for one..."
             echo "Please connect USB and/or enable USB debugging"
-            until [ $(adb get-state) = device -o $(adb shell test -e /sbin/recovery 2> /dev/null; echo $?) = 0 ];do
+            until [ $(adb get-state) = device -o $(adb shell 'test -e /sbin/recovery 2> /dev/null; echo $?') = 0 ];do
                 sleep 1
             done
             echo "Device Found.."
@@ -782,7 +782,7 @@ function repodiff() {
 function _adb_connected {
     {
         if [[ "$(adb get-state)" == device &&
-              "$(adb shell test -e /sbin/recovery; echo $?)" != 0 ]]
+              "$(adb shell 'test -e /sbin/recovery; echo $?')" != 0 ]]
         then
             return 0
         fi
@@ -871,12 +871,12 @@ EOF
     fi
 
     stop_n_start=false
-    for FILE in $(echo $LOC | tr " " "\n"); do
+    for TARGET in $(echo $LOC | tr " " "\n" | sed "s#.*$OUT##" | sort | uniq); do
         # Make sure file is in $OUT/system or $OUT/data
-        case $FILE in
-            $OUT/system/*|$OUT/data/*)
-                # Get target file name (i.e. /system/bin/adb)
-                TARGET=$(echo $FILE | sed "s#$OUT##")
+        case $TARGET in
+            /system/*|/data/*)
+                # Get out file from target (i.e. /system/bin/adb)
+                FILE=$OUT$TARGET
             ;;
             *) continue ;;
         esac
