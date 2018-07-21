@@ -1,13 +1,14 @@
 LOCAL_PATH := $(call my-dir)
+TERM_PROPRIETARY_DIR := $(LOCAL_PATH)/proprietary
 
-$(LOCAL_PATH)/proprietary:
-	mkdir -p $(LOCAL_PATH)/proprietary
+$(TERM_PROPRIETARY_DIR):
+	mkdir -p $(TERM_PROPRIETARY_DIR)
 
-$(LOCAL_PATH)/proprietary/Term.apk: $(LOCAL_PATH)/proprietary
-	curl -L -o $(LOCAL_PATH)/proprietary/Term.apk -O -L https://jackpal.github.com/Android-Terminal-Emulator/downloads/Term.apk
+$(TERM_PROPRIETARY_DIR)/Term.apk: $(TERM_PROPRIETARY_DIR)
+	curl -L -o $(TERM_PROPRIETARY_DIR)/Term.apk -O -L https://jackpal.github.com/Android-Terminal-Emulator/downloads/Term.apk
 
-$(LOCAL_PATH)/proprietary/lib/armeabi/%.so: $(LOCAL_PATH)/proprietary/Term.apk
-	unzip -o -d $(LOCAL_PATH)/proprietary $(LOCAL_PATH)/proprietary/Term.apk lib/armeabi/$(@F)
+$(TERM_PROPRIETARY_DIR)/lib/armeabi/%.so: $(TERM_PROPRIETARY_DIR)/Term.apk
+	unzip -o -d $(TERM_PROPRIETARY_DIR) $(TERM_PROPRIETARY_DIR)/Term.apk lib/armeabi/$(@F)
 
 include $(CLEAR_VARS)
 
