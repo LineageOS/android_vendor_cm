@@ -135,12 +135,14 @@ PRODUCT_PACKAGES += \
 
 # Extra tools in CM
 PRODUCT_PACKAGES += \
+    7z \
     bash \
     bzip2 \
     curl \
     fsck.ntfs \
     gdbserver \
     htop \
+    lib7z \
     libsepol \
     micro_bench \
     mke2fs \
@@ -152,8 +154,11 @@ PRODUCT_PACKAGES += \
     sqlite3 \
     strace \
     tune2fs \
+    unrar \
+    unzip \
     vim \
-    wget
+    wget \
+    zip
 
 # Custom off-mode charger
 ifneq ($(WITH_CM_CHARGER),false)
