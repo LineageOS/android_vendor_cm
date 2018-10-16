@@ -88,7 +88,7 @@ ifeq ($(BOARD_USES_QCOM_HARDWARE),true)
     else
     ifeq ($(call is-board-platform-in-list, $(BR_FAMILY)),true)
         MSM_VIDC_TARGET_LIST := $(BR_FAMILY)
-        QCOM_HARDWARE_VARIANT := msm8916
+        QCOM_HARDWARE_VARIANT := msm8909
     else
     ifeq ($(call is-board-platform-in-list, $(UM_FAMILY)),true)
         MSM_VIDC_TARGET_LIST := $(UM_FAMILY)
