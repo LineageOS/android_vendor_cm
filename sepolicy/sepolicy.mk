@@ -17,4 +17,5 @@ BOARD_SEPOLICY_UNION += \
     system.te \
     ueventd.te \
     vold.te \
-    mac_permissions.xml
+    mac_permissions.xml \
+    property_contexts
