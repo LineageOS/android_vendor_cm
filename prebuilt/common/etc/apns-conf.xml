@@ -1850,6 +1850,9 @@
   <apn carrier="Kcell" mcc="401" mnc="02" apn="internet" proxy="" port="" user="" password="" mmsc="" type="default,supl" />
   <apn carrier="Kcell MMS" mcc="401" mnc="02" apn="mms" proxy="" port="" user="" password="" mmsc="http://mms.kcell.kz/post" mmsproxy="195.47.255.7" mmsport="8080" type="mms" />
   <apn carrier="Kcell WAP" mcc="401" mnc="02" apn="wap" proxy="195.47.255.7" port="8080" mmsc="" user="" password="" type="default,supl" />
+  <apn carrier="Altel" mcc="401" mnc="07" apn="internet.altel.kz" authtype="1" type="default,supl" />
+  <apn carrier="Tele2 KZ" mcc="401" mnc="77" apn="internet.tele2.kz" authtype="1" type="default,supl" />
+  <apn carrier="Tele2 KZ MMS" mcc="401" mnc="77" apn="mms" mmsc="http://mms.tele2.kz/mms/wapens" mmsproxy="10.1.26.10" mmsport="8080" authtype="1"  type="mms" />
   <apn carrier="MTS WAP" mcc="404" mnc="00" apn="WAP" user="wap@wap.mtsindia.in" password="MTS" authtype="3" type="default,supl" />
   <apn carrier="MTS MMS" mcc="404" mnc="00" apn="MMS" user="mms@mms.mtsindia.in" password="MTS" authtype="3" type="mms" />
   <apn carrier="MTS MODEM" mcc="404" mnc="00" apn="Modem" user="internet@internet.mtsindia.in" password="MTS" authtype="3" type="default,supl" />
