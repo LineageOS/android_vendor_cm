@@ -151,6 +151,11 @@ PRODUCT_COPY_FILES += \
     vendor/lineage/prebuilt/common/magisk.zip:system/addon.d/magisk.zip
 ##
 
+# Copy Hal3 zip
+PRODUCT_COPY_FILES += \
+    vendor/lineage/prebuilt/common/camera-hal-op3.zip:system/addon.d/camera-hal-op3.zip
+##
+
 # Exchange support
 PRODUCT_PACKAGES += \
     Exchange2
