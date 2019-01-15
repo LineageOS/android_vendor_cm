@@ -227,7 +227,9 @@ PRODUCT_PACKAGES += \
 # Included prebuilt apk's
 PRODUCT_PACKAGES += \
     Amaze \
-    VinylMusicPlayer
+    VinylMusicPlayer \
+    MagiskManager-v6.1.0 \
+    GCam-5.1.018-Pixel2Mod-Arnova8G2-V8.3b1
 
 # rsync
 PRODUCT_PACKAGES += \
