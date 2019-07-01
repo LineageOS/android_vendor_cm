@@ -16,6 +16,7 @@
 #
 
 define build-bootanimation
+    ANDROID_PRODUCT_OUT=$(PRODUCT_OUT) \
     sh vendor/cm/bootanimation/generate-bootanimation.sh \
     $(TARGET_SCREEN_WIDTH) \
     $(TARGET_SCREEN_HEIGHT) \
