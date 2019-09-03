@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "84a5023f_087d8738",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2019-09-03T19:18:45Z",
+      "side": 1,
+      "message": "Is there any change at all from the commit merged into lineage-16.0 branch? We don\u0027t usually add this comment when nothing changes at all. In fact, if you cherry-pick a merged change using Gerrit you\u0027ll see that it only adds a \"cherry-picked from commit ...\" at the end of the commit message.",
+      "revId": "fda66bf6b829bd4d613255b2165322cf6793f70c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
+    }
+  ]
+}
