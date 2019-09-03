@@ -16,6 +16,24 @@
       "revId": "fda66bf6b829bd4d613255b2165322cf6793f70c",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "b772ea24_5f5189be",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 22730
+      },
+      "writtenOn": "2019-09-03T20:44:03Z",
+      "side": 1,
+      "message": "The dictionaries are the same as added to 16.0 branch. On the same patch for 15.1 the cherry-pick worked but only on this patch not. The previous patch for polish dict files worked also. Should this be committed one again with a proper cherry-pick or can this patch be changed now?",
+      "parentUuid": "84a5023f_087d8738",
+      "revId": "fda66bf6b829bd4d613255b2165322cf6793f70c",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71",
+      "unresolved": true
     }
   ]
 }
