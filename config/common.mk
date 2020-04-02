@@ -70,7 +70,14 @@ endif
 
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 # Enable ADB authentication
+<<<<<<< PATCH SET (fdd97b9c3b8a61905453d9d0efe0a923e45414a8 cm: config: common: Enable ADB Root by default)
+ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
+
+ADDITIONAL_DEFAULT_PROPERTIES += cm.service.adb.root=1
+ADDITIONAL_DEFAULT_PROPERTIES += persist.sys.root_access=2
+=======
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
+>>>>>>> BASE      (490bb965c329dd5924c5eff0d3b957414644df75 adb insecure by default)
 endif
 
 # Copy over the changelog to the device
