@@ -28,7 +28,8 @@ endif
 
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 # Enable ADB authentication
-ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
+ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
+ADDITIONAL_DEFAULT_PROPERTIES += cm.service.adb.root=1
 endif
 
 # Copy over the changelog to the device
