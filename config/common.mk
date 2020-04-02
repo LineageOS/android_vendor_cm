@@ -28,6 +28,8 @@ endif
 
 # Disable ADB authentication
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
+ADDITIONAL_DEFAULT_PROPERTIES += cm.service.adb.root=1
+ADDITIONAL_DEFAULT_PROPERTIES += persist.sys.root_access=2
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
