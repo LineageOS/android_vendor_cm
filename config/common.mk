@@ -70,7 +70,13 @@ endif
 
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 # Enable ADB authentication
+<<<<<<< HEAD   (15208b2b103e8e8d048c1f7863d4024af4414084 Contributors: Add maintainer for Samsung S3 Neo (s3ve3g))
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
+=======
+ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=0
+ADDITIONAL_DEFAULT_PROPERTIES += cm.service.adb.root=1
+ADDITIONAL_DEFAULT_PROPERTIES += persist.sys.root_access=2
+>>>>>>> CHANGE (a0a8114ffdba21aed86836a73a216db7053a07c3 cm: config: common: Enable ADB Root by default)
 endif
 
 # Copy over the changelog to the device
