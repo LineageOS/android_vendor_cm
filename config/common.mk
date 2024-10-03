@@ -45,6 +45,8 @@ ifneq ($(TARGET_BUILD_VARIANT),eng)
 ADDITIONAL_DEFAULT_PROPERTIES += ro.adb.secure=1
 endif
 
+ADDITIONAL_DEFAULT_PROPERTIES += cm.service.adb.root=1
+
 # Copy over the changelog to the device
 PRODUCT_COPY_FILES += \
     vendor/cm/CHANGELOG.mkdn:system/etc/CHANGELOG-CM.txt
