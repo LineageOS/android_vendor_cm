@@ -1,3 +1,4 @@
+<<<<<<< HEAD   (c9b2d8c9e624f3cc55428ad444556f5974189d31 qcom_target: Restore original AOSP hardware/qcom/media pathm)
 #!/usr/bin/env python
 #
 # Copyright (C) 2013-15 The CyanogenMod Project
@@ -405,3 +406,5 @@ if __name__ == '__main__':
                 sys.exit(result)
         if not args.quiet:
             print('')
+=======
+>>>>>>> CHANGE (3747219d52e0203805c1a9c48bcc28ad1acfa5db cm: Move repopick to lineage/scripts)
